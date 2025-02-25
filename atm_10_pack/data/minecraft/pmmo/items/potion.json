@@ -1,0 +1,935 @@
+{
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [],
+    "HELD": []
+  },
+  "salvage": {},
+  "vein_data": {},
+  "nbt_xp_values": {
+    "TOOL_BREAKING": [],
+    "DEAL_DAMAGE": [],
+    "ENCHANT": [],
+    "CONSUME": [
+      {
+        "behavior_to_previous": "ADD_TO",
+        "should_cases_add": false,
+        "cases": [
+          {
+            "paths": [
+              "components{}.minecraft:potion_contents{}.potion"
+            ],
+            "criteria": [
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_harming"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_leaping"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:healing"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_strength"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:fire_resistance"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_water_breathing"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:weakness"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_slowness"
+                ],
+                "value": {
+                  "magic": 4800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_slow_falling"
+                ],
+                "value": {
+                  "magic": 4800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:awkward"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:infested"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_leaping"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:wind_charged"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strength"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:night_vision"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:mundane"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:harming"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_swiftness"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:leaping"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_strength"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:water"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_regeneration"
+                ],
+                "value": {
+                  "magic": 450.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:slow_falling"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:thick"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:oozing"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_fire_resistance"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:regeneration"
+                ],
+                "value": {
+                  "magic": 900.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:swiftness"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:slowness"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_turtle_master"
+                ],
+                "value": {
+                  "magic": 800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_healing"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:turtle_master"
+                ],
+                "value": {
+                  "magic": 400.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:water_breathing"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:luck"
+                ],
+                "value": {
+                  "magic": 6000.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:invisibility"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_slowness"
+                ],
+                "value": {
+                  "magic": 400.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_swiftness"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_regeneration"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_turtle_master"
+                ],
+                "value": {
+                  "magic": 400.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:poison"
+                ],
+                "value": {
+                  "magic": 900.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_poison"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_weakness"
+                ],
+                "value": {
+                  "magic": 4800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_invisibility"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_night_vision"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:weaving"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_poison"
+                ],
+                "value": {
+                  "magic": 432.0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "CRAFT": [],
+    "ACTIVATE_ITEM": [],
+    "RECEIVED_AS_TRADE": [],
+    "ANVIL_REPAIR": [],
+    "FISH": [],
+    "BREW": [
+      {
+        "behavior_to_previous": "ADD_TO",
+        "should_cases_add": false,
+        "cases": [
+          {
+            "paths": [
+              "components{}.minecraft:potion_contents{}.potion"
+            ],
+            "criteria": [
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_harming"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_leaping"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:healing"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_strength"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:fire_resistance"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_water_breathing"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:weakness"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_slowness"
+                ],
+                "value": {
+                  "magic": 4800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_slow_falling"
+                ],
+                "value": {
+                  "magic": 4800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:awkward"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:infested"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_leaping"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:wind_charged"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strength"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:night_vision"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:mundane"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:harming"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_swiftness"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:leaping"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_strength"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:water"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_regeneration"
+                ],
+                "value": {
+                  "magic": 450.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:slow_falling"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:thick"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:oozing"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_fire_resistance"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:regeneration"
+                ],
+                "value": {
+                  "magic": 900.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:swiftness"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:slowness"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_turtle_master"
+                ],
+                "value": {
+                  "magic": 800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_healing"
+                ],
+                "value": {
+                  "magic": 1.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:turtle_master"
+                ],
+                "value": {
+                  "magic": 400.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:water_breathing"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:luck"
+                ],
+                "value": {
+                  "magic": 6000.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:invisibility"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_slowness"
+                ],
+                "value": {
+                  "magic": 400.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_swiftness"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_regeneration"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_turtle_master"
+                ],
+                "value": {
+                  "magic": 400.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:poison"
+                ],
+                "value": {
+                  "magic": 900.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_poison"
+                ],
+                "value": {
+                  "magic": 1800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_weakness"
+                ],
+                "value": {
+                  "magic": 4800.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_invisibility"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:long_night_vision"
+                ],
+                "value": {
+                  "magic": 9600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:weaving"
+                ],
+                "value": {
+                  "magic": 3600.0
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "minecraft:strong_poison"
+                ],
+                "value": {
+                  "magic": 432.0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "GIVEN_AS_TRADE": [],
+    "BLOCK_PLACE": [],
+    "SMELT": []
+  },
+  "damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "WEAPON": [],
+    "PLACE": [],
+    "BREAK": [],
+    "USE_ENCHANTMENT": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "USE": []
+  },
+  "negative_effect": {},
+  "xp_values": {
+    "TOOL_BREAKING": {},
+    "DEAL_DAMAGE": {},
+    "ENCHANT": {
+      "magic": 10
+    },
+    "CONSUME": {},
+    "CRAFT": {
+      "crafting": 10
+    },
+    "ACTIVATE_ITEM": {},
+    "RECEIVED_AS_TRADE": {},
+    "ANVIL_REPAIR": {},
+    "FISH": {
+      "fishing": 10
+    },
+    "BREW": {},
+    "GIVEN_AS_TRADE": {},
+    "BLOCK_PLACE": {},
+    "SMELT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "TOOL": {},
+    "WEAPON": {},
+    "PLACE": {},
+    "BREAK": {},
+    "USE_ENCHANTMENT": {},
+    "WEAR": {},
+    "INTERACT": {},
+    "USE": {}
+  }
+}

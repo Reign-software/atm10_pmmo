@@ -1,0 +1,31 @@
+{
+  "travel_req": {},
+  "global_mob_modifier": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.0075,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": -7.0,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.0075,
+      "operation": "add_value"
+    }
+  ],
+  "mob_modifier": {},
+  "negative_effect": {},
+  "vein_blacklist": [],
+  "override": true,
+  "isTagFor": [],
+  "bonus": {
+    "BIOME": {
+      "fishing": 1.05
+    }
+  },
+  "positive_effect": {}
+}

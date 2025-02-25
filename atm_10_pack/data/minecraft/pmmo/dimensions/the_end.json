@@ -1,0 +1,33 @@
+{
+  "travel_req": {},
+  "global_mob_modifier": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 2.5E-4,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": 10.0,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 2.5E-4,
+      "operation": "add_value"
+    }
+  ],
+  "mob_modifier": {},
+  "vein_blacklist": [
+    "minecraft:bedrock"
+  ],
+  "override": true,
+  "bonus": {
+    "DIMENSION": {
+      "archery": 1.5,
+      "combat": 1.2,
+      "endurance": 1.2,
+      "flying": 1.5
+    }
+  }
+}

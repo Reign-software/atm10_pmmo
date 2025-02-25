@@ -1,0 +1,127 @@
+{
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [],
+    "HELD": []
+  },
+  "salvage": {
+    "minecraft:oak_planks": {
+      "salvageMax": 2,
+      "baseChance": 0.8,
+      "maxChance": 1.0,
+      "chancePerLevel": {
+        "crafting": 0.005,
+        "smithing": 0.005
+      },
+      "levelReq": {},
+      "xpPerItem": {
+        "crafting": 10,
+        "smithing": 10
+      }
+    },
+    "minecraft:stick": {
+      "salvageMax": 2,
+      "baseChance": 0.8,
+      "maxChance": 1.0,
+      "chancePerLevel": {
+        "crafting": 0.005,
+        "smithing": 0.005
+      },
+      "levelReq": {},
+      "xpPerItem": {
+        "crafting": 10,
+        "smithing": 100
+      }
+    }
+  },
+  "vein_data": {
+    "chargeCap": 30,
+    "chargeRate": 0.1
+  },
+  "nbt_xp_values": {
+    "TOOL_BREAKING": [],
+    "DEAL_DAMAGE": [],
+    "ENCHANT": [],
+    "CONSUME": [],
+    "CRAFT": [],
+    "ACTIVATE_ITEM": [],
+    "RECEIVED_AS_TRADE": [],
+    "ANVIL_REPAIR": [],
+    "FISH": [],
+    "BREW": [],
+    "GIVEN_AS_TRADE": [],
+    "BLOCK_PLACE": [],
+    "SMELT": []
+  },
+  "damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "WEAPON": [],
+    "PLACE": [],
+    "BREAK": [],
+    "USE_ENCHANTMENT": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "USE": []
+  },
+  "negative_effect": {},
+  "xp_values": {
+    "TOOL_BREAKING": {},
+    "DEAL_DAMAGE": {},
+    "ENCHANT": {
+      "magic": 120
+    },
+    "CONSUME": {},
+    "CRAFT": {
+      "crafting": 4000,
+      "smithing": 700
+    },
+    "ACTIVATE_ITEM": {},
+    "RECEIVED_AS_TRADE": {},
+    "ANVIL_REPAIR": {
+      "smithing": 140
+    },
+    "FISH": {
+      "fishing": 10
+    },
+    "BREW": {},
+    "GIVEN_AS_TRADE": {},
+    "BLOCK_PLACE": {},
+    "SMELT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "TOOL": {
+      "excavation": 0,
+      "farming": 0,
+      "mining": 0,
+      "woodcutting": 0
+    },
+    "WEAPON": {
+      "combat": 0
+    },
+    "PLACE": {},
+    "BREAK": {},
+    "USE_ENCHANTMENT": {},
+    "WEAR": {
+      "combat": 0,
+      "excavation": 0,
+      "farming": 0,
+      "mining": 0,
+      "woodcutting": 0
+    },
+    "INTERACT": {},
+    "USE": {}
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bonuses": {
+    "WORN": {
+      "mining": 1.25
+    },
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [],
+    "HELD": []
+  },
+  "salvage": {
+    "minecraft:gold_ingot": {
+      "salvageMax": 4,
+      "baseChance": 0.0,
+      "maxChance": 0.9,
+      "chancePerLevel": {
+        "smithing": 0.005
+      },
+      "levelReq": {
+        "smithing": 5
+      },
+      "xpPerItem": {
+        "smithing": 30
+      }
+    }
+  },
+  "vein_data": {
+    "chargeCap": 15,
+    "chargeRate": 0.01
+  },
+  "nbt_xp_values": {
+    "TOOL_BREAKING": [],
+    "DEAL_DAMAGE": [],
+    "ENCHANT": [],
+    "CONSUME": [],
+    "CRAFT": [],
+    "ACTIVATE_ITEM": [],
+    "RECEIVED_AS_TRADE": [],
+    "ANVIL_REPAIR": [],
+    "FISH": [],
+    "BREW": [],
+    "GIVEN_AS_TRADE": [],
+    "BLOCK_PLACE": [],
+    "SMELT": []
+  },
+  "damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "WEAPON": [],
+    "PLACE": [],
+    "BREAK": [],
+    "USE_ENCHANTMENT": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "USE": []
+  },
+  "negative_effect": {
+    "minecraft:slowness": 1,
+    "minecraft:weakness": 1
+  },
+  "xp_values": {
+    "TOOL_BREAKING": {},
+    "DEAL_DAMAGE": {},
+    "ENCHANT": {
+      "magic": 60
+    },
+    "CONSUME": {},
+    "CRAFT": {
+      "crafting": 2000,
+      "smithing": 300
+    },
+    "ACTIVATE_ITEM": {},
+    "RECEIVED_AS_TRADE": {},
+    "ANVIL_REPAIR": {
+      "smithing": 280
+    },
+    "FISH": {
+      "fishing": 10
+    },
+    "BREW": {},
+    "GIVEN_AS_TRADE": {},
+    "BLOCK_PLACE": {},
+    "SMELT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "TOOL": {},
+    "WEAPON": {},
+    "PLACE": {},
+    "BREAK": {},
+    "USE_ENCHANTMENT": {},
+    "WEAR": {
+      "endurance": 10
+    },
+    "INTERACT": {},
+    "USE": {}
+  }
+}
