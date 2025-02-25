@@ -21,7 +21,9 @@
       "mining": 1
     },
     "GROW": {},
-    "ACTIVATE_BLOCK": {},
+    "ACTIVATE_BLOCK": {
+      "technology": 1
+    },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
@@ -31,8 +33,14 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
-    "BREAK": {},
-    "INTERACT": {}
+    "PLACE": {
+      "technology": 100
+    },
+    "BREAK": {
+      "technology": 100
+    },
+    "INTERACT": {
+      "technology": 100
+    }
   }
 }

@@ -31,7 +31,9 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
+    "PLACE": {
+      "technology": 300
+    },
     "BREAK": {},
     "INTERACT": {}
   }
