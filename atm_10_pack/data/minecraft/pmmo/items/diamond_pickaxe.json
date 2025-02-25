@@ -106,16 +106,16 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "mining": 60
+      "mining": 150
     },
     "WEAPON": {
-      "combat": 30
+      "combat": 150
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "mining": 60
+      "mining": 150
     },
     "INTERACT": {},
     "USE": {}

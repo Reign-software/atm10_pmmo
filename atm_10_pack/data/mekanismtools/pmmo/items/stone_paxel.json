@@ -70,12 +70,22 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
-    "WEAPON": {},
+    "TOOL": {
+      "mining": 10,
+      "woodcutting": 10,
+      "excavation": 10
+    },
+    "WEAPON": {
+      "combat": 10
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "mining": 10,
+      "woodcutting": 10,
+      "excavation": 10
+    },
     "INTERACT": {},
     "USE": {}
   }

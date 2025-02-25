@@ -73,16 +73,16 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "woodcutting": 350
+      "woodcutting": 450
     },
     "WEAPON": {
-      "combat": 402
+      "combat": 450
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "woodcutting": 350
+      "woodcutting": 450
     },
     "INTERACT": {},
     "USE": {}

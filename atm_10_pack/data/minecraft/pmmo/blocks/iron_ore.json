@@ -30,7 +30,7 @@
   "requirements": {
     "PLACE": {},
     "BREAK": {
-      "mining": 0
+      "mining": 75
     },
     "INTERACT": {}
   }

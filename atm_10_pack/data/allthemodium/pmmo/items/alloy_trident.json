@@ -71,7 +71,9 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {},
-    "WEAPON": {},
+    "WEAPON": {
+      "combat": 500
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

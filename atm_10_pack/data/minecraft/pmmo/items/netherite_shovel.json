@@ -106,16 +106,16 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "excavation": 90
+      "excavation": 225
     },
     "WEAPON": {
-      "combat": 45
+      "combat": 225
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "excavation": 90
+      "excavation": 225
     },
     "INTERACT": {},
     "USE": {}

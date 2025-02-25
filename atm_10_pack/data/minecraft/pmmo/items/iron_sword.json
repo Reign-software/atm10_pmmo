@@ -92,16 +92,16 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "combat": 30
+      "combat": 75
     },
     "WEAPON": {
-      "combat": 30
+      "combat": 75
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "combat": 30
+      "combat": 75
     },
     "INTERACT": {},
     "USE": {}
