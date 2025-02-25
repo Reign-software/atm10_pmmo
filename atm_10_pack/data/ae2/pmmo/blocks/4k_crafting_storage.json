@@ -25,13 +25,16 @@
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
-      "building": 1
+      "building": 200,
+      "technology": 200
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
+    "PLACE": {
+      "technology": 100
+    },
     "BREAK": {},
     "INTERACT": {}
   }

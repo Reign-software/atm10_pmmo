@@ -110,7 +110,7 @@
     "blacklist": [
       "silentgear:saw"
     ],
-    "enabled": true,
+    "enabled": false,
     "require_settings": false
   },
   "general": {
@@ -122,7 +122,7 @@
   "levels": {
     "xp_min": 200,
     "xp_base": 1.025,
-    "per_level": 1.1,
+    "per_level": 1.2,
     "global_modifier": 1.0,
     "skill_modifiers": {
       "example_skill": 1.0

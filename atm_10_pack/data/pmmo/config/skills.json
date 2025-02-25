@@ -244,6 +244,16 @@
       "noAfkPenalty": false,
       "displayGroupName": false,
       "showInList": true
+    },
+    "technology": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/redstone.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16711680,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
     }
   },
   "type": "SKILLS"
