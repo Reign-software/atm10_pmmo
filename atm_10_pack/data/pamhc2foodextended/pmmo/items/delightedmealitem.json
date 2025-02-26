@@ -50,7 +50,7 @@
     "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
-      "magic": 10
+      "enchanting": 50
     },
     "CONSUME": {
       "cooking": 24576

@@ -254,6 +254,16 @@
       "noAfkPenalty": false,
       "displayGroupName": false,
       "showInList": true
+    },
+    "enchanting": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/enchanted_book.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16711680,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
     }
   },
   "type": "SKILLS"
