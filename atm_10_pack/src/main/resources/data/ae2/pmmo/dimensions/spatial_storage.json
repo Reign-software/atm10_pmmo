@@ -1,0 +1,10 @@
+{
+  "travel_req": {
+    "technology": 200
+  },
+  "global_mob_modifier": [],
+  "mob_modifier": {},
+  "vein_blacklist": [],
+  "override": true,
+  "bonus": {}
+}

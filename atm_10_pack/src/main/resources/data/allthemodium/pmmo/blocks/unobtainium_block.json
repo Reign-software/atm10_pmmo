@@ -1,0 +1,40 @@
+{
+  "vein_data": {
+    "chargeCap": 0,
+    "chargeRate": 0.0
+  },
+  "nbt_xp_values": {
+    "BLOCK_BREAK": [],
+    "GROW": [],
+    "ACTIVATE_BLOCK": [],
+    "HIT_BLOCK": [],
+    "BREAK_SPEED": [],
+    "BLOCK_PLACE": []
+  },
+  "nbt_requirements": {
+    "PLACE": [],
+    "BREAK": [],
+    "INTERACT": []
+  },
+  "xp_values": {
+    "BLOCK_BREAK": {
+      "mining": 4
+    },
+    "GROW": {},
+    "ACTIVATE_BLOCK": {},
+    "HIT_BLOCK": {},
+    "BREAK_SPEED": {},
+    "BLOCK_PLACE": {
+      "building": 4
+    }
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "PLACE": {},
+    "BREAK": {
+      "mining": 450
+    },
+    "INTERACT": {}
+  }
+}

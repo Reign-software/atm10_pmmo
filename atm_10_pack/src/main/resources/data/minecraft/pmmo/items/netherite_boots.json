@@ -1,0 +1,119 @@
+{
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [],
+    "HELD": []
+  },
+  "salvage": {
+    "minecraft:diamond": {
+      "salvageMax": 4,
+      "baseChance": 0.0,
+      "maxChance": 0.9,
+      "chancePerLevel": {
+        "smithing": 0.005
+      },
+      "levelReq": {
+        "smithing": 5
+      },
+      "xpPerItem": {
+        "smithing": 30
+      }
+    },
+    "minecraft:netherite_ingot": {
+      "salvageMax": 1,
+      "baseChance": 0.0,
+      "maxChance": 0.3,
+      "chancePerLevel": {
+        "smithing": 5.0E-4
+      },
+      "levelReq": {
+        "smithing": 50
+      },
+      "xpPerItem": {
+        "smithing": 3000
+      }
+    }
+  },
+  "vein_data": {
+    "chargeCap": 30,
+    "chargeRate": 0.5
+  },
+  "nbt_xp_values": {
+    "TOOL_BREAKING": [],
+    "DEAL_DAMAGE": [],
+    "ENCHANT": [],
+    "CONSUME": [],
+    "CRAFT": [],
+    "ACTIVATE_ITEM": [],
+    "RECEIVED_AS_TRADE": [],
+    "ANVIL_REPAIR": [],
+    "FISH": [],
+    "BREW": [],
+    "GIVEN_AS_TRADE": [],
+    "BLOCK_PLACE": [],
+    "SMELT": []
+  },
+  "damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "WEAPON": [],
+    "PLACE": [],
+    "BREAK": [],
+    "USE_ENCHANTMENT": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "USE": []
+  },
+  "negative_effect": {
+    "minecraft:slowness": 3,
+    "minecraft:weakness": 3
+  },
+  "xp_values": {
+    "TOOL_BREAKING": {},
+    "DEAL_DAMAGE": {},
+    "ENCHANT": {
+      "enchanting": 120
+    },
+    "CONSUME": {},
+    "CRAFT": {
+      "crafting": 6000,
+      "smithing": 1000
+    },
+    "ACTIVATE_ITEM": {},
+    "RECEIVED_AS_TRADE": {},
+    "ANVIL_REPAIR": {
+      "smithing": 1200
+    },
+    "FISH": {
+      "fishing": 10
+    },
+    "BREW": {},
+    "GIVEN_AS_TRADE": {},
+    "BLOCK_PLACE": {},
+    "SMELT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "TOOL": {},
+    "WEAPON": {},
+    "PLACE": {},
+    "BREAK": {},
+    "USE_ENCHANTMENT": {},
+    "WEAR": {
+      "endurance": 90
+    },
+    "INTERACT": {},
+    "USE": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "pmmo.technology": "Technology",
+      "pmmo.enchanting": "Enchanting"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "projectmmoatm",
+    "modName": "ProjectMMO-ATM10",
+    "version": "1.0.0",
+    "author": "James Burlison, Cory Burlison",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.projectmmoatm"
+  },
+  "mcreatorVersion": 202400452410
+}

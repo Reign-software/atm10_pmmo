@@ -1,0 +1,270 @@
+{
+  "skills": {
+    "magic": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/particle/enchanted_hit.png",
+      "iconSize": 8,
+      "useTotalLevels": false,
+      "color": 255,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "slayer": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/netherite_sword.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16777215,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "fishing": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/fishing_rod.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 52479,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "fightgroup": {
+      "maxLevel": 2147483647,
+      "icon": "pmmo:textures/skills/missing_icon.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "groupFor": {
+        "archery": 0.2,
+        "combat": 0.5,
+        "endurance": 0.3
+      },
+      "color": 16777215,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "combat": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/mob_effect/strength.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "color": 16724736,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "alchemy": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/potion.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 15112448,
+      "noAfkPenalty": true,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "mining": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/mob_effect/haste.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "color": 65535,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "engineering": {
+      "maxLevel": 100,
+      "icon": "minecraft:textures/item/redstone.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16777215,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "endurance": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/mob_effect/absorption.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "color": 13369344,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "building": {
+      "maxLevel": 2147483647,
+      "icon": "pmmo:textures/skills/building.png",
+      "iconSize": 32,
+      "useTotalLevels": false,
+      "color": 65535,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "smithing": {
+      "maxLevel": 2147483647,
+      "icon": "pmmo:textures/skills/smithing.png",
+      "iconSize": 32,
+      "useTotalLevels": false,
+      "color": 15790320,
+      "noAfkPenalty": true,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "swimming": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/mob_effect/dolphins_grace.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "color": 3368703,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "woodcutting": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/iron_axe.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16753434,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "gunslinging": {
+      "maxLevel": 2147483647,
+      "icon": "pmmo:textures/skills/missing_icon.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "color": 13877667,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "crafting": {
+      "maxLevel": 2147483647,
+      "icon": "pmmo:textures/skills/crafting.png",
+      "iconSize": 32,
+      "useTotalLevels": false,
+      "color": 16750848,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "excavation": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/iron_shovel.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 15112448,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "farming": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/wheat.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 58880,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "flying": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/elytra.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 13421823,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "cooking": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/cooked_mutton.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 15112448,
+      "noAfkPenalty": true,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "agility": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/mob_effect/speed.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "color": 6736998,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "sailing": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/oak_boat.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 10073087,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "hunter": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/diamond_sword.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 13596693,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "archery": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/bow.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16776960,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "taming": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/lead.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16777215,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "technology": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/redstone.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16711680,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "enchanting": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/enchanted_book.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 2303436,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    }
+  },
+  "type": "SKILLS"
+}

@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/atm_10_pack/.eclipse
+/atm_10_pack/.gradle
+/atm_10_pack/.mcreator
+/atm_10_pack/build

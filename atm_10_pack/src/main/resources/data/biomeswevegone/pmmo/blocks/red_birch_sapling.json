@@ -1,0 +1,40 @@
+{
+  "vein_data": {},
+  "nbt_xp_values": {
+    "BLOCK_BREAK": [],
+    "GROW": [],
+    "ACTIVATE_BLOCK": [],
+    "HIT_BLOCK": [],
+    "BREAK_SPEED": [],
+    "BLOCK_PLACE": []
+  },
+  "nbt_requirements": {
+    "PLACE": [],
+    "BREAK": [],
+    "INTERACT": []
+  },
+  "xp_values": {
+    "BLOCK_BREAK": {
+      "woodcutting": 10
+    },
+    "GROW": {
+      "farming": 300
+    },
+    "ACTIVATE_BLOCK": {},
+    "HIT_BLOCK": {},
+    "BREAK_SPEED": {},
+    "BLOCK_PLACE": {
+      "woodcutting": 10
+    }
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "PLACE": {
+      "farming": 5,
+      "woodcutting": 10
+    },
+    "BREAK": {},
+    "INTERACT": {}
+  }
+}

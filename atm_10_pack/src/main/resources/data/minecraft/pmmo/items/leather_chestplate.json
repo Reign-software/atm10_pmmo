@@ -1,0 +1,275 @@
+{
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [
+      {
+        "behavior_to_previous": "ADD_TO",
+        "should_cases_add": false,
+        "cases": [
+          {
+            "paths": [
+              "components{}.minecraft:damage"
+            ],
+            "criteria": [
+              {
+                "operator": "EXISTS",
+                "value": {
+                  "agility": 1.025,
+                  "farming": 1.025,
+                  "fishing": 1.025,
+                  "woodcutting": 1.025
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "behavior_to_previous": "SUB_FROM",
+        "should_cases_add": false,
+        "cases": [
+          {
+            "paths": [
+              "components{}.minecraft:dyed_color{}.rgb"
+            ],
+            "criteria": [
+              {
+                "operator": "EXISTS",
+                "value": {
+                  "agility": 1.025,
+                  "farming": 1.025,
+                  "fishing": 1.025,
+                  "woodcutting": 1.025
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "behavior_to_previous": "REPLACE",
+        "should_cases_add": false,
+        "cases": [
+          {
+            "paths": [
+              "components{}.minecraft:dyed_color{}.rgb"
+            ],
+            "criteria": [
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "16701501"
+                ],
+                "value": {
+                  "woodcutting": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "8439583"
+                ],
+                "value": {
+                  "agility": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "6192150"
+                ],
+                "value": {
+                  "farming": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "3949738"
+                ],
+                "value": {
+                  "fishing": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "1908001"
+                ],
+                "value": {
+                  "archery": 1.25,
+                  "combat": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "11546150"
+                ],
+                "value": {
+                  "endurance": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "16383998"
+                ],
+                "value": {
+                  "smithing": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "16351261"
+                ],
+                "value": {
+                  "crafting": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "13061821"
+                ],
+                "value": {
+                  "taming": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "3847130"
+                ],
+                "value": {
+                  "building": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "15961002"
+                ],
+                "value": {
+                  "cooking": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "4673362"
+                ],
+                "value": {
+                  "alchemy": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "10329495"
+                ],
+                "value": {
+                  "mining": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "1481884"
+                ],
+                "value": {
+                  "swimming": 1.25
+                }
+              },
+              {
+                "operator": "EQUALS",
+                "comparators": [
+                  "8991416"
+                ],
+                "value": {
+                  "excavation": 1.25
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "HELD": []
+  },
+  "salvage": {},
+  "vein_data": {},
+  "nbt_xp_values": {
+    "TOOL_BREAKING": [],
+    "DEAL_DAMAGE": [],
+    "ENCHANT": [],
+    "CONSUME": [],
+    "CRAFT": [],
+    "ACTIVATE_ITEM": [],
+    "RECEIVED_AS_TRADE": [],
+    "ANVIL_REPAIR": [],
+    "FISH": [],
+    "BREW": [],
+    "GIVEN_AS_TRADE": [],
+    "BLOCK_PLACE": [],
+    "SMELT": []
+  },
+  "damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_damage_type_xp": {
+    "RECEIVE_DAMAGE": {},
+    "DEAL_DAMAGE": {}
+  },
+  "nbt_requirements": {
+    "TOOL": [],
+    "WEAPON": [],
+    "PLACE": [],
+    "BREAK": [],
+    "USE_ENCHANTMENT": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "USE": []
+  },
+  "negative_effect": {},
+  "xp_values": {
+    "TOOL_BREAKING": {},
+    "DEAL_DAMAGE": {},
+    "ENCHANT": {
+      "enchanting": 50
+    },
+    "CONSUME": {},
+    "CRAFT": {
+      "crafting": 10
+    },
+    "ACTIVATE_ITEM": {},
+    "RECEIVED_AS_TRADE": {},
+    "ANVIL_REPAIR": {
+      "smithing": 200
+    },
+    "FISH": {
+      "fishing": 10
+    },
+    "BREW": {},
+    "GIVEN_AS_TRADE": {},
+    "BLOCK_PLACE": {},
+    "SMELT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "TOOL": {},
+    "WEAPON": {},
+    "PLACE": {},
+    "BREAK": {},
+    "USE_ENCHANTMENT": {},
+    "WEAR": {},
+    "INTERACT": {},
+    "USE": {}
+  }
+}
