@@ -106,16 +106,16 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "woodcutting": 90
+      "woodcutting": 225
     },
     "WEAPON": {
-      "combat": 90
+      "combat": 225
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "woodcutting": 90
+      "woodcutting": 225
     },
     "INTERACT": {},
     "USE": {}

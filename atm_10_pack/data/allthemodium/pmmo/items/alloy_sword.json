@@ -73,16 +73,16 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 764
+      "farming": 500
     },
     "WEAPON": {
-      "combat": 848
+      "combat": 500
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "combat": 848
+      "combat": 500
     },
     "INTERACT": {},
     "USE": {}
