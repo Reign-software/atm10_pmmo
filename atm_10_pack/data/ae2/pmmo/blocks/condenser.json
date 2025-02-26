@@ -28,6 +28,10 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "building": 1
+    },
+    "CRAFT": {
+      "crafting": 100,
+      "technology": 100
     }
   },
   "override": true,

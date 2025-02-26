@@ -21,11 +21,17 @@
       "mining": 1
     },
     "GROW": {},
-    "ACTIVATE_BLOCK": {},
+    "ACTIVATE_BLOCK": {
+      "technology": 1
+    },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "building": 1
+    },
+    "CRAFT": {
+      "crafting": 10,
+      "technology": 10
     }
   },
   "override": true,

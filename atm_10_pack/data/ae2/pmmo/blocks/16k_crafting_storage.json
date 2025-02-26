@@ -25,7 +25,10 @@
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
-      "building": 300,
+      "building": 1
+    },
+    "CRAFT": {
+      "crafting": 300,
       "technology": 300
     }
   },
@@ -33,7 +36,7 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": { 
-      "technology": 200
+      "technology": 350
     },
     "BREAK": {},
     "INTERACT": {}

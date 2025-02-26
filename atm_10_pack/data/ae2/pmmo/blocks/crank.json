@@ -29,6 +29,10 @@
     "BLOCK_PLACE": {
       "building": 1,
       "technology": 10
+    },
+    "CRAFT": {
+      "crafting": 10,
+      "technology": 10
     }
   },
   "override": true,

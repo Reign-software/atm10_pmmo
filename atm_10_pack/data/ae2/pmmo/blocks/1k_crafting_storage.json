@@ -36,7 +36,7 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "technology": 10
+      "technology": 200
     },
     "BREAK": {},
     "INTERACT": {

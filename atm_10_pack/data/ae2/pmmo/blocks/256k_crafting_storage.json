@@ -25,7 +25,10 @@
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
-      "building": 500,
+      "building": 1
+    },
+    "CRAFT": {
+      "crafting": 500,
       "technology": 500
     }
   },
