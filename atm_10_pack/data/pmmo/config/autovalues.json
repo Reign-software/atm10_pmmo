@@ -44,7 +44,7 @@
         "crafting": 10
       },
       "ENCHANT": {
-        "magic": 10
+        "enchanting": 50
       },
       "ANVIL_REPAIR": {
         "smithing": 10
