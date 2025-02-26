@@ -260,7 +260,7 @@
       "icon": "minecraft:textures/item/enchanted_book.png",
       "iconSize": 16,
       "useTotalLevels": false,
-      "color": 16711680,
+      "color": 2303436,
       "noAfkPenalty": false,
       "displayGroupName": false,
       "showInList": true
