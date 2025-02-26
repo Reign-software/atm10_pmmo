@@ -84,7 +84,7 @@
     "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
-      "magic": 30
+      "enchanting": 30
     },
     "CONSUME": {},
     "CRAFT": {

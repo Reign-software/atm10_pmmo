@@ -70,12 +70,18 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
-    "WEAPON": {},
+    "TOOL": {
+      "farming": 375
+    },
+    "WEAPON": {
+      "combat": 375
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "combat": 375
+    },
     "INTERACT": {},
     "USE": {}
   }

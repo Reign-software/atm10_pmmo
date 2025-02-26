@@ -75,7 +75,9 @@
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "magic": 300
+    },
     "INTERACT": {},
     "USE": {}
   }

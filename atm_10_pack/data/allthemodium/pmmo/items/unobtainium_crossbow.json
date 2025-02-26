@@ -71,11 +71,15 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {},
-    "WEAPON": {},
+    "WEAPON": {
+      "archery": 450
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "archery": 450
+    },
     "INTERACT": {},
     "USE": {}
   }

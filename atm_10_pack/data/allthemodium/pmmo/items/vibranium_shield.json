@@ -75,7 +75,9 @@
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "endurance": 375
+    },
     "INTERACT": {},
     "USE": {}
   }
