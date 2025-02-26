@@ -1,0 +1,20 @@
+{
+  "travel_req": {
+    "swimming": 15
+  },
+  "global_mob_modifier": [],
+  "mob_modifier": {},
+  "negative_effect": {
+    "minecraft:slowness": 0
+  },
+  "vein_blacklist": [],
+  "override": true,
+  "isTagFor": [],
+  "bonus": {
+    "BIOME": {
+      "fishing": 1.2,
+      "swimming": 1.5
+    }
+  },
+  "positive_effect": {}
+}
