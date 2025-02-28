@@ -54,7 +54,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "crafting": 419
+      "crafting": 419,
+      "technology": 10
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -78,7 +79,9 @@
     "WEAPON": {
       "combat": 52
     },
-    "PLACE": {},
+    "PLACE": {
+      "technology": 200
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
