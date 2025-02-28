@@ -74,12 +74,18 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 200
+      "technology": 400
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
-    "INTERACT": {},
-    "USE": {}
+    "WEAR": {
+      "technology": 200
+    },
+    "INTERACT": {
+      "technology": 200
+    },
+    "USE": {
+      "technology": 200
+    }
   }
 }

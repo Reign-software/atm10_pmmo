@@ -1,6 +1,6 @@
 # PowerShell script to modify JSON files
 # Set the directory path to scan - change this to your target directory
-$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\ae2\pmmo\items"
+$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\ironjetpacks\pmmo\items"
 
 # Get all JSON files in the directory and subdirectories
 $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
@@ -30,7 +30,7 @@ foreach ($file in $jsonFiles) {
         $jsonContent.xp_values.CRAFT | Add-Member -NotePropertyName "technology" -NotePropertyValue 10 -Force
         $modified = $true
     }
-    
+    <# 
     # Check if requirements exists
     if (-not $jsonContent.PSObject.Properties["requirements"]) {
         $jsonContent | Add-Member -NotePropertyName "requirements" -NotePropertyValue @{}
@@ -48,7 +48,21 @@ foreach ($file in $jsonFiles) {
         $jsonContent.requirements.PLACE.technology -ne 200) {
         $jsonContent.requirements.PLACE | Add-Member -NotePropertyName "technology" -NotePropertyValue 200 -Force
         $modified = $true
+    } 
+
+
+    # Check if requirements.PLACE exists
+    if (-not $jsonContent.requirements.PSObject.Properties["INTERACT"]) {
+        $jsonContent.requirements | Add-Member -NotePropertyName "INTERACT" -NotePropertyValue @{}
+        $modified = $true
     }
+    
+    # Add/set technology: 200 in requirements.PLACE
+    if (-not $jsonContent.requirements.INTERACT.PSObject.Properties["technology"] -or 
+        $jsonContent.requirements.INTERACT.technology -ne 200) {
+        $jsonContent.requirements.INTERACT | Add-Member -NotePropertyName "technology" -NotePropertyValue 100 -Force
+        $modified = $true
+    }   #>
     
     # Save changes if any modifications were made
     if ($modified) {
