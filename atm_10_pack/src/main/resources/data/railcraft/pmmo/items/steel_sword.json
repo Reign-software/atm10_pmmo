@@ -54,7 +54,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "crafting": 396
+      "crafting": 396,
+      "technology": 10
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
