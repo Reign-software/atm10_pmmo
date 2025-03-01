@@ -1,6 +1,6 @@
 # PowerShell script to modify JSON files
 # Set the directory path to scan - change this to your target directory
-$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\powah\pmmo\items"
+$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\mekanism\pmmo\items"
 
 # Get all JSON files in the directory and subdirectories
 $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
@@ -10,7 +10,7 @@ $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
 $baseCraftExp = 10  # Base craft XP value
 $craftExpPerLevel = 30  # Additional craft XP per level
 $basePlaceExp = 150
-$baseInteractExp = 0
+$baseInteractExp = 100
 $expPerLevel = 50
 
 
@@ -23,6 +23,33 @@ $keywordLevels = @{
 #    "niotic" = 5     # Tier 5
 #    "spirited" = 6   # Tier 6
 #    "nitro" = 7      # Tier 7
+
+    # Basic tier system
+    "basic" = 1          # Tier 1 - Basic machines
+    "advanced" = 2       # Tier 2 - Advanced machines  
+    "elite" = 4          # Tier 3 - Elite machines
+    "ultimate" = 6       # Tier 4 - Ultimate machines
+    
+    # Special high-tier technology
+    "atomic" = 3         # Mid-high tier (Atomic Disassembler, etc.)
+    "nuclear" = 5        # High tier nuclear tech
+    "meka" = 6           # MekaSuit and related items
+    "sps" = 7            # Supercritical Phase Shifter (end game)
+    "qio" = 7            # QIO systems (end game storage)
+    
+    # Processing related
+    "enriched" = 2       # Enriched materials
+    "reinforced" = 3     # Reinforced items
+    "compressed" = 2     # Compressed items
+    
+    # Energy-related keywords
+    "fusion" = 6         # Fusion reactor components
+    "induction" = 5      # Induction matrix components
+    "teleporter" = 5     # Teleportation technology
+    
+    # Other special cases
+    "configurator" = 3   # Configuration tools
+    "factory" = 2        # Factories (level depends on tier)
 }
 
 foreach ($file in $jsonFiles) {

@@ -55,7 +55,7 @@
     "CONSUME": {},
     "CRAFT": {
       "crafting": 10,
-      "technology": 10
+      "technology": 40
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -82,7 +82,7 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {
-      "technology": 100
+      "technology": 150
     },
     "USE": {}
   }
