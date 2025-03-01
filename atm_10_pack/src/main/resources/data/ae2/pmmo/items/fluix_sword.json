@@ -55,7 +55,7 @@
     "CONSUME": {},
     "CRAFT": {
       "crafting": 410,
-      "technology": 10
+      "technology": 70
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -74,20 +74,27 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 55
+      "farming": 55,
+      "technology": 80
     },
     "WEAPON": {
-      "combat": 41
+      "combat": 41,
+      "technology": 80
     },
     "PLACE": {
-      "technology": 200
+      "technology": 230
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "combat": 41
+      "combat": 41,
+      "technology": 80
     },
-    "INTERACT": {},
-    "USE": {}
+    "INTERACT": {
+      "technology": 80
+    },
+    "USE": {
+      "technology": 80
+    }
   }
 }

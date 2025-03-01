@@ -1,55 +1,74 @@
 # PowerShell script to modify JSON files
-# Set the directory path to scan - change this to your target directory
-$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\mekanism\pmmo\items"
+$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\railcraft\pmmo\items"
 
 # Get all JSON files in the directory and subdirectories
 $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
 
-# Set to 0 if you dont want anything to be set.
 # Base configuration values
 $baseCraftExp = 10  # Base craft XP value
 $craftExpPerLevel = 30  # Additional craft XP per level
-$basePlaceExp = 150
-$baseInteractExp = 100
-$expPerLevel = 50
-
+$basePlaceExp = 0
+$baseInteractExp = 0
+$baseWearExp = 0
+$baseUseExp = 0
+$baseToolExp = 0  # Base tool requirement
+$baseWeaponExp = 0  # Base weapon requirement
+$expPerLevel = 40
 
 # Define keyword-to-level mapping
 $keywordLevels = @{
-#    "starter" = 1    # Tier 1
-#    "basic" = 2      # Tier 2
-#    "hardened" = 3   # Tier 3
-#    "blazing" = 4    # Tier 4 
-#    "niotic" = 5     # Tier 5
-#    "spirited" = 6   # Tier 6
-#    "nitro" = 7      # Tier 7
-
-    # Basic tier system
-    "basic" = 1          # Tier 1 - Basic machines
-    "advanced" = 2       # Tier 2 - Advanced machines  
-    "elite" = 4          # Tier 3 - Elite machines
-    "ultimate" = 6       # Tier 4 - Ultimate machines
+    # Tier 0 - Basic components (0 XP)
+    "track" = 0           # Basic tracks
+    "wooden" = 0          # Wooden components
+    "iron" = 0            # Iron items (basic tier)
+    "standard" = 0        # Standard rail items
+    "tie" = 0             # Track ties
     
-    # Special high-tier technology
-    "atomic" = 3         # Mid-high tier (Atomic Disassembler, etc.)
-    "nuclear" = 5        # High tier nuclear tech
-    "meka" = 6           # MekaSuit and related items
-    "sps" = 7            # Supercritical Phase Shifter (end game)
-    "qio" = 7            # QIO systems (end game storage)
+    # Tier 1 - Basic railways (40 XP)
+    "switch" = 1          # Track switches
+    "junction" = 1        # Track junctions
+    "crossing" = 1        # Track crossings
+    "detector" = 1        # Detector tracks
+    "locomotive" = 1      # Basic locomotives
+    "cart" = 1            # Basic carts
+    "buffer" = 1          # Buffers
     
-    # Processing related
-    "enriched" = 2       # Enriched materials
-    "reinforced" = 3     # Reinforced items
-    "compressed" = 2     # Compressed items
+    # Tier 2 - Intermediate railway systems (80 XP) 
+    "boiler" = 2          # Boilers
+    "tank" = 2            # Tanks
+    "firebox" = 2         # Fireboxes
+    "steam" = 2           # Steam components
+    "fluid" = 2           # Fluid handling
+    "feed" = 2            # Feed stations
+    "boarding" = 2        # Boarding tracks
     
-    # Energy-related keywords
-    "fusion" = 6         # Fusion reactor components
-    "induction" = 5      # Induction matrix components
-    "teleporter" = 5     # Teleportation technology
+    # Tier 3 - Advanced railways (120 XP)
+    "electric" = 3        # Electric components
+    "control" = 3         # Control systems
+    "signal" = 3          # Signal blocks
+    "locking" = 3         # Locking track
+    "coupler" = 3         # Couplers
+    "embarking" = 3       # Embarking tracks
+    "disembarking" = 3    # Disembarking tracks
+    "force" = 3           # Force tracks
     
-    # Other special cases
-    "configurator" = 3   # Configuration tools
-    "factory" = 2        # Factories (level depends on tier)
+    # Tier 4 - Advanced automation (160 XP)
+    "routing" = 4         # Routing systems
+    "loader" = 4          # Loaders/Unloaders
+    "manipulator" = 4     # Cart manipulators
+    "steel" = 4           # Steel components
+    "advanced" = 4        # Advanced components
+    "block" = 4           # Block signals
+    "distant" = 4         # Distant signals
+    
+    # Tier 5 - End-game railcraft (200 XP)
+    "high_speed" = 5      # High speed rails
+    "reinforced" = 5      # Reinforced components
+    "automated" = 5       # Automated systems
+    "worldspike" = 5      # Worldspikes
+    "tunnel" = 5          # Tunnel components
+    "admin" = 5           # Admin components
+    "powered" = 5         # Powered components
 }
 
 foreach ($file in $jsonFiles) {
@@ -68,15 +87,18 @@ foreach ($file in $jsonFiles) {
     }
     
     # Calculate requirement values based on level
-    # Always use at least base level, even when no keywords are found
     $placeExp = $basePlaceExp + ($level * $expPerLevel)
     $interactExp = $baseInteractExp + ($level * $expPerLevel)
+    $wearExp = $baseWearExp + ($level * $expPerLevel)
+    $useExp = $baseUseExp + ($level * $expPerLevel)
+    $toolExp = $baseToolExp + ($level * $expPerLevel)
+    $weaponExp = $baseWeaponExp + ($level * $expPerLevel)
     $craftExp = $baseCraftExp + ($level * $craftExpPerLevel)
     
     if ($level -gt 0) {
-        Write-Host "  Setting technology level to $level (Craft: $craftExp, Place: $placeExp, Interact: $interactExp)" -ForegroundColor Magenta
+        Write-Host "  Setting tech level $level (Place: $placeExp, Interact: $interactExp, Use: $useExp, Tool: $toolExp, Weapon: $weaponExp, Craft: $craftExp)" -ForegroundColor Magenta
     } else {
-        Write-Host "  Using base requirements (Craft: $craftExp, Place: $placeExp, Interact: $interactExp)" -ForegroundColor Blue
+        Write-Host "  Using base requirements" -ForegroundColor Blue
     }
     
     # Read the JSON content
@@ -109,37 +131,66 @@ foreach ($file in $jsonFiles) {
         $modified = $true
     }
     
-    if ($placeExp -ne 0) {
-
-        # Check if requirements.PLACE exists
-        if (-not $jsonContent.requirements.PSObject.Properties["PLACE"]) {
-            $jsonContent.requirements | Add-Member -NotePropertyName "PLACE" -NotePropertyValue @{}
+    # Ensure all requirement categories exist
+    $requirementNodes = @("TOOL", "WEAPON", "PLACE", "BREAK", "USE_ENCHANTMENT", "WEAR", "INTERACT", "USE")
+    
+    foreach ($node in $requirementNodes) {
+        if (-not $jsonContent.requirements.PSObject.Properties[$node]) {
+            $jsonContent.requirements | Add-Member -NotePropertyName $node -NotePropertyValue @{}
             $modified = $true
         }
-        
-        # Add/set technology in requirements.PLACE
+    }
+    
+    # Set technology values for nodes that need them
+    if ($placeExp -ne 0) {
         if (-not $jsonContent.requirements.PLACE.PSObject.Properties["technology"] -or 
             $jsonContent.requirements.PLACE.technology -ne $placeExp) {
             $jsonContent.requirements.PLACE | Add-Member -NotePropertyName "technology" -NotePropertyValue $placeExp -Force
             $modified = $true
         }
     }
-
-    # Only apply interact exp if it's not zero
+    
     if ($interactExp -ne 0) {
-        # Check if requirements.INTERACT exists
-        if (-not $jsonContent.requirements.PSObject.Properties["INTERACT"]) {
-            $jsonContent.requirements | Add-Member -NotePropertyName "INTERACT" -NotePropertyValue @{}
-            $modified = $true
-        }
-        
-        # Add/set technology in requirements.INTERACT
         if (-not $jsonContent.requirements.INTERACT.PSObject.Properties["technology"] -or 
             $jsonContent.requirements.INTERACT.technology -ne $interactExp) {
             $jsonContent.requirements.INTERACT | Add-Member -NotePropertyName "technology" -NotePropertyValue $interactExp -Force
             $modified = $true
         }   
-    }   
+    }
+    
+    if ($wearExp -ne 0) {
+        if (-not $jsonContent.requirements.WEAR.PSObject.Properties["technology"] -or 
+            $jsonContent.requirements.WEAR.technology -ne $wearExp) {
+            $jsonContent.requirements.WEAR | Add-Member -NotePropertyName "technology" -NotePropertyValue $wearExp -Force
+            $modified = $true
+        }   
+    }
+    
+    if ($useExp -ne 0) {
+        if (-not $jsonContent.requirements.USE.PSObject.Properties["technology"] -or 
+            $jsonContent.requirements.USE.technology -ne $useExp) {
+            $jsonContent.requirements.USE | Add-Member -NotePropertyName "technology" -NotePropertyValue $useExp -Force
+            $modified = $true
+        }   
+    }
+    
+    # Add TOOL requirement logic
+    if ($toolExp -ne 0) {
+        if (-not $jsonContent.requirements.TOOL.PSObject.Properties["technology"] -or 
+            $jsonContent.requirements.TOOL.technology -ne $toolExp) {
+            $jsonContent.requirements.TOOL | Add-Member -NotePropertyName "technology" -NotePropertyValue $toolExp -Force
+            $modified = $true
+        }   
+    }
+    
+    # Add WEAPON requirement logic
+    if ($weaponExp -ne 0) {
+        if (-not $jsonContent.requirements.WEAPON.PSObject.Properties["technology"] -or 
+            $jsonContent.requirements.WEAPON.technology -ne $weaponExp) {
+            $jsonContent.requirements.WEAPON | Add-Member -NotePropertyName "technology" -NotePropertyValue $weaponExp -Force
+            $modified = $true
+        }   
+    }
     
     # Save changes if any modifications were made
     if ($modified) {
