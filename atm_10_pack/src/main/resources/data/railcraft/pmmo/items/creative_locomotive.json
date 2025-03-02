@@ -66,7 +66,8 @@
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -80,7 +81,9 @@
     "PLACE": {
       "technology": 40
     },
-    "BREAK": {},
+    "BREAK": {
+      "mining": 500
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "technology": 40

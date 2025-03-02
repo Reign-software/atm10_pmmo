@@ -67,7 +67,8 @@
     "BLOCK_PLACE": {
       "building": 19
     },
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -76,7 +77,7 @@
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {
-      "mining": 16
+      "mining": 350
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},

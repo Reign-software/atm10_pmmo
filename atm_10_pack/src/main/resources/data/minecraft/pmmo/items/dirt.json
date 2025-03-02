@@ -67,7 +67,8 @@
     "BLOCK_PLACE": {
       "excavation": 12
     },
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],

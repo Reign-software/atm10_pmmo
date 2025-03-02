@@ -56,7 +56,8 @@
     "SHIELD_BLOCK": {},
     "EFFECT": {},
     "DEATH": {},
-    "SPRINTING": {}
+    "SPRINTING": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -65,6 +66,7 @@
     "RIDE": {},
     "BREED": {},
     "TAME": {},
-    "KILL": {}
+    "KILL": {},
+    "BREAK": {}
   }
 }

@@ -67,7 +67,8 @@
     "BLOCK_PLACE": {
       "building": 19
     },
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],

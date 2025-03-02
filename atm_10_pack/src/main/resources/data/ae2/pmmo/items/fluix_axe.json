@@ -68,7 +68,8 @@
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -84,7 +85,9 @@
     "PLACE": {
       "technology": 230
     },
-    "BREAK": {},
+    "BREAK": {
+      "mining": 300
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "woodcutting": 41,

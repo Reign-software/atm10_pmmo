@@ -15,7 +15,8 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "woodcutting": 11
+      "woodcutting": 11,
+      "mining": 10
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},

@@ -68,7 +68,8 @@
     "BLOCK_PLACE": {
       "building": 1
     },
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -82,7 +83,9 @@
     "PLACE": {
       "technology": 410
     },
-    "BREAK": {},
+    "BREAK": {
+      "mining": 500
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "technology": 360

@@ -69,7 +69,8 @@
     },
     "SMELT": {
       "smithing": 100
-    }
+    },
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -78,7 +79,7 @@
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {
-      "mining": 10
+      "mining": 350
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},

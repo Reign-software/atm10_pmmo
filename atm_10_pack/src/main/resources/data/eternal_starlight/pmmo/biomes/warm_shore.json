@@ -7,5 +7,7 @@
   "override": true,
   "isTagFor": [],
   "bonus": {},
-  "positive_effect": {}
+  "positive_effect": {},
+  "xp_values": {},
+  "requirements": {}
 }

@@ -18,7 +18,8 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "excavation": 10
+      "excavation": 10,
+      "mining": 30
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -32,7 +33,9 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {},
-    "BREAK": {},
+    "BREAK": {
+      "mining": 150
+    },
     "INTERACT": {}
   }
 }

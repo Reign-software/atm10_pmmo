@@ -70,7 +70,8 @@
     },
     "SMELT": {
       "smithing": 100
-    }
+    },
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -80,7 +81,9 @@
     "PLACE": {
       "technology": 150
     },
-    "BREAK": {},
+    "BREAK": {
+      "mining": 300
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {

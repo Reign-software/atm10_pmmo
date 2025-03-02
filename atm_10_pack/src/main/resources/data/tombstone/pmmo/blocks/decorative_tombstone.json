@@ -18,7 +18,8 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "excavation": 10
+      "excavation": 10,
+      "mining": 10
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},

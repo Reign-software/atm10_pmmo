@@ -62,7 +62,8 @@
     "DEATH": {
       "endurance": 40
     },
-    "SPRINTING": {}
+    "SPRINTING": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -71,6 +72,7 @@
     "RIDE": {},
     "BREED": {},
     "TAME": {},
-    "KILL": {}
+    "KILL": {},
+    "BREAK": {}
   }
 }

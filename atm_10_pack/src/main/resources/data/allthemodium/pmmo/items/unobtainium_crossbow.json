@@ -65,7 +65,8 @@
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -75,7 +76,9 @@
       "archery": 450
     },
     "PLACE": {},
-    "BREAK": {},
+    "BREAK": {
+      "mining": 500
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "archery": 450

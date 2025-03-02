@@ -67,7 +67,8 @@
     "BLOCK_PLACE": {
       "woodcutting": 10
     },
-    "SMELT": {}
+    "SMELT": {},
+    "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
@@ -75,7 +76,9 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {},
-    "BREAK": {},
+    "BREAK": {
+      "mining": 50
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},

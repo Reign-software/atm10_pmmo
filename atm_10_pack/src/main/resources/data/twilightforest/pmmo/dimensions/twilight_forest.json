@@ -4,5 +4,7 @@
   "mob_modifier": {},
   "vein_blacklist": [],
   "override": true,
-  "bonus": {}
+  "bonus": {},
+  "xp_values": {},
+  "requirements": {}
 }

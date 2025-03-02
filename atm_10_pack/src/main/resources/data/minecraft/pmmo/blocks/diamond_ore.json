@@ -15,7 +15,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "mining": 750
+      "mining": 60
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -30,7 +30,7 @@
   "requirements": {
     "PLACE": {},
     "BREAK": {
-      "mining": 150
+      "mining": 250
     },
     "INTERACT": {}
   }
