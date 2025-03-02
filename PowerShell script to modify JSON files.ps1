@@ -7,15 +7,15 @@ $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
 # Base configuration values
 $baseCraftExp = 100  # Base craft XP value
 $craftExpPerLevel = 300  # Additional craft XP per level
-$basePlaceExp = 300
-$baseInteractExp = 0
-$baseWearExp = 0
-$baseUseExp = 0
-$baseToolExp = 0  # Base tool requirement
-$baseWeaponExp = 0  # Base weapon requirement
+$basePlaceLevel = 300
+$baseInteractLevel = 0
+$basewearLevel = 0
+$baseuseLevel = 0
+$basetoolLevel = 0  # Base tool requirement
+$baseweaponLevel = 0  # Base weapon requirement
 $expPerLevel = 40
 
-# Define keyword-to-level mapping for Big Reactors/Extreme Reactors
+# Define keyword-to-level mapping
 $keywordLevels = @{
     # Tier 0 - Basic components (300 + 0 = 300 XP)
     "casing" = 0             # Reactor casing
@@ -91,16 +91,16 @@ foreach ($file in $jsonFiles) {
     }
     
     # Calculate requirement values based on level
-    $placeExp = $basePlaceExp + ($level * $expPerLevel)
-    $interactExp = $baseInteractExp + ($level * $expPerLevel)
-    $wearExp = $baseWearExp + ($level * $expPerLevel)
-    $useExp = $baseUseExp + ($level * $expPerLevel)
-    $toolExp = $baseToolExp + ($level * $expPerLevel)
-    $weaponExp = $baseWeaponExp + ($level * $expPerLevel)
+    $placeLevel = $basePlaceLevel + ($level * $expPerLevel)
+    $interactLevel = $baseInteractLevel + ($level * $expPerLevel)
+    $wearLevel = $basewearLevel + ($level * $expPerLevel)
+    $useLevel = $baseuseLevel + ($level * $expPerLevel)
+    $toolLevel = $basetoolLevel + ($level * $expPerLevel)
+    $weaponLevel = $baseweaponLevel + ($level * $expPerLevel)
     $craftExp = $baseCraftExp + ($level * $craftExpPerLevel)
     
     if ($level -gt 0) {
-        Write-Host "  Setting tech level $level (Place: $placeExp, Interact: $interactExp, Use: $useExp, Tool: $toolExp, Weapon: $weaponExp, Craft: $craftExp)" -ForegroundColor Magenta
+        Write-Host "  Setting tech level $level (Place: $placeLevel, Interact: $interactLevel, Use: $useLevel, Tool: $toolLevel, Weapon: $weaponLevel, Craft: $craftExp)" -ForegroundColor Magenta
     } else {
         Write-Host "  Using base requirements" -ForegroundColor Blue
     }
@@ -146,52 +146,52 @@ foreach ($file in $jsonFiles) {
     }
     
     # Set technology values for nodes that need them
-    if ($placeExp -ne 0) {
+    if ($placeLevel -ne 0) {
         if (-not $jsonContent.requirements.PLACE.PSObject.Properties["technology"] -or 
-            $jsonContent.requirements.PLACE.technology -ne $placeExp) {
-            $jsonContent.requirements.PLACE | Add-Member -NotePropertyName "technology" -NotePropertyValue $placeExp -Force
+            $jsonContent.requirements.PLACE.technology -ne $placeLevel) {
+            $jsonContent.requirements.PLACE | Add-Member -NotePropertyName "technology" -NotePropertyValue $placeLevel -Force
             $modified = $true
         }
     }
     
-    if ($interactExp -ne 0) {
+    if ($interactLevel -ne 0) {
         if (-not $jsonContent.requirements.INTERACT.PSObject.Properties["technology"] -or 
-            $jsonContent.requirements.INTERACT.technology -ne $interactExp) {
-            $jsonContent.requirements.INTERACT | Add-Member -NotePropertyName "technology" -NotePropertyValue $interactExp -Force
+            $jsonContent.requirements.INTERACT.technology -ne $interactLevel) {
+            $jsonContent.requirements.INTERACT | Add-Member -NotePropertyName "technology" -NotePropertyValue $interactLevel -Force
             $modified = $true
         }   
     }
     
-    if ($wearExp -ne 0) {
+    if ($wearLevel -ne 0) {
         if (-not $jsonContent.requirements.WEAR.PSObject.Properties["technology"] -or 
-            $jsonContent.requirements.WEAR.technology -ne $wearExp) {
-            $jsonContent.requirements.WEAR | Add-Member -NotePropertyName "technology" -NotePropertyValue $wearExp -Force
+            $jsonContent.requirements.WEAR.technology -ne $wearLevel) {
+            $jsonContent.requirements.WEAR | Add-Member -NotePropertyName "technology" -NotePropertyValue $wearLevel -Force
             $modified = $true
         }   
     }
     
-    if ($useExp -ne 0) {
+    if ($useLevel -ne 0) {
         if (-not $jsonContent.requirements.USE.PSObject.Properties["technology"] -or 
-            $jsonContent.requirements.USE.technology -ne $useExp) {
-            $jsonContent.requirements.USE | Add-Member -NotePropertyName "technology" -NotePropertyValue $useExp -Force
+            $jsonContent.requirements.USE.technology -ne $useLevel) {
+            $jsonContent.requirements.USE | Add-Member -NotePropertyName "technology" -NotePropertyValue $useLevel -Force
             $modified = $true
         }   
     }
     
     # Add TOOL requirement logic
-    if ($toolExp -ne 0) {
+    if ($toolLevel -ne 0) {
         if (-not $jsonContent.requirements.TOOL.PSObject.Properties["technology"] -or 
-            $jsonContent.requirements.TOOL.technology -ne $toolExp) {
-            $jsonContent.requirements.TOOL | Add-Member -NotePropertyName "technology" -NotePropertyValue $toolExp -Force
+            $jsonContent.requirements.TOOL.technology -ne $toolLevel) {
+            $jsonContent.requirements.TOOL | Add-Member -NotePropertyName "technology" -NotePropertyValue $toolLevel -Force
             $modified = $true
         }   
     }
     
     # Add WEAPON requirement logic
-    if ($weaponExp -ne 0) {
+    if ($weaponLevel -ne 0) {
         if (-not $jsonContent.requirements.WEAPON.PSObject.Properties["technology"] -or 
-            $jsonContent.requirements.WEAPON.technology -ne $weaponExp) {
-            $jsonContent.requirements.WEAPON | Add-Member -NotePropertyName "technology" -NotePropertyValue $weaponExp -Force
+            $jsonContent.requirements.WEAPON.technology -ne $weaponLevel) {
+            $jsonContent.requirements.WEAPON | Add-Member -NotePropertyName "technology" -NotePropertyValue $weaponLevel -Force
             $modified = $true
         }   
     }
