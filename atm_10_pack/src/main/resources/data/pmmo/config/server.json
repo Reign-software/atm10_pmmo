@@ -43,7 +43,7 @@
     "damage": {
       "RECEIVE_DAMAGE": {
         "minecraft:generic_kill": {
-          "endurance": 1
+          "endurance": 10
         },
         "#pmmo:impact": {
           "endurance": 15
@@ -60,19 +60,19 @@
       },
       "DEAL_DAMAGE": {
         "minecraft:generic_kill": {
-          "combat": 1
+          "combat": 20
         },
         "minecraft:player_attack": {
-          "combat": 1
+          "combat": 10
         },
         "#minecraft:is_projectile": {
-          "archery": 1
+          "archery": 10
         },
         "#pmmo:magic": {
           "magic": 15
         },
         "#pmmo:gun": {
-          "gunslinging": 1
+          "gunslinging": 10
         }
       }
     }
@@ -86,17 +86,17 @@
   },
   "mob_scaling": {
     "use_exponential_formula": true,
-    "per_level": 1.0,
-    "power_base": 1.104088404342588,
+    "per_level": 1.001,
+    "power_base": 1.2,
     "ratios": {
       "minecraft:generic.movement_speed": {
         "combat": 1.0E-6
       },
       "minecraft:generic.max_health": {
-        "combat": 0.001
+        "combat": 0.01
       },
       "minecraft:generic.attack_damage": {
-        "combat": 1.0E-4
+        "combat": 1.001
       }
     },
     "enabled": false,
