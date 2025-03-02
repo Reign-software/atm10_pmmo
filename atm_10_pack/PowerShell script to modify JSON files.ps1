@@ -1,13 +1,13 @@
 # PowerShell script to modify JSON files
-$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\railcraft\pmmo\items"
+$directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\bigreactors\pmmo\items"
 
 # Get all JSON files in the directory and subdirectories
 $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
 
 # Base configuration values
-$baseCraftExp = 10  # Base craft XP value
-$craftExpPerLevel = 30  # Additional craft XP per level
-$basePlaceExp = 0
+$baseCraftExp = 100  # Base craft XP value
+$craftExpPerLevel = 300  # Additional craft XP per level
+$basePlaceExp = 300
 $baseInteractExp = 0
 $baseWearExp = 0
 $baseUseExp = 0
@@ -15,60 +15,64 @@ $baseToolExp = 0  # Base tool requirement
 $baseWeaponExp = 0  # Base weapon requirement
 $expPerLevel = 40
 
-# Define keyword-to-level mapping
+# Define keyword-to-level mapping for Big Reactors/Extreme Reactors
 $keywordLevels = @{
-    # Tier 0 - Basic components (0 XP)
-    "track" = 0           # Basic tracks
-    "wooden" = 0          # Wooden components
-    "iron" = 0            # Iron items (basic tier)
-    "standard" = 0        # Standard rail items
-    "tie" = 0             # Track ties
+    # Tier 0 - Basic components (300 + 0 = 300 XP)
+    "casing" = 0             # Reactor casing
+    "glass" = 0              # Reactor glass
+    "frame" = 0              # Basic frames
+    "ingot" = 0              # Basic ingots
+    "dust" = 0               # Reactor dust materials
+    "graphite" = 0           # Graphite components
+    "block_graphite" = 0     # Graphite blocks
+    "basic" = 0              # Basic components
     
-    # Tier 1 - Basic railways (40 XP)
-    "switch" = 1          # Track switches
-    "junction" = 1        # Track junctions
-    "crossing" = 1        # Track crossings
-    "detector" = 1        # Detector tracks
-    "locomotive" = 1      # Basic locomotives
-    "cart" = 1            # Basic carts
-    "buffer" = 1          # Buffers
+    # Tier 1 - Core reactor parts (300 + 40 = 340 XP)
+    "reactor_casing" = 1     # Reactor casing
+    "reactor_glass" = 1      # Reactor glass
+    "reactor_controller" = 1 # Reactor controller
+    "reactor_fuel_rod" = 1   # Fuel rods
+    "reactor_control_rod" = 1 # Control rods
+    "fuel" = 1               # Fuel components
+    "yellorium" = 1          # Yellorium components
+    "blutonium" = 1          # Blutonium components
+    "access_port" = 1        # Access ports
+    "moderator" = 1          # Moderator elements
     
-    # Tier 2 - Intermediate railway systems (80 XP) 
-    "boiler" = 2          # Boilers
-    "tank" = 2            # Tanks
-    "firebox" = 2         # Fireboxes
-    "steam" = 2           # Steam components
-    "fluid" = 2           # Fluid handling
-    "feed" = 2            # Feed stations
-    "boarding" = 2        # Boarding tracks
+    # Tier 2 - Turbine components (300 + 80 = 380 XP)
+    "turbine_housing" = 2    # Turbine housing
+    "turbine_glass" = 2      # Turbine glass
+    "turbine_controller" = 2 # Turbine controller
+    "turbine_bearing" = 2    # Turbine bearings
+    "turbine_rotor" = 2      # Rotor components
+    "turbine_blade" = 2      # Turbine blades
+    "power_tap" = 2          # Power tap
+    "coolant_port" = 2       # Coolant ports
+    "rotor" = 2              # Rotor shaft
     
-    # Tier 3 - Advanced railways (120 XP)
-    "electric" = 3        # Electric components
-    "control" = 3         # Control systems
-    "signal" = 3          # Signal blocks
-    "locking" = 3         # Locking track
-    "coupler" = 3         # Couplers
-    "embarking" = 3       # Embarking tracks
-    "disembarking" = 3    # Disembarking tracks
-    "force" = 3           # Force tracks
+    # Tier 3 - Advanced reactor control (300 + 120 = 420 XP)
+    "computer_port" = 3      # Computer interface
+    "redstone_port" = 3      # Redstone port
+    "reactor_redstone_port" = 3 # Reactor redstone port
+    "turbine_redstone_port" = 3 # Turbine redstone port
+    "controller" = 3         # Advanced controllers
+    "creative_controller" = 3 # Creative controller
+    "ludicrite" = 3          # Ludicrite components
+    "fluid_port" = 3         # Fluid ports
     
-    # Tier 4 - Advanced automation (160 XP)
-    "routing" = 4         # Routing systems
-    "loader" = 4          # Loaders/Unloaders
-    "manipulator" = 4     # Cart manipulators
-    "steel" = 4           # Steel components
-    "advanced" = 4        # Advanced components
-    "block" = 4           # Block signals
-    "distant" = 4         # Distant signals
+    # Tier 4 - High-efficiency systems (300 + 160 = 460 XP)
+    "multiblock" = 4         # Advanced multiblock structures
+    "cyanite" = 4            # Cyanite components
+    "extreme" = 4            # Extreme components
+    "advanced" = 4           # Advanced systems
+    "efficiency" = 4         # Efficiency upgrades
+    "cyanite_reprocessor" = 4 # Cyanite reprocessor
     
-    # Tier 5 - End-game railcraft (200 XP)
-    "high_speed" = 5      # High speed rails
-    "reinforced" = 5      # Reinforced components
-    "automated" = 5       # Automated systems
-    "worldspike" = 5      # Worldspikes
-    "tunnel" = 5          # Tunnel components
-    "admin" = 5           # Admin components
-    "powered" = 5         # Powered components
+    # Tier 5 - End-game reactor technology (300 + 200 = 500 XP)
+    "creative" = 5           # Creative components
+    "ultimate" = 5           # Ultimate components
+    "reinforced" = 5         # Reinforced components
+    "enderium" = 5           # Enderium enhancements
 }
 
 foreach ($file in $jsonFiles) {

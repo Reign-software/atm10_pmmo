@@ -71,15 +71,26 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
-    "WEAPON": {},
-    "PLACE": {},
+    "TOOL": {
+      "technology": 200
+    },
+    "WEAPON": {
+      "technology": 200
+    },
+    "PLACE": {
+      "technology": 200
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "endurance": 1
+      "endurance": 1,
+      "technology": 200
     },
-    "INTERACT": {},
-    "USE": {}
+    "INTERACT": {
+      "technology": 200
+    },
+    "USE": {
+      "technology": 200
+    }
   }
 }

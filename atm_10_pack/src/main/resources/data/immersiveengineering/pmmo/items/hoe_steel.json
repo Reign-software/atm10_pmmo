@@ -79,7 +79,9 @@
     "WEAPON": {
       "combat": 25
     },
-    "PLACE": {},
+    "PLACE": {
+      "technology": 50
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
