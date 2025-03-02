@@ -81,7 +81,6 @@ Write-Host "Scanning directories:" -ForegroundColor Cyan
 $oreJsonPaths | ForEach-Object { Write-Host "  $_" }
 
 # Configuration values
-$baseBreakXP = 10          # Base XP for mining an ore
 $baseMiningLevel = 0       # Base mining level required
 $levelIncreasePerTier = 50 # Level requirement increase per tier (0, 50, 100, 150, etc.)
 # Note: XP is now defined in the tier mapping below instead of a multiplier
