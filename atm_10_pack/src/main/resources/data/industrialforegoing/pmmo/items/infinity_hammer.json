@@ -75,7 +75,9 @@
       "technology": 360
     },
     "WEAPON": {
-      "technology": 360
+      "combat": 500,
+      "smithing": 500,
+      "technology": 500
     },
     "PLACE": {
       "technology": 410
@@ -89,7 +91,9 @@
       "technology": 360
     },
     "USE": {
-      "technology": 360
+      "combat": 500,
+      "smithing": 500,
+      "technology": 500
     }
   }
 }

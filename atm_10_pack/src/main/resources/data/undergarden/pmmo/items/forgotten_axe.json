@@ -73,7 +73,8 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "woodcutting": 59
+      "woodcutting": 59,
+      "smithing": 50
     },
     "WEAPON": {
       "combat": 68
@@ -85,6 +86,9 @@
       "woodcutting": 59
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 50,
+      "woodcutting": 50
+    }
   }
 }

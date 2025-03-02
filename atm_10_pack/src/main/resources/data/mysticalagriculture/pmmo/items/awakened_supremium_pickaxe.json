@@ -71,7 +71,8 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "mining": 260
+      "mining": 450,
+      "smithing": 450
     },
     "WEAPON": {
       "combat": 294
@@ -83,6 +84,9 @@
       "mining": 260
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "mining": 450,
+      "smithing": 450
+    }
   }
 }

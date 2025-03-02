@@ -1,0 +1,1412 @@
+{
+  "weaponItems": [
+    {
+      "tier": 10,
+      "isMagic": true,
+      "mod": "mysticalagriculture",
+      "name": "creative_soulium_dagger",
+      "isTech": false
+    },
+    {
+      "tier": 10,
+      "isMagic": false,
+      "mod": "industrialforegoing",
+      "name": "infinity_hammer",
+      "isTech": true
+    },
+    {
+      "tier": 10,
+      "isMagic": false,
+      "mod": "industrialforegoing",
+      "name": "infinity_launcher",
+      "isTech": true
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_bow",
+      "isTech": false
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_sword",
+      "isTech": false
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_staff",
+      "isTech": false
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_crossbow",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_crossbow",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_mace",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_sword",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_sword",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_mace",
+      "isTech": false
+    },
+    {
+      "tier": 6,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "allthemodium_bow",
+      "isTech": false
+    },
+    {
+      "tier": 6,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "allthemodium_mace",
+      "isTech": false
+    },
+    {
+      "tier": 6,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "allthemodium_sword",
+      "isTech": false
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "refined_glowstone_sword",
+      "isTech": true
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "bigreactors",
+      "name": "reinforced_turbinerotorblade",
+      "isTech": false
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "railcraft",
+      "name": "reinforced_launcher_track",
+      "isTech": false
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "refined_obsidian_sword",
+      "isTech": true
+    },
+    {
+      "tier": 5,
+      "isMagic": true,
+      "mod": "forbidden_arcanus",
+      "name": "reinforced_deorum_sword",
+      "isTech": false
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "modern_industrialization",
+      "name": "titanium_blade",
+      "isTech": true
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "alltheores",
+      "name": "platinum_ore_hammer",
+      "isTech": false
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "extended_industrialization",
+      "name": "netherite_rotary_blade",
+      "isTech": true
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "modern_industrialization",
+      "name": "netherite_hammer",
+      "isTech": true
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "minecraft",
+      "name": "netherite_sword",
+      "isTech": false
+    }
+  ],
+  "skillRequirements": {
+    "armor": [
+      "smithing",
+      "endurance"
+    ],
+    "special": {
+      "magic": "magic",
+      "tech": "technology"
+    },
+    "tools": {
+      "shovel": [
+        "smithing",
+        "excavation"
+      ],
+      "pickaxe": [
+        "smithing",
+        "mining"
+      ],
+      "hoe": [
+        "smithing",
+        "farming"
+      ],
+      "shears": [
+        "smithing",
+        "farming"
+      ],
+      "axe": [
+        "smithing",
+        "woodcutting"
+      ],
+      "paxel": [
+        "smithing",
+        "mining",
+        "woodcutting",
+        "excavation"
+      ]
+    },
+    "weapons": {
+      "melee": [
+        "smithing",
+        "combat"
+      ],
+      "ranged": [
+        "smithing",
+        "archery"
+      ]
+    }
+  },
+  "tierDistribution": {
+    "tier6": {
+      "count": 466,
+      "exampleItems": [
+        "allthemodium_boots",
+        "allthemodium_hat",
+        "allthemodium_leggings",
+        "allthemodium_robes",
+        "allthemodium_spell_book"
+      ]
+    },
+    "tier2": {
+      "count": 621,
+      "exampleItems": [
+        "gold_aiot",
+        "fire_pit_l_gold_block",
+        "fire_pit_s_gold_block",
+        "electrum_block_1x",
+        "electrum_block_2x"
+      ]
+    },
+    "tier1": {
+      "count": 33612,
+      "exampleItems": [
+        "advanced_coil",
+        "advanced_leaf_blower",
+        "atomic_reconstructor",
+        "basic_coil",
+        "bats_wing"
+      ]
+    },
+    "tier8": {
+      "count": 93,
+      "exampleItems": [
+        "unobtainium_boots",
+        "unobtainium_hat",
+        "unobtainium_leggings",
+        "unobtainium_robes",
+        "unobtainium_spell_book"
+      ]
+    },
+    "tier9": {
+      "count": 36,
+      "exampleItems": [
+        "stellar_rack",
+        "stellarite_block",
+        "stellarite_piece",
+        "stellarite_sulfur",
+        "chaotic_cobweb"
+      ]
+    },
+    "tier0": {
+      "count": 3236,
+      "exampleItems": [
+        "phantom_redstoneface",
+        "stone_aiot",
+        "wood_casing",
+        "wooden_aiot",
+        "fire_pit_l_cobblestone"
+      ]
+    },
+    "tier4": {
+      "count": 291,
+      "exampleItems": [
+        "netherite_aiot",
+        "netherite_block_1x",
+        "netherite_block_2x",
+        "netherite_block_3x",
+        "netherite_block_4x"
+      ]
+    },
+    "tier3": {
+      "count": 1090,
+      "exampleItems": [
+        "black_quartz_block",
+        "black_quartz_brick_block",
+        "black_quartz_brick_stair",
+        "black_quartz_ore",
+        "black_quartz_stair"
+      ]
+    },
+    "tier7": {
+      "count": 84,
+      "exampleItems": [
+        "vibranium_boots",
+        "vibranium_hat",
+        "vibranium_leggings",
+        "vibranium_robes",
+        "vibranium_spell_book"
+      ]
+    },
+    "tier5": {
+      "count": 600,
+      "exampleItems": [
+        "refined_canola_oil_bucket",
+        "enderium_block_1x",
+        "enderium_block_2x",
+        "enderium_block_3x",
+        "enderium_block_4x"
+      ]
+    },
+    "tier10": {
+      "count": 100,
+      "exampleItems": [
+        "creative_energy_cell",
+        "creative_storage_cell",
+        "wireless_universal_terminal",
+        "infinity_card",
+        "creative_spell_book"
+      ]
+    }
+  },
+  "armorItems": [
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_boots",
+      "isTech": false
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_chestplate",
+      "isTech": false
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_helmet",
+      "isTech": false
+    },
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_leggings",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthearcanistgear",
+      "name": "unobtainium_leggings",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_boots",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_helmet",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_leggings",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthearcanistgear",
+      "name": "unobtainium_robes",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_chestplate",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_gear",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "unobtainium_mage_boots",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "unobtainium_mage_chestplate",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "unobtainium_mage_helmet",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "unobtainium_mage_leggings",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthearcanistgear",
+      "name": "unobtainium_boots",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "vibranium_mage_helmet",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_leggings",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_helmet",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_gear",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_chestplate",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_boots",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "vibranium_mage_boots",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "vibranium_mage_chestplate",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthewizardgear",
+      "name": "vibranium_mage_leggings",
+      "isTech": false
+    }
+  ],
+  "techItems": [
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "ultimate_infusing_factory",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "ultimate_thermodynamic_conductor",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "ultimate_tier_installer",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "ultimate_universal_cable",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "stevescarts",
+      "name": "module_creative_hull",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "bigreactors",
+      "name": "reinforced_reactorcreativewatergenerator",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "extended_industrialization",
+      "name": "ultimate_laser_drill",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "modularrouters",
+      "name": "creative_module",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "advanced_universal_cable",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "creative_fluid_tank",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "rftoolspower",
+      "name": "dimensionalcell_creative",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "creative_energy_cube",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "ultimate_smelting_factory",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "industrialforegoing",
+      "name": "infinity_drill",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "creative_chemical_tank",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "creative_bin",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "modular_machinery_reborn",
+      "name": "energyoutputhatch_ultimate",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "industrialforegoing",
+      "name": "infinity_launcher",
+      "type": "weapon"
+    },
+    {
+      "tier": 10,
+      "mod": "industrialforegoing",
+      "name": "infinity_nuke",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "industrialforegoing",
+      "name": "infinity_saw",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "ae2",
+      "name": "creative_energy_cell",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "modular_machinery_reborn",
+      "name": "energyinputhatch_ultimate",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "industrialforegoing",
+      "name": "infinity_trident",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "integrateddynamics",
+      "name": "energy_battery_creative",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "mekanism",
+      "name": "basic_universal_cable",
+      "type": "other"
+    }
+  ],
+  "paxelItems": [
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagradditions",
+      "name": "awakened_supremium_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "refined_glowstone_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "refined_obsidian_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "netherite_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "osmium_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 3,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "diamond_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 2,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "gold_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "alloy_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "silentgear",
+      "name": "paxel_head",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "silentgear",
+      "name": "paxel_blueprint",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mysticalagradditions",
+      "name": "tertium_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mysticalagradditions",
+      "name": "supremium_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mysticalagradditions",
+      "name": "prudentium_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mysticalagradditions",
+      "name": "inferium_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mysticalagradditions",
+      "name": "imperium_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "steel_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "silentgear",
+      "name": "paxel_template",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "lapis_lazuli_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "iron_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "bronze_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "justdirethings",
+      "name": "eclipsealloy_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "justdirethings",
+      "name": "celestigem_paxel",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "silentgear",
+      "name": "paxel",
+      "isTech": false
+    },
+    {
+      "tier": 0,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "stone_paxel",
+      "isTech": true
+    },
+    {
+      "tier": 0,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "wood_paxel",
+      "isTech": true
+    }
+  ],
+  "modDistribution": {
+    "framedblocks": 133,
+    "hyperbox": 1,
+    "entangled": 2,
+    "reliquary": 71,
+    "irons_spellbooks": 179,
+    "mekanism": 381,
+    "rftoolsbase": 17,
+    "ironjetpacks": 9,
+    "mahoutsukai": 86,
+    "explorerscompass": 1,
+    "mcwdoors": 14,
+    "minecraft": 1029,
+    "allthecompressed": 1542,
+    "merrymaking": 209,
+    "minecolonies": 220,
+    "mffs": 44,
+    "productivemetalworks": 107,
+    "mekanismgenerators": 33,
+    "tiab": 1,
+    "forbidden_arcanus": 188,
+    "toolbelt": 2,
+    "laserbridges": 1,
+    "guideme": 1,
+    "shrink": 2,
+    "trashcans": 4,
+    "ars_scalaes": 1,
+    "dummmmmmy": 1,
+    "dimstorage": 5,
+    "integratedscripting": 4,
+    "connectedglass": 119,
+    "mcwtrpdoors": 12,
+    "allthearcanistgear": 20,
+    "ftbquests": 13,
+    "theurgy": 375,
+    "everythingcopper": 90,
+    "ars_additions": 44,
+    "mcwfurnitures": 521,
+    "undergarden": 209,
+    "endermanoverhaul": 35,
+    "compactmachines": 6,
+    "apothic_enchanting": 43,
+    "mysticalagradditions": 53,
+    "mcwfences": 12,
+    "glassential": 17,
+    "cookingforblockheads": 146,
+    "variantsandventures": 4,
+    "disenchanting_table": 1,
+    "zerocore": 1,
+    "sophisticatedcore": 1,
+    "allthetweaks": 21,
+    "fireproofboats": 4,
+    "artifacts": 49,
+    "mekanismcovers": 2,
+    "easy_villagers": 9,
+    "modern_industrialization": 843,
+    "integrateddynamics": 63,
+    "toomanyglyphs": 14,
+    "herbsandharvest": 225,
+    "pamhc2crops": 222,
+    "charginggadgets": 1,
+    "aeinfinitybooster": 2,
+    "chisel": 1,
+    "ae2wtlib": 5,
+    "rangedpumps": 1,
+    "rechiseled": 933,
+    "moonlight": 1,
+    "bigreactors": 114,
+    "amendments": 1,
+    "advanced_ae": 60,
+    "enderio": 946,
+    "livingthings": 38,
+    "restrictions": 4,
+    "enderstorage": 3,
+    "securitycraft": 416,
+    "mcwholidays": 272,
+    "dyenamics": 234,
+    "computercraft": 22,
+    "cataclysm": 161,
+    "biomeswevegone": 514,
+    "appmek": 12,
+    "mcwlights": 47,
+    "storagedelight": 44,
+    "xtonesreworked": 545,
+    "silentgear": 289,
+    "regions_unexplored": 420,
+    "chipped": 4311,
+    "pocketstorage": 4,
+    "modonomicon": 6,
+    "modular_machinery_reborn": 77,
+    "productivelib": 15,
+    "mcwbridges": 127,
+    "rftoolspower": 21,
+    "appflux": 34,
+    "eternal_starlight": 519,
+    "pipez": 12,
+    "productivebees": 259,
+    "allthemodium": 133,
+    "deeperdarker": 106,
+    "ironfurnaces": 43,
+    "xycraft_machines": 93,
+    "irons_jewelry": 11,
+    "naturescompass": 1,
+    "farmersdelight": 143,
+    "constructionstick": 10,
+    "twilightforest": 447,
+    "patchouli": 1,
+    "sawmill": 1,
+    "ars_nouveau": 354,
+    "crystalix": 49,
+    "handcrafted": 239,
+    "mifa": 19,
+    "productivetrees": 1659,
+    "integratedtunnels": 22,
+    "mekanismtools": 72,
+    "alltheores": 358,
+    "justdirethings": 186,
+    "cloudglass": 16,
+    "luminax": 204,
+    "laserio": 20,
+    "integratedterminals": 5,
+    "pamhc2trees": 156,
+    "kubejs": 91,
+    "occultism": 208,
+    "industrialforegoing": 141,
+    "elevatorid": 16,
+    "additional_lights": 39,
+    "pneumaticcraft": 264,
+    "not_enough_glyphs": 7,
+    "wstweaks": 3,
+    "cobblegengalore": 7,
+    "stevescarts": 191,
+    "bibliocraft": 10019,
+    "xycraft_override": 52,
+    "refurbished_furniture": 423,
+    "industrialforegoingsouls": 3,
+    "hostilenetworks": 11,
+    "multipiston": 1,
+    "arseng": 16,
+    "trophymanager": 1,
+    "powah": 137,
+    "structurize": 9,
+    "solcarrot": 1,
+    "rootsclassic": 60,
+    "sophisticatedstorageinmotion": 2,
+    "allthewizardgear": 15,
+    "ftblibrary": 1,
+    "farmingforblockheads": 11,
+    "fluxnetworks": 11,
+    "crafting_on_a_stick": 9,
+    "redstonepen": 14,
+    "pylons": 8,
+    "aquaculture": 123,
+    "ae2importexportcard": 2,
+    "generatorgalore": 53,
+    "xycraft_core": 1,
+    "xnet": 25,
+    "xycraft_world": 186,
+    "moderndynamics": 14,
+    "supplementaries": 177,
+    "sophisticatedbackpacks": 57,
+    "arsomega": 8,
+    "itemcollectors": 2,
+    "gmut": 1,
+    "ars_elemental": 112,
+    "apotheosis": 20,
+    "the_bumblezone": 145,
+    "pamhc2foodcore": 202,
+    "creeperoverhaul": 17,
+    "actuallyadditions": 195,
+    "quarryplus": 19,
+    "mob_grinding_utils": 46,
+    "simplemagnets": 4,
+    "modular_machinery_reborn_mekanism": 16,
+    "waystones": 48,
+    "megacells": 102,
+    "railcraft": 488,
+    "factory_blocks": 49,
+    "buildinggadgets2": 8,
+    "mininggadgets": 29,
+    "modular_machinery_reborn_ars": 16,
+    "comforts": 33,
+    "merequester": 2,
+    "potionsmaster": 50,
+    "evilcraft": 124,
+    "extendedae": 69,
+    "domum_ornamentum": 79,
+    "akashictome": 1,
+    "integratedcrafting": 2,
+    "modularrouters": 52,
+    "extended_industrialization": 91,
+    "wirelesschargers": 4,
+    "utilitarian": 47,
+    "pamhc2foodextended": 871,
+    "naturesaura": 133,
+    "ae2netanalyser": 1,
+    "rarcompat": 1,
+    "relics": 32,
+    "mysticalagriculture": 592,
+    "functionalstorage": 66,
+    "mcwroofs": 51,
+    "torchmaster": 2,
+    "ae2": 329,
+    "sfm": 10,
+    "mcwpaths": 130,
+    "immersiveengineering": 493,
+    "tombstone": 83,
+    "sushigocrafting": 70,
+    "mcwstairs": 84,
+    "measurements": 1,
+    "mcwwindows": 182,
+    "treetap": 1,
+    "bhc": 25,
+    "ftbfiltersystem": 1,
+    "morered": 33,
+    "immeng": 4,
+    "sophisticatedstorage": 110,
+    "lootr": 6,
+    "rftoolsbuilder": 35,
+    "simplylight": 112
+  },
+  "magicItems": [
+    {
+      "tier": 10,
+      "mod": "mysticalagriculture",
+      "name": "creative_soulium_dagger",
+      "type": "weapon"
+    },
+    {
+      "tier": 10,
+      "mod": "evilcraft",
+      "name": "creative_blood_drop",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "ars_nouveau",
+      "name": "creative_spell_book",
+      "type": "other"
+    },
+    {
+      "tier": 10,
+      "mod": "ars_nouveau",
+      "name": "creative_source_jar",
+      "type": "other"
+    },
+    {
+      "tier": 9,
+      "mod": "forbidden_arcanus",
+      "name": "stellarite_block",
+      "type": "other"
+    },
+    {
+      "tier": 9,
+      "mod": "forbidden_arcanus",
+      "name": "stellarite_piece",
+      "type": "other"
+    },
+    {
+      "tier": 9,
+      "mod": "occultism",
+      "name": "awakened_feather",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "black_allthemodium_soul_tall_seat_back",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_display_case",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_fancy_seat_back",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_flat_seat_back",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_raised_seat_back",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_small_seat_back",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_grandfather_clock",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_tall_seat_back",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_label",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_potion_shelf",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_shelf",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_table",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "white_allthemodium_soul_seat",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_fancy_crafter",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "magenta_allthemodium_soul_display_case",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "allthemodium_soul_fancy_armor_stand",
+      "type": "armor"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "black_allthemodium_soul_seat",
+      "type": "other"
+    },
+    {
+      "tier": 6,
+      "mod": "bibliocraft",
+      "name": "magenta_allthemodium_soul_fancy_seat_back",
+      "type": "other"
+    }
+  ],
+  "pickaxeItems": [
+    {
+      "tier": 9,
+      "isMagic": false,
+      "mod": "mysticalagriculture",
+      "name": "awakened_supremium_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 8,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "unobtainium_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 7,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "vibranium_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 6,
+      "isMagic": false,
+      "mod": "allthemodium",
+      "name": "allthemodium_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "refined_glowstone_pickaxe",
+      "isTech": true
+    },
+    {
+      "tier": 5,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "refined_obsidian_pickaxe",
+      "isTech": true
+    },
+    {
+      "tier": 5,
+      "isMagic": true,
+      "mod": "forbidden_arcanus",
+      "name": "reinforced_deorum_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "minecraft",
+      "name": "netherite_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 4,
+      "isMagic": false,
+      "mod": "mekanismtools",
+      "name": "osmium_pickaxe",
+      "isTech": true
+    },
+    {
+      "tier": 3,
+      "isMagic": false,
+      "mod": "ae2",
+      "name": "certus_quartz_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 3,
+      "isMagic": false,
+      "mod": "ae2",
+      "name": "nether_quartz_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 3,
+      "isMagic": false,
+      "mod": "minecraft",
+      "name": "diamond_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 2,
+      "isMagic": false,
+      "mod": "eternal_starlight",
+      "name": "swamp_silver_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 2,
+      "isMagic": false,
+      "mod": "justdirethings",
+      "name": "blazegold_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 2,
+      "isMagic": false,
+      "mod": "minecraft",
+      "name": "golden_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "pamhc2foodextended",
+      "name": "sweetpickleitem",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "rootsclassic",
+      "name": "living_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "silentgear",
+      "name": "pickaxe_blueprint",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "railcraft",
+      "name": "steel_pickaxe",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "actuallyadditions",
+      "name": "lens_of_the_miner",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "pamhc2foodextended",
+      "name": "hamsweetpicklesandwichitem",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "pamhc2foodextended",
+      "name": "pickledonionsitem",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": false,
+      "mod": "pamhc2foodcore",
+      "name": "pickledbeetsitem",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": true,
+      "mod": "occultism",
+      "name": "spirit_attuned_pickaxe_head",
+      "isTech": false
+    },
+    {
+      "tier": 1,
+      "isMagic": true,
+      "mod": "occultism",
+      "name": "miner_marid_master",
+      "isTech": false
+    }
+  ],
+  "summary": {
+    "toolItems": {
+      "hoes": 86,
+      "shears": 29,
+      "paxels": 25,
+      "shovels": 63,
+      "pickaxes": 104,
+      "total": 477,
+      "axes": 170
+    },
+    "otherItems": 38348,
+    "totalItems": 40229,
+    "weaponItems": 491,
+    "techItems": 2810,
+    "armorItems": 913,
+    "magicItems": 2099
+  }
+}

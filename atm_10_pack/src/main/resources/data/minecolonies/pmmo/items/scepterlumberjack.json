@@ -71,9 +71,10 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "woodcutting": 0,
       "mining": 0,
-      "excavation": 0
+      "excavation": 0,
+      "smithing": 50,
+      "woodcutting": 50
     },
     "WEAPON": {},
     "PLACE": {},
@@ -81,6 +82,9 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 50,
+      "woodcutting": 50
+    }
   }
 }

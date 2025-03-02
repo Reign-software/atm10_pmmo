@@ -70,7 +70,10 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "farming": 50,
+      "smithing": 50
+    },
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {},
@@ -79,6 +82,9 @@
       "endurance": 1
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "farming": 50,
+      "smithing": 50
+    }
   }
 }

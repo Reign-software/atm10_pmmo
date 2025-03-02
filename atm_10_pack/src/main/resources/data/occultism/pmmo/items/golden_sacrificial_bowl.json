@@ -73,12 +73,20 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {},
-    "WEAPON": {},
+    "WEAPON": {
+      "magic": 100,
+      "archery": 100,
+      "smithing": 100
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "magic": 100,
+      "archery": 100,
+      "smithing": 100
+    }
   }
 }

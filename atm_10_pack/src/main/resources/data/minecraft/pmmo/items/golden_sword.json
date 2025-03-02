@@ -97,7 +97,8 @@
       "combat": 10
     },
     "WEAPON": {
-      "combat": 10
+      "smithing": 100,
+      "combat": 100
     },
     "PLACE": {},
     "BREAK": {},
@@ -106,6 +107,9 @@
       "combat": 10
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 100,
+      "combat": 100
+    }
   }
 }

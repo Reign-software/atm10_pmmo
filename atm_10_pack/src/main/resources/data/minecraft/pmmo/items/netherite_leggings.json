@@ -27,7 +27,7 @@
       "baseChance": 0.0,
       "maxChance": 0.3,
       "chancePerLevel": {
-        "smithing": 5.0E-4
+        "smithing": 0.0005
       },
       "levelReq": {
         "smithing": 50
@@ -111,9 +111,13 @@
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "endurance": 90
+      "endurance": 200,
+      "smithing": 200
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "endurance": 200,
+      "smithing": 200
+    }
   }
 }

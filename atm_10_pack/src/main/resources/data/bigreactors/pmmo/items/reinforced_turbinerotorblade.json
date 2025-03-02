@@ -77,7 +77,9 @@
       "technology": 200
     },
     "WEAPON": {
-      "technology": 200
+      "technology": 200,
+      "smithing": 250,
+      "combat": 250
     },
     "PLACE": {
       "technology": 500
@@ -91,7 +93,9 @@
       "technology": 200
     },
     "USE": {
-      "technology": 200
+      "technology": 200,
+      "smithing": 250,
+      "combat": 250
     }
   }
 }

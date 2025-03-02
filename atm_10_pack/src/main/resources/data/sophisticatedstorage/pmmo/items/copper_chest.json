@@ -85,13 +85,17 @@
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "technology": 40
+      "technology": 40,
+      "endurance": 50,
+      "smithing": 50
     },
     "INTERACT": {
       "technology": 40
     },
     "USE": {
-      "technology": 40
+      "technology": 40,
+      "endurance": 50,
+      "smithing": 50
     }
   }
 }

@@ -70,13 +70,21 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "magic": 50,
+      "smithing": 50,
+      "mining": 50
+    },
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "magic": 50,
+      "smithing": 50,
+      "mining": 50
+    }
   }
 }

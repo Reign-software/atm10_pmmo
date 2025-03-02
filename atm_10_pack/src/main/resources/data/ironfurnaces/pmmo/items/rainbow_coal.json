@@ -75,7 +75,9 @@
       "technology": 160
     },
     "WEAPON": {
-      "technology": 160
+      "technology": 160,
+      "smithing": 50,
+      "archery": 50
     },
     "PLACE": {
       "technology": 160
@@ -89,7 +91,9 @@
       "technology": 160
     },
     "USE": {
-      "technology": 160
+      "technology": 160,
+      "smithing": 50,
+      "archery": 50
     }
   }
 }

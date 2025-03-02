@@ -75,8 +75,16 @@
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "smithing": 100,
+      "endurance": 100,
+      "technology": 100
+    },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 100,
+      "endurance": 100,
+      "technology": 100
+    }
   }
 }

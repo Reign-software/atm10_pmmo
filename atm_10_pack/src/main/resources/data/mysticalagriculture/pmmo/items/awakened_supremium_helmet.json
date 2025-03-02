@@ -78,9 +78,13 @@
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "endurance": 1
+      "endurance": 450,
+      "smithing": 450
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "endurance": 450,
+      "smithing": 450
+    }
   }
 }

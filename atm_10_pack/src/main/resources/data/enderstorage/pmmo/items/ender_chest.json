@@ -79,8 +79,14 @@
       "mining": 10
     },
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "endurance": 50,
+      "smithing": 50
+    },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "endurance": 50,
+      "smithing": 50
+    }
   }
 }

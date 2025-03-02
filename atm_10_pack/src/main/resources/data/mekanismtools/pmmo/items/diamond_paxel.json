@@ -73,7 +73,9 @@
     "TOOL": {
       "mining": 150,
       "woodcutting": 150,
-      "excavation": 150
+      "excavation": 150,
+      "technology": 150,
+      "smithing": 150
     },
     "WEAPON": {
       "combat": 150
@@ -87,6 +89,12 @@
       "excavation": 150
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "technology": 150,
+      "excavation": 150,
+      "smithing": 150,
+      "woodcutting": 150,
+      "mining": 150
+    }
   }
 }

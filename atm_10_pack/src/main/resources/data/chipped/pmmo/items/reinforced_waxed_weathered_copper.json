@@ -72,13 +72,19 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "smithing": 250,
+      "woodcutting": 250
+    },
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 250,
+      "woodcutting": 250
+    }
   }
 }

@@ -80,8 +80,16 @@
       "mining": 400
     },
     "USE_ENCHANTMENT": {},
-    "WEAR": {},
+    "WEAR": {
+      "magic": 300,
+      "smithing": 300,
+      "endurance": 300
+    },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "magic": 300,
+      "smithing": 300,
+      "endurance": 300
+    }
   }
 }

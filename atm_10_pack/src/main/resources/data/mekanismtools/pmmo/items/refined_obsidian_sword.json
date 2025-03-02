@@ -76,7 +76,9 @@
       "farming": 145
     },
     "WEAPON": {
-      "combat": 138
+      "combat": 250,
+      "smithing": 250,
+      "technology": 250
     },
     "PLACE": {},
     "BREAK": {},
@@ -85,6 +87,10 @@
       "combat": 138
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "combat": 250,
+      "smithing": 250,
+      "technology": 250
+    }
   }
 }

@@ -73,7 +73,9 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "excavation": 60
+      "smithing": 200,
+      "excavation": 200,
+      "technology": 200
     },
     "WEAPON": {
       "combat": 65
@@ -85,6 +87,10 @@
       "excavation": 60
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 200,
+      "excavation": 200,
+      "technology": 200
+    }
   }
 }

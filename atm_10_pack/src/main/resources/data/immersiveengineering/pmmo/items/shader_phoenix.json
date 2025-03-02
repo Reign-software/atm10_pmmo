@@ -72,7 +72,9 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "technology": 320
+      "technology": 320,
+      "smithing": 50,
+      "farming": 50
     },
     "WEAPON": {
       "technology": 320
@@ -89,7 +91,9 @@
       "technology": 320
     },
     "USE": {
-      "technology": 320
+      "technology": 320,
+      "smithing": 50,
+      "farming": 50
     }
   }
 }

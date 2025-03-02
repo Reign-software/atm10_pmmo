@@ -73,12 +73,18 @@
     "TOOL": {
       "farming": 35
     },
-    "WEAPON": {},
+    "WEAPON": {
+      "smithing": 50,
+      "combat": 50
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 50,
+      "combat": 50
+    }
   }
 }

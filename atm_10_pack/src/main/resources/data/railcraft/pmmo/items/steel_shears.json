@@ -91,7 +91,8 @@
       "technology": 160
     },
     "USE": {
-      "technology": 160
+      "technology": 160,
+      "smithing": 50
     }
   }
 }

@@ -75,7 +75,10 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {},
-    "WEAPON": {},
+    "WEAPON": {
+      "smithing": 150,
+      "combat": 150
+    },
     "PLACE": {
       "technology": 150
     },
@@ -85,6 +88,9 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 150,
+      "combat": 150
+    }
   }
 }

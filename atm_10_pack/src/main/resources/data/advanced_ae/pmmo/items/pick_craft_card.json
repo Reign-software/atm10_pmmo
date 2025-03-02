@@ -71,7 +71,10 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "mining": 50,
+      "smithing": 50
+    },
     "WEAPON": {},
     "PLACE": {
       "technology": 300
@@ -82,6 +85,9 @@
     "INTERACT": {
       "technology": 200
     },
-    "USE": {}
+    "USE": {
+      "mining": 50,
+      "smithing": 50
+    }
   }
 }

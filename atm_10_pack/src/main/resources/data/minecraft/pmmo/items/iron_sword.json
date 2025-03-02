@@ -95,7 +95,8 @@
       "combat": 75
     },
     "WEAPON": {
-      "combat": 75
+      "combat": 75,
+      "smithing": 50
     },
     "PLACE": {},
     "BREAK": {},
@@ -104,6 +105,9 @@
       "combat": 75
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 50,
+      "combat": 50
+    }
   }
 }

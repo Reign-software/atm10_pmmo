@@ -75,7 +75,9 @@
       "technology": 40
     },
     "WEAPON": {
-      "technology": 40
+      "combat": 50,
+      "smithing": 50,
+      "technology": 50
     },
     "PLACE": {
       "technology": 90
@@ -89,7 +91,9 @@
       "technology": 40
     },
     "USE": {
-      "technology": 40
+      "combat": 50,
+      "smithing": 50,
+      "technology": 50
     }
   }
 }

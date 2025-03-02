@@ -70,13 +70,25 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 200,
+      "excavation": 200,
+      "smithing": 200,
+      "woodcutting": 200,
+      "mining": 200
+    },
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "technology": 200,
+      "excavation": 200,
+      "smithing": 200,
+      "woodcutting": 200,
+      "mining": 200
+    }
   }
 }

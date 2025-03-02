@@ -73,7 +73,8 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {
-      "archery": 300
+      "archery": 300,
+      "smithing": 300
     },
     "PLACE": {},
     "BREAK": {
@@ -84,6 +85,9 @@
       "archery": 300
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "smithing": 300,
+      "archery": 300
+    }
   }
 }

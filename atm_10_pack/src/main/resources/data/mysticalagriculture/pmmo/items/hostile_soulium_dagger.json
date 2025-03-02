@@ -76,7 +76,9 @@
       "farming": 58
     },
     "WEAPON": {
-      "combat": 48
+      "magic": 50,
+      "combat": 50,
+      "smithing": 50
     },
     "PLACE": {},
     "BREAK": {},
@@ -85,6 +87,10 @@
       "combat": 48
     },
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "magic": 50,
+      "combat": 50,
+      "smithing": 50
+    }
   }
 }
