@@ -57,7 +57,7 @@
     },
     "CRAFT": {
       "crafting": 10,
-      "technology": 100
+      "technology": 4000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
