@@ -1,8 +1,9 @@
 # Enhanced PowerShell script to modify mining ore JSON files for PMMO
 $rootPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data"
 
-# Define mod folders to check (add more as needed)
+# Define mod folders to check - expanded list based on UnknownOreSuggestions
 $modFolders = @(
+    # Original mods
     "minecraft",
     "mekanism",
     "thermal",
@@ -26,7 +27,35 @@ $modFolders = @(
     "undergarden",
     "beyond_earth",
     "mysticalagriculture",
-    "rftools"
+    "rftools",
+    
+    # Added mods from UnknownOreSuggestions
+    "integrateddynamics",
+    "ironfurnaces",
+    "irons_spellbooks",
+    "mcwpaths",
+    "luminax",
+    "modern_industrialization",
+    "evilcraft",
+    "eternal_starlight",
+    "extendedae",
+    "forbidden_arcanus",
+    "factory_blocks",
+    "herbsandharvest",
+    "rechiseled",
+    "railcraft",
+    "productivetrees",
+    "productivebees",
+    "securitycraft",
+    "xycraft_world",
+    "theurgy",
+    "the_bumblezone",
+    "stevescarts",
+    "supplementaries",
+    "mysticalagradditions",
+    "occultism",
+    "justdirethings",
+    "cataclysm"
 )
 
 # Auto-discover all mod folders if possible
