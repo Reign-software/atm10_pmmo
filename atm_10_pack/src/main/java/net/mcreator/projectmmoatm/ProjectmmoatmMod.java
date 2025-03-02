@@ -10,6 +10,7 @@ import net.neoforged.neoforge.event.tick.ServerTickEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.fml.util.thread.SidedThreadGroups;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.ModList;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.IEventBus;
 
@@ -32,10 +33,21 @@ public class ProjectmmoatmMod {
 
 	public ProjectmmoatmMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
+		LOGGER.info("Initializing Project MMO ATM10 Integration");
+		// Note: Config is now managed by Jade itself
+		// Check if Jade is loaded
+		if (ModList.get().isLoaded("jade")) {
+			LOGGER.info("Jade is loaded, registering PMMO integration");
+		}
+		// Check if PMMO is loaded
+		if (ModList.get().isLoaded("pmmo")) {
+			LOGGER.info("PMMO is loaded, integration available");
+		} else {
+			LOGGER.warn("PMMO is not loaded! Integration will not function.");
+		}
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

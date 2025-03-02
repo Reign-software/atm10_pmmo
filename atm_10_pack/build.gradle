@@ -33,14 +33,25 @@ neoForge {
     }
 
     mods {
-        testproject {
+        "${mod_id}" {
             sourceSet sourceSets.main
         }
     }
 }
 
+repositories {
+  maven {
+    url "https://www.cursemaven.com"
+    content {
+      includeGroup "curse.maven"
+    }
+  }
+}
+
 dependencies {
     implementation 'org.apache.commons:commons-compress:1.21'
+    implementation "curse.maven:jade-324717:6198776"
+    implementation "curse.maven:projectmmo-353935:6234464"
 }
 
 tasks.withType(JavaCompile).configureEach {
