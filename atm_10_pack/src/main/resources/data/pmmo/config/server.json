@@ -90,7 +90,7 @@
     "power_base": 1.01,
     "ratios": {
       "minecraft:generic.movement_speed": {
-        "agility": 0.001
+        "agility": 0.0001
       },
       "minecraft:generic.max_health": {
         "combat": 0.01
