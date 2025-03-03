@@ -11,7 +11,7 @@
     },
     "entity_xp": {
       "ENTITY": {
-        "charisma": 1
+        "charisma": 20
       },
       "SHIELD_BLOCK": {
         "combat": 1
@@ -20,13 +20,13 @@
         "taming": 1
       },
       "DEATH": {
-        "endurance": 1
+        "endurance": 50
       },
       "TAMING": {
-        "taming": 1
+        "taming": 100
       },
       "BREED": {
-        "taming": 1
+        "taming": 30
       }
     },
     "rarities_multiplier": 10.0,
@@ -67,10 +67,10 @@
   },
   "requirements": {
     "axe_override": {
-      "woodcutting": 1
+      "woodcutting": 5
     },
     "hoe_override": {
-      "farming": 1
+      "farming": 50
     },
     "penalties": {
       "minecraft:weakness": 1,

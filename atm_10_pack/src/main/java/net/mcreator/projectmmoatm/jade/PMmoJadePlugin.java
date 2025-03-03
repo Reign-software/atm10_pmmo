@@ -3,6 +3,7 @@ package net.mcreator.projectmmoatm.jade;
 import harmonised.pmmo.api.APIUtils;
 import harmonised.pmmo.api.enums.EventType;
 import harmonised.pmmo.api.enums.ReqType;
+import harmonised.pmmo.config.Config;
 import net.mcreator.projectmmoatm.ProjectmmoatmMod;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -19,6 +20,8 @@ import snownee.jade.api.IWailaClientRegistration;
 import snownee.jade.api.IWailaPlugin;
 import snownee.jade.api.WailaPlugin;
 import snownee.jade.api.config.IPluginConfig;
+import snownee.jade.api.ui.IElement;
+import snownee.jade.api.ui.IElementHelper;
 
 import java.text.DecimalFormat;
 import java.util.Map;
@@ -53,7 +56,7 @@ public class PMmoJadePlugin implements IWailaPlugin {
             Level level = accessor.getLevel();
             BlockPos pos = accessor.getPosition();
             BlockState state = accessor.getBlockState();
-
+            
             // Skip if we can't get proper data
             if (player == null || level == null || pos == null || state == null) {
                 return;
@@ -64,33 +67,48 @@ public class PMmoJadePlugin implements IWailaPlugin {
                 Map<String, Long> breakReqs = APIUtils.getRequirementMap(pos, level, ReqType.BREAK);
                 Map<String, Long> interactReqs = APIUtils.getRequirementMap(pos, level, ReqType.INTERACT);
                 Map<String, Long> breakXp = APIUtils.getXpAwardMap(level, pos, EventType.BLOCK_BREAK, player);
+                boolean breakhasNonZeroRequirements = breakReqs.values().stream().anyMatch(l -> l > 0);
+                boolean interacthasNonZeroRequirements = interactReqs.values().stream().anyMatch(l -> l > 0);
                 
                 // Only show tooltip if we have data to display
-                if (!breakReqs.isEmpty() || !interactReqs.isEmpty() || !breakXp.isEmpty()) {
+                if ((!breakReqs.isEmpty() && breakhasNonZeroRequirements) || (!interactReqs.isEmpty() && interacthasNonZeroRequirements)) {
                     tooltip.add(Component.empty());
                     tooltip.add(Component.translatable("pmmo.jade.requirements").withStyle(ChatFormatting.GOLD, ChatFormatting.BOLD));
                 }
 
                 // Display break requirements with player's current levels
-                if (!breakReqs.isEmpty()) {
+                if (!breakReqs.isEmpty() && breakhasNonZeroRequirements) {
+
                     tooltip.add(Component.translatable("pmmo.jade.break_requirements").withStyle(ChatFormatting.YELLOW));
                     
                     for (Map.Entry<String, Long> entry : breakReqs.entrySet()) {
                         String skillName = entry.getKey();
                         long reqLevel = entry.getValue();
+                        
+                        // Skip skills with 0 requirements
+                        if (reqLevel <= 0) continue;
+                        
                         long playerLevel = APIUtils.getLevel(skillName, player);
-                        
+                        var skillConfig = Config.skills().get(skillName);
                         ChatFormatting color = playerLevel >= reqLevel ? ChatFormatting.GREEN : ChatFormatting.RED;
-                        Component skillComponent = Component.translatable("pmmo."+skillName).withStyle(color);
-                        
-                        tooltip.add(Component.literal("  ")
-                                .append(skillComponent)
-                                .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
+
+                        if (skillConfig != null && skillConfig.getIcon() != null) {
+                            Component skillComponent = Component.translatable("pmmo." + skillName).withColor(skillConfig.getColor());
+                            tooltip.add(Component.literal("  ")
+                                            .append(skillComponent).withStyle(color)
+                                            .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
+                        }
+                        else {
+                            Component skillComponent = Component.translatable("pmmo." + skillName);
+                            tooltip.add(Component.literal("  ")
+                                            .append(skillComponent).withStyle(color)
+                                            .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
+                        }
                     }
                 }
                 
                 // Display interact requirements with player's current levels
-                if (!interactReqs.isEmpty()) {
+                if (!interactReqs.isEmpty() && interacthasNonZeroRequirements) {
                     tooltip.add(Component.translatable("pmmo.jade.interact_requirements").withStyle(ChatFormatting.YELLOW));
                     
                     for (Map.Entry<String, Long> entry : interactReqs.entrySet()) {
@@ -98,34 +116,59 @@ public class PMmoJadePlugin implements IWailaPlugin {
                         long reqLevel = entry.getValue();
                         long playerLevel = APIUtils.getLevel(skillName, player);
                         
+                        var skillConfig = Config.skills().get(skillName);
                         ChatFormatting color = playerLevel >= reqLevel ? ChatFormatting.GREEN : ChatFormatting.RED;
-                        Component skillComponent = Component.translatable("pmmo."+skillName).withStyle(color);
                         
-                        tooltip.add(Component.literal("  ")
-                                .append(skillComponent)
-                                .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
+                        
+                        if (skillConfig != null && skillConfig.getIcon() != null) {
+                            Component skillComponent = Component.translatable("pmmo." + skillName).withColor(skillConfig.getColor());
+                            tooltip.add(Component.literal("  ")
+                                                    .append(skillComponent).withStyle(color)
+                                                    .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
+                        }
+                        else
+                        {
+                            Component skillComponent = Component.translatable("pmmo."+skillName);
+                            tooltip.add(Component.literal("  ")
+                                                    .append(skillComponent).withStyle(color)
+                                                    .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
+                        }
                     }
                 }
                 
                 // Display XP rewards
                 if (!breakXp.isEmpty()) {
-                    tooltip.add(Component.translatable("pmmo.jade.break_xp").withStyle(ChatFormatting.AQUA));
-                    
-                    breakXp.entrySet().stream()
-                        .sorted(Map.Entry.<String, Long>comparingByValue().reversed())
-                        .forEach(entry -> {
-                            String skillName = entry.getKey();
-                            long xpValue = entry.getValue();
-                            
-                            if (xpValue > 0) {
-                                Component skillComponent = Component.translatable("pmmo."+skillName)
-                                        .withStyle(ChatFormatting.GREEN);
+
+                    boolean hasNonZeroRequirements = breakXp.values().stream().anyMatch(l -> l > 0);
+
+                    if (hasNonZeroRequirements) {
+                        tooltip.add(Component.translatable("pmmo.jade.break_xp").withStyle(ChatFormatting.AQUA));
+                        
+                        breakXp.entrySet().stream()
+                            .sorted(Map.Entry.<String, Long>comparingByValue().reversed())
+                            .forEach(entry -> {
+                                String skillName = entry.getKey();
+                                long xpValue = entry.getValue();
+                                var skillConfig = Config.skills().get(skillName);
                                 
-                                tooltip.add(Component.literal("  ")
-                                        .append(skillComponent)
-                                        .append(Component.literal(": " + formatXp(xpValue)).withStyle(ChatFormatting.WHITE)));
-                            }
-                        });
+                                if (xpValue > 0) {
+                                    
+                                    if (skillConfig != null && skillConfig.getIcon() != null) {
+                                        Component skillComponent = Component.translatable("pmmo." + skillName).withColor(skillConfig.getColor());
+                                        tooltip.add(Component.literal("  ")
+                                                                .append(skillComponent)
+                                                                .append(Component.literal(": " + formatXp(xpValue)).withStyle(ChatFormatting.GREEN)));
+                                    }
+                                    else
+                                    {
+                                        Component skillComponent = Component.translatable("pmmo."+skillName).withStyle(ChatFormatting.WHITE);
+                                        tooltip.add(Component.literal("  ")
+                                                                .append(skillComponent)
+                                                                .append(Component.literal(": " + formatXp(xpValue)).withStyle(ChatFormatting.GREEN)));
+                                    }
+                                }
+                            });
+                    }
                 }
             }
             catch (Exception e) {

@@ -99,7 +99,7 @@
         "combat": 1.001
       }
     },
-    "enabled": false,
+    "enabled": true,
     "scaling_aoe": 150,
     "base_level": 0,
     "boss_scaling": 1.1
@@ -111,7 +111,7 @@
       "silentgear:saw"
     ],
     "enabled": false,
-    "require_settings": false
+    "require_settings": true
   },
   "general": {
     "creative_reach": 50.0,
