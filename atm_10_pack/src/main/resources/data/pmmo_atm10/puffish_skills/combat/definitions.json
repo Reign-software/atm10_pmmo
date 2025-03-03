@@ -1,0 +1,1237 @@
+{
+	"health+2": {
+		"title": "Heartbound Fortitude",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
+		"metadata": {
+			"icon": "gjjbgp8eiwr7iv1k"
+		}
+	},
+	"health+4": {
+		"title": "Warrior's Resilience",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Harness battle-hardened vitality to increase maximum health by 2 hearts, significantly improving your survival in dangerous encounters.",
+		"metadata": {
+			"icon": "r1j2tvuc4vh1066x"
+		}
+	},
+	"armor+1": {
+		"title": "Iron Guardian's Protection",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Enhance your natural defenses, gaining +1 armor point regardless of equipment worn. Your skin toughens against physical harm.",
+		"metadata": {
+			"icon": "2844lyhuk88w79d9"
+		}
+	},
+	"armor+2": {
+		"title": "Diamond Sentinel's Bulwark",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master defensive techniques that grant +2 armor points, significantly reducing incoming damage even from powerful foes.",
+		"metadata": {
+			"icon": "icib6g3ivx64bk30"
+		}
+	},
+	"armor_toughness+1": {
+		"title": "Netherite Endurance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop supernatural fortitude granting +1 armor toughness, making your defenses more effective against powerful attacks.",
+		"metadata": {
+			"icon": "b8mjm5g8gbva7dgj"
+		}
+	},
+	"knockback_resistance+10%": {
+		"title": "Immovable Mountain Stance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Root yourself like a mountain, gaining 10% resistance to being knocked back by enemy attacks and explosions.",
+		"metadata": {
+			"icon": "7iqxcc49z41bdvk3"
+		}
+	},
+	"attack_damage+5%": {
+		"title": "Iron Striker's Might",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Channel combat training to increase all attack damage by 5%, finding weak points in your enemies' defenses.",
+		"metadata": {
+			"icon": "9o1zi70o6wmnbf43"
+		}
+	},
+	"attack_damage+10%": {
+		"title": "Diamond Slayer's Fury",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master devastating combat techniques that increase all attack damage by 10%, making each strike significantly more lethal.",
+		"metadata": {
+			"icon": "0l4mwjnjtr0qhfnk"
+		}
+	},
+	"attack_speed+5%": {
+		"title": "Golden Duelist's Swiftness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Adopt agile fighting techniques that increase attack speed by 5%, allowing you to strike enemies more frequently.",
+		"metadata": {
+			"icon": "b3qmayrbzazvbvhp"
+		}
+	},
+	"attack_speed+10%": {
+		"title": "Netherite Blade Dancer",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Move with supernatural dexterity, increasing attack speed by 10% to unleash a flurry of deadly blows against your enemies.",
+		"metadata": {
+			"icon": "kyzmz1iwyj3450yv"
+		}
+	},
+	"crit_chance+5%": {
+		"title": "Precise Weak Point Hunter",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop a keen eye for vulnerabilities, increasing your critical hit chance by 5% to strike where it hurts most.",
+		"metadata": {
+			"icon": "7dtxe5s706cqlj4z"
+		}
+	},
+	"crit_damage+10%": {
+		"title": "Emerald Executioner's Edge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "emerald"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master lethal striking techniques, increasing critical hit damage by 10% to deliver devastating finishing blows.",
+		"metadata": {
+			"icon": "ag4096rab0quzypf"
+		}
+	},
+	"life_steal+2%": {
+		"title": "Crimson Life Drinker",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ghast_tear"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:life_steal",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Infuse your strikes with vampiric energy, stealing 2% of damage dealt as health to sustain yourself in prolonged battles.",
+		"metadata": {
+			"icon": "ltwti8k36lpx83tc"
+		}
+	},
+	"movement_speed+5%": {
+		"title": "Wind Walker's Grace",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Harness the wind's essence to move 5% faster, improving battlefield mobility and exploration speed.",
+		"metadata": {
+			"icon": "og2m92a9dwqw4gzl"
+		}
+	},
+	"dodge_chance+3%": {
+		"title": "Phantom Sidestep",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Move with supernatural reflexes, gaining a 3% chance to completely avoid incoming attacks through quick maneuvering.",
+		"metadata": {
+			"icon": "3zo7ev6rnv2hjl8b"
+		}
+	},
+	"tank_specialization": {
+		"title": "Bulwark of the Immortal Fortress",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become a living fortress with +2 armor and +4 hearts, allowing you to endure tremendous punishment and protect your allies.",
+		"metadata": {
+			"icon": "igljjs0yo63q21xq"
+		}
+	},
+	"melee_specialization": {
+		"title": "Blade Sovereign's Wrath",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master the art of close combat, gaining 10% attack damage and 5% attack speed to become a fearsome frontline warrior.",
+		"metadata": {
+			"icon": "yrlyukwxn0a7bu1r"
+		}
+	},
+	"minor_health": {
+		"title": "Vitality Spark",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Awaken innate life energy, adding half a heart to your maximum health to better withstand injuries.",
+		"metadata": {
+			"icon": "ohhzufe62yfbg7ov"
+		}
+	},
+	"medium_health": {
+		"title": "Heart of Endurance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Strengthen your life force, adding one full heart to your maximum health for improved survival.",
+		"metadata": {
+			"icon": "ghqxnaogm958j84o"
+		}
+	},
+	"major_health": {
+		"title": "Soul of the Immortal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Greatly expand your life essence, adding two full hearts to significantly improve your chance of survival.",
+		"metadata": {
+			"icon": "y7yvn7ys2l2tb9m5"
+		}
+	},
+	"minor_armor": {
+		"title": "Hardened Skin",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Toughen your skin to gain +0.5 armor points, providing a small but helpful defense against physical attacks.",
+		"metadata": {
+			"icon": "ltmfllwq6yjgsl0w"
+		}
+	},
+	"medium_armor": {
+		"title": "Iron Flesh Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop resilient flesh that grants +1 armor point, noticeably reducing damage from enemy attacks.",
+		"metadata": {
+			"icon": "1cythxuq17aqnfc8"
+		}
+	},
+	"major_armor": {
+		"title": "Diamond Hide Defender",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Transform your body to gain +2 armor points, significantly reducing incoming damage from all sources.",
+		"metadata": {
+			"icon": "6nq6zgphx1m1zn6h"
+		}
+	},
+	"minor_toughness": {
+		"title": "Resolute Defense",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop resilience against powerful attacks, gaining +0.5 armor toughness to better withstand heavy blows.",
+		"metadata": {
+			"icon": "kd353m4eyu9adp3d"
+		}
+	},
+	"medium_toughness": {
+		"title": "Unyielding Bastion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master defensive techniques that grant +1 armor toughness, making your armor significantly more effective.",
+		"metadata": {
+			"icon": "pu0y22aqdvc3td3y"
+		}
+	},
+	"minor_knockback_res": {
+		"title": "Steadfast Footing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cobblestone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Plant your feet firmly to gain 3% knockback resistance, making you harder to displace in combat.",
+		"metadata": {
+			"icon": "o53vsddtb1znbw6m"
+		}
+	},
+	"medium_knockback_res": {
+		"title": "Mountain's Stance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become as immovable as a mountain with 5% knockback resistance, better withstanding powerful attacks.",
+		"metadata": {
+			"icon": "bxar36dclzsvjpzo"
+		}
+	},
+	"minor_dodge": {
+		"title": "Swift Evasion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop basic evasive maneuvers, gaining a 1% chance to completely avoid incoming attacks.",
+		"metadata": {
+			"icon": "r3jy9d6o4htc7jtj"
+		}
+	},
+	"medium_dodge": {
+		"title": "Shadow Dancer",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Move with increased agility to gain a 2% chance of dodging attacks entirely through quick reflexes.",
+		"metadata": {
+			"icon": "0bamps4jsq7qg1of"
+		}
+	},
+	"major_dodge": {
+		"title": "Phantom's Mirage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "elytra"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Move like a phantom to gain a 3% chance to completely evade incoming attacks through supernatural reflexes.",
+		"metadata": {
+			"icon": "6b3vo15mku56yekj"
+		}
+	},
+	"minor_attack_damage": {
+		"title": "Warrior's Edge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wooden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Sharpen your combat techniques to increase attack damage by 2%, making each strike more effective.",
+		"metadata": {
+			"icon": "uy3syxygs31xezc8"
+		}
+	},
+	"medium_attack_damage": {
+		"title": "Soldier's Strength",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Enhance your striking power to increase attack damage by 3%, delivering more decisive blows.",
+		"metadata": {
+			"icon": "i72qizh2uo3ofe1n"
+		}
+	},
+	"major_attack_damage": {
+		"title": "Champion's Might",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master combat techniques that increase attack damage by 5%, making you significantly more deadly in combat.",
+		"metadata": {
+			"icon": "bzexiqjl3itafkzc"
+		}
+	},
+	"minor_attack_speed": {
+		"title": "Swift Strikes",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wooden_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Develop faster combat techniques to increase attack speed by 2%, allowing for quicker strikes.",
+		"metadata": {
+			"icon": "iafogd9tcu3w1et4"
+		}
+	},
+	"medium_attack_speed": {
+		"title": "Rapid Combatant",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Refine your attack rhythms to increase attack speed by 3%, delivering more strikes in less time.",
+		"metadata": {
+			"icon": "jv3vkfhns9v2baq8"
+		}
+	},
+	"minor_crit_chance": {
+		"title": "Keen Eye",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "quartz"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Train to spot weaknesses in enemy defenses, gaining a 2% increased chance to land critical hits.",
+		"metadata": {
+			"icon": "q7qw1hc7c68pqnez"
+		}
+	},
+	"medium_crit_chance": {
+		"title": "Vulnerability Hunter",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of finding weak points, gaining a 3% increased chance to deal critical damage.",
+		"metadata": {
+			"icon": "lptucyiefcnem8a9"
+		}
+	},
+	"minor_crit_damage": {
+		"title": "Precise Striker",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "gold_nugget"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to make your critical hits 5% more devastating by striking with greater precision.",
+		"metadata": {
+			"icon": "xwozz6bh3zrj2s17"
+		}
+	},
+	"medium_crit_damage": {
+		"title": "Devastating Precision",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "emerald"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of targeting vital areas, making your critical hits 10% more powerful.",
+		"metadata": {
+			"icon": "ib381upmiuu06nx3"
+		}
+	},
+	"minor_life_steal": {
+		"title": "Blood Siphon",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:life_steal",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Infuse your attacks with vampiric energy, stealing 1% of damage dealt as health to sustain yourself.",
+		"metadata": {
+			"icon": "b4jwqi073vavn2aj"
+		}
+	},
+	"medium_life_steal": {
+		"title": "Essence Drain",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ghast_tear"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:life_steal",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Enhance your vampiric abilities to steal 2% of damage dealt as health, significantly improving combat sustainability.",
+		"metadata": {
+			"icon": "wc9e6v94t9l8bmnx"
+		}
+	},
+	"minor_movement_speed": {
+		"title": "Swift Steps",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Develop lighter steps to move 2% faster, enhancing your overall mobility in combat.",
+		"metadata": {
+			"icon": "4vb55q53xo01tzz2"
+		}
+	},
+	"armor_pierce": {
+		"title": "Phantom Strike Technique",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:armor_pierce",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the secret arts of bypassing defenses, ignoring 5% of your target's armor. Your attacks find the joints and weaknesses in any protection, striking as if facing a less armored foe.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"armor_shred": {
+		"title": "Ruinous Armor Degradation",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:armor_shred",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your strikes weaken the very structure of armor, temporarily reducing target's protection by 3%. Each hit degrades their defenses, making subsequent attacks increasingly deadly as the battle continues.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"current_hp_damage": {
+		"title": "Reaper's Proportional Strike",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:current_hp_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your attacks become more devastating the healthier your enemy is, dealing additional damage equal to 2% of your target's current health. Like a true executioner, you excel at beginning the slaughter of even the mightiest foes.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"attack_knockback": {
+		"title": "Titan's Forceful Impact",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "piston"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.attack_knockback",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your strikes carry tremendous force, increasing knockback by 0.5. Enemies are sent flying farther when struck, creating tactical distance and preventing them from retaliating immediately.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"critical_bonus_damage": {
+		"title": "Assassin's Fatal Strike",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.critical_bonus_damage",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of exploiting weaknesses, increasing critical hit bonus damage by 5%. When your strikes find vital points, they deal devastating additional damage, often ending fights in a single, perfect blow.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"sweeping_damage_ratio": {
+		"title": "Blade Dancer's Whirlwind",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:player.sweeping_damage_ratio",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your sword techniques evolve into deadly arcs, increasing sweeping damage by 10%. Cut through multiple foes with devastating efficiency as your blade dances from one target to the next in elegant, deadly patterns.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"explosion_knockback_resistance": {
+		"title": "Blast Anchoring",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tnt"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.explosion_knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your stance widens instinctively when explosions occur, granting 10% resistance to explosion knockback. While others are sent flying, you maintain your footing against devastating blasts.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"overheal": {
+		"title": "Life Essence Overflow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:overheal",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body can temporarily sustain more life energy than normal, allowing healing to exceed your maximum health by 5%. This excess vitality gradually fades over time but provides crucial protection in dangerous situations.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"healing_received": {
+		"title": "Vitality Amplification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glistering_melon_slice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:healing_received",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "prot_pierce": {
+        "title": "Enchantment Nullifier",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "tipped_arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:prot_pierce",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "You've studied the arcane weaknesses of magical protection, allowing your attacks to bypass 2 points of enchantment protection. Your weapon strikes slice through magical barriers as if they were mere illusions.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "prot_shred": {
+        "title": "Warding Dissolution",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "grindstone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:prot_shred",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your attacks erode magical defenses, temporarily reducing enchantment protection by 3%. Each strike weakens the arcane shields surrounding your enemy, rendering them increasingly vulnerable to subsequent blows.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

@@ -1,0 +1,1054 @@
+{
+    "ranged_specialization": {
+		"title": "Deadeye Sniper's Precision",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_damage",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Perfect the art of ranged combat, increasing arrow damage by 15% and arrow velocity by 10% to devastate enemies from a distance.",
+		"metadata": {
+			"icon": "yu27ltlewy3tcit0"
+		}
+	},
+    "arrow_damage+5%": {
+        "title": "Hunter's Precision",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Hone your archery skills to deal 5% more damage with arrows. Each shot finds vital targets with deadly accuracy.",
+        "metadata": {
+            "icon": "j2rt9kq3pav1zmn8"
+        }
+    },
+    "arrow_damage+10%": {
+        "title": "Lethal Marksmanship",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "tipped_arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the deadly art of archery, increasing arrow damage by 10%. Your arrows penetrate deeper, striking with devastating force.",
+        "metadata": {
+            "icon": "5o71l35m1tvvarrw"
+        }
+    },
+    "arrow_velocity+10%": {
+        "title": "Piercing Trajectory",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "spectral_arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_velocity",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Launch arrows with 10% greater velocity, allowing them to travel faster and hit targets from further away with less drop.",
+        "metadata": {
+            "icon": "cer2n14xgzgbaua4"
+        }
+    },
+    "draw_speed+15%": {
+        "title": "Swift Bowstring",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "string"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 15,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Develop faster nocking techniques, increasing bow draw speed by 15%. Prepare shots more quickly in the heat of battle.",
+        "metadata": {
+            "icon": "pn41qmjydospb4eo"
+        }
+    },
+    "draw_speed+30%": {
+        "title": "Master Fletcher's Rhythm",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "crossbow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 30,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Perfect the art of rapid arrow preparation, increasing draw speed by 30%. Your hands move with supernatural fluidity, readying shots in half the time of novice archers.",
+        "metadata": {
+            "icon": "w6qeub7hw082ivso"
+        }
+    },
+    "crit_chance+3%_ranged": {
+        "title": "Eagle Eye Precision",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "target"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_chance",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Develop uncanny accuracy, gaining 3% increased chance to land critical hits with ranged weapons. Your eyes find weaknesses others cannot see.",
+        "metadata": {
+            "icon": "flo2t69qrhbytyy2"
+        }
+    },
+    "crit_damage+15%_ranged": {
+        "title": "Vital Point Targeting",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "heart_of_the_sea"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_damage",
+                    "value": 0.15,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the knowledge of anatomical weaknesses, increasing critical hit damage by 15%. Your critical strikes find arteries and vital organs with unerring precision.",
+        "metadata": {
+            "icon": "jq3gkgfgg5wgxixs"
+        }
+    },
+    "agility+5%": {
+        "title": "Ranger's Mobility",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "leather_boots"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.movement_speed",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Cultivate the light-footed grace of a forest ranger, increasing movement speed by 5%. Navigate battlefields and reposition with enhanced swiftness.",
+        "metadata": {
+            "icon": "u7vdthcnkdluabhj"
+        }
+    },
+    "dodge_chance+2%": {
+        "title": "Elusive Footwork",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "phantom_membrane"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:dodge_chance",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of battlefield movement, gaining a 2% chance to completely avoid incoming attacks. Step aside from danger with practiced precision.",
+        "metadata": {
+            "icon": "m8cet7tge1c9r6dc"
+        }
+    },
+    "entity_interaction_range+1": {
+        "title": "Distant Perception",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "spyglass"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.entity_interaction_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Extend your reach by 1 block when interacting with creatures and objects. Your keen senses allow manipulation from safer distances.",
+        "metadata": {
+            "icon": "r6mzg5y6zlsodck8"
+        }
+    },
+    "hunter_specialization": {
+        "title": "Apex Predator",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "bow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 7,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_chance",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Become a legendary hunter with 7% increased arrow damage and 2% higher critical chance. Your reputation strikes fear into creatures both common and mythical.",
+        "metadata": {
+            "icon": "rkj92gdvbw06kfz9"
+        }
+    },
+    "sniper_specialization": {
+        "title": "Phantom Marksman",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "crossbow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_velocity",
+                    "value": 15,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_damage",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master long-range combat with 15% increased arrow velocity and 10% more critical damage. Strike from distances others cannot comprehend with devastating precision.",
+        "metadata": {
+            "icon": "a98lembl1uf4qngs"
+        }
+    },
+    "skirmisher_specialization": {
+        "title": "Verdant Wind Dancer",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "feather"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 20,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.movement_speed",
+                    "value": 0.03,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Embrace the agile combat style of forest skirmishers with 20% faster draw speed and 3% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
+        "metadata": {
+            "icon": "n6q3t8rqxx32vf6j"
+        }
+    },
+    "minor_arrow_damage": {
+        "title": "Steady Hand",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Improve your archery fundamentals, increasing arrow damage by 2%. Your arrows strike with slightly greater impact.",
+        "metadata": {
+            "icon": "infois1v9eh522dj"
+        }
+    },
+    "medium_arrow_damage": {
+        "title": "Sharpshooter",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "pointed_dripstone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 4,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Refine your marksmanship, increasing arrow damage by 4%. Your knowledge of proper shot placement results in more effective attacks.",
+        "metadata": {
+            "icon": "k5izgbjbjknpicvp"
+        }
+    },
+    "major_arrow_damage": {
+        "title": "Deadeye Striker",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "tipped_arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 7,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Achieve masterful accuracy with ranged weapons, increasing arrow damage by 7%. Every shot is released with calculated precision.",
+        "metadata": {
+            "icon": "7f0fdngezcy8kcwa"
+        }
+    },
+    "minor_arrow_velocity": {
+        "title": "Strong Draw",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "string"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_velocity",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Strengthen your draw arm, increasing arrow velocity by 5%. Your arrows fly straighter and with less arc.",
+        "metadata": {
+            "icon": "2h8mh3y7kqyt8zw5"
+        }
+    },
+    "medium_arrow_velocity": {
+        "title": "Penetrating Shot",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "spectral_arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_velocity",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master techniques for powerful shots, increasing arrow velocity by 10%. Your arrows cut through the air with impressive speed.",
+        "metadata": {
+            "icon": "zpfwdrem2qla3b1h"
+        }
+    },
+    "minor_draw_speed": {
+        "title": "Quick Nock",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "stick"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Learn to nock arrows more efficiently, increasing draw speed by 10%. Ready your bow slightly faster for each shot.",
+        "metadata": {
+            "icon": "dxh6hqzh2b1dtgoc"
+        }
+    },
+    "medium_draw_speed": {
+        "title": "Fluid Motion",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "water_bucket"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 20,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Develop smoother bow handling techniques, increasing draw speed by 20%. Your hands move with practiced coordination.",
+        "metadata": {
+            "icon": "z46lrfipnfs56kgq"
+        }
+    },
+    "minor_ranged_crit": {
+        "title": "Keen Vision",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_eye"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_chance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Sharpen your perception to spot vital targets, gaining 1% increased critical hit chance with ranged attacks.",
+        "metadata": {
+            "icon": "abhybcdy6ltp8py0"
+        }
+    },
+    "medium_ranged_crit": {
+        "title": "Focused Aim",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "target"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_chance",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Learn to focus intently on your target, increasing critical hit chance by 2%. Your concentration allows you to find exploitable weaknesses.",
+        "metadata": {
+            "icon": "k4b7kew6mgsdkm3z"
+        }
+    },
+    "minor_ranged_crit_damage": {
+        "title": "Penetrating Strike",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "flint"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_damage",
+                    "value": 0.05,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Craft arrows with exceptional penetrating power, increasing critical hit damage by 5%. Your critical strikes pierce deeper.",
+        "metadata": {
+            "icon": "fjil2cqh2kzqlt6n"
+        }
+    },
+    "medium_ranged_crit_damage": {
+        "title": "Lethal Precision",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "amethyst_shard"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_damage",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of targeting vulnerable areas, increasing critical hit damage by 10%. Your critical shots are devastatingly effective.",
+        "metadata": {
+            "icon": "nondy54c6245iw7a"
+        }
+    },
+    "minor_agility": {
+        "title": "Light Step",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "leather_boots"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.movement_speed",
+                    "value": 0.02,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Learn to move with a lighter step, increasing movement speed by 2%. Greater mobility enhances your combat positioning.",
+        "metadata": {
+            "icon": "xapwrmyt997fj3pt"
+        }
+    },
+    "minor_dodge": {
+        "title": "Swift Reflexes",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_foot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:dodge_chance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Develop faster reflexes, gaining a 1% chance to completely avoid incoming attacks. Your instincts help you evade danger.",
+        "metadata": {
+            "icon": "uwtq7my4l31qit1k"
+        }
+    },
+    "barrage_mastery": {
+        "title": "Storm of Arrows",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fletching_table"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 25,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of rapid fire with 25% increased draw speed and 3% more arrow damage. Release a relentless barrage of arrows that overwhelms your enemies with volume and power.",
+        "metadata": {
+            "icon": "6o7ge7hdgj0ui68d"
+        }
+    },
+    "projectile_master": {
+        "title": "Legendary Marksman",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "bow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:projectile_damage",
+                    "value": 8,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Achieve legendary status with all projectile weapons, increasing damage by 8%. Your mastery extends to bows, crossbows, tridents, and any other thrown or launched weapon.",
+        "metadata": {
+            "icon": "wag18djz49lirlh4"
+        }
+    },
+    "nametag_distance": {
+        "title": "Eagle-Eyed Recognition",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "spyglass"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "neoforge:nametag_distance",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your vision sharpens to supernatural clarity, increasing nametag visibility distance by 10 blocks. Identify friends and foes from remarkable distances, gaining critical tactical information before engagement.",
+        "metadata": {
+            "icon": "p8nvqan78hast6ph"
+        }
+    },
+    "mob_detection_range": {
+        "title": "Shadow Walker's Stealth",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fermented_spider_eye"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:generic.mob_detection_range",
+                    "value": -0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Move like a ghost through the wilderness, reducing hostile mob detection range by 20%. Creatures sense your presence only when you draw much closer, allowing for stealthy approaches and safer exploration.",
+        "metadata": {
+            "icon": "mfi47qgw04orm4j1"
+        }
+    },
+    "health+2": {
+		"title": "Heartbound Fortitude",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
+		"metadata": {
+			"icon": "gjjbgp8eiwr7iv1k"
+		}
+	},
+	"health+4": {
+		"title": "Warrior's Resilience",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Harness battle-hardened vitality to increase maximum health by 2 hearts, significantly improving your survival in dangerous encounters.",
+		"metadata": {
+			"icon": "r1j2tvuc4vh1066x"
+		}
+	},
+	"medium_dodge": {
+		"title": "Shadow Dancer",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Move with increased agility to gain a 2% chance of dodging attacks entirely through quick reflexes.",
+		"metadata": {
+			"icon": "0bamps4jsq7qg1of"
+		}
+	},
+	"major_dodge": {
+		"title": "Phantom's Mirage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "elytra"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Move like a phantom to gain a 3% chance to completely evade incoming attacks through supernatural reflexes.",
+		"metadata": {
+			"icon": "6b3vo15mku56yekj"
+		}
+	},
+    "minor_armor": {
+		"title": "Hardened Skin",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Toughen your skin to gain +0.5 armor points, providing a small but helpful defense against physical attacks.",
+		"metadata": {
+			"icon": "ltmfllwq6yjgsl0w"
+		}
+	},
+	"medium_armor": {
+		"title": "Iron Flesh Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop resilient flesh that grants +1 armor point, noticeably reducing damage from enemy attacks.",
+		"metadata": {
+			"icon": "1cythxuq17aqnfc8"
+		}
+	},
+    "projectile_damage": {
+        "title": "Ballistic Perfection",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "trident"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:projectile_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of projectile warfare, increasing all projectile damage by 5%. Your arrows, tridents, and thrown weapons cut through the air with deadly precision, striking with enhanced force.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "critical_bonus_damage": {
+        "title": "Assassin's Fatal Strike",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.critical_bonus_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of exploiting weaknesses, increasing critical hit bonus damage by 5%. When your strikes find vital points, they deal devastating additional damage, often ending fights in a single, perfect blow.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "armor_pierce": {
+        "title": "Phantom Strike Technique",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:armor_pierce",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the secret arts of bypassing defenses, ignoring 5% of your target's armor. Your attacks find the joints and weaknesses in any protection, striking as if facing a less armored foe.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "attack_knockback": {
+        "title": "Titan's Forceful Impact",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "piston"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.attack_knockback",
+                    "value": 0.5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your strikes carry tremendous force, increasing knockback by 0.5. Enemies are sent flying farther when struck, creating tactical distance and preventing them from retaliating immediately.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "prot_pierce": {
+        "title": "Enchantment Nullifier",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "tipped_arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:prot_pierce",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "You've studied the arcane weaknesses of magical protection, allowing your attacks to bypass 2 points of enchantment protection. Your weapon strikes slice through magical barriers as if they were mere illusions.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "prot_shred": {
+        "title": "Warding Dissolution",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "grindstone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:prot_shred",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your attacks erode magical defenses, temporarily reducing enchantment protection by 3%. Each strike weakens the arcane shields surrounding your enemy, rendering them increasingly vulnerable to subsequent blows.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "invincibility_ticks": {
+        "title": "Temporal Displacement Shield",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "totem_of_undying"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.invincibility_ticks",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "After taking damage, you briefly phase partially out of normal time, extending your invulnerability period by 5 ticks. This temporal displacement provides crucial moments to recover and reposition during intense combat.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

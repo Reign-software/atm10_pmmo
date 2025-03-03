@@ -1,0 +1,1133 @@
+{
+	"spectral_sight+5": {
+		"title": "Veil Piercing Perception",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "spectral_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "allthearchanistgear:allthearchanistgear.spectral_sight",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop the ability to perceive beyond mortal limitations, gaining 5 points of spectral sight. Glimpse entities through walls and see into the ethereal planes that overlay our reality.",
+		"metadata": {
+			"icon": "80ak5ffbcob7p2w4"
+		}
+	},
+	"ghost_health+5": {
+		"title": "Ethereal Protection",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:ghost_health",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Manifest a shield of spectral energy around your form, gaining 5 points of ghost health. This ethereal barrier absorbs damage before your physical body is harmed.",
+		"metadata": {
+			"icon": "7mzvdseh9a1oq9yg"
+		}
+	},
+	"magic_protection+5": {
+		"title": "Mystic Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "enchanted_golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.magic_protection",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Weave protective enchantments into your very essence, gaining 5 points of magic protection. Arcane defenses shield your body and soul from magical harm of all kinds.",
+		"metadata": {
+			"icon": "d35a71h7zjxshlmy"
+		}
+	},
+	"overheal": {
+		"title": "Life Essence Overflow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:overheal",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body can temporarily sustain more life energy than normal, allowing healing to exceed your maximum health by 5%. This excess vitality gradually fades over time but provides crucial protection in dangerous situations.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"healing_received": {
+		"title": "Vitality Amplification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glistering_melon_slice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:healing_received",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"nametag_distance": {
+		"title": "Eagle-Eyed Recognition",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "spyglass"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:nametag_distance",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your vision sharpens to supernatural clarity, increasing nametag visibility distance by 10 blocks. Identify friends and foes from remarkable distances, gaining critical tactical information before engagement.",
+		"metadata": {
+			"icon": "p8nvqan78hast6ph"
+		}
+	},
+	"mob_detection_range": {
+		"title": "Shadow Walker's Stealth",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fermented_spider_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.mob_detection_range",
+					"value": -0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Move like a ghost through the wilderness, reducing hostile mob detection range by 20%. Creatures sense your presence only when you draw much closer, allowing for stealthy approaches and safer exploration.",
+		"metadata": {
+			"icon": "mfi47qgw04orm4j1"
+		}
+	},
+	"phase": {
+		"title": "Ethereal Existence",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "obsidian"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "justdirethings:phase",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your physical form occasionally slips between dimensions, gaining 20% phasing ability. Parts of your body can momentarily exist slightly out of phase with normal reality, allowing limited movement through solid objects.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "health+2": {
+		"title": "Heartbound Fortitude",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
+		"metadata": {
+			"icon": "gjjbgp8eiwr7iv1k"
+		}
+	},
+	"health+4": {
+		"title": "Warrior's Resilience",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Harness battle-hardened vitality to increase maximum health by 2 hearts, significantly improving your survival in dangerous encounters.",
+		"metadata": {
+			"icon": "r1j2tvuc4vh1066x"
+		}
+	},
+    "max_mana+50": {
+		"title": "Azure Wellspring Expansion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lapis_lazuli"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Widen your arcane channels to increase maximum mana by 50 points, supporting more powerful and frequent spell casting.",
+		"metadata": {
+			"icon": "i0gatu6vfnqmg8k0"
+		}
+	},
+	"mana_regen+10": {
+		"title": "Mystic Aether Flow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "experience_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Tune your body to the magical currents of the world, increasing mana regeneration by 10 points to recover faster between spellcasting.",
+		"metadata": {
+			"icon": "cxg6naepg4qwfh2c"
+		}
+	},
+	"cooldown_reduction+5%": {
+		"title": "Chronomancer's Acceleration",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "clock"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Bend time to your will, reducing spell cooldowns by 5% to cast powerful spells more frequently.",
+		"metadata": {
+			"icon": "oh3a24zgz5q0vk53"
+		}
+	},
+	"spell_power+5%": {
+		"title": "Arcane Amplification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Focus magical energies more effectively, increasing spell power by 5% to enhance all magical effects and damage.",
+		"metadata": {
+			"icon": "9zl1blin8hlsft5h"
+		}
+	},
+    "magic_specialization": {
+		"title": "Archmage's Forbidden Knowledge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "enchanted_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Unlock the deepest arcane secrets, gaining 100 max mana and 10% spell power to unleash magical devastation upon your enemies.",
+		"metadata": {
+			"icon": "v8bg100cyhqarklq"
+		}
+	},
+    "minor_armor": {
+		"title": "Hardened Skin",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Toughen your skin to gain +0.5 armor points, providing a small but helpful defense against physical attacks.",
+		"metadata": {
+			"icon": "ltmfllwq6yjgsl0w"
+		}
+	},
+	"medium_armor": {
+		"title": "Iron Flesh Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop resilient flesh that grants +1 armor point, noticeably reducing damage from enemy attacks.",
+		"metadata": {
+			"icon": "1cythxuq17aqnfc8"
+		}
+	},
+    "minor_knockback_res": {
+		"title": "Steadfast Footing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cobblestone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Plant your feet firmly to gain 3% knockback resistance, making you harder to displace in combat.",
+		"metadata": {
+			"icon": "o53vsddtb1znbw6m"
+		}
+	},
+	"medium_knockback_res": {
+		"title": "Mountain's Stance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become as immovable as a mountain with 5% knockback resistance, better withstanding powerful attacks.",
+		"metadata": {
+			"icon": "bxar36dclzsvjpzo"
+		}
+	},
+    "medium_movement_speed": {
+		"title": "Fleet-Footed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sugar"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master movement techniques to increase your speed by 3%, allowing for faster travel and combat positioning.",
+		"metadata": {
+			"icon": "z5868rmf95jgrmhh"
+		}
+	},
+	"minor_max_mana": {
+		"title": "Arcane Reservoir",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lapis_lazuli"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Expand your inner magical reserves to gain 20 additional maximum mana, allowing for more spell casting.",
+		"metadata": {
+			"icon": "4cwxkzz3397osf0z"
+		}
+	},
+	"medium_max_mana": {
+		"title": "Mystic Wellspring",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lapis_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 35,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 35,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Significantly expand your magical capacity to gain 35 additional maximum mana for extended spellcasting.",
+		"metadata": {
+			"icon": "5xnz9oxlmdqempdp"
+		}
+	},
+	"major_max_mana": {
+		"title": "Archmage's Reservoir",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of mana storage to gain 50 additional maximum mana, enabling the casting of powerful spell combinations.",
+		"metadata": {
+			"icon": "j7ho5sdij8el082d"
+		}
+	},
+	"minor_mana_regen": {
+		"title": "Mana Flow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glowstone_dust"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Attune yourself to magical energies, increasing mana regeneration by 5 to recover faster after spellcasting.",
+		"metadata": {
+			"icon": "esn0c731grdhty70"
+		}
+	},
+	"medium_mana_regen": {
+		"title": "Arcane Current",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "experience_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 8,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel magical energies more efficiently to increase mana regeneration by 8, greatly reducing recovery time between spells.",
+		"metadata": {
+			"icon": "u7sny1n7l8uude32"
+		}
+	},
+	"minor_cooldown_reduction": {
+		"title": "Spell Efficiency",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "clock"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to weave spells more efficiently, reducing cooldowns by 2% to cast more frequently.",
+		"metadata": {
+			"icon": "efm7l1ufikciimmb"
+		}
+	},
+	"medium_cooldown_reduction": {
+		"title": "Arcane Acceleration",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "repeater"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master spell recovery techniques to reduce cooldowns by 4%, allowing significantly faster reuse of powerful spells.",
+		"metadata": {
+			"icon": "8y6pu9nkro2bqjut"
+		}
+	},
+	"minor_spell_power": {
+		"title": "Arcane Focus",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to focus magical energies more effectively, increasing spell power by 2% for greater magical impact.",
+		"metadata": {
+			"icon": "scltzywtwueo5887"
+		}
+	},
+	"medium_spell_power": {
+		"title": "Potent Casting",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "writable_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master magical channeling to increase spell power by 4%, significantly enhancing all spell effects.",
+		"metadata": {
+			"icon": "tjww6pu1agakdxho"
+		}
+	},
+	"minor_cast_time_reduction": {
+		"title": "Swift Incantation",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "comparator"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Perfect your spellcasting technique to reduce casting time by 3%, allowing faster spell execution.",
+		"metadata": {
+			"icon": "1iqhmt7dr0xglubf"
+		}
+	},
+	"fire_spell_power": {
+		"title": "Pyromancer's Flame",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fire_charge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Attune yourself to fire magic, increasing fire spell power by 5% for more devastating flame-based attacks.",
+		"metadata": {
+			"icon": "t2gjnjlt24gcbwo8"
+		}
+	},
+	"ice_spell_power": {
+		"title": "Cryomancer's Frost",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "packed_ice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Harness the power of cold to increase ice spell power by 5%, enhancing all frost-based magic.",
+		"metadata": {
+			"icon": "7z8izai7oyb1b5vs"
+		}
+	},
+	"lightning_spell_power": {
+		"title": "Stormcaller's Surge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lightning_rod"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel the power of storms to increase lightning spell power by 5%, electrifying your magical arsenal.",
+		"metadata": {
+			"icon": "jmtzyxsg30wz653s"
+		}
+	},
+	"holy_spell_power": {
+		"title": "Divine Channeler",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Connect with divine energies to increase holy spell power by 5%, strengthening healing and sacred magics.",
+		"metadata": {
+			"icon": "w2w1hc0gmqmm53k4"
+		}
+	},
+	"ender_spell_power": {
+		"title": "Void Walker",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_pearl"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Attune yourself to the End's energies to increase ender spell power by 5%, enhancing teleportation and void magic.",
+		"metadata": {
+			"icon": "qusch4mq26enfvs1"
+		}
+	},
+	"blood_spell_power": {
+		"title": "Crimson Ritualist",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the forbidden art of blood magic to increase blood spell power by 5%, enhancing life-force manipulation.",
+		"metadata": {
+			"icon": "z54i439rner3m57f"
+		}
+	},
+	"evocation_spell_power": {
+		"title": "Summoner's Will",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "totem_of_undying"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Strengthen your command over summoned entities, increasing evocation spell power by 5%.",
+		"metadata": {
+			"icon": "n85puuid6e31zjuo"
+		}
+	},
+	"nature_spell_power": {
+		"title": "Druidic Connection",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "oak_sapling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Attune yourself to natural energies to increase nature spell power by 5%, enhancing plant and earth magic.",
+		"metadata": {
+			"icon": "bbg94rtcgdofc1v0"
+		}
+	},
+	"ars_mana_discount": {
+		"title": "Efficient Spellcraft",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "emerald"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "not_enough_glyphs:not_enough_glyphs.perk.mana_discount",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master magical efficiency to reduce Ars Nouveau spell mana cost by 2%, allowing more spells with the same mana.",
+		"metadata": {
+			"icon": "t05x9k0u2f16u2fa"
+		}
+	},
+    "absorption_boost": {
+        "title": "Golden Heart Enchantment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.max_absorption",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Ancient protective magics flow through your veins, increasing maximum absorption by 2 hearts. Your body can now maintain more powerful magical shields, creating golden hearts that absorb damage before your life force.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "magic_protection": {
+        "title": "Arcane Ward Enchantment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "enchanted_golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:generic.magic_protection",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Protective sigils manifest across your skin, granting 5 points of magic protection. Hostile spells and magical damage are partially absorbed by these mystical wards, leaving you less vulnerable to arcane attacks.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ars_saturation": {
+        "title": "Arcane Nourishment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_carrot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.saturation",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The magical energies flowing through you now sustain your physical form, providing 5 points of magical saturation. Casting spells occasionally fills your hunger bar, converting raw arcane power into bodily nourishment.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ars_feather": {
+        "title": "Zephyr's Divine Grace",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "feather"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ars_nouveau:ars_nouveau.perk.feather",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "While channeling arcane energies, air itself cushions your falls. When actively casting spells, you descend as gently as a feather, never taking damage from even the highest drops as magic buoys your descent.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eldritch_spell_power": {
+        "title": "Forbidden Knowledge Wielder",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sculk_catalyst"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your mind has glimpsed beyond the veil of reality, increasing eldritch spell power by 5%. Channel cosmic forces with greater potency as your understanding of impossible geometries grows deeper.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "summon_damage": {
+        "title": "Conjurer's Empowerment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "soul_sand"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The creatures you conjure manifest with greater ferocity, dealing 5% more damage. Your summoned allies strike with supernatural precision and power, tearing through enemies with enhanced fury.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}
