@@ -438,13 +438,13 @@
 		"root": false
 	},
 	"ars_hub": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 180,
 		"y": -140,
 		"root": false
 	},
 	"ars_1": {
-		"definition": "ars_mana_regen",
+		"definition": "minor_mana_regen",
 		"x": 224,
 		"y": 0,
 		"root": false
@@ -456,13 +456,13 @@
 		"root": false
 	},
 	"ars_3": {
-		"definition": "ars_spell_damage",
+		"definition": "minor_spell_power",
 		"x": 288,
 		"y": 64,
 		"root": false
 	},
 	"ars_4": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 224,
 		"y": 64,
 		"root": false
@@ -1146,31 +1146,31 @@
 		"root": false
 	},
 	"1m4ga0zfmgbkznr1": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 224,
 		"y": -480,
 		"root": false
 	},
 	"aovkse48nwntqx6x": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 288,
 		"y": -480,
 		"root": false
 	},
 	"u42q0tpsn3ha7re8": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 288,
 		"y": -544,
 		"root": false
 	},
 	"mu9yotip50dvbvz8": {
-		"definition": "ars_mana_regen",
+		"definition": "minor_mana_regen",
 		"x": 224,
 		"y": -544,
 		"root": false
 	},
 	"4qirwwb14tq68yjq": {
-		"definition": "ars_spell_damage",
+		"definition": "minor_spell_power",
 		"x": 224,
 		"y": -608,
 		"root": false
@@ -1182,25 +1182,25 @@
 		"root": false
 	},
 	"cmswsn39kjvrxcp1": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 96,
 		"y": -608,
 		"root": false
 	},
 	"sep8g91xjjtnyb8q": {
-		"definition": "ars_max_mana",
+		"definition": "minor_max_mana",
 		"x": 96,
 		"y": -672,
 		"root": false
 	},
 	"m0k9m96zolpmjevh": {
-		"definition": "ars_spell_damage",
+		"definition": "minor_spell_power",
 		"x": 32,
 		"y": -672,
 		"root": false
 	},
 	"bgrxpvq4a4v3q8ox": {
-		"definition": "ars_spell_damage",
+		"definition": "minor_spell_power",
 		"x": -32,
 		"y": -672,
 		"root": false

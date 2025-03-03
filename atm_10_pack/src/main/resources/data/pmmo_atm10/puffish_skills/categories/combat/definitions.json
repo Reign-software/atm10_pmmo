@@ -389,6 +389,14 @@
 					"value": 50,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -411,6 +419,14 @@
 					"value": 10,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 10,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -418,7 +434,7 @@
 		}
 	},
 	"cooldown_reduction+5%": {
-		"title": "+5% Cooldown Reduction",
+		"title": "+5% Cooldown Reduction (Irons)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -440,7 +456,7 @@
 		}
 	},
 	"spell_power+5%": {
-		"title": "+5% Spell Power",
+		"title": "+5% Spell Power (Irons)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -484,7 +500,7 @@
 		}
 	},
 	"tank_specialization": {
-		"title": "Tank Specialization",
+		"title": "Tank Specialization (+2 Armor, +4 Hearts)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -515,7 +531,7 @@
 		}
 	},
 	"melee_specialization": {
-		"title": "Melee Specialization",
+		"title": "Melee Specialization (+10% attack damage, +5% attack speed)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -546,7 +562,7 @@
 		}
 	},
 	"ranged_specialization": {
-		"title": "Ranged Specialization",
+		"title": "Ranged Specialization (+15% bow damage, +10% arrow velocity)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -577,7 +593,7 @@
 		}
 	},
 	"magic_specialization": {
-		"title": "Magic Specialization",
+		"title": "Magic Specialization (+100 max mana, +10% spell power)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -598,6 +614,14 @@
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
 					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 100,
 					"operation": "addition"
 				}
 			}
@@ -1349,6 +1373,14 @@
 					"value": 20,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -1368,6 +1400,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:max_mana",
+					"value": 35,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
 					"value": 35,
 					"operation": "addition"
 				}
@@ -1393,6 +1433,14 @@
 					"value": 50,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -1415,6 +1463,14 @@
 					"value": 5,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 5,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -1434,6 +1490,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:mana_regen",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
 					"value": 8,
 					"operation": "addition"
 				}
@@ -1503,6 +1567,14 @@
 					"value": 2,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 2,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -1525,6 +1597,14 @@
 					"value": 4,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 4,
+					"operation": "addition"
+				}
 			}
 		],
 		"metadata": {
@@ -1532,7 +1612,7 @@
 		}
 	},
 	"minor_cast_time_reduction": {
-		"title": "+3% Cast Time Reduction",
+		"title": "+3% Cast Time Reduction (Irons)",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -1727,72 +1807,6 @@
 		],
 		"metadata": {
 			"icon": "bbg94rtcgdofc1v0"
-		}
-	},
-	"ars_max_mana": {
-		"title": "+20 Ars Max Mana",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "amethyst_shard"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-					"value": 20,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "s6ffiui7m94dpz73"
-		}
-	},
-	"ars_mana_regen": {
-		"title": "+5 Ars Mana Regen",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "diamond"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
-					"value": 5,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "3x6fohq44bii5v9n"
-		}
-	},
-	"ars_spell_damage": {
-		"title": "+2% Ars Spell Damage",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "blaze_powder"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "txuusxc5h0l3k10c"
 		}
 	},
 	"ars_mana_discount": {
