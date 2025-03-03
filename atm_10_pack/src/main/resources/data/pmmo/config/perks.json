@@ -2,10 +2,6 @@
   "perks": {
     "SKILL_UP": [
       {
-        "perk": "pmmo:fireworks",
-        "skill": "mining"
-      },
-      {
         "per_level": 0.05,
         "perk": "pmmo:attribute",
         "attribute": "minecraft:player.block_interaction_range",
@@ -13,30 +9,10 @@
         "skill": "building"
       },
       {
-        "perk": "pmmo:fireworks",
-        "skill": "building"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "excavation"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "woodcutting"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "farming"
-      },
-      {
-        "per_level": 1.5E-5,
+        "per_level": 1.5E-05,
         "perk": "pmmo:attribute",
         "attribute": "minecraft:generic.movement_speed",
         "max_boost": 1.0,
-        "skill": "agility"
-      },
-      {
-        "perk": "pmmo:fireworks",
         "skill": "agility"
       },
       {
@@ -47,10 +23,6 @@
         "skill": "endurance"
       },
       {
-        "perk": "pmmo:fireworks",
-        "skill": "endurance"
-      },
-      {
         "per_level": 0.005,
         "perk": "pmmo:attribute",
         "attribute": "minecraft:generic.attack_damage",
@@ -58,55 +30,9 @@
         "skill": "combat"
       },
       {
-        "perk": "pmmo:fireworks",
-        "skill": "combat"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "gunslinging"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "archery"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "smithing"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "flying"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "swimming"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "sailing"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "fishing"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "crafting"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "magic"
-      },
-      {
         "per_level": 3.0,
         "perk": "ars_scalaes:mana_boost",
         "max_boost": 3000.0,
-        "skill": "magic"
-      },
-      {
-        "per_level": 0.06,
-        "perk": "ars_scalaes:mana_regen",
-        "max_boost": 100.0,
         "skill": "magic"
       },
       {
@@ -129,26 +55,6 @@
         "attribute": "irons_spellbooks:mana_regen",
         "max_boost": 300.0,
         "skill": "magic"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "slayer"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "hunter"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "taming"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "cooking"
-      },
-      {
-        "perk": "pmmo:fireworks",
-        "skill": "alchemy"
       }
     ],
     "SUBMERGED": [
@@ -186,7 +92,7 @@
     ],
     "JUMP": [
       {
-        "per_level": 5.0E-4,
+        "per_level": 0.0005,
         "perk": "pmmo:jump_boost",
         "skill": "agility"
       }
@@ -220,7 +126,57 @@
         "applies_to": [
           "minecraft:bow",
           "minecraft:crossbow",
-          "minecraft:trident"
+          "minecraft:trident",
+          "allthemodium:allthemodium_bow",
+          "allthemodium:unobtainium_crossbow",
+          "apothic_enchanting:bow_tome",
+          "aquaculture:neptunium_bow",
+          "archers_paradox:ghostbuster_bow",
+          "archers_paradox:phantasm_bow",
+          "archers_paradox:thunder_bow",
+          "ars_nouveau:spell_bow",
+          "ars_nouveau:spell_crossbow",
+          "bhc:vigor_bow",
+          "cataclysm:cursed_bow",
+          "eternal_starlight:bow_of_blood",
+          "eternal_starlight:crystal_crossbow",
+          "eternal_starlight:mechanical_crossbow",
+          "eternal_starlight:moonring_bow",
+          "eternal_starlight:starfall_longbow",
+          "eternal_starlight:wilted_crossbow",
+          "immersiveengineering:railgun",
+          "immersiveengineering:revolver",
+          "irons_spellbooks:autoloader_crossbow",
+          "justdirethings:bow_blazegold",
+          "justdirethings:bow_celestigem",
+          "justdirethings:bow_eclipsealloy",
+          "justdirethings:bow_ferricore",
+          "mahoutsukai:weapon_projectile_bow",
+          "mekanism:electric_bow",
+          "merrymaking:bow",
+          "mysticalagriculture:awakened_supremium_bow",
+          "mysticalagriculture:awakened_supremium_crossbow",
+          "mysticalagriculture:imperium_bow",
+          "mysticalagriculture:imperium_crossbow",
+          "mysticalagriculture:inferium_bow",
+          "mysticalagriculture:inferium_crossbow",
+          "mysticalagriculture:prudentium_bow",
+          "mysticalagriculture:prudentium_crossbow",
+          "mysticalagriculture:supremium_bow",
+          "mysticalagriculture:supremium_crossbow",
+          "mysticalagriculture:tertium_bow",
+          "mysticalagriculture:tertium_crossbow",
+          "pneumaticcraft:air_cannon",
+          "pneumaticcraft:minigun",
+          "silentgear:bow",
+          "silentgear:crossbow",
+          "silentgear:longbow",
+          "supplementaries:crossbow_bolt",
+          "twilightforest:ender_bow",
+          "twilightforest:ice_bow",
+          "twilightforest:seeker_bow",
+          "twilightforest:triple_bow",
+          "twilightforest:twilight_bow"
         ],
         "perk": "pmmo:damage_boost",
         "skill": "archery"
