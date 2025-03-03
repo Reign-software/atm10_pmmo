@@ -1,0 +1,10 @@
+{
+	"title": "Agility",
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "speed"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

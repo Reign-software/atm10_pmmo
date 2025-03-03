@@ -1,0 +1,401 @@
+{
+    "mining_speed_boost": {
+        "title": "Dwarven Excavation Technique",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "diamond_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:mining_speed",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Channel the ancient mining wisdom of the mountain dwarves, increasing mining speed by 10%. Your strikes become more precise, allowing you to tear through stone and ore with supernatural efficiency.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "advanced_mining_speed": {
+        "title": "Master Geologist's Precision",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:mining_speed",
+                    "value": 20,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your understanding of rock formations and structural weaknesses reaches masterful levels, increasing mining speed by 20%. Each strike exploits natural fault lines, dramatically accelerating your excavation of even the hardest materials.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "block_break_speed": {
+        "title": "Mountain Splitter's Fury",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.block_break_speed",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your strikes resonate with earth-shattering force, granting 5% faster block breaking with all tools. Stone crumbles before your might, and even the hardest materials yield more quickly to your determined efforts.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "major_block_break_speed": {
+        "title": "Titanic Harvester",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "enchanted_golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.block_break_speed",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your gathering prowess becomes legendary, increasing block break speed by 15% with all tools. Forests fall before your axe, earth parts for your shovel, and mountains crumble against your pickaxe with unprecedented speed.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "collection_range": {
+        "title": "Gravitational Attraction Aura",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "hopper"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.collection_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Items seem mysteriously drawn to you, extending your pickup range by 1 block. This magnetic aura pulls dropped resources into your possession from greater distances, making collection effortless.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "greater_collection_range": {
+        "title": "Resource Magnetism",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "lodestone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.collection_range",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "A powerful magnetic field surrounds you, extending item pickup range by 3 blocks. Resources fly to your inventory as if eager to be collected, vastly improving gathering efficiency during intensive harvesting.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "experience_boost": {
+        "title": "Scholar's Enlightenment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "experience_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:experience_gained",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your mind becomes a perfect vessel for knowledge, gaining 5% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "gathering_experience": {
+        "title": "Naturalist's Insight",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "book"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:experience_gained",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your analytical mind carefully studies each resource as you harvest it, gaining 10% more experience from gathering activities. Each ore, log, and earthen block reveals its secrets to your discerning eye.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "luck_boost": {
+        "title": "Blessing of Lady Fortune",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_foot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The fickle goddess of fortune smiles upon you, granting +2 Luck. Your hands seem to find valuable treasures more often, chests yield better loot, and chance-based events mysteriously shift in your favor.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "prospector_luck": {
+        "title": "Master Prospector's Eye",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "gold_ore"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "You develop an uncanny sense for valuable materials, gaining +3 Luck when gathering. Rare gems and precious metals reveal themselves more frequently to your expert eye, increasing drop rates of valuable resources.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "submerged_mining_speed": {
+        "title": "Abyssal Excavator",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "prismarine"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.submerged_mining_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "You've adapted mining techniques for underwater work, increasing submerged mining speed by 20%. While others struggle against aquatic resistance, your tools slice through water and stone with equal ease.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "deep_diver": {
+        "title": "Pressure Adapted Miner",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "heart_of_the_sea"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.submerged_mining_speed",
+                    "value": 0.4,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.oxygen_bonus",
+                    "value": 60,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Develop specialized underwater mining techniques, increasing submerged mining speed by 40% and adding 60 ticks to your breath meter. Harvest oceanic resources for vastly longer periods without surfacing for air.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "bonus_rare_loot_rolls": {
+        "title": "Fortune Seeker's Blessing",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "gold_ingot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.bonus_rare_loot_rolls",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The gods of fortune smile upon you, granting 1 additional roll for rare resources. Your gathering techniques preserve integrity of rare materials, occasionally yielding precious finds others would destroy in extraction.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "bonus_loot_count_rolls": {
+        "title": "Abundant Harvester",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "chest"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.bonus_loot_count_rolls",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your careful gathering techniques occasionally yield additional resources, gaining 1 extra roll for bonus materials. Extract more usable material from the same source through expert handling and refined methods.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "entity_interaction_range": {
+        "title": "Extended Reach Mastery",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fishing_rod"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.entity_interaction_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your influence extends beyond normal boundaries, increasing interaction range with entities by 1 block. Manage resources and interact with the world from a greater distance, improving efficiency and safety.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "block_interaction_range": {
+        "title": "Master Gatherer's Reach",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "stone_bricks"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.block_interaction_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your control over the physical world extends further, increasing block interaction range by 1 block. Harvest resources from greater distances, accessing veins and deposits that would be precarious for others to reach.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mining_efficiency": {
+        "title": "Master Excavator",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.mining_efficiency",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your technique with mining tools approaches perfection, increasing efficiency by 5%. Each strike connects with precision, maximizing the effectiveness of your tools and minimizing wasted energy.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

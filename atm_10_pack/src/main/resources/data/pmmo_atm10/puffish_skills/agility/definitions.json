@@ -1,0 +1,747 @@
+{
+	"movement_speed+5%": {
+		"title": "Wind Walker's Grace",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Harness the wind's essence to move 5% faster, improving battlefield mobility and exploration speed.",
+		"metadata": {
+			"icon": "og2m92a9dwqw4gzl"
+		}
+	},
+	"minor_movement_speed": {
+		"title": "Swift Steps",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Develop lighter steps to move 2% faster, enhancing your overall mobility in combat.",
+		"metadata": {
+			"icon": "4vb55q53xo01tzz2"
+		}
+	},
+	"step_height": {
+		"title": "Mountain Climber's Reach",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ladder"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.step_height",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop powerful leg muscles and climbing techniques that allow you to step up 0.5 blocks higher without jumping. Traverse uneven terrain with ease as you climb obstacles that would impede others.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"jump_strength": {
+		"title": "Grasshopper's Leap",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "rabbit_foot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.jump_strength",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Strengthen your legs to jump 20% higher than normal. Reach ledges and platforms that others cannot, opening new pathways through the world as you soar to greater heights.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"safe_fall_distance": {
+		"title": "Cushioned Impact",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "hay_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.safe_fall_distance",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of falling safely, increasing your safe fall distance by 3 blocks. Your expert landing techniques allow you to drop from greater heights without injury.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"sprinting_speed": {
+		"title": "Wind Runner's Velocity",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sugar"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "artifacts:generic.sprinting_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "You've perfected the art of the sprint, moving 10% faster when running. Your strides lengthen and your feet barely touch the ground as you dash across the landscape with supernatural speed and grace.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"sprinting_step_height": {
+		"title": "Obstacle Runner's Leap",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "scaffolding"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "artifacts:generic.spriting_step_height",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "While sprinting, your momentum carries you effortlessly over small obstacles, increasing step height by 0.5 blocks. Hurdle low barriers without breaking stride, maintaining your velocity across uneven terrain.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"slip_resistance": {
+		"title": "Steadfast Footing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "honey_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "artifacts:generic.slip_resistance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your exceptional balance and coordinated movements grant 25% resistance to slippery surfaces. Ice and honey blocks provide more traction beneath your feet, allowing precise control where others slide helplessly.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"movement_speed_on_snow": {
+		"title": "Frostwalker's Stride",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "snow_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "artifacts:generic.movement_speed_on_snow",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "You've mastered the art of traversing frozen landscapes, gaining 15% increased movement speed on snow. While others flounder in drifts, you glide across the surface with the confident grace of a winter wolf.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"water_movement_efficiency": {
+		"title": "Streamlined Swimming",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tropical_fish"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.water_movement_efficiency",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Perfect your swimming technique to move 20% more efficiently through water. Your body cuts through liquid with minimal resistance, allowing faster travel in aquatic environments.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"swim_speed": {
+		"title": "Aquatic Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "heart_of_the_sea"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Move through water with the grace of a born swimmer, increasing swim speed by 15%. Your powerful strokes and perfect form allow you to navigate underwater environments with impressive speed.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"water_visibility": {
+		"title": "Abyssal Sight",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "conduit"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.water_visibility",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your eyes adapt to the distortion and darkness of water, increasing underwater visibility by 30%. Peer through murky depths to spot treasures, dangers, and secrets that others would swim blindly past.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"oxygen_bonus": {
+		"title": "Deepwater Lungs",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "pufferfish"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.oxygen_bonus",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop extraordinary lung capacity, gaining 30 extra ticks of breath underwater. Hold your breath for extended periods, allowing deeper dives and longer exploration of submerged ruins and caves.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"nametag_distance": {
+		"title": "Eagle-Eyed Recognition",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "spyglass"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:nametag_distance",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your vision sharpens to supernatural clarity, increasing nametag visibility distance by 10 blocks. Identify friends and foes from remarkable distances, gaining critical tactical information before engagement.",
+		"metadata": {
+			"icon": "p8nvqan78hast6ph"
+		}
+	},
+	"mob_detection_range": {
+		"title": "Shadow Walker's Stealth",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fermented_spider_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.mob_detection_range",
+					"value": -0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Move like a ghost through the wilderness, reducing hostile mob detection range by 20%. Creatures sense your presence only when you draw much closer, allowing for stealthy approaches and safer exploration.",
+		"metadata": {
+			"icon": "mfi47qgw04orm4j1"
+		}
+	},
+	"entity_interaction_range": {
+		"title": "Distant Perception",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "spyglass"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:player.entity_interaction_range",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Extend your reach by 1 block when interacting with creatures and objects. Your keen senses allow manipulation from safer distances.",
+		"metadata": {
+			"icon": "r6mzg5y6zlsodck8"
+		}
+	},
+	"block_interaction_range": {
+		"title": "Extended Reach",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stick"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:player.block_interaction_range",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your precise control and coordination allow you to interact with blocks from 1 block further away. Reach higher, farther, and across gaps where others would need to reposition.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"collection_range": {
+		"title": "Magnetic Attraction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lodestone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.collection_range",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Items seem drawn to you as if by an invisible force, extending your collection range by 3 blocks. Gather dropped resources from a safer distance without exposing yourself to hazardous terrain.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"experience_gained": {
+		"title": "Scholar's Enlightenment",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "experience_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:experience_gained",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your mind becomes a perfect vessel for knowledge, gaining 5% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"entity_experience": {
+		"title": "Monster Hunter's Insight",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "zombie_head"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "artifacts:player.entity_experience",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your methodical study of monster anatomy yields greater knowledge from each kill, increasing experience from hostile entities by 10%. Each victory provides deeper insights into the nature of your foes.",
+		"metadata": {
+			"icon": "flo2t69qrhbytyy2"
+		}
+	},
+	"fall_flying": {
+		"title": "Skyborn Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "elytra"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "caelus:fall_flying",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your instinctive understanding of aerodynamics improves elytra control by 15%. Navigate with greater precision, perform tighter turns, and maintain stable flight even in turbulent conditions.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"elytra_flight": {
+		"title": "Wind Current Rider",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "elytra"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:elytra_flight",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop advanced flying techniques that improve elytra speed by 10%. Your body instinctively finds optimal angles and air currents, allowing faster travel while gliding through the skies.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"flying_speed": {
+		"title": "Empyrean Velocity",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "elytra"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.flying_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "The air itself seems eager to carry you aloft, increasing flying speed by 10%. Move through the skies with greater velocity when using creative flight abilities.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"hover_flight": {
+		"title": "Arcane Levitation Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "xycraft_machines:hover_flight",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Gravity's hold on you weakens as you master arcane forces, granting a 30% chance of hover flight capability. Focus your will to temporarily suspend yourself in mid-air, defying the natural order with magical suspension.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"creative_flight": {
+		"title": "Ascendant's Skyward Freedom",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:creative_flight",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your connection to the primal forces of air grows stronger, providing a 30% chance of temporary creative flight. Brief moments of untethered freedom allow you to soar through the skies without mechanical assistance.",
+		"metadata": {
+			"icon": "wag18djz49lirlh4"
+		}
+	},
+	"gravity": {
+		"title": "Featherweight Essence",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.gravity",
+					"value": -0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body becomes strangely buoyant, reducing gravitational effects by 10%. Fall more slowly, jump slightly higher, and move with an uncanny lightness that defies the normal pull of the earth.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"agile_explorer": {
+		"title": "Pathfinder's Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "compass"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.step_height",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body adapts perfectly to any terrain, granting 3% increased movement speed and 0.3 blocks of step height. Navigate the most challenging landscapes with ease, effortlessly flowing across the world like water over stones.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"aquanaut": {
+		"title": "Depths Voyager",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "trident"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.oxygen_bonus",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "The waters welcome you as one of their own, granting 10% swim speed and 20 ticks of additional breath. Explore underwater realms with the natural confidence of a creature born to the depths.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"aerial_expert": {
+		"title": "Master of the Skies",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "caelus:fall_flying",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.fall_damage_multiplier",
+					"value": -0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "The sky becomes your second home, granting 10% better elytra control and 15% reduced fall damage. Soar with confidence knowing that even failed flights end with minimal harm as your body instinctively shifts to safe landing positions.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"treasure_hunter": {
+		"title": "Fortune's Favored",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "gold_nugget"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.collection_range",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Lady Luck smiles upon your adventures, granting +1 luck and 2 blocks extended item collection range. Find more valuable treasures and gather them with supernatural ease as fortune itself bends slightly in your favor.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "bonus_loot_count_rolls": {
+        "title": "Treasure Hunter's Bounty",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "chest"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.bonus_loot_count_rolls",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "You've developed a knack for thoroughly searching fallen foes, gaining 1 additional roll for extra loot items. Your meticulous attention to detail often reveals hidden treasures that would otherwise be overlooked.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

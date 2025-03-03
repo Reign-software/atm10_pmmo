@@ -1,81 +1,10 @@
 {
   "perks": {
     "SKILL_UP": [
-      {
-        "per_level": 0.05,
-        "perk": "pmmo:attribute",
-        "attribute": "minecraft:player.block_interaction_range",
-        "max_boost": 10.0,
-        "skill": "building"
-      },
-      {
-        "per_level": 1.5E-05,
-        "perk": "pmmo:attribute",
-        "attribute": "minecraft:generic.movement_speed",
-        "max_boost": 1.0,
-        "skill": "agility"
-      },
-      {
-        "per_level": 0.05,
-        "perk": "pmmo:attribute",
-        "attribute": "minecraft:generic.max_health",
-        "max_boost": 10.0,
-        "skill": "endurance"
-      },
-      {
-        "per_level": 0.005,
-        "perk": "pmmo:attribute",
-        "attribute": "minecraft:generic.attack_damage",
-        "max_boost": 1.0,
-        "skill": "combat"
-      },
-      {
-        "per_level": 3.0,
-        "perk": "ars_scalaes:mana_boost",
-        "max_boost": 3000.0,
-        "skill": "magic"
-      },
-      {
-        "per_level": 0.005,
-        "perk": "pmmo:attribute",
-        "attribute": "irons_spellbooks:cooldown_reduction",
-        "max_boost": 1.0,
-        "skill": "magic"
-      },
-      {
-        "per_level": 0.01,
-        "perk": "pmmo:attribute",
-        "attribute": "irons_spellbooks:spell_power",
-        "max_boost": 2.0,
-        "skill": "magic"
-      },
-      {
-        "per_level": 0.5,
-        "perk": "pmmo:attributen",
-        "attribute": "irons_spellbooks:mana_regen",
-        "max_boost": 300.0,
-        "skill": "magic"
-      }
     ],
     "SUBMERGED": [
-      {
-        "perk": "pmmo:breath",
-        "skill": "swimming"
-      },
-      {
-        "perk": "pmmo:effect",
-        "min_level": 25,
-        "max_boost": 160,
-        "skill": "swimming",
-        "effect": "minecraft:night_vision"
-      }
     ],
     "CROUCH_JUMP": [
-      {
-        "per_level": 0.0015,
-        "perk": "pmmo:jump_boost",
-        "skill": "agility"
-      }
     ],
     "ENTITY": [
       {
@@ -84,11 +13,6 @@
       }
     ],
     "SPRINT_JUMP": [
-      {
-        "per_level": 0.001,
-        "perk": "pmmo:jump_boost",
-        "skill": "agility"
-      }
     ],
     "JUMP": [
       {
@@ -204,18 +128,6 @@
       }
     ],
     "RECEIVE_DAMAGE": [
-      {
-        "per_level": 0.025,
-        "perk": "pmmo:damage_reduce",
-        "for_damage": "minecraft:fall",
-        "skill": "agility"
-      },
-      {
-        "per_level": 0.025,
-        "perk": "pmmo:damage_reduce",
-        "for_damage": "minecraft:mob_attack",
-        "skill": "endurance"
-      }
     ]
   },
   "type": "PERKS"

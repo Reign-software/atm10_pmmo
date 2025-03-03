@@ -1,0 +1,10 @@
+{
+	"title": "Endurance",
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "absorption"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/nether.png"
+}

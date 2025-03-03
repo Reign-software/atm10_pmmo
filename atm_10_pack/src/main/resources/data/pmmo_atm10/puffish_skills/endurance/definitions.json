@@ -1,0 +1,738 @@
+{
+	"health+2": {
+		"title": "Heartbound Fortitude",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
+		"metadata": {
+			"icon": "gjjbgp8eiwr7iv1k"
+		}
+	},
+	"health+4": {
+		"title": "Warrior's Resilience",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Harness battle-hardened vitality to increase maximum health by 2 hearts, significantly improving your survival in dangerous encounters.",
+		"metadata": {
+			"icon": "r1j2tvuc4vh1066x"
+		}
+	},
+	"health+8": {
+		"title": "Titan's Constitution",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 8,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Manifest legendary toughness, increasing your maximum health by 4 hearts. Your life force grows to heroic proportions, allowing you to survive blows that would fell ordinary mortals.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"minor_armor": {
+		"title": "Hardened Skin",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Toughen your skin to gain +0.5 armor points, providing a small but helpful defense against physical attacks.",
+		"metadata": {
+			"icon": "ltmfllwq6yjgsl0w"
+		}
+	},
+	"medium_armor": {
+		"title": "Iron Flesh Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop resilient flesh that grants +1 armor point, noticeably reducing damage from enemy attacks.",
+		"metadata": {
+			"icon": "1cythxuq17aqnfc8"
+		}
+	},
+	"minor_toughness": {
+		"title": "Resolute Defense",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop resilience against powerful attacks, gaining +0.5 armor toughness to better withstand heavy blows.",
+		"metadata": {
+			"icon": "kd353m4eyu9adp3d"
+		}
+	},
+	"medium_toughness": {
+		"title": "Unyielding Bastion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master defensive techniques that grant +1 armor toughness, making your armor significantly more effective.",
+		"metadata": {
+			"icon": "pu0y22aqdvc3td3y"
+		}
+	},
+	"knockback_resistance+10%": {
+		"title": "Immovable Mountain Stance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Root yourself like a mountain, gaining 10% resistance to being knocked back by enemy attacks and explosions.",
+		"metadata": {
+			"icon": "7iqxcc49z41bdvk3"
+		}
+	},
+	"minor_knockback_res": {
+		"title": "Steadfast Footing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cobblestone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Plant your feet firmly to gain 3% knockback resistance, making you harder to displace in combat.",
+		"metadata": {
+			"icon": "o53vsddtb1znbw6m"
+		}
+	},
+	"medium_knockback_res": {
+		"title": "Mountain's Stance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become as immovable as a mountain with 5% knockback resistance, better withstanding powerful attacks.",
+		"metadata": {
+			"icon": "bxar36dclzsvjpzo"
+		}
+	},
+	"major_knockback_res": {
+		"title": "Unshakeable Colossus",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "obsidian"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your stability becomes legendary with 15% knockback resistance. Even the mightiest blows barely move you from your chosen position, allowing perfect tactical control in combat.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"explosion_knockback_resistance": {
+		"title": "Blast Anchoring",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tnt"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.explosion_knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your stance widens instinctively when explosions occur, granting 10% resistance to explosion knockback. While others are sent flying, you maintain your footing against devastating blasts.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"major_explosion_resistance": {
+		"title": "Demolition Defiance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tnt_minecart"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.explosion_knockback_resistance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body instinctively braces against explosive force, granting 25% explosion knockback resistance. Stand firm in the face of detonations that would send others tumbling through the air.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"healing_received": {
+		"title": "Vitality Amplification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glistering_melon_slice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:healing_received",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"major_healing": {
+		"title": "Miraculous Recovery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "beacon"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:healing_received",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your cells respond extraordinarily to healing magic, increasing healing received by 20%. Recovery happens at astonishing rates as your body maximizes the effect of every healing potion and regenerative spell.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"ghost_health+5": {
+		"title": "Ethereal Protection",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "phantom_membrane"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:ghost_health",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Manifest a shield of spectral energy around your form, gaining 5 points of ghost health. This ethereal barrier absorbs damage before your physical body is harmed.",
+		"metadata": {
+			"icon": "7mzvdseh9a1oq9yg"
+		}
+	},
+	"major_ghost_health": {
+		"title": "Spectral Aegis",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "soul_lantern"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:ghost_health",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your connection to spectral energies strengthens dramatically, creating a powerful ethereal barrier of 10 ghost health points. This supernatural shield absorbs significant damage before your physical form takes any harm.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"minor_dodge": {
+		"title": "Swift Evasion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop basic evasive maneuvers, gaining a 1% chance to completely avoid incoming attacks.",
+		"metadata": {
+			"icon": "r3jy9d6o4htc7jtj"
+		}
+	},
+	"magic_protection+5": {
+		"title": "Mystic Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "enchanted_golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.magic_protection",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Weave protective enchantments into your very essence, gaining 5 points of magic protection. Arcane defenses shield your body and soul from magical harm of all kinds.",
+		"metadata": {
+			"icon": "d35a71h7zjxshlmy"
+		}
+	},
+	"major_magic_protection": {
+		"title": "Arcane Dampening Field",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "dragon_egg"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.magic_protection",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body develops powerful counter-resonance to magical energies, granting 10 points of magic protection. Hostile spells fizzle and weaken as they approach you, drastically reducing arcane damage of all types.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "eldritch_spell_power": {
+        "title": "Forbidden Knowledge Wielder",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sculk_catalyst"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your mind has glimpsed beyond the veil of reality, increasing eldritch spell power by 5%. Channel cosmic forces with greater potency as your understanding of impossible geometries grows deeper.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ender_magic_resist": {
+        "title": "Teleportation Anchor",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:ender_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your physical form resists spatial manipulation, granting 5% resistance to ender magic. Your position in reality becomes more fixed, making you less vulnerable to teleportation effects and void energies.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+	"blood_magic_resist": {
+		"title": "Vitae Warding",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_magic_resist",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your life essence resists external manipulation, gaining 5% resistance to blood magic. Crimson spells struggle to affect your well-protected vital force, significantly reducing their harmful effects.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"fire_magic_resist": {
+		"title": "Flame-Touched Soul",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "magma_cream"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_magic_resist",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your essence gains properties of the infernal planes, providing 5% resistance to fire magic. Magical flames diminish as they approach your naturally heat-resistant form.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"ice_magic_resist": {
+		"title": "Frostborn Resilience",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "blue_ice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_magic_resist",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your inner fire cannot be extinguished by winter's grasp, providing 5% resistance to ice magic. Freezing spells struggle to slow your movements or chill your core as your body maintains its vital heat.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"lightning_magic_resist": {
+		"title": "Stormchild's Immunity",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lightning_rod"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_magic_resist",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Electrical energies flow harmlessly through your adapted nervous system, granting 5% resistance to lightning magic. Your body has learned to channel and disperse magical electricity rather than succumbing to its shocking power.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"spell_resist+10%": {
+		"title": "Arcane Warding",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop protective countermeasures against hostile magic, gaining 10% resistance to all spells. Your aura deflects and disperses incoming magical energies, reducing their harmful effects.",
+		"metadata": {
+			"icon": "74a4w55mkub8joh9"
+		}
+	},
+	"ether_resistance": {
+		"title": "Planar Barrier",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "eternal_starlight:generic.ether_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body develops a mystical resistance to interdimensional forces, gaining 10% ether resistance. Void energies and planar distortions have less effect on you, reducing damage from these otherworldly sources.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"max_absorption": {
+		"title": "Golden Vitality Barrier",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_absorption",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your body can sustain more powerful absorption effects, increasing maximum absorption by 2 hearts. Golden apples and similar items provide significantly more protective shielding when consumed.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "evocation_magic_resist": {
+        "title": "Binding Disruptor",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "totem_of_undying"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:evocation_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your aura naturally disrupts conjuration energies, providing 5% resistance to evocation magic. Summoned creatures find it harder to maintain their form in your presence, and binding spells slip away like water.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "holy_magic_resist": {
+        "title": "Divine Judgment Evasion",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:holy_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your spirit exists in a moral gray area that confounds divine energies, granting 5% resistance to holy magic. Sacred light struggles to judge what it cannot clearly perceive, reducing its impact on your complex soul.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "nature_magic_resist": {
+        "title": "Wild Harmony",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "oak_sapling"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:nature_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your spiritual connection with the natural world provides 5% resistance to nature magic. Primal forces recognize you as part of their domain rather than an intruder to be expelled or consumed.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

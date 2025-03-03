@@ -1,0 +1,10 @@
+{
+	"title": "Archery",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "bow"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}
