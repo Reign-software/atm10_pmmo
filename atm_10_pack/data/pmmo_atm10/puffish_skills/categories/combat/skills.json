@@ -1,0 +1,1268 @@
+{
+	"combat_root": {
+		"definition": "minor_health",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"central_1": {
+		"definition": "minor_attack_damage",
+		"x": -40,
+		"y": -40,
+		"root": false
+	},
+	"central_2": {
+		"definition": "minor_health",
+		"x": 40,
+		"y": -40,
+		"root": false
+	},
+	"central_3": {
+		"definition": "minor_attack_speed",
+		"x": -40,
+		"y": 40,
+		"root": false
+	},
+	"central_4": {
+		"definition": "minor_armor",
+		"x": 40,
+		"y": 40,
+		"root": false
+	},
+	"central_wheel_1": {
+		"definition": "minor_dodge",
+		"x": 0,
+		"y": -60,
+		"root": false
+	},
+	"central_wheel_2": {
+		"definition": "minor_crit_chance",
+		"x": -60,
+		"y": 0,
+		"root": false
+	},
+	"central_wheel_3": {
+		"definition": "minor_movement_speed",
+		"x": 0,
+		"y": 60,
+		"root": false
+	},
+	"central_wheel_4": {
+		"definition": "minor_max_mana",
+		"x": 60,
+		"y": 0,
+		"root": false
+	},
+	"tank_entry": {
+		"definition": "minor_armor",
+		"x": -96,
+		"y": -96,
+		"root": false
+	},
+	"tank_1": {
+		"definition": "minor_health",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"tank_2": {
+		"definition": "medium_armor",
+		"x": -180,
+		"y": -180,
+		"root": false
+	},
+	"tank_3": {
+		"definition": "minor_knockback_res",
+		"x": -220,
+		"y": -220,
+		"root": false
+	},
+	"tank_4": {
+		"definition": "medium_health",
+		"x": -260,
+		"y": -260,
+		"root": false
+	},
+	"tank_5": {
+		"definition": "medium_toughness",
+		"x": -300,
+		"y": -300,
+		"root": false
+	},
+	"tank_6": {
+		"definition": "major_health",
+		"x": -352,
+		"y": -352,
+		"root": false
+	},
+	"tank_keystone": {
+		"definition": "tank_specialization",
+		"x": -416,
+		"y": -416,
+		"root": false
+	},
+	"tank_armor_1": {
+		"definition": "minor_armor",
+		"x": -256,
+		"y": -192,
+		"root": false
+	},
+	"tank_armor_2": {
+		"definition": "medium_armor",
+		"x": -320,
+		"y": -192,
+		"root": false
+	},
+	"tank_armor_3": {
+		"definition": "major_armor",
+		"x": -384,
+		"y": -192,
+		"root": false
+	},
+	"tank_armor_4": {
+		"definition": "minor_toughness",
+		"x": -384,
+		"y": -64,
+		"root": false
+	},
+	"tank_armor_5": {
+		"definition": "medium_toughness",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"tank_resist_1": {
+		"definition": "minor_knockback_res",
+		"x": -180,
+		"y": -140,
+		"root": false
+	},
+	"tank_resist_2": {
+		"definition": "medium_knockback_res",
+		"x": -256,
+		"y": -160,
+		"root": false
+	},
+	"tank_resist_3": {
+		"definition": "minor_dodge",
+		"x": -352,
+		"y": -160,
+		"root": false
+	},
+	"tank_resist_4": {
+		"definition": "medium_dodge",
+		"x": -352,
+		"y": -96,
+		"root": false
+	},
+	"tank_resist_5": {
+		"definition": "minor_life_steal",
+		"x": -256,
+		"y": -96,
+		"root": false
+	},
+	"tank_upper_1": {
+		"definition": "minor_health",
+		"x": -160,
+		"y": -224,
+		"root": false
+	},
+	"tank_upper_2": {
+		"definition": "minor_armor",
+		"x": -160,
+		"y": -288,
+		"root": false
+	},
+	"tank_upper_3": {
+		"definition": "minor_knockback_res",
+		"x": -96,
+		"y": -288,
+		"root": false
+	},
+	"tank_upper_4": {
+		"definition": "minor_toughness",
+		"x": -96,
+		"y": -224,
+		"root": false
+	},
+	"melee_entry": {
+		"definition": "minor_attack_damage",
+		"x": -96,
+		"y": 128,
+		"root": false
+	},
+	"melee_1": {
+		"definition": "minor_attack_speed",
+		"x": -192,
+		"y": 128,
+		"root": false
+	},
+	"melee_2": {
+		"definition": "medium_attack_damage",
+		"x": -288,
+		"y": 128,
+		"root": false
+	},
+	"melee_3": {
+		"definition": "minor_crit_chance",
+		"x": -288,
+		"y": 288,
+		"root": false
+	},
+	"melee_4": {
+		"definition": "medium_attack_speed",
+		"x": -288,
+		"y": 384,
+		"root": false
+	},
+	"melee_5": {
+		"definition": "major_attack_damage",
+		"x": -352,
+		"y": 384,
+		"root": false
+	},
+	"melee_6": {
+		"definition": "medium_crit_chance",
+		"x": -416,
+		"y": 384,
+		"root": false
+	},
+	"melee_keystone": {
+		"definition": "melee_specialization",
+		"x": -480,
+		"y": 384,
+		"root": false
+	},
+	"melee_crit_1": {
+		"definition": "minor_crit_chance",
+		"x": -352,
+		"y": 128,
+		"root": false
+	},
+	"melee_crit_2": {
+		"definition": "minor_crit_damage",
+		"x": -416,
+		"y": 128,
+		"root": false
+	},
+	"melee_crit_3": {
+		"definition": "medium_crit_chance",
+		"x": -480,
+		"y": 128,
+		"root": false
+	},
+	"melee_crit_4": {
+		"definition": "medium_crit_damage",
+		"x": -480,
+		"y": 64,
+		"root": false
+	},
+	"melee_crit_5": {
+		"definition": "medium_attack_damage",
+		"x": -416,
+		"y": 64,
+		"root": false
+	},
+	"melee_lifesteal_1": {
+		"definition": "minor_life_steal",
+		"x": -384,
+		"y": 288,
+		"root": false
+	},
+	"melee_lifesteal_2": {
+		"definition": "minor_health",
+		"x": -480,
+		"y": 288,
+		"root": false
+	},
+	"melee_lifesteal_3": {
+		"definition": "medium_life_steal",
+		"x": -480,
+		"y": 224,
+		"root": false
+	},
+	"melee_lifesteal_4": {
+		"definition": "medium_health",
+		"x": -416,
+		"y": 224,
+		"root": false
+	},
+	"melee_lifesteal_5": {
+		"definition": "minor_health",
+		"x": -352,
+		"y": 224,
+		"root": false
+	},
+	"melee_lower_1": {
+		"definition": "minor_attack_damage",
+		"x": -192,
+		"y": 192,
+		"root": false
+	},
+	"melee_lower_2": {
+		"definition": "minor_attack_speed",
+		"x": -192,
+		"y": 256,
+		"root": false
+	},
+	"melee_lower_3": {
+		"definition": "minor_crit_chance",
+		"x": -96,
+		"y": 256,
+		"root": false
+	},
+	"melee_lower_4": {
+		"definition": "minor_life_steal",
+		"x": -96,
+		"y": 192,
+		"root": false
+	},
+	"magic_entry": {
+		"definition": "minor_max_mana",
+		"x": 100,
+		"y": -100,
+		"root": false
+	},
+	"magic_1": {
+		"definition": "minor_mana_regen",
+		"x": 140,
+		"y": -140,
+		"root": false
+	},
+	"magic_2": {
+		"definition": "minor_spell_power",
+		"x": 180,
+		"y": -180,
+		"root": false
+	},
+	"magic_3": {
+		"definition": "minor_cooldown_reduction",
+		"x": 220,
+		"y": -220,
+		"root": false
+	},
+	"magic_4": {
+		"definition": "medium_max_mana",
+		"x": 224,
+		"y": -352,
+		"root": false
+	},
+	"magic_5": {
+		"definition": "medium_spell_power",
+		"x": 288,
+		"y": -384,
+		"root": false
+	},
+	"magic_6": {
+		"definition": "major_max_mana",
+		"x": 128,
+		"y": -416,
+		"root": false
+	},
+	"magic_keystone": {
+		"definition": "magic_specialization",
+		"x": 96,
+		"y": -544,
+		"root": false
+	},
+	"elemental_hub": {
+		"definition": "minor_spell_power",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"fire_magic_1": {
+		"definition": "fire_spell_power",
+		"x": 352,
+		"y": -128,
+		"root": false
+	},
+	"fire_magic_2": {
+		"definition": "fire_spell_power",
+		"x": 448,
+		"y": -32,
+		"root": false
+	},
+	"ice_magic_1": {
+		"definition": "ice_spell_power",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"ice_magic_2": {
+		"definition": "ice_spell_power",
+		"x": 384,
+		"y": 32,
+		"root": false
+	},
+	"lightning_magic_1": {
+		"definition": "lightning_spell_power",
+		"x": 352,
+		"y": -64,
+		"root": false
+	},
+	"lightning_magic_2": {
+		"definition": "lightning_spell_power",
+		"x": 480,
+		"y": 64,
+		"root": false
+	},
+	"utility_hub": {
+		"definition": "medium_cooldown_reduction",
+		"x": 256,
+		"y": -256,
+		"root": false
+	},
+	"utility_1": {
+		"definition": "minor_cast_time_reduction",
+		"x": 320,
+		"y": -256,
+		"root": false
+	},
+	"utility_2": {
+		"definition": "minor_movement_speed",
+		"x": 288,
+		"y": -192,
+		"root": false
+	},
+	"utility_3": {
+		"definition": "minor_step_height",
+		"x": 448,
+		"y": -256,
+		"root": false
+	},
+	"utility_4": {
+		"definition": "minor_cast_time_reduction",
+		"x": 352,
+		"y": -192,
+		"root": false
+	},
+	"ars_hub": {
+		"definition": "ars_max_mana",
+		"x": 180,
+		"y": -140,
+		"root": false
+	},
+	"ars_1": {
+		"definition": "ars_mana_regen",
+		"x": 224,
+		"y": 0,
+		"root": false
+	},
+	"ars_2": {
+		"definition": "ars_mana_discount",
+		"x": 288,
+		"y": 0,
+		"root": false
+	},
+	"ars_3": {
+		"definition": "ars_spell_damage",
+		"x": 288,
+		"y": 64,
+		"root": false
+	},
+	"ars_4": {
+		"definition": "ars_max_mana",
+		"x": 224,
+		"y": 64,
+		"root": false
+	},
+	"holy_hub": {
+		"definition": "holy_spell_power",
+		"x": 320,
+		"y": -320,
+		"root": false
+	},
+	"holy_1": {
+		"definition": "medium_health",
+		"x": 384,
+		"y": -352,
+		"root": false
+	},
+	"holy_2": {
+		"definition": "minor_life_steal",
+		"x": 448,
+		"y": -384,
+		"root": false
+	},
+	"holy_3": {
+		"definition": "medium_mana_regen",
+		"x": 448,
+		"y": -320,
+		"root": false
+	},
+	"holy_4": {
+		"definition": "holy_spell_power",
+		"x": 544,
+		"y": -384,
+		"root": false
+	},
+	"nature_blood_hub": {
+		"definition": "minor_spell_power",
+		"x": 352,
+		"y": -416,
+		"root": false
+	},
+	"blood_1": {
+		"definition": "blood_spell_power",
+		"x": 448,
+		"y": -480,
+		"root": false
+	},
+	"blood_2": {
+		"definition": "medium_life_steal",
+		"x": 512,
+		"y": -480,
+		"root": false
+	},
+	"blood_3": {
+		"definition": "blood_spell_power",
+		"x": 512,
+		"y": -544,
+		"root": false
+	},
+	"nature_1": {
+		"definition": "nature_spell_power",
+		"x": 352,
+		"y": -480,
+		"root": false
+	},
+	"nature_2": {
+		"definition": "minor_health",
+		"x": 384,
+		"y": -544,
+		"root": false
+	},
+	"nature_3": {
+		"definition": "nature_spell_power",
+		"x": 448,
+		"y": -544,
+		"root": false
+	},
+	"ender_evo_hub": {
+		"definition": "minor_cooldown_reduction",
+		"x": 416,
+		"y": -160,
+		"root": false
+	},
+	"ender_1": {
+		"definition": "ender_spell_power",
+		"x": 544,
+		"y": -192,
+		"root": false
+	},
+	"ender_2": {
+		"definition": "minor_movement_speed",
+		"x": 608,
+		"y": -192,
+		"root": false
+	},
+	"ender_3": {
+		"definition": "ender_spell_power",
+		"x": 672,
+		"y": -128,
+		"root": false
+	},
+	"evo_1": {
+		"definition": "evocation_spell_power",
+		"x": 544,
+		"y": -128,
+		"root": false
+	},
+	"evo_2": {
+		"definition": "minor_cooldown_reduction",
+		"x": 544,
+		"y": -64,
+		"root": false
+	},
+	"evo_3": {
+		"definition": "evocation_spell_power",
+		"x": 672,
+		"y": -64,
+		"root": false
+	},
+	"magic_upper_1": {
+		"definition": "minor_max_mana",
+		"x": 128,
+		"y": -192,
+		"root": false
+	},
+	"magic_upper_2": {
+		"definition": "minor_mana_regen",
+		"x": 128,
+		"y": -256,
+		"root": false
+	},
+	"magic_upper_3": {
+		"definition": "minor_spell_power",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"magic_upper_4": {
+		"definition": "minor_cooldown_reduction",
+		"x": 64,
+		"y": -192,
+		"root": false
+	},
+	"ranged_entry": {
+		"definition": "minor_arrow_damage",
+		"x": 100,
+		"y": 100,
+		"root": false
+	},
+	"ranged_1": {
+		"definition": "minor_arrow_velocity",
+		"x": 140,
+		"y": 140,
+		"root": false
+	},
+	"ranged_2": {
+		"definition": "minor_draw_speed",
+		"x": 180,
+		"y": 180,
+		"root": false
+	},
+	"ranged_3": {
+		"definition": "medium_arrow_damage",
+		"x": 224,
+		"y": 224,
+		"root": false
+	},
+	"ranged_4": {
+		"definition": "medium_draw_speed",
+		"x": 288,
+		"y": 288,
+		"root": false
+	},
+	"ranged_5": {
+		"definition": "medium_arrow_velocity",
+		"x": 352,
+		"y": 288,
+		"root": false
+	},
+	"ranged_6": {
+		"definition": "minor_crit_chance",
+		"x": 416,
+		"y": 288,
+		"root": false
+	},
+	"ranged_keystone": {
+		"definition": "ranged_specialization",
+		"x": 416,
+		"y": 352,
+		"root": false
+	},
+	"mobility_hub": {
+		"definition": "minor_movement_speed",
+		"x": 224,
+		"y": 160,
+		"root": false
+	},
+	"mobility_1": {
+		"definition": "minor_dodge",
+		"x": 288,
+		"y": 160,
+		"root": false
+	},
+	"mobility_2": {
+		"definition": "medium_movement_speed",
+		"x": 288,
+		"y": 224,
+		"root": false
+	},
+	"mobility_3": {
+		"definition": "medium_dodge",
+		"x": 352,
+		"y": 224,
+		"root": false
+	},
+	"mobility_4": {
+		"definition": "major_dodge",
+		"x": 416,
+		"y": 224,
+		"root": false
+	},
+	"mobility_5": {
+		"definition": "minor_step_height",
+		"x": 416,
+		"y": 160,
+		"root": false
+	},
+	"precision_hub": {
+		"definition": "minor_crit_chance",
+		"x": 128,
+		"y": 288,
+		"root": false
+	},
+	"precision_1": {
+		"definition": "health+2",
+		"x": 64,
+		"y": 352,
+		"root": false
+	},
+	"precision_2": {
+		"definition": "medium_crit_damage",
+		"x": 32,
+		"y": 416,
+		"root": false
+	},
+	"precision_3": {
+		"definition": "medium_crit_chance",
+		"x": 32,
+		"y": 480,
+		"root": false
+	},
+	"precision_4": {
+		"definition": "minor_crit_damage",
+		"x": 96,
+		"y": 480,
+		"root": false
+	},
+	"precision_5": {
+		"definition": "minor_crit_chance",
+		"x": 96,
+		"y": 416,
+		"root": false
+	},
+	"projectile_hub": {
+		"definition": "minor_arrow_velocity",
+		"x": 288,
+		"y": 384,
+		"root": false
+	},
+	"projectile_1": {
+		"definition": "medium_arrow_damage",
+		"x": 352,
+		"y": 384,
+		"root": false
+	},
+	"projectile_2": {
+		"definition": "medium_arrow_velocity",
+		"x": 352,
+		"y": 448,
+		"root": false
+	},
+	"projectile_3": {
+		"definition": "minor_draw_speed",
+		"x": 288,
+		"y": 448,
+		"root": false
+	},
+	"ranged_lower_1": {
+		"definition": "minor_arrow_damage",
+		"x": 128,
+		"y": 192,
+		"root": false
+	},
+	"ranged_lower_2": {
+		"definition": "minor_arrow_velocity",
+		"x": -32,
+		"y": 224,
+		"root": false
+	},
+	"ranged_lower_3": {
+		"definition": "minor_draw_speed",
+		"x": 0,
+		"y": 192,
+		"root": false
+	},
+	"ranged_lower_4": {
+		"definition": "minor_crit_chance",
+		"x": 64,
+		"y": 192,
+		"root": false
+	},
+	"bridge_tank_melee_1": {
+		"definition": "minor_attack_damage",
+		"x": -192,
+		"y": -96,
+		"root": false
+	},
+	"bridge_tank_melee_2": {
+		"definition": "minor_armor",
+		"x": -352,
+		"y": 64,
+		"root": false
+	},
+	"bridge_magic_ranged_1": {
+		"definition": "minor_arrow_velocity",
+		"x": 160,
+		"y": 0,
+		"root": false
+	},
+	"bridge_magic_ranged_2": {
+		"definition": "minor_cooldown_reduction",
+		"x": 160,
+		"y": 64,
+		"root": false
+	},
+	"bridge_tank_magic_1": {
+		"definition": "medium_health",
+		"x": -224,
+		"y": -320,
+		"root": false
+	},
+	"bridge_tank_magic_2": {
+		"definition": "minor_spell_power",
+		"x": 160,
+		"y": -320,
+		"root": false
+	},
+	"bridge_melee_ranged_1": {
+		"definition": "minor_crit_chance",
+		"x": -224,
+		"y": 320,
+		"root": false
+	},
+	"bridge_melee_ranged_2": {
+		"definition": "minor_attack_speed",
+		"x": -96,
+		"y": 320,
+		"root": false
+	},
+	"diagonal_bridge_1": {
+		"definition": "minor_health",
+		"x": -32,
+		"y": -128,
+		"root": false
+	},
+	"diagonal_bridge_2": {
+		"definition": "minor_attack_damage",
+		"x": -128,
+		"y": -32,
+		"root": false
+	},
+	"diagonal_bridge_3": {
+		"definition": "minor_max_mana",
+		"x": 60,
+		"y": -120,
+		"root": false
+	},
+	"diagonal_bridge_4": {
+		"definition": "minor_arrow_damage",
+		"x": 96,
+		"y": 32,
+		"root": false
+	},
+	"diagonal_bridge_5": {
+		"definition": "minor_attack_speed",
+		"x": -192,
+		"y": 64,
+		"root": false
+	},
+	"diagonal_bridge_6": {
+		"definition": "minor_dodge",
+		"x": 0,
+		"y": 128,
+		"root": false
+	},
+	"connector_tank_magic_1": {
+		"definition": "minor_health",
+		"x": -448,
+		"y": -224,
+		"root": false
+	},
+	"connector_tank_magic_2": {
+		"definition": "minor_max_mana",
+		"x": -448,
+		"y": 0,
+		"root": false
+	},
+	"connector_tank_magic_3": {
+		"definition": "minor_spell_power",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"connector_melee_ranged_1": {
+		"definition": "minor_crit_damage",
+		"x": -32,
+		"y": 384,
+		"root": false
+	},
+	"connector_melee_ranged_2": {
+		"definition": "minor_arrow_velocity",
+		"x": -32,
+		"y": 288,
+		"root": false
+	},
+	"connector_melee_ranged_3": {
+		"definition": "minor_attack_damage",
+		"x": -256,
+		"y": 64,
+		"root": false
+	},
+	"tno3qfyop31b5x1k": {
+		"definition": "dodge_chance+3%",
+		"x": 512,
+		"y": 224,
+		"root": false
+	},
+	"1hxybqe405ixq3e5": {
+		"definition": "dodge_chance+3%",
+		"x": 512,
+		"y": 160,
+		"root": false
+	},
+	"88l171stx3c0e1j6": {
+		"definition": "dodge_chance+3%",
+		"x": 576,
+		"y": 224,
+		"root": false
+	},
+	"y8n1gpunfeymrp7s": {
+		"definition": "dodge_chance+3%",
+		"x": 576,
+		"y": 160,
+		"root": false
+	},
+	"119hp2pyrvoz3ub7": {
+		"definition": "dodge_chance+3%",
+		"x": -64,
+		"y": 448,
+		"root": false
+	},
+	"ty33413ycvmfakc7": {
+		"definition": "dodge_chance+3%",
+		"x": -128,
+		"y": 576,
+		"root": false
+	},
+	"iilwkej3xzuxnuz2": {
+		"definition": "dodge_chance+3%",
+		"x": -64,
+		"y": 576,
+		"root": false
+	},
+	"qq6pwe68l3w5bbvn": {
+		"definition": "dodge_chance+3%",
+		"x": -64,
+		"y": 512,
+		"root": false
+	},
+	"vrx1e3s39oa0ol6e": {
+		"definition": "spell_power+5%",
+		"x": 64,
+		"y": -416,
+		"root": false
+	},
+	"lsa4hag7eht2yz9z": {
+		"definition": "spell_power+5%",
+		"x": 0,
+		"y": -480,
+		"root": false
+	},
+	"0dc60a2oho4otxai": {
+		"definition": "cooldown_reduction+5%",
+		"x": 0,
+		"y": -416,
+		"root": false
+	},
+	"lmyz0c58qt26h18y": {
+		"definition": "cooldown_reduction+5%",
+		"x": -64,
+		"y": -480,
+		"root": false
+	},
+	"58qsya5pvtp1vb18": {
+		"definition": "mana_regen+10",
+		"x": 32,
+		"y": -544,
+		"root": false
+	},
+	"8cjjwzj59tyc77tt": {
+		"definition": "max_mana+50",
+		"x": -32,
+		"y": -576,
+		"root": false
+	},
+	"njb72n9ktqvdlw2e": {
+		"definition": "max_mana+50",
+		"x": 32,
+		"y": -608,
+		"root": false
+	},
+	"38t4f2ce0mwk6tsi": {
+		"definition": "draw_speed+10%",
+		"x": 416,
+		"y": 416,
+		"root": false
+	},
+	"qi9h84ogkgl9pat0": {
+		"definition": "draw_speed+10%",
+		"x": 480,
+		"y": 352,
+		"root": false
+	},
+	"xsrotytxfcp56mp7": {
+		"definition": "arrow_velocity+5%",
+		"x": 480,
+		"y": 480,
+		"root": false
+	},
+	"hu5yk4eg5fh9x29u": {
+		"definition": "arrow_velocity+5%",
+		"x": 544,
+		"y": 416,
+		"root": false
+	},
+	"5m46k5hh8boh4p0l": {
+		"definition": "arrow_damage+10%",
+		"x": 544,
+		"y": 480,
+		"root": false
+	},
+	"xxazsiyvhq5080mc": {
+		"definition": "life_steal+2%",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"uylcd5tdgbfkf3jt": {
+		"definition": "life_steal+2%",
+		"x": -416,
+		"y": -480,
+		"root": false
+	},
+	"xowez6n8uvs860iq": {
+		"definition": "crit_chance+5%",
+		"x": -128,
+		"y": 448,
+		"root": false
+	},
+	"p0kr8dpi7zydaooh": {
+		"definition": "crit_chance+5%",
+		"x": -192,
+		"y": 448,
+		"root": false
+	},
+	"km627czp4arli0bj": {
+		"definition": "crit_damage+10%",
+		"x": -128,
+		"y": 512,
+		"root": false
+	},
+	"ts3bdmukrg0wehlb": {
+		"definition": "crit_damage+10%",
+		"x": -192,
+		"y": 512,
+		"root": false
+	},
+	"w0ric6ws2szjwrum": {
+		"definition": "attack_speed+5%",
+		"x": -480,
+		"y": 448,
+		"root": false
+	},
+	"gao1ix88imgwq38l": {
+		"definition": "attack_speed+5%",
+		"x": -544,
+		"y": 384,
+		"root": false
+	},
+	"0aldzfslvlvmmu9v": {
+		"definition": "attack_damage+10%",
+		"x": -544,
+		"y": 448,
+		"root": false
+	},
+	"r4g3t04r30ilxz16": {
+		"definition": "attack_damage+5%",
+		"x": -576,
+		"y": 480,
+		"root": false
+	},
+	"93v8a5rj40d6tfw0": {
+		"definition": "attack_speed+10%",
+		"x": -608,
+		"y": 512,
+		"root": false
+	},
+	"nxjr9dc2jhtasmp9": {
+		"definition": "health+4",
+		"x": -32,
+		"y": -320,
+		"root": false
+	},
+	"4als60dq4w4enskq": {
+		"definition": "health+4",
+		"x": -480,
+		"y": -480,
+		"root": false
+	},
+	"ju3do1lqukl6ypa3": {
+		"definition": "health+4",
+		"x": -416,
+		"y": -544,
+		"root": false
+	},
+	"75lh78jj545nhwuk": {
+		"definition": "armor+2",
+		"x": -480,
+		"y": -544,
+		"root": false
+	},
+	"przhtjxr061bi42t": {
+		"definition": "armor_toughness+1",
+		"x": -544,
+		"y": -480,
+		"root": false
+	},
+	"khm0teaqbk8o6c6b": {
+		"definition": "armor_toughness+1",
+		"x": -416,
+		"y": -608,
+		"root": false
+	},
+	"bq0peb4so1kcgsi8": {
+		"definition": "armor+1",
+		"x": -352,
+		"y": -224,
+		"root": false
+	},
+	"iovud2huq8dxslgh": {
+		"definition": "armor+1",
+		"x": -448,
+		"y": -96,
+		"root": false
+	},
+	"b7ovs587y4goewai": {
+		"definition": "health+2",
+		"x": -192,
+		"y": 384,
+		"root": false
+	},
+	"zf4hdr1q2r6iujww": {
+		"definition": "health+2",
+		"x": 192,
+		"y": 288,
+		"root": false
+	},
+	"nnibixwllszu35sa": {
+		"definition": "health+2",
+		"x": -288,
+		"y": 224,
+		"root": false
+	},
+	"1m4ga0zfmgbkznr1": {
+		"definition": "ars_max_mana",
+		"x": 224,
+		"y": -480,
+		"root": false
+	},
+	"aovkse48nwntqx6x": {
+		"definition": "ars_max_mana",
+		"x": 288,
+		"y": -480,
+		"root": false
+	},
+	"u42q0tpsn3ha7re8": {
+		"definition": "ars_max_mana",
+		"x": 288,
+		"y": -544,
+		"root": false
+	},
+	"mu9yotip50dvbvz8": {
+		"definition": "ars_mana_regen",
+		"x": 224,
+		"y": -544,
+		"root": false
+	},
+	"4qirwwb14tq68yjq": {
+		"definition": "ars_spell_damage",
+		"x": 224,
+		"y": -608,
+		"root": false
+	},
+	"ri20p535ajvokx8g": {
+		"definition": "ars_mana_discount",
+		"x": 288,
+		"y": -608,
+		"root": false
+	},
+	"cmswsn39kjvrxcp1": {
+		"definition": "ars_max_mana",
+		"x": 96,
+		"y": -608,
+		"root": false
+	},
+	"sep8g91xjjtnyb8q": {
+		"definition": "ars_max_mana",
+		"x": 96,
+		"y": -672,
+		"root": false
+	},
+	"m0k9m96zolpmjevh": {
+		"definition": "ars_spell_damage",
+		"x": 32,
+		"y": -672,
+		"root": false
+	},
+	"bgrxpvq4a4v3q8ox": {
+		"definition": "ars_spell_damage",
+		"x": -32,
+		"y": -672,
+		"root": false
+	},
+	"5gnq9mn1661mj070": {
+		"definition": "major_dodge",
+		"x": 608,
+		"y": 480,
+		"root": false
+	},
+	"v70schfbv7cw9ros": {
+		"definition": "major_dodge",
+		"x": 544,
+		"y": 544,
+		"root": false
+	},
+	"nkh5vdy89thftyov": {
+		"definition": "major_dodge",
+		"x": 576,
+		"y": 288,
+		"root": false
+	},
+	"4h07q0ouovmv82lz": {
+		"definition": "health+4",
+		"x": 416,
+		"y": 96,
+		"root": false
+	},
+	"s93z8liemb73tt5b": {
+		"definition": "movement_speed+5%",
+		"x": 160,
+		"y": 352,
+		"root": false
+	},
+	"22bglnpt3qs77lzn": {
+		"definition": "movement_speed+5%",
+		"x": 224,
+		"y": 352,
+		"root": false
+	},
+	"fek83lt3d3snkajr": {
+		"definition": "medium_cooldown_reduction",
+		"x": 0,
+		"y": -192,
+		"root": false
+	},
+	"ree2i0ooub8m1jae": {
+		"definition": "medium_cooldown_reduction",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"nfem9grm1fcgbogu": {
+		"definition": "major_dodge",
+		"x": -320,
+		"y": -416,
+		"root": false
+	},
+	"43a7heehdfjn81nn": {
+		"definition": "major_dodge",
+		"x": -416,
+		"y": -320,
+		"root": false
+	}
+}
