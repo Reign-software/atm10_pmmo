@@ -1,7 +1,0 @@
-[[dependencies.pmmo_atm10]]
-    modId="jade"
-    mandatory=false
-    versionRange="[11.0.0,)"
-    ordering="AFTER"
-    side="BOTH"
-
