@@ -111,9 +111,6 @@
     "TOOL": {
       "woodcutting": 10
     },
-    "WEAPON": {
-      "combat": 10
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

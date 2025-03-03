@@ -76,9 +76,6 @@
     "TOOL": {
       "woodcutting": 34
     },
-    "WEAPON": {
-      "combat": 45
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

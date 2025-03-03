@@ -111,9 +111,6 @@
       "mining": 100,
       "smithing": 100
     },
-    "WEAPON": {
-      "combat": 5
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

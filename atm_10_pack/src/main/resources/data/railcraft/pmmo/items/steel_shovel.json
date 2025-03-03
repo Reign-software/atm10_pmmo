@@ -78,10 +78,6 @@
       "excavation": 50,
       "smithing": 50
     },
-    "WEAPON": {
-      "combat": 43,
-      "technology": 160
-    },
     "PLACE": {
       "technology": 160
     },

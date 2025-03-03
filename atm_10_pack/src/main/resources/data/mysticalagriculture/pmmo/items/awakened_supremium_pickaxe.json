@@ -74,9 +74,6 @@
       "mining": 450,
       "smithing": 450
     },
-    "WEAPON": {
-      "combat": 294
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

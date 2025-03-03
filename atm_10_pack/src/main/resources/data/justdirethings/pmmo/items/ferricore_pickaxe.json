@@ -77,9 +77,6 @@
       "mining": 50,
       "smithing": 50
     },
-    "WEAPON": {
-      "combat": 40
-    },
     "PLACE": {},
     "BREAK": {
       "mining": 50

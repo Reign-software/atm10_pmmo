@@ -74,9 +74,6 @@
       "woodcutting": 210,
       "smithing": 50
     },
-    "WEAPON": {
-      "combat": 246
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

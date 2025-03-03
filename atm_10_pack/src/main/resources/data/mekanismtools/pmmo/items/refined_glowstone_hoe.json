@@ -78,9 +78,6 @@
       "farming": 250,
       "technology": 250
     },
-    "WEAPON": {
-      "combat": 11
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

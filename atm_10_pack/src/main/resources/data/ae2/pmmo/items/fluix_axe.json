@@ -79,10 +79,6 @@
       "smithing": 50,
       "woodcutting": 50
     },
-    "WEAPON": {
-      "combat": 52,
-      "technology": 80
-    },
     "PLACE": {
       "technology": 230
     },

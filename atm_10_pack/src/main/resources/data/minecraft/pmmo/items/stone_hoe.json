@@ -111,9 +111,6 @@
     "TOOL": {
       "farming": 10
     },
-    "WEAPON": {
-      "combat": 5
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

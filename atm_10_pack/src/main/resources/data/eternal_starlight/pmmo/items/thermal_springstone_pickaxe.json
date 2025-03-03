@@ -76,9 +76,6 @@
     "TOOL": {
       "mining": 34
     },
-    "WEAPON": {
-      "combat": 33
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

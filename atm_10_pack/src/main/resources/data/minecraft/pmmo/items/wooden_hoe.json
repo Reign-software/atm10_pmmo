@@ -108,9 +108,6 @@
       "mining": 0,
       "woodcutting": 0
     },
-    "WEAPON": {
-      "combat": 0
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

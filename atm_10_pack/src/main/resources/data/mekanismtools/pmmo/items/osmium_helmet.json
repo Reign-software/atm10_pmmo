@@ -79,14 +79,12 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "smithing": 200,
-      "endurance": 200,
-      "technology": 200
+      "endurance": 200
     },
     "INTERACT": {},
     "USE": {
       "smithing": 200,
-      "endurance": 200,
-      "technology": 200
+      "endurance": 200
     }
   }
 }

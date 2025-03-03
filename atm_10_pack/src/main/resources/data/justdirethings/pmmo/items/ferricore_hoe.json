@@ -77,9 +77,6 @@
       "farming": 50,
       "smithing": 50
     },
-    "WEAPON": {
-      "combat": 18
-    },
     "PLACE": {},
     "BREAK": {
       "mining": 50

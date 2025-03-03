@@ -77,9 +77,6 @@
       "woodcutting": 450,
       "smithing": 350
     },
-    "WEAPON": {
-      "combat": 450
-    },
     "PLACE": {},
     "BREAK": {
       "mining": 450

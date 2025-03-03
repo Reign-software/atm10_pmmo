@@ -78,9 +78,6 @@
       "excavation": 50,
       "technology": 50
     },
-    "WEAPON": {
-      "combat": 50
-    },
     "PLACE": {
       "technology": 50
     },

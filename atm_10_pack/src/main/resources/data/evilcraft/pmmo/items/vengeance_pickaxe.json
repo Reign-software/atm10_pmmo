@@ -77,9 +77,6 @@
       "magic": 50,
       "smithing": 50
     },
-    "WEAPON": {
-      "combat": 57
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

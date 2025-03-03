@@ -76,9 +76,6 @@
       "farming": 50,
       "smithing": 50
     },
-    "WEAPON": {
-      "combat": 14
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

@@ -109,9 +109,6 @@
       "excavation": 225,
       "smithing": 200
     },
-    "WEAPON": {
-      "combat": 225
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

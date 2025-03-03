@@ -78,9 +78,6 @@
       "smithing": 50,
       "mining": 50
     },
-    "WEAPON": {
-      "combat": 47
-    },
     "PLACE": {
       "technology": 50
     },

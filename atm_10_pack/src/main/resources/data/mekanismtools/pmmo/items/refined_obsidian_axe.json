@@ -77,9 +77,6 @@
       "woodcutting": 250,
       "technology": 250
     },
-    "WEAPON": {
-      "combat": 149
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},

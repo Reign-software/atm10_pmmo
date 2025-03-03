@@ -77,9 +77,6 @@
       "excavation": 50,
       "technology": 50
     },
-    "WEAPON": {
-      "combat": 22
-    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
