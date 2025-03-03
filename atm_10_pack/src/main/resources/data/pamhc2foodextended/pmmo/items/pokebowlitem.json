@@ -48,7 +48,9 @@
   "negative_effect": {},
   "xp_values": {
     "TOOL_BREAKING": {},
-    "DEAL_DAMAGE": {},
+    "DEAL_DAMAGE": {
+      "archery": 5.0
+    },
     "ENCHANT": {
       "enchanting": 50
     },
@@ -56,7 +58,8 @@
       "cooking": 1944
     },
     "CRAFT": {
-      "crafting": 10
+      "crafting": 10,
+      "archery": 500
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

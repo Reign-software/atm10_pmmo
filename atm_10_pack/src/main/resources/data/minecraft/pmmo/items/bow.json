@@ -45,13 +45,16 @@
   "negative_effect": {},
   "xp_values": {
     "TOOL_BREAKING": {},
-    "DEAL_DAMAGE": {},
+    "DEAL_DAMAGE": {
+      "archery": 5.0
+    },
     "ENCHANT": {
       "enchanting": 50
     },
     "CONSUME": {},
     "CRAFT": {
-      "crafting": 10
+      "crafting": 10,
+      "archery": 500
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -70,18 +73,12 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {},
-    "WEAPON": {
-      "smithing": 50,
-      "archery": 50
-    },
+    "WEAPON": {},
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "smithing": 50,
-      "archery": 50
-    }
+    "USE": {}
   }
 }
