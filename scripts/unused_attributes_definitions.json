@@ -1,0 +1,555 @@
+
+{
+    "luck_boost": {
+        "title": "Fortune's Favor (+2 Luck)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_foot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases luck, improving loot quality and various random events",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mining_speed_boost": {
+        "title": "Miner's Precision (+10% Mining Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "diamond_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:mining_speed",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases mining speed for all blocks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "experience_boost": {
+        "title": "Wisdom (+5% Experience Gained)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "experience_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:experience_gained",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases all experience gained from any source",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "absorption_boost": {
+        "title": "Arcane Barrier (+2 Absorption)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.max_absorption",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases maximum absorption hearts (gold hearts) capacity",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "block_break_speed": {
+        "title": "Demolisher (+5% Block Breaking Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.block_break_speed",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases block breaking speed with all tools",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "projectile_damage": {
+        "title": "Projectile Mastery (+5% Projectile Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "trident"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:projectile_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases all projectile damage, not just arrows",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "collection_range": {
+        "title": "Magnetic Aura (+1 Block Pickup Range)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "hopper"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.collection_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases item pickup range",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "swim_speed": {
+        "title": "Aquatic Grace (+15% Swim Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "heart_of_the_sea"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "neoforge:swim_speed",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases swimming speed in water",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "drinking_speed": {
+        "title": "Quick Sip (+20% Drinking Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "potion"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.drinking_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Reduces the time it takes to drink potions",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eating_speed": {
+        "title": "Voracious Appetite (+20% Eating Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "cooked_beef"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.eating_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Reduces the time it takes to eat food",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "critical_bonus_damage": {
+        "title": "Precise Strike (+5% Critical Bonus Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.critical_bonus_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases critical hit damage bonus",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fall_damage_reduction": {
+        "title": "Feather Fall (-20% Fall Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "feather"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.fall_damage_multiplier",
+                    "value": -0.2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from falling",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "safe_fall_distance": {
+        "title": "Nimble Landing (+1 Safe Fall Distance)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "slime_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.safe_fall_distance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases how far you can fall without taking damage",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "jump_strength": {
+        "title": "Leaper (+10% Jump Height)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_hide"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.jump_strength",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases jump height",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "attack_burning_damage": {
+        "title": "Burning Blade (+5 Burning Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "blaze_powder"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.attack_burning_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Adds burning damage to your melee attacks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "healing_received": {
+        "title": "Regenerative (+10% Healing Received)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "glistering_melon_slice"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:healing_received",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases healing received from all sources",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "oxygen_bonus": {
+        "title": "Deep Diver (+30 Breath)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "turtle_helmet"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.oxygen_bonus",
+                    "value": 30,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases underwater breathing time",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "water_speed": {
+        "title": "Streamlined (+15% Water Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "nautilus_shell"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:generic.water_speed",
+                    "value": 0.15,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases movement speed in water",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "water_visibility": {
+        "title": "Clear Sight (+50% Water Visibility)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "glass_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.water_visibility",
+                    "value": 50,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Improves visibility while underwater",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "armor_pierce": {
+        "title": "Armor Piercer (+5% Armor Pierce)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:armor_pierce",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your attacks ignore a percentage of target's armor",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "armor_shred": {
+        "title": "Armor Crusher (+3% Armor Shred)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "anvil"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:armor_shred",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your attacks temporarily reduce target's armor",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "cold_damage": {
+        "title": "Frost Strike (+5% Cold Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "blue_ice"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:cold_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Adds cold damage to your attacks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fire_damage": {
+        "title": "Inferno Touch (+5% Fire Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "magma_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:fire_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Adds fire damage to your attacks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "current_hp_damage": {
+        "title": "Executioner (+2% Current HP Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_axe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:current_hp_damage",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Deals additional damage based on target's current health",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

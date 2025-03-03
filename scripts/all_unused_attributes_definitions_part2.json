@@ -1,0 +1,877 @@
+{
+    "mount_speed": {
+        "title": "Horse Whisperer (+10% Mount Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "saddle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.mount_speed",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases movement speed while riding mounts",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "movement_speed_on_snow": {
+        "title": "Snow Walker (+15% Snow Movement)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "snow_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.movement_speed_on_snow",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases movement speed on snow blocks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "slip_resistance": {
+        "title": "Sure-Footed (+25% Slip Resistance)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "honey_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.slip_resistance",
+                    "value": 0.25,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces slipping on ice and honey blocks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sprinting_speed": {
+        "title": "Speedster (+10% Sprinting Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sugar"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.sprinting_speed",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases speed while sprinting",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sprinting_step_height": {
+        "title": "Parkour Master (+0.5 Sprint Step Height)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "scaffolding"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.spriting_step_height",
+                    "value": 0.5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases step height while sprinting",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "entity_experience": {
+        "title": "Monster Hunter (+10% Entity XP)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "zombie_head"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:player.entity_experience",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases experience from killing hostile mobs",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "villager_reputation": {
+        "title": "Silver Tongue (+5 Villager Reputation)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "emerald"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:player.villager_reputation",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Improves your reputation with villagers",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fall_flying": {
+        "title": "Elytra Master (+15% Fall Flying)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "elytra"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "caelus:fall_flying",
+                    "value": 0.15,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Improves flight control with elytra",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ether_resistance": {
+        "title": "Ether Shield (+10% Ether Resistance)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_eye"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "eternal_starlight:generic.ether_resistance",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage from ether-based attacks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "throw_potion_distance": {
+        "title": "Potion Flinger (+1 Potion Throw Range)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "splash_potion"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "eternal_starlight:generic.throw_potion_distance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases throw distance for potions",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "blood_magic_resist": {
+        "title": "Blood Warding (+5% Blood Magic Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "redstone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:blood_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from blood magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eldritch_magic_resist": {
+        "title": "Eldritch Warding (+5% Eldritch Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sculk"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:eldritch_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from eldritch magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eldritch_spell_power": {
+        "title": "Eldritch Caster (+5% Eldritch Power)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sculk_catalyst"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases power of eldritch spells",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ender_magic_resist": {
+        "title": "Ender Warding (+5% Ender Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:ender_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from ender magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fire_magic_resist": {
+        "title": "Fire Warding (+5% Fire Magic Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "magma_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:fire_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from fire magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ice_magic_resist": {
+        "title": "Ice Warding (+5% Ice Magic Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "blue_ice"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:ice_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from ice magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "lightning_magic_resist": {
+        "title": "Lightning Warding (+5% Lightning Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "lightning_rod"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:lightning_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from lightning magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "evocation_magic_resist": {
+        "title": "Evocation Warding (+5% Evocation Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "totem_of_undying"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:evocation_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from evocation magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "holy_magic_resist": {
+        "title": "Holy Warding (+5% Holy Magic Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:holy_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from holy magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "nature_magic_resist": {
+        "title": "Nature Warding (+5% Nature Magic Resist)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "oak_sapling"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:nature_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from nature magic",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "spell_resist": {
+        "title": "Arcane Warding (+5% Spell Resistance)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "shield"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces damage taken from all spell types",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "summon_damage": {
+        "title": "Summoner's Power (+5% Summon Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "soul_sand"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases damage dealt by summoned creatures",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "phase": {
+        "title": "Phasing (Partial Phasing)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "obsidian"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "justdirethings:phase",
+                    "value": 0.2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Allows partially phasing through solid objects",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mc_mob_damage": {
+        "title": "Colony Defender (+10% Colony Mob Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecolonies:mc_mob_damage",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases damage to mobs attacking MineColonies structures",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "explosion_knockback_resistance": {
+        "title": "Blast Stabilizer (+10% Explosion Knockback Resistance)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "tnt"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.explosion_knockback_resistance",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces knockback from explosions",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "flying_speed": {
+        "title": "Swift Flight (+10% Flying Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "elytra"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.flying_speed",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases creative flight speed",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "follow_range": {
+        "title": "Pet Loyalty (+5 Follow Range)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "bone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.follow_range",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases follow range of tamed creatures",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "gravity": {
+        "title": "Lightweight (-10% Gravity)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "phantom_membrane"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.gravity",
+                    "value": -0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Reduces gravity effects on your character",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "scale": {
+        "title": "Imposing Form (+5% Character Size)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "dragon_head"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.scale",
+                    "value": 0.05,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Slightly increases your character's physical size",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mining_efficiency": {
+        "title": "Expert Miner (+5% Mining Efficiency)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.mining_efficiency",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases mining efficiency with tools",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sneaking_speed": {
+        "title": "Silent Step (+15% Sneaking Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "leather_boots"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.sneaking_speed",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases movement speed while sneaking",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "submerged_mining_speed": {
+        "title": "Aqua Miner (+20% Underwater Mining Speed)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "prismarine"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.submerged_mining_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Increases mining speed while underwater",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sweeping_damage_ratio": {
+        "title": "Sweeping Master (+10% Sweep Damage)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.sweeping_damage_ratio",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases damage from sword sweep attacks",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "creative_flight": {
+        "title": "Temporary Flight (Limited Flight)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "feather"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "neoforge:creative_flight",
+                    "value": 0.3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Grants limited creative flight ability",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "vein_amount": {
+        "title": "Vein Miner (+2 Vein Amount)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "diamond_ore"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "pmmo:vein_amount",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases the number of blocks mined with vein miner",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "vein_capacity": {
+        "title": "Vein Expert (+5 Vein Capacity)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ancient_debris"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "pmmo:vein_capacity",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases maximum vein mining capacity",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "vein_charge_rate": {
+        "title": "Vein Charger (+20% Charge Rate)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "redstone_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "pmmo:vein_charge_rate",
+                    "value": 20,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Increases vein miner charging speed",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "hover_flight": {
+        "title": "Hovering (Limited Hover)",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "phantom_membrane"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "xycraft_machines:hover_flight",
+                    "value": 0.3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Grants limited ability to hover in place",
+        "metadata": {
+            "icon": ""
+        }
+    }
+    
+}

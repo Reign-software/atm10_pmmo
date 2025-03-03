@@ -50,7 +50,7 @@
         "skill": "magic"
       },
       {
-        "per_level": 1.0,
+        "per_level": 0.5,
         "perk": "pmmo:attributen",
         "attribute": "irons_spellbooks:mana_regen",
         "max_boost": 300.0,

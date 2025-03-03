@@ -1,0 +1,646 @@
+{
+    "luck_boost": {
+        "title": "Blessing of Lady Fortune",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_foot"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.luck",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The fickle goddess of fortune smiles upon you, granting +2 Luck. Your hands seem to find valuable treasures more often, chests yield better loot, and chance-based events mysteriously shift in your favor.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mining_speed_boost": {
+        "title": "Dwarven Excavation Technique",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "diamond_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:mining_speed",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Channel the ancient mining wisdom of the mountain dwarves, increasing mining speed by 10%. Your strikes become more precise, allowing you to tear through stone and ore with supernatural efficiency.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "experience_boost": {
+        "title": "Scholar's Enlightenment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "experience_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:experience_gained",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your mind becomes a perfect vessel for knowledge, gaining 5% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "absorption_boost": {
+        "title": "Golden Heart Enchantment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.max_absorption",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Ancient protective magics flow through your veins, increasing maximum absorption by 2 hearts. Your body can now maintain more powerful magical shields, creating golden hearts that absorb damage before your life force.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "block_break_speed": {
+        "title": "Mountain Splitter's Fury",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.block_break_speed",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your strikes resonate with earth-shattering force, granting 5% faster block breaking with all tools. Stone crumbles before your might, and even the hardest materials yield more quickly to your determined efforts.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "projectile_damage": {
+        "title": "Ballistic Perfection",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "trident"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:projectile_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of projectile warfare, increasing all projectile damage by 5%. Your arrows, tridents, and thrown weapons cut through the air with deadly precision, striking with enhanced force.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "collection_range": {
+        "title": "Gravitational Attraction Aura",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "hopper"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.collection_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Items seem mysteriously drawn to you, extending your pickup range by 1 block. This magnetic aura pulls dropped resources into your possession from greater distances, making collection effortless.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "swim_speed": {
+        "title": "Triton's Aquatic Mastery",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "heart_of_the_sea"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "neoforge:swim_speed",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "The blessing of the sea gods flows through you, increasing swimming speed by 15%. Water parts willingly before your graceful movements, allowing you to glide through oceans and rivers with supernatural ease.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "drinking_speed": {
+        "title": "Alchemical Gulping Mastery",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "potion"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.drinking_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your throat muscles have adapted to magical elixirs, increasing drinking speed by 20%. Consume potions in the blink of an eye, allowing for tactical use of brews even in the heat of battle.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eating_speed": {
+        "title": "Ravenous Consumption",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "cooked_beef"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.eating_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your digestive prowess becomes legendary, increasing eating speed by 20%. Devour meals in seconds rather than moments, allowing you to restore hunger even during brief respites in combat.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "critical_bonus_damage": {
+        "title": "Assassin's Fatal Strike",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.critical_bonus_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the art of exploiting weaknesses, increasing critical hit bonus damage by 5%. When your strikes find vital points, they deal devastating additional damage, often ending fights in a single, perfect blow.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fall_damage_reduction": {
+        "title": "Cloudwalker's Descent",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "feather"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.fall_damage_multiplier",
+                    "value": -0.2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The winds seem to catch your fall, reducing falling damage by 20%. Your body has learned to roll with impact and distribute force, allowing you to survive drops that would cripple others.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "safe_fall_distance": {
+        "title": "Feline Graceful Landing",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "slime_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.safe_fall_distance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Like a cat, you've mastered the art of falling safely, increasing your safe fall distance by 1 block. Your legs instinctively absorb shock, allowing you to drop from greater heights without injury.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "jump_strength": {
+        "title": "Grasshopper's Mighty Leap",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "rabbit_hide"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.jump_strength",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your legs surge with incredible power, increasing jump height by 10%. Leap higher obstacles, reach greater heights, and traverse terrain with unprecedented mobility and grace.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "attack_burning_damage": {
+        "title": "Emberblade Infusion",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "blaze_powder"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.attack_burning_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your weapons flicker with arcane flames, adding 5 burning damage to melee attacks. Each strike ignites enemies with magical fire that continues to burn long after the blade is withdrawn.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "healing_received": {
+        "title": "Vitality Amplification",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "glistering_melon_slice"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:healing_received",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "oxygen_bonus": {
+        "title": "Abyssal Lung Capacity",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "turtle_helmet"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.oxygen_bonus",
+                    "value": 30,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your lungs expand to miraculous capacity, granting 30 extra oxygen points. Remain underwater for dramatically longer periods, exploring ocean depths and undertaking aquatic endeavors that would leave others gasping.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "water_speed": {
+        "title": "Merfolk Swimming Technique",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "nautilus_shell"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:generic.water_speed",
+                    "value": 0.15,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your movements in water become fluid and powerful, increasing water speed by 15%. Slice through currents with the grace of a born swimmer, outpacing aquatic creatures in their own domain.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "water_visibility": {
+        "title": "Kraken's Crystal Vision",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "glass_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:player.water_visibility",
+                    "value": 50,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your eyes adapt perfectly to aquatic environments, improving underwater visibility by 50%. Peer through murky depths with supernatural clarity, spotting treasures, threats, and secrets hidden from normal sight.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "armor_pierce": {
+        "title": "Phantom Strike Technique",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:armor_pierce",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Master the secret arts of bypassing defenses, ignoring 5% of your target's armor. Your attacks find the joints and weaknesses in any protection, striking as if facing a less armored foe.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "armor_shred": {
+        "title": "Ruinous Armor Degradation",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "anvil"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:armor_shred",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your strikes weaken the very structure of armor, temporarily reducing target's protection by 3%. Each hit degrades their defenses, making subsequent attacks increasingly deadly as the battle continues.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "cold_damage": {
+        "title": "Winterfrost Weapon Enchantment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "blue_ice"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:cold_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your weapons crystallize with biting frost, adding 5% cold damage to attacks. Strikes chill enemies to the bone, numbing their limbs and slowing their movements while inflicting additional suffering.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fire_damage": {
+        "title": "Infernal Flame Attunement",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "magma_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:fire_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Nether energies infuse your attacks, adding 5% fire damage to each strike. Your blows ignite with hellish flames, burning enemies from within and continuing to harm them after contact.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "current_hp_damage": {
+        "title": "Reaper's Proportional Strike",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_axe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:current_hp_damage",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your attacks become more devastating the healthier your enemy is, dealing additional damage equal to 2% of your target's current health. Like a true executioner, you excel at beginning the slaughter of even the mightiest foes.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "attack_knockback": {
+        "title": "Titan's Forceful Impact",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "piston"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.attack_knockback",
+                    "value": 0.5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your strikes carry tremendous force, increasing knockback by 0.5. Enemies are sent flying farther when struck, creating tactical distance and preventing them from retaliating immediately.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "entity_interaction_range": {
+        "title": "Extended Reach Mastery",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fishing_rod"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.entity_interaction_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your influence extends beyond normal boundaries, increasing interaction range with entities by 1 block. Trade with villagers, interact with animals, and manage creatures from a greater distance.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "block_interaction_range": {
+        "title": "Master Builder's Reach",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "stone_bricks"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.block_interaction_range",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your control over the physical world extends further, increasing block interaction range by 1 block. Place and break blocks from greater distances, making building and mining more convenient and safe.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mob_detection_range": {
+        "title": "Shadow Walker's Stealth",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fermented_spider_eye"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additionalentityattributes:generic.mob_detection_range",
+                    "value": -0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "You become a ghost in the shadows, reducing hostile mob detection range by 20%. Creatures sense your presence only when you draw much closer, allowing for stealthy approaches and safer exploration.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}

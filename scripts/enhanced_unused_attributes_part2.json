@@ -1,0 +1,876 @@
+{
+    "mount_speed": {
+        "title": "Beast Master's Command",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "saddle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.mount_speed",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your exceptional connection with animals allows you to coax 10% greater speed from any mount. Horses, striders, and other beasts respond to your guidance with supernatural enthusiasm and energy.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "movement_speed_on_snow": {
+        "title": "Frostwalker's Stride",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "snow_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.movement_speed_on_snow",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "You've mastered the art of traversing frozen landscapes, gaining 15% increased movement speed on snow. While others flounder in drifts, you glide across the surface with the confident grace of a winter wolf.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "slip_resistance": {
+        "title": "Steadfast Footing",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "honey_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.slip_resistance",
+                    "value": 0.25,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your exceptional balance and coordinated movements grant 25% resistance to slippery surfaces. Ice and honey blocks provide more traction beneath your feet, allowing precise control where others slide helplessly.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sprinting_speed": {
+        "title": "Wind Runner's Velocity",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sugar"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.sprinting_speed",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "You've perfected the art of the sprint, moving 10% faster when running. Your strides lengthen and your feet barely touch the ground as you dash across the landscape with supernatural speed and grace.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sprinting_step_height": {
+        "title": "Obstacle Runner's Leap",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "scaffolding"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:generic.spriting_step_height",
+                    "value": 0.5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "While sprinting, your momentum carries you effortlessly over small obstacles, increasing step height by 0.5 blocks. Hurdle low barriers without breaking stride, maintaining your velocity across uneven terrain.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "entity_experience": {
+        "title": "Monster Hunter's Insight",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "zombie_head"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:player.entity_experience",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your methodical study of monster anatomy yields greater knowledge from each kill, increasing experience from hostile entities by 10%. Each victory provides deeper insights into the nature of your foes.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "villager_reputation": {
+        "title": "Diplomatic Renown",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "emerald"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "artifacts:player.villager_reputation",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your exceptional reputation precedes you, granting +5 standing with village communities. Villagers recognize your honorable deeds and trustworthy nature, offering better trades and greater hospitality.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fall_flying": {
+        "title": "Skyborn Mastery",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "elytra"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "caelus:fall_flying",
+                    "value": 0.15,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your instinctive understanding of aerodynamics improves elytra control by 15%. Navigate with greater precision, perform tighter turns, and maintain stable flight even in turbulent conditions.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ether_resistance": {
+        "title": "Planar Barrier",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_eye"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "eternal_starlight:generic.ether_resistance",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your body develops a mystical resistance to interdimensional forces, gaining 10% ether resistance. Void energies and planar distortions have less effect on you, reducing damage from these otherworldly sources.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "throw_potion_distance": {
+        "title": "Alchemical Hurler",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "splash_potion"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "eternal_starlight:generic.throw_potion_distance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your throwing arm becomes legendary, increasing potion throw distance by 1 block. Launch alchemical concoctions with greater range, hitting distant targets before they can approach.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "blood_magic_resist": {
+        "title": "Vitae Warding",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "redstone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:blood_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your life essence resists external manipulation, gaining 5% resistance to blood magic. Crimson spells struggle to affect your well-protected vital force, significantly reducing their harmful effects.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eldritch_magic_resist": {
+        "title": "Mind's Bulwark",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sculk"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:eldritch_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your sanity is fortified against cosmic horrors, granting 5% resistance to eldritch magic. Otherworldly spells struggle to penetrate the mental barriers you've constructed through exposure to the unknowable.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "eldritch_spell_power": {
+        "title": "Forbidden Knowledge Wielder",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "sculk_catalyst"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your mind has glimpsed beyond the veil of reality, increasing eldritch spell power by 5%. Channel cosmic forces with greater potency as your understanding of impossible geometries grows deeper.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ender_magic_resist": {
+        "title": "Teleportation Anchor",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:ender_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your physical form resists spatial manipulation, granting 5% resistance to ender magic. Your position in reality becomes more fixed, making you less vulnerable to teleportation effects and void energies.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "fire_magic_resist": {
+        "title": "Flame-Touched Soul",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "magma_cream"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:fire_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your essence gains properties of the infernal planes, providing 5% resistance to fire magic. Magical flames diminish as they approach your naturally heat-resistant form.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "ice_magic_resist": {
+        "title": "Frostborn Resilience",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "blue_ice"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:ice_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your inner fire cannot be extinguished by winter's grasp, providing 5% resistance to ice magic. Freezing spells struggle to slow your movements or chill your core as your body maintains its vital heat.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "lightning_magic_resist": {
+        "title": "Stormchild's Immunity",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "lightning_rod"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:lightning_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Electrical energies flow harmlessly through your adapted nervous system, granting 5% resistance to lightning magic. Your body has learned to channel and disperse magical electricity rather than succumbing to its shocking power.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "evocation_magic_resist": {
+        "title": "Binding Disruptor",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "totem_of_undying"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:evocation_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your aura naturally disrupts conjuration energies, providing 5% resistance to evocation magic. Summoned creatures find it harder to maintain their form in your presence, and binding spells slip away like water.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "holy_magic_resist": {
+        "title": "Divine Judgment Evasion",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "golden_apple"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:holy_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your spirit exists in a moral gray area that confounds divine energies, granting 5% resistance to holy magic. Sacred light struggles to judge what it cannot clearly perceive, reducing its impact on your complex soul.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "nature_magic_resist": {
+        "title": "Wild Harmony",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "oak_sapling"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:nature_magic_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your spiritual connection with the natural world provides 5% resistance to nature magic. Primal forces recognize you as part of their domain rather than an intruder to be expelled or consumed.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "spell_resist": {
+        "title": "Arcane Diffusion Field",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "shield"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "A subtle field of anti-magic surrounds you, providing 5% resistance to all spells. Magical energies dissipate slightly as they approach, weakening their effects regardless of school or source.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "summon_damage": {
+        "title": "Conjurer's Empowerment",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "soul_sand"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "The creatures you conjure manifest with greater ferocity, dealing 5% more damage. Your summoned allies strike with supernatural precision and power, tearing through enemies with enhanced fury.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "phase": {
+        "title": "Ethereal Existence",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "obsidian"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "justdirethings:phase",
+                    "value": 0.2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your physical form occasionally slips between dimensions, gaining 20% phasing ability. Parts of your body can momentarily exist slightly out of phase with normal reality, allowing limited movement through solid objects.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mc_mob_damage": {
+        "title": "Colony Defender's Wrath",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecolonies:mc_mob_damage",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your righteous fury against those who threaten settlements manifests as 10% increased damage against colony raiders. Strike with enhanced power when defending your community from barbaric invaders.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "explosion_knockback_resistance": {
+        "title": "Blast Anchoring",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "tnt"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.explosion_knockback_resistance",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your stance widens instinctively when explosions occur, granting 10% resistance to explosion knockback. While others are sent flying, you maintain your footing against devastating blasts.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "flying_speed": {
+        "title": "Empyrean Velocity",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "elytra"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.flying_speed",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "The air itself seems eager to carry you aloft, increasing flying speed by 10%. Move through the skies with greater velocity when using creative flight abilities.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "follow_range": {
+        "title": "Loyal Companion's Bond",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "bone"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.follow_range",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your connection with tamed creatures transcends normal limitations, extending follow range by 5 blocks. Pets and companions will stay by your side over greater distances, maintaining their loyal vigil even when you roam far.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "gravity": {
+        "title": "Featherweight Essence",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "phantom_membrane"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.gravity",
+                    "value": -0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your body becomes strangely buoyant, reducing gravitational effects by 10%. Fall more slowly, jump slightly higher, and move with an uncanny lightness that defies the normal pull of the earth.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "scale": {
+        "title": "Imposing Presence",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "dragon_head"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.scale",
+                    "value": 0.05,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your physical form expands slightly as power flows through you, increasing size by 5%. Tower over ordinary beings with your enhanced stature, inspiring awe or fear in those who behold your magnified presence.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "mining_efficiency": {
+        "title": "Master Excavator",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "netherite_pickaxe"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.mining_efficiency",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your technique with mining tools approaches perfection, increasing efficiency by 5%. Each strike connects with precision, maximizing the effectiveness of your tools and minimizing wasted energy.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sneaking_speed": {
+        "title": "Shadow Dancer's Stealth",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "leather_boots"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.sneaking_speed",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "Your crouched movements become unnaturally swift, increasing sneaking speed by 15%. Move silently with the grace of a stalking panther, maintaining stealth without sacrificing mobility.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "submerged_mining_speed": {
+        "title": "Abyssal Excavator",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "prismarine"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.submerged_mining_speed",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "description": "You've adapted mining techniques for underwater work, increasing submerged mining speed by 20%. While others struggle against aquatic resistance, your tools slice through water and stone with equal ease.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "sweeping_damage_ratio": {
+        "title": "Blade Dancer's Whirlwind",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "iron_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:player.sweeping_damage_ratio",
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your sword techniques evolve into deadly arcs, increasing sweeping damage by 10%. Cut through multiple foes with devastating efficiency as your blade dances from one target to the next in elegant, deadly patterns.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "creative_flight": {
+        "title": "Ascendant's Skyward Freedom",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "feather"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "neoforge:creative_flight",
+                    "value": 0.3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your connection to the primal forces of air grows stronger, providing a 30% chance of temporary creative flight. Brief moments of untethered freedom allow you to soar through the skies without mechanical assistance.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "vein_amount": {
+        "title": "Seam Excavator's Intuition",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "diamond_ore"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "pmmo:vein_amount",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your miner's instinct detects the hidden connections between mineral deposits, increasing vein miner block amount by 2. Extract more resources with each activation as your tools follow natural seams through the earth.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "vein_capacity": {
+        "title": "Master Prospector's Endurance",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ancient_debris"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "pmmo:vein_capacity",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Your mining techniques become incredibly efficient, increasing vein mining capacity by 5. Extract larger deposits without exhaustion as your body learns to distribute effort perfectly during intensive excavation.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "vein_charge_rate": {
+        "title": "Geomancer's Resonance",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "redstone_block"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "pmmo:vein_charge_rate",
+                    "value": 20,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Earth energy flows through your mining tools, increasing vein charging rate by 20%. Your connection to stone and ore allows faster attunement to mineral deposits, reducing preparation time between excavations.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "hover_flight": {
+        "title": "Arcane Levitation Mastery",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "phantom_membrane"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "xycraft_machines:hover_flight",
+                    "value": 0.3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Gravity's hold on you weakens as you master arcane forces, granting a 30% chance of hover flight capability. Focus your will to temporarily suspend yourself in mid-air, defying the natural order with magical suspension.",
+        "metadata": {
+            "icon": ""
+        }
+    }
+}
