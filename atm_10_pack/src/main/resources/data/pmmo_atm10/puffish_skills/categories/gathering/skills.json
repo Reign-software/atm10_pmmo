@@ -1,0 +1,248 @@
+{
+	"glt7nwqc8ww19p8d": {
+		"definition": "major_block_break_speed",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"s60q97ysx4pzl5ga": {
+		"definition": "block_break_speed",
+		"x": 0,
+		"y": -64,
+		"root": false
+	},
+	"urq6yhxi4it2x37t": {
+		"definition": "block_break_speed",
+		"x": -64,
+		"y": 0,
+		"root": false
+	},
+	"ronkt3d49gmnrcg7": {
+		"definition": "block_break_speed",
+		"x": 64,
+		"y": 0,
+		"root": false
+	},
+	"b6e0m4v5jkcy4haz": {
+		"definition": "block_break_speed",
+		"x": 0,
+		"y": 64,
+		"root": false
+	},
+	"417tt32zlaylzed2": {
+		"definition": "mining_speed_boost",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"oer1hch2tcvit3ds": {
+		"definition": "mining_speed_boost",
+		"x": 0,
+		"y": -192,
+		"root": false
+	},
+	"hzufshkp0xsbrc7i": {
+		"definition": "mining_speed_boost",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"c5j9hhy50hku5w0i": {
+		"definition": "advanced_mining_speed",
+		"x": 0,
+		"y": -320,
+		"root": false
+	},
+	"jrvy2zl770sgyrni": {
+		"definition": "collection_range",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"y9ruu9nqkhwj01cq": {
+		"definition": "collection_range",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"ai70h0x5fna4y4t8": {
+		"definition": "collection_range",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"bvgbrhp0gtiljmtk": {
+		"definition": "greater_collection_range",
+		"x": -320,
+		"y": 0,
+		"root": false
+	},
+	"g1xzql8p7scp4cbx": {
+		"definition": "submerged_mining_speed",
+		"x": -64,
+		"y": -288,
+		"root": false
+	},
+	"c2jw6iqd2er1huob": {
+		"definition": "deep_diver",
+		"x": 64,
+		"y": -288,
+		"root": false
+	},
+	"p9iswlxw47r9l6np": {
+		"definition": "mining_efficiency",
+		"x": 128,
+		"y": -224,
+		"root": false
+	},
+	"qg7gevzbligx7rdv": {
+		"definition": "mining_efficiency",
+		"x": -128,
+		"y": -224,
+		"root": false
+	},
+	"pwuagsebbulxipf6": {
+		"definition": "block_interaction_range",
+		"x": 64,
+		"y": 64,
+		"root": false
+	},
+	"k1x2onk5ogznz1ve": {
+		"definition": "block_interaction_range",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"4skso1g5rr49p7vv": {
+		"definition": "block_interaction_range",
+		"x": 128,
+		"y": 128,
+		"root": false
+	},
+	"panmwib460mbi5v0": {
+		"definition": "block_interaction_range",
+		"x": 128,
+		"y": 64,
+		"root": false
+	},
+	"g9creovbr06rone8": {
+		"definition": "deep_diver",
+		"x": -320,
+		"y": 64,
+		"root": false
+	},
+	"pdk4qsac4wsetfg0": {
+		"definition": "deep_diver",
+		"x": -224,
+		"y": 96,
+		"root": false
+	},
+	"ynqc65oqe5gfrpne": {
+		"definition": "submerged_mining_speed",
+		"x": -288,
+		"y": 128,
+		"root": false
+	},
+	"4mj8fs3us9os7ca4": {
+		"definition": "submerged_mining_speed",
+		"x": -160,
+		"y": 64,
+		"root": false
+	},
+	"5so0njzgwrsn3wuz": {
+		"definition": "experience_boost",
+		"x": 64,
+		"y": 192,
+		"root": false
+	},
+	"fn46oipzbgondbbc": {
+		"definition": "experience_boost",
+		"x": 64,
+		"y": 256,
+		"root": false
+	},
+	"7gqfo0oqsjb5qc2m": {
+		"definition": "experience_boost",
+		"x": 64,
+		"y": 320,
+		"root": false
+	},
+	"sqfqneoehqszos4k": {
+		"definition": "gathering_experience",
+		"x": 0,
+		"y": 320,
+		"root": false
+	},
+	"wc37ycv32hktxrzg": {
+		"definition": "gathering_experience",
+		"x": 0,
+		"y": 384,
+		"root": false
+	},
+	"0fsepkwfbl0ibyne": {
+		"definition": "prospector_luck",
+		"x": 128,
+		"y": 320,
+		"root": false
+	},
+	"3y7qqz4ebzqh79y4": {
+		"definition": "prospector_luck",
+		"x": 128,
+		"y": 384,
+		"root": false
+	},
+	"0obug60hu3d1ofec": {
+		"definition": "prospector_luck",
+		"x": 64,
+		"y": 512,
+		"root": false
+	},
+	"a1i9qjnol5zefvqi": {
+		"definition": "luck_boost",
+		"x": 0,
+		"y": 448,
+		"root": false
+	},
+	"0ljif4pfd4fumm2n": {
+		"definition": "luck_boost",
+		"x": 128,
+		"y": 448,
+		"root": false
+	},
+	"c8brggdgwr64pyvm": {
+		"definition": "bonus_rare_loot_rolls",
+		"x": 192,
+		"y": 128,
+		"root": false
+	},
+	"ffjgljp3i0w24i7v": {
+		"definition": "bonus_rare_loot_rolls",
+		"x": 256,
+		"y": 128,
+		"root": false
+	},
+	"t3dvs80ahtj6ynlo": {
+		"definition": "bonus_loot_count_rolls",
+		"x": 320,
+		"y": 128,
+		"root": false
+	},
+	"8ezcfy6bfuhboeqy": {
+		"definition": "bonus_loot_count_rolls",
+		"x": 384,
+		"y": 128,
+		"root": false
+	},
+	"xq06d0ap6kql4fsi": {
+		"definition": "treasure_hunter",
+		"x": 384,
+		"y": 192,
+		"root": false
+	},
+	"a3w28uir6hstq3p0": {
+		"definition": "major_block_break_speed",
+		"x": 320,
+		"y": 256,
+		"root": false
+	}
+}

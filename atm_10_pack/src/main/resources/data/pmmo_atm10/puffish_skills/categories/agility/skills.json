@@ -3,7 +3,7 @@
 		"definition": "movement_speed+5%",
 		"x": 0,
 		"y": 0,
-		"root": false
+		"root": true
 	},
 	"ed1o707nfknaypye": {
 		"definition": "minor_movement_speed",

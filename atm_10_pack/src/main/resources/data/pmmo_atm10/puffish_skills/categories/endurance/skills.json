@@ -1,0 +1,320 @@
+{
+	"8ashgvfuxx300b13": {
+		"definition": "health+4",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"ea4c27gtno705sxx": {
+		"definition": "health+2",
+		"x": -64,
+		"y": 0,
+		"root": false
+	},
+	"hsf1v6zk2oqbyih5": {
+		"definition": "health+2",
+		"x": 64,
+		"y": 0,
+		"root": false
+	},
+	"sltqevwv15mnyukp": {
+		"definition": "minor_armor",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"qzlpkvp1h8ej5w1h": {
+		"definition": "minor_armor",
+		"x": 128,
+		"y": 32,
+		"root": false
+	},
+	"inp7afgwr37wy7bj": {
+		"definition": "minor_armor",
+		"x": 128,
+		"y": 96,
+		"root": false
+	},
+	"cg17tl2glym8ovii": {
+		"definition": "minor_armor",
+		"x": -128,
+		"y": 96,
+		"root": false
+	},
+	"b27y8ycq7rxpqtcs": {
+		"definition": "minor_toughness",
+		"x": -64,
+		"y": 96,
+		"root": false
+	},
+	"vemnj1ud4mq64031": {
+		"definition": "minor_toughness",
+		"x": 64,
+		"y": 96,
+		"root": false
+	},
+	"ei5lhp87v3sji41p": {
+		"definition": "minor_knockback_res",
+		"x": -64,
+		"y": 160,
+		"root": false
+	},
+	"nva20ece5160medn": {
+		"definition": "minor_knockback_res",
+		"x": 64,
+		"y": 160,
+		"root": false
+	},
+	"hmeay79jw7bxnq0a": {
+		"definition": "minor_knockback_res",
+		"x": 64,
+		"y": 224,
+		"root": false
+	},
+	"0hqkitcqxkx24w2p": {
+		"definition": "minor_knockback_res",
+		"x": -64,
+		"y": 224,
+		"root": false
+	},
+	"0llptu6d7f85dnbh": {
+		"definition": "explosion_knockback_resistance",
+		"x": -64,
+		"y": 288,
+		"root": false
+	},
+	"cav07fp5far86gav": {
+		"definition": "explosion_knockback_resistance",
+		"x": 0,
+		"y": 288,
+		"root": false
+	},
+	"qxst3yqwe43v0clz": {
+		"definition": "explosion_knockback_resistance",
+		"x": 64,
+		"y": 288,
+		"root": false
+	},
+	"17u2wseiqyzoeptg": {
+		"definition": "ghost_health+5",
+		"x": -64,
+		"y": 352,
+		"root": false
+	},
+	"p4dsnpoqm2r7ezr5": {
+		"definition": "ghost_health+5",
+		"x": -64,
+		"y": 416,
+		"root": false
+	},
+	"bpaxj331t3upervh": {
+		"definition": "major_ghost_health",
+		"x": 0,
+		"y": 352,
+		"root": false
+	},
+	"hyhq158s7x39cbb8": {
+		"definition": "major_ghost_health",
+		"x": 0,
+		"y": 416,
+		"root": false
+	},
+	"w8wn8mm2f9iftesc": {
+		"definition": "minor_dodge",
+		"x": 64,
+		"y": 352,
+		"root": false
+	},
+	"iisblpqp2i32uoyn": {
+		"definition": "minor_dodge",
+		"x": 64,
+		"y": 416,
+		"root": false
+	},
+	"3hfjf5fvm98wmrn1": {
+		"definition": "magic_protection+5",
+		"x": 192,
+		"y": 128,
+		"root": false
+	},
+	"u0r3dr6scgckvg0u": {
+		"definition": "major_magic_protection",
+		"x": 256,
+		"y": 128,
+		"root": false
+	},
+	"x3uyjix5oaeoy0dk": {
+		"definition": "ender_magic_resist",
+		"x": 256,
+		"y": 64,
+		"root": false
+	},
+	"2lr18uq6gh77f21o": {
+		"definition": "ender_magic_resist",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"es2hxuwzff70ayzy": {
+		"definition": "blood_magic_resist",
+		"x": 320,
+		"y": 0,
+		"root": false
+	},
+	"54n4s8aq7wthummu": {
+		"definition": "blood_magic_resist",
+		"x": 320,
+		"y": 64,
+		"root": false
+	},
+	"gsnl3dmmdgevvoiy": {
+		"definition": "fire_magic_resist",
+		"x": 384,
+		"y": 0,
+		"root": false
+	},
+	"unr22e68jhgg5n0l": {
+		"definition": "fire_magic_resist",
+		"x": 384,
+		"y": 64,
+		"root": false
+	},
+	"0kii0gi3bpvkl5b8": {
+		"definition": "ice_magic_resist",
+		"x": 256,
+		"y": 192,
+		"root": false
+	},
+	"z1nth0i4lp1sur6n": {
+		"definition": "ice_magic_resist",
+		"x": 256,
+		"y": 256,
+		"root": false
+	},
+	"dyeqpe7178bgguph": {
+		"definition": "lightning_magic_resist",
+		"x": 320,
+		"y": 192,
+		"root": false
+	},
+	"g6ek5ek41g0mkpso": {
+		"definition": "lightning_magic_resist",
+		"x": 320,
+		"y": 256,
+		"root": false
+	},
+	"xxlx2rrq01yy9d6a": {
+		"definition": "ether_resistance",
+		"x": 384,
+		"y": 192,
+		"root": false
+	},
+	"7ejmteshfnn045pu": {
+		"definition": "ether_resistance",
+		"x": 384,
+		"y": 256,
+		"root": false
+	},
+	"nt5smmeqvdoosde5": {
+		"definition": "evocation_magic_resist",
+		"x": 320,
+		"y": 128,
+		"root": false
+	},
+	"ysddxu4bhwvtkczt": {
+		"definition": "evocation_magic_resist",
+		"x": 384,
+		"y": 128,
+		"root": false
+	},
+	"6cj4lb3y6cf3s6h8": {
+		"definition": "holy_magic_resist",
+		"x": -192,
+		"y": 64,
+		"root": false
+	},
+	"qb6wn5g3qrwtfh6q": {
+		"definition": "holy_magic_resist",
+		"x": -192,
+		"y": 128,
+		"root": false
+	},
+	"t5ps5fqg67rdswzu": {
+		"definition": "nature_magic_resist",
+		"x": -256,
+		"y": 96,
+		"root": false
+	},
+	"pk5dhoa60tddjr7v": {
+		"definition": "nature_magic_resist",
+		"x": -256,
+		"y": 160,
+		"root": false
+	},
+	"aerrih4x851ax50i": {
+		"definition": "max_absorption",
+		"x": -320,
+		"y": 160,
+		"root": false
+	},
+	"ss7bdthsdugrohp9": {
+		"definition": "max_absorption",
+		"x": 192,
+		"y": 64,
+		"root": false
+	},
+	"yy1lvfpfgb55r1ko": {
+		"definition": "healing_received",
+		"x": -32,
+		"y": -64,
+		"root": false
+	},
+	"oeclja3ve9epdcwb": {
+		"definition": "healing_received",
+		"x": 32,
+		"y": -64,
+		"root": false
+	},
+	"k4him9ih1rt9q2ea": {
+		"definition": "major_healing",
+		"x": -32,
+		"y": -128,
+		"root": false
+	},
+	"bsrxwqq640i2a95f": {
+		"definition": "major_healing",
+		"x": 32,
+		"y": -128,
+		"root": false
+	},
+	"9gkyopjx9uzuzc2g": {
+		"definition": "major_explosion_resistance",
+		"x": 0,
+		"y": 224,
+		"root": false
+	},
+	"pte73shk8du5ttyn": {
+		"definition": "medium_knockback_res",
+		"x": -320,
+		"y": 96,
+		"root": false
+	},
+	"7kfl6z53tpv7fyt9": {
+		"definition": "major_knockback_res",
+		"x": -288,
+		"y": 32,
+		"root": false
+	},
+	"du41sl5p85nf1hfl": {
+		"definition": "medium_armor",
+		"x": -96,
+		"y": 448,
+		"root": false
+	},
+	"sty9mm7mvk05yu7e": {
+		"definition": "medium_toughness",
+		"x": 96,
+		"y": 448,
+		"root": false
+	}
+}

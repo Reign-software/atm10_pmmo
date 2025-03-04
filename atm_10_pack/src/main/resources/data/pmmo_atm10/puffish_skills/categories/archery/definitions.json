@@ -237,6 +237,121 @@
             "icon": "m8cet7tge1c9r6dc"
         }
     },
+    "minor_arrow_damage_1": {
+        "title": "Archer's Focus",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "arrow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_damage",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Begin your archery training, increasing arrow damage by 1%. A small but important first step toward mastery of the bow.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "minor_arrow_velocity_1": {
+        "title": "Steady Pull",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "string"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:arrow_velocity",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Learn proper drawing technique, increasing arrow velocity by 1%. Your arrows fly slightly faster and straighter.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "minor_draw_speed_1": {
+        "title": "Swift Fingers",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "stick"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:draw_speed",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Develop basic dexterity, increasing bow draw speed by 1%. The first skill every archer must learn is how to quickly ready their weapon.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "minor_crit_chance_1": {
+        "title": "Careful Aim",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_chance",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Train your eye to spot weaknesses, gaining a 1% chance to land critical hits. Even a novice archer occasionally finds the perfect shot.",
+        "metadata": {
+            "icon": ""
+        }
+    },
+    "minor_crit_damage_1": {
+        "title": "Vital Knowledge",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "heart_of_the_sea"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "apothic_attributes:crit_damage",
+                    "value": 0.01,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "description": "Learn basic anatomy, increasing critical hit damage by 1%. Understanding where to aim makes your critical hits slightly more effective.",
+        "metadata": {
+            "icon": ""
+        }
+    },
     "entity_interaction_range+1": {
         "title": "Distant Perception",
         "icon": {

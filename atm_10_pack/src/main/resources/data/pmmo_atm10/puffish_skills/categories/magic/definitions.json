@@ -1,4 +1,220 @@
 {
+	"minor_max_mana_5": {
+		"title": "Mana Initiate",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lapis_lazuli"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Begin your magical journey with a small increase to your arcane reserves. Gain 5 points of maximum mana, allowing for slightly more spell casting before depletion.",
+		"metadata": {
+			
+		}
+	},
+	"minor_mana_regen_1": {
+		"title": "Arcane Trickle",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to attune yourself to the ambient magical energies around you. Increase mana regeneration by 1 point, slightly hastening your recovery between spellcasting.",
+		"metadata": {
+			
+		}
+	},
+	"minor_cooldown_reduction_1": {
+		"title": "Arcane Efficiency",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "clock"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Discover the fundamentals of spell weaving efficiency, reducing spell cooldowns by 1%. This small improvement allows you to cast your favorite spells marginally more often.",
+		"metadata": {
+			
+		}
+	},
+	"minor_spell_power_1": {
+		"title": "Arcane Spark",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "paper"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel magical energy with slightly improved focus, increasing spell power by 1%. Your spells now have just a bit more punch behind them.",
+		"metadata": {
+			
+		}
+	},
+	"major_knockback_resistance_30": {
+		"title": "Immovable Stance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of anchoring your body with magical energy, gaining 30% knockback resistance. Stand your ground against powerful attacks that would send others flying.",
+		"metadata": {
+			
+		}
+	},
+	"medium_knockback_resistance_10": {
+		"title": "Grounding Force",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to root yourself with magical energy, gaining 10% knockback resistance. Feel significantly more stable when facing enemies with powerful attacks.",
+		"metadata": {
+			
+		}
+	},
+	"medium_magic_protection_10": {
+		"title": "Arcane Shield",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.magic_protection",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Weave protective enchantments around yourself, gaining 10 points of magic protection. Magical attacks now find it more difficult to penetrate your enhanced defenses.",
+		"metadata": {
+			
+		}
+	},
+	"minor_summon_damage_1": {
+		"title": "Minion's Fury",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Begin learning the art of empowering your summoned creatures, increasing their damage by 1%. Your minions strike with slightly more force than before.",
+		"metadata": {
+			
+		}
+	},
 	"spectral_sight+5": {
 		"title": "Veil Piercing Perception",
 		"icon": {
@@ -88,7 +304,7 @@
 		],
 		"description": "Your body can temporarily sustain more life energy than normal, allowing healing to exceed your maximum health by 5%. This excess vitality gradually fades over time but provides crucial protection in dangerous situations.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"healing_received": {
@@ -111,7 +327,7 @@
 		],
 		"description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"nametag_distance": {
@@ -180,10 +396,10 @@
 		],
 		"description": "Your physical form occasionally slips between dimensions, gaining 20% phasing ability. Parts of your body can momentarily exist slightly out of phase with normal reality, allowing limited movement through solid objects.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
-    "health+2": {
+	"health+2": {
 		"title": "Heartbound Fortitude",
 		"icon": {
 			"type": "effect",
@@ -229,7 +445,7 @@
 			"icon": "r1j2tvuc4vh1066x"
 		}
 	},
-    "max_mana+50": {
+	"max_mana+50": {
 		"title": "Azure Wellspring Expansion",
 		"icon": {
 			"type": "item",
@@ -337,7 +553,7 @@
 			"icon": "9zl1blin8hlsft5h"
 		}
 	},
-    "magic_specialization": {
+	"magic_specialization": {
 		"title": "Archmage's Forbidden Knowledge",
 		"icon": {
 			"type": "item",
@@ -350,7 +566,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:max_mana",
-					"value": 100,
+					"value": 20,
 					"operation": "addition"
 				}
 			},
@@ -358,7 +574,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 10,
+					"value": 20,
 					"operation": "addition"
 				}
 			},
@@ -366,17 +582,17 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-					"value": 100,
+					"value": 20,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Unlock the deepest arcane secrets, gaining 100 max mana and 10% spell power to unleash magical devastation upon your enemies.",
+		"description": "Unlock the deepest arcane secrets, gaining 20 max mana and 20% spell power to unleash magical devastation upon your enemies.",
 		"metadata": {
 			"icon": "v8bg100cyhqarklq"
 		}
 	},
-    "minor_armor": {
+	"minor_armor": {
 		"title": "Hardened Skin",
 		"icon": {
 			"type": "item",
@@ -422,7 +638,7 @@
 			"icon": "1cythxuq17aqnfc8"
 		}
 	},
-    "minor_knockback_res": {
+	"minor_knockback_res": {
 		"title": "Steadfast Footing",
 		"icon": {
 			"type": "item",
@@ -468,7 +684,7 @@
 			"icon": "bxar36dclzsvjpzo"
 		}
 	},
-    "medium_movement_speed": {
+	"medium_movement_speed": {
 		"title": "Fleet-Footed",
 		"icon": {
 			"type": "item",
@@ -504,7 +720,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:max_mana",
-					"value": 20,
+					"value": 5,
 					"operation": "addition"
 				}
 			},
@@ -512,12 +728,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-					"value": 20,
+					"value": 5,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Expand your inner magical reserves to gain 20 additional maximum mana, allowing for more spell casting.",
+		"description": "Expand your inner magical reserves to gain 5 additional maximum mana, allowing for more spell casting.",
 		"metadata": {
 			"icon": "4cwxkzz3397osf0z"
 		}
@@ -535,7 +751,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:max_mana",
-					"value": 35,
+					"value": 10,
 					"operation": "addition"
 				}
 			},
@@ -543,12 +759,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-					"value": 35,
+					"value": 10,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Significantly expand your magical capacity to gain 35 additional maximum mana for extended spellcasting.",
+		"description": "Significantly expand your magical capacity to gain 10 additional maximum mana for extended spellcasting.",
 		"metadata": {
 			"icon": "5xnz9oxlmdqempdp"
 		}
@@ -566,7 +782,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:max_mana",
-					"value": 50,
+					"value": 20,
 					"operation": "addition"
 				}
 			},
@@ -574,12 +790,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-					"value": 50,
+					"value": 20,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Master the art of mana storage to gain 50 additional maximum mana, enabling the casting of powerful spell combinations.",
+		"description": "Master the art of mana storage to gain 20 additional maximum mana, enabling the casting of powerful spell combinations.",
 		"metadata": {
 			"icon": "j7ho5sdij8el082d"
 		}
@@ -984,150 +1200,1033 @@
 			"icon": "t05x9k0u2f16u2fa"
 		}
 	},
-    "absorption_boost": {
-        "title": "Golden Heart Enchantment",
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "golden_apple"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "minecraft:generic.max_absorption",
-                    "value": 2,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "description": "Ancient protective magics flow through your veins, increasing maximum absorption by 2 hearts. Your body can now maintain more powerful magical shields, creating golden hearts that absorb damage before your life force.",
-        "metadata": {
-            "icon": ""
-        }
-    },
-    "magic_protection": {
-        "title": "Arcane Ward Enchantment",
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "enchanted_golden_apple"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "additionalentityattributes:generic.magic_protection",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "description": "Protective sigils manifest across your skin, granting 5 points of magic protection. Hostile spells and magical damage are partially absorbed by these mystical wards, leaving you less vulnerable to arcane attacks.",
-        "metadata": {
-            "icon": ""
-        }
-    },
-    "ars_saturation": {
-        "title": "Arcane Nourishment",
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "golden_carrot"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ars_nouveau:ars_nouveau.perk.saturation",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "description": "The magical energies flowing through you now sustain your physical form, providing 5 points of magical saturation. Casting spells occasionally fills your hunger bar, converting raw arcane power into bodily nourishment.",
-        "metadata": {
-            "icon": ""
-        }
-    },
-    "ars_feather": {
-        "title": "Zephyr's Divine Grace",
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "feather"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ars_nouveau:ars_nouveau.perk.feather",
-                    "value": 1,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "description": "While channeling arcane energies, air itself cushions your falls. When actively casting spells, you descend as gently as a feather, never taking damage from even the highest drops as magic buoys your descent.",
-        "metadata": {
-            "icon": ""
-        }
-    },
-    "eldritch_spell_power": {
-        "title": "Forbidden Knowledge Wielder",
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "sculk_catalyst"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "irons_spellbooks:eldritch_spell_power",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "description": "Your mind has glimpsed beyond the veil of reality, increasing eldritch spell power by 5%. Channel cosmic forces with greater potency as your understanding of impossible geometries grows deeper.",
-        "metadata": {
-            "icon": ""
-        }
-    },
-    "summon_damage": {
-        "title": "Conjurer's Empowerment",
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "soul_sand"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "irons_spellbooks:summon_damage",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            },
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-                    "value": 5,
-                    "operation": "addition"
-                }
-            }
-        ],
-        "description": "The creatures you conjure manifest with greater ferocity, dealing 5% more damage. Your summoned allies strike with supernatural precision and power, tearing through enemies with enhanced fury.",
-        "metadata": {
-            "icon": ""
-        }
-    }
+	"absorption_boost": {
+		"title": "Golden Heart Enchantment",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_absorption",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Ancient protective magics flow through your veins, increasing maximum absorption by 2 hearts. Your body can now maintain more powerful magical shields, creating golden hearts that absorb damage before your life force.",
+		"metadata": {
+			
+		}
+	},
+	"magic_protection": {
+		"title": "Arcane Ward Enchantment",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "enchanted_golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.magic_protection",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Protective sigils manifest across your skin, granting 5 points of magic protection. Hostile spells and magical damage are partially absorbed by these mystical wards, leaving you less vulnerable to arcane attacks.",
+		"metadata": {
+			
+		}
+	},
+	"ars_saturation": {
+		"title": "Arcane Nourishment",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_carrot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.saturation",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "The magical energies flowing through you now sustain your physical form, providing 5 points of magical saturation. Casting spells occasionally fills your hunger bar, converting raw arcane power into bodily nourishment.",
+		"metadata": {
+			
+		}
+	},
+	"ars_feather": {
+		"title": "Zephyr's Divine Grace",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.feather",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "While channeling arcane energies, air itself cushions your falls. When actively casting spells, you descend as gently as a feather, never taking damage from even the highest drops as magic buoys your descent.",
+		"metadata": {
+			
+		}
+	},
+	"eldritch_spell_power": {
+		"title": "Forbidden Knowledge Wielder",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sculk_catalyst"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your mind has glimpsed beyond the veil of reality, increasing eldritch spell power by 5%. Channel cosmic forces with greater potency as your understanding of impossible geometries grows deeper.",
+		"metadata": {
+			
+		}
+	},
+	"summon_damage": {
+		"title": "Conjurer's Empowerment",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "soul_sand"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "The creatures you conjure manifest with greater ferocity, dealing 5% more damage. Your summoned allies strike with supernatural precision and power, tearing through enemies with enhanced fury.",
+		"metadata": {
+			
+		}
+	},
+	"minor_fire_spell_power": {
+		"title": "Ember Spark",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "torch"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Begin channeling heat energy into your spellcasting, increasing fire spell power by 1%. The first step toward pyromancy mastery.",
+		"metadata": {
+			
+		}
+	},
+	"major_fire_spell_power": {
+		"title": "Infernal Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "blaze_powder"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your control over flames reaches new heights, increasing fire spell power by 7%. Enemies cower before your devastating infernos.",
+		"metadata": {
+			
+		}
+	},
+	"minor_ice_spell_power": {
+		"title": "Winter's Touch",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "snowball"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to channel the slightest chill into your magic, increasing ice spell power by 1%. Feel the first whispers of winter at your fingertips.",
+		"metadata": {
+			
+		}
+	},
+	"major_ice_spell_power": {
+		"title": "Glacial Dominion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "blue_ice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become one with the eternal frost, increasing ice spell power by 7%. Your devastating cold spells can freeze even the most resilient foes.",
+		"metadata": {
+			
+		}
+	},
+	"minor_lightning_spell_power": {
+		"title": "Static Surge",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glowstone_dust"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel the tiniest sparks of electrical energy, increasing lightning spell power by 1%. The first crackle of power courses through your spells.",
+		"metadata": {
+			
+		}
+	},
+	"major_lightning_spell_power": {
+		"title": "Thunderlord's Wrath",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "nether_star"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Harness the raw power of storms and fury, increasing lightning spell power by 7%. The sky itself answers your call with devastating electrical force.",
+		"metadata": {
+			
+		}
+	},
+	"minor_holy_spell_power": {
+		"title": "Divine Favor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glowstone_dust"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Receive the faintest blessing of divine power, increasing holy spell power by 1%. Your first tentative connection to sacred energies has been established.",
+		"metadata": {
+			
+		}
+	},
+	"major_holy_spell_power": {
+		"title": "Celestial Blessing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "beacon"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become a true vessel for divine power, increasing holy spell power by 7%. Your healing magic and sacred spells shine with extraordinary radiance.",
+		"metadata": {
+			
+		}
+	},
+	"minor_ender_spell_power": {
+		"title": "Void Whisper",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_pearl"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Begin to hear the faint whispers of the void, increasing ender spell power by 1%. Your first tenuous connection to End energies has formed.",
+		"metadata": {
+			
+		}
+	},
+	"major_ender_spell_power": {
+		"title": "Dimensional Sovereign",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "end_crystal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the eldritch forces of the End, increasing ender spell power by 7%. The boundaries between dimensions bend to your will.",
+		"metadata": {
+			
+		}
+	},
+	"minor_blood_spell_power": {
+		"title": "Blood Droplet",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn the most basic techniques of hemomancy, increasing blood spell power by 1%. You begin to understand how life essence can fuel your magic.",
+		"metadata": {
+			
+		}
+	},
+	"major_blood_spell_power": {
+		"title": "Crimson Archmagus",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "nether_wart_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Perfect the forbidden arts of blood magic, increasing blood spell power by 7%. The very essence of life bends to your will with horrifying efficiency.",
+		"metadata": {
+			
+		}
+	},
+	"minor_evocation_spell_power": {
+		"title": "Summoner's Call",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to issue the simplest commands to summoned entities, increasing evocation spell power by 1%. Your first steps into the art of conjuration.",
+		"metadata": {
+			
+		}
+	},
+	"major_evocation_spell_power": {
+		"title": "Legion Commander",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wither_skeleton_skull"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Command vast armies from beyond the veil, increasing evocation spell power by 7%. Your summoned creatures manifest with terrible strength and unwavering loyalty.",
+		"metadata": {
+			
+		}
+	},
+	"minor_nature_spell_power": {
+		"title": "Seedling Growth",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wheat_seeds"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Form a tentative bond with natural energies, increasing nature spell power by 1%. Plants respond slightly to your magical presence.",
+		"metadata": {
+			
+		}
+	},
+	"major_nature_spell_power": {
+		"title": "Primal Force Archdruid",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "flowering_azalea"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become one with the primal forces of nature, increasing nature spell power by 7%. The raw power of growth, decay, and rebirth flows through your spells with tremendous force.",
+		"metadata": {
+			
+		}
+	},
+	"minor_eldritch_spell_power": {
+		"title": "Forbidden Glimpse",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sculk"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your mind catches the briefest glimpse of otherworldly knowledge, increasing eldritch spell power by 1%. The fabric of reality seems slightly more pliable to your touch.",
+		"metadata": {
+			
+		}
+	},
+	"major_eldritch_spell_power": {
+		"title": "Cosmic Horror Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "sculk_shrieker"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your mind has fully embraced the incomprehensible, increasing eldritch spell power by 7%. Reality itself writhes and distorts at your merest thought, enhancing your most terrifying spells.",
+		"metadata": {
+			
+		}
+	},
+	"minor_summon_damage": {
+		"title": "Familiar Bond",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "spider_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Establish a basic connection with your summoned creatures, increasing their damage by 1%. Your minions respond better to your magical guidance.",
+		"metadata": {
+			
+		}
+	},
+	"major_summon_damage": {
+		"title": "Soul-Bound Legion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "nether_star"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 7,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 7,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your summoned creatures are bound to you through unbreakable arcane bonds, increasing their damage by 7%. They manifest with devastating strength and ferocity, tearing through enemies with supernatural power.",
+		"metadata": {
+			
+		}
+	},
+	"pyromancer_specialization": {
+		"title": "Pyromancer's Ascension",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:magma_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_magic_resist",
+					"value": 25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:fire_damage",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Ascend to true pyromantic mastery, gaining 15% fire spell power, 25% fire magic resistance, and 10% additional fire damage. The inferno surrounds you, flows through you, and emanates from your very being as you command the most primal element with terrifying efficiency.",
+		"metadata": {
+			
+		}
+	},
+	"cryomancer_specialization": {
+		"title": "Cryomancer's Winter",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blue_ice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_magic_resist",
+					"value": 25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:cold_damage",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Embrace the eternal winter within and become an avatar of frost, gaining 15% ice spell power, 25% ice magic resistance, and 10% additional cold damage. Your icy magic freezes enemies in their tracks as the bitter cold of absolute zero radiates from your enchanted form.",
+		"metadata": {
+			
+		}
+	},
+	"archmage_specialization": {
+		"title": "Archmage's Brilliance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Achieve the legendary status of Archmage, gaining 10% universal spell power, 150 maximum mana for both casting systems, and 10% cooldown reduction. Your magical prowess is unmatched as you weave spells with effortless precision and overwhelming arcane might.",
+		"metadata": {
+			
+		}
+	},
+	"battlemage_specialization": {
+		"title": "Battlemage's Fury",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master the art of blade and spell, gaining 8% spell power, 8% attack damage, 15% faster casting, and 2 hearts of health. Dance through battle wielding both steel and sorcery, a whirlwind of magical and physical devastation.",
+		"metadata": {
+			
+		}
+	},
+	"summoner_specialization": {
+		"title": "Grand Summoner's Legion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:totem_of_undying"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 70,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 70,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Command an army from beyond the veil, gaining 15% summon damage and power, 10% evocation spell power, and 70 maximum mana. Your summoned creatures manifest with frightening strength and unquestioning loyalty as you open wider gateways to otherworldly realms.",
+		"metadata": {
+			
+		}
+	},
+	"void_mage_specialization": {
+		"title": "Void Sovereign's Dominion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "justdirethings:phase",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Achieve mastery over the void between dimensions, gaining 15% ender spell power, 15% eldritch spell power, and 30% phase ability. Reality warps around you as you channel cosmic forces from beyond comprehension, allowing partial passage through solid matter itself.",
+		"metadata": {
+			
+		}
+	},
+	"mana_sage_specialization": {
+		"title": "Mana Sage's Infinite Well",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:beacon"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "not_enough_glyphs:not_enough_glyphs.perk.mana_discount",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become a living conduit of magical energy, gaining 200 maximum mana, 25 mana regeneration, and 10% mana discount for Ars spells. Arcane energy flows through you in limitless abundance, making your spell reserves seemingly bottomless and your casting nearly effortless.",
+		"metadata": {
+			
+		}
+	},
+	"guardian_mage_specialization": {
+		"title": "Arcane Guardian's Bulwark",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.magic_protection",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:ghost_health",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Become an impenetrable ward against magical harm, gaining 20 magic protection, 15% spell resistance, 5 hearts of health, and 10 ghost health. Magical attacks barely scratch your reinforced arcane defenses as your body and soul are shielded by layers of mystical protection.",
+		"metadata": {
+			
+		}
+	},
+	"divine_channeler_specialization": {
+		"title": "Divine Channeler's Blessing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:beacon"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:healing_received",
+					"value": 25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:overheal",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Open your soul to divine energies, gaining 20% holy spell power, 25% increased healing received, and 10% overheal capacity. Celestial energies flow through you, enhancing your healing abilities and allowing your vitality to temporarily exceed normal limits.",
+		"metadata": {
+			
+		}
+	}
 }

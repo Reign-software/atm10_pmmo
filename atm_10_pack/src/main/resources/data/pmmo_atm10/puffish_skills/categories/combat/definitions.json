@@ -137,6 +137,99 @@
 			"icon": "7iqxcc49z41bdvk3"
 		}
 	},
+		"minor_attack_damage_1": {
+		"title": "Combat Fundamentals",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Basic combat training increases your attack damage by 1%. Every strike becomes slightly more effective.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"minor_attack_speed_1": {
+		"title": "Quick Reflexes",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Learn basic combat timing that increases attack speed by 1%. Strike just a bit faster than before.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"minor_crit_chance_1": {
+		"title": "Precision Basics",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop fundamental targeting skills, gaining a 1% increased chance to land critical hits.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+	"minor_life_steal_1": {
+		"title": "Blood Trickle",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "potion",
+				"nbt": "{Potion:\"minecraft:healing\"}"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:life_steal",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to draw a small amount of life force from your attacks, stealing 1% of damage dealt as health.",
+		"metadata": {
+			"icon": ""
+		}
+	},
 	"attack_damage+5%": {
 		"title": "Iron Striker's Might",
 		"icon": {
@@ -1027,8 +1120,8 @@
 			"icon": ""
 		}
 	},
-	"current_hp_damage": {
-		"title": "Reaper's Proportional Strike",
+		"current_hp_damage": {
+		"title": "Blood Strike",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -1045,7 +1138,30 @@
 				}
 			}
 		],
-		"description": "Your attacks become more devastating the healthier your enemy is, dealing additional damage equal to 2% of your target's current health. Like a true executioner, you excel at beginning the slaughter of even the mightiest foes.",
+		"description": "Channel your own vitality into devastating attacks, dealing additional damage equal to 2% of your current health. The more health you have, the more powerful your strikes become, encouraging you to maintain peak condition for maximum offensive power.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+		"major_current_hp_damage": {
+		"title": "Blood Bath",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apothic_attributes:current_hp_damage",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel your own vitality into devastating attacks, dealing additional damage equal to 20% of your current health. The more health you have, the more powerful your strikes become, encouraging you to maintain peak condition for maximum offensive power.",
 		"metadata": {
 			"icon": ""
 		}
