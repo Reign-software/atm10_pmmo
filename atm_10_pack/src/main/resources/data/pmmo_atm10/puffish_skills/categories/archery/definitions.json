@@ -450,7 +450,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 20,
+                    "value": 40,
                     "operation": "addition"
                 }
             },
@@ -458,12 +458,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.movement_speed",
-                    "value": 0.03,
+                    "value": 0.05,
                     "operation": "multiply_total"
                 }
             }
         ],
-        "description": "Embrace the agile combat style of forest skirmishers with 20% faster draw speed and 3% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
+        "description": "Embrace the agile combat style of forest skirmishers with 40% faster draw speed and 5% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
         "metadata": {
             "icon": "n6q3t8rqxx32vf6j"
         }
@@ -619,12 +619,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 20,
+                    "value": 7,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Develop smoother bow handling techniques, increasing draw speed by 20%. Your hands move with practiced coordination.",
+        "description": "Develop smoother bow handling techniques, increasing draw speed by 7%. Your hands move with practiced coordination.",
         "metadata": {
             "icon": "z46lrfipnfs56kgq"
         }
