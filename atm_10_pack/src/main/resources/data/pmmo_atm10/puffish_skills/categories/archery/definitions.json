@@ -450,7 +450,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 40,
+                    "value": 30,
                     "operation": "addition"
                 }
             },
@@ -463,7 +463,7 @@
                 }
             }
         ],
-        "description": "Embrace the agile combat style of forest skirmishers with 40% faster draw speed and 5% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
+        "description": "Embrace the agile combat style of forest skirmishers with 30% faster draw speed and 5% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
         "metadata": {
             "icon": "n6q3t8rqxx32vf6j"
         }
