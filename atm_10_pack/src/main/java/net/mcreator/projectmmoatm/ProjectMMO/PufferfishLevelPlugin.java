@@ -66,11 +66,8 @@ public class PufferfishLevelPlugin {
         SkillsMod skillsMod = SkillsMod.getInstance();
         Optional<Integer> totalPoints = skillsMod.getPointsTotal(player, id);
 
-        if (!totalPoints.isPresent() || totalPoints.get() >= 50) {
-            System.out.println("No points found... or more than 50.");
-
+        if (!totalPoints.isPresent() || totalPoints.get() >= 50)
             return;
-        }
 
         skillsMod.addPoints(player, id, source, 1, false);
     }
