@@ -734,5 +734,125 @@
         "metadata": {
             "icon": ""
         }
-    }
+    },
+
+	"vitality_recovery": {
+		"title": "Enhanced Vitality",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glistering_melon_slice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your body's natural healing processes become more efficient, increasing natural health regeneration by 15%. Recover from injuries faster as your enhanced metabolism repairs damage at an accelerated rate.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"exposure_tactics": {
+		"title": "Exposure Tactics",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance_shred",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Force enemies into exposed positions, reducing their ranged resistance by 8%. Your tactical strikes compromise their ability to defend against incoming projectiles.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"projectile_avoidance": {
+		"title": "Projectile Awareness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Train your reflexes to subconsciously avoid projectiles, reducing ranged damage by 8%. Your body instinctively shifts to minimize exposure to incoming arrows and other missiles.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"combat_training": {
+		"title": "Combat Hardening",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master defensive combat techniques to reduce melee damage taken by 2%. Your practiced movements deflect and absorb impacts, turning potentially lethal blows into glancing hits.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"resilience_training": {
+		"title": "Physical Resilience",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Toughen your body through rigorous training, reducing all incoming damage by 5%. Your hardened physique withstands impacts that would severely injure others.",
+		"metadata": {
+			"icon": ""
+		}
+	}
 }

@@ -244,5 +244,107 @@
 		"x": 320,
 		"y": 256,
 		"root": false
+	},
+	"lig9rbge3v7rn4u5": {
+		"definition": "fortune_finder",
+		"x": 0,
+		"y": 128,
+		"root": false
+	},
+	"46pac9cyog5olzgd": {
+		"definition": "fortune_finder",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"fs60k39dzu3qw8a3": {
+		"definition": "efficient_mining",
+		"x": -160,
+		"y": -256,
+		"root": false
+	},
+	"6g568xg787l28hcy": {
+		"definition": "efficient_mining",
+		"x": -96,
+		"y": -320,
+		"root": false
+	},
+	"wnuqmx3u46tocdfs": {
+		"definition": "pickaxe_mastery",
+		"x": 0,
+		"y": -352,
+		"root": false
+	},
+	"5wpe9mz5ouipjl90": {
+		"definition": "pickaxe_mastery",
+		"x": 96,
+		"y": -320,
+		"root": false
+	},
+	"s68y8r36whl8y8zv": {
+		"definition": "pickaxe_mastery",
+		"x": 160,
+		"y": -256,
+		"root": false
+	},
+	"u4xlwt1yuoj7m51c": {
+		"definition": "axe_mastery",
+		"x": -352,
+		"y": 64,
+		"root": false
+	},
+	"a4jh71xdjpnebk5l": {
+		"definition": "axe_mastery",
+		"x": -288,
+		"y": 160,
+		"root": false
+	},
+	"mvxmlq8vufe7uqt8": {
+		"definition": "axe_mastery",
+		"x": -224,
+		"y": 128,
+		"root": false
+	},
+	"1v9c17qi33mtqjup": {
+		"definition": "axe_mastery",
+		"x": -160,
+		"y": 96,
+		"root": false
+	},
+	"5dadovad5k2psyko": {
+		"definition": "axe_mastery",
+		"x": -352,
+		"y": 0,
+		"root": false
+	},
+	"xvxaxj97pjjswf39": {
+		"definition": "shovel_mastery",
+		"x": 64,
+		"y": 544,
+		"root": false
+	},
+	"nei82jv4jomxlvrg": {
+		"definition": "shovel_mastery",
+		"x": -32,
+		"y": 480,
+		"root": false
+	},
+	"m2arksw1b561j39q": {
+		"definition": "shovel_mastery",
+		"x": 160,
+		"y": 480,
+		"root": false
+	},
+	"jm5s2q2t9nj5expz": {
+		"definition": "shovel_mastery",
+		"x": 160,
+		"y": 384,
+		"root": false
+	},
+	"he38yrew4qooddqj": {
+		"definition": "shovel_mastery",
+		"x": -32,
+		"y": 384,
+		"root": false
 	}
 }

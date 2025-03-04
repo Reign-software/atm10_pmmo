@@ -3744,5 +3744,749 @@
         "metadata": {
             "icon": ""
         }
-    }
+    },
+	"stamina_boost": {
+		"title": "Runner's Endurance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_carrot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Through rigorous training, your body processes nutrients more efficiently, increasing your stamina by 0.5 points. Food and saturation last longer, allowing sustained activity without frequent breaks for meals.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"fortune_finder": {
+		"title": "Prospector's Eye",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop an uncanny sense for valuable resources, gaining +1 Fortune when mining. Even without enchanted tools, you instinctively strike deposits at their richest points to yield additional materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"arcane_power": {
+		"title": "Arcane Amplification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "blaze_powder"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Channel magical energies with greater efficiency, increasing magic damage by 5%. Your spells and enchanted attacks strike with enhanced potency, making your arcane assaults more devastating.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"striking_technique": {
+		"title": "Warrior's Precision",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Perfect your martial techniques to increase melee damage by 5%. Each strike targets vulnerable points with expert precision, maximizing the impact of your close-quarters attacks.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"marksman_training": {
+		"title": "Marksman's Focus",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Refine your aim to increase ranged damage by 5%. Hours of practice allow you to consistently target vital areas, making your arrows and projectiles strike with enhanced force.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"healing_potency": {
+		"title": "Restorative Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "potion",
+				"nbt": "{Potion:\"minecraft:healing\"}"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master the arts of restoration to increase all healing effects by 10%. Your body responds more efficiently to potions, food, and magical healing, recovering more health from all sources.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"leap_enhancement": {
+		"title": "Enhanced Leap",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "slime_block"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:jump",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Strengthen your leg muscles to jump 10% higher. Reach new heights and clear obstacles with greater ease as your powerful leaps carry you further than normal.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"resilience_training": {
+		"title": "Physical Resilience",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Toughen your body through rigorous training, reducing all incoming damage by 5%. Your hardened physique withstands impacts that would severely injure others.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"arcane_warding": {
+		"title": "Arcane Warding",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Develop mystical defenses that reduce magic damage by 8%. Your body naturally disperses hostile magical energies, minimizing harm from spells and enchanted attacks.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"combat_training": {
+		"title": "Combat Hardening",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master defensive combat techniques to reduce melee damage taken by 2%. Your practiced movements deflect and absorb impacts, turning potentially lethal blows into glancing hits.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"projectile_avoidance": {
+		"title": "Projectile Awareness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Train your reflexes to subconsciously avoid projectiles, reducing ranged damage by 8%. Your body instinctively shifts to minimize exposure to incoming arrows and other missiles.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"efficient_mining": {
+		"title": "Efficient Excavator",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Perfect your mining techniques to increase overall mining speed by 10%. Each swing becomes more productive as you instinctively target structural weaknesses in all materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"pickaxe_mastery": {
+		"title": "Pickaxe Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Specialize in pickaxe techniques, increasing mining speed with pickaxes by 12%. Your expert knowledge of stone and ore formations allows for more efficient extraction of hard materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"axe_mastery": {
+		"title": "Axe Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Refine your woodcutting techniques, increasing axe mining speed by 12%. Your precise strokes target the natural grain of wood and other axe-appropriate materials for faster harvesting.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"shovel_mastery": {
+		"title": "Shovel Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master the art of digging to increase shovel mining speed by 12%. Your efficient scooping techniques make short work of dirt, sand, gravel, and other loose materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"swift_sprint": {
+		"title": "Swift Sprint",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_boots"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Optimize your running form to increase sprinting speed by 8%. Your powerful strides and efficient movement allow you to cover ground more quickly when dashing.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"impact_force": {
+		"title": "Impact Force",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "piston"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:knockback",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Channel your strength into powerful blows, increasing knockback by 0.2. Your attacks send enemies flying further, creating tactical distance and disrupting enemy formations.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"efficient_repair": {
+		"title": "Master Smith",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your expertise in smithing reduces anvil repair costs by 15%. Efficiently restore worn tools and armor with minimal experience investment through your masterful repair techniques.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"armor_penetration": {
+		"title": "Armor Penetration",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to target weak points in armor, reducing enemy armor points by 2 when you attack. Your precision strikes find gaps in protective gear, bypassing a portion of their defensive value.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"toughness_penetration": {
+		"title": "Structural Weakness Exploitation",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "trident"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:toughness_shred",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Identify and exploit structural weaknesses in enemy armor, reducing armor toughness by 2 when you attack. Your blows target points where material strength is compromised, diminishing the armor's ability to absorb heavy impacts.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"protective_negation": {
+		"title": "Enchantment Negation",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:protection_shred",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your attacks partially disrupt protective enchantments, reducing enemy protection enchantment effectiveness by 1 level. Your strikes temporarily interfere with magical defenses, making them less effective against your assaults.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"resilience_disruption": {
+		"title": "Resilience Disruption",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "grindstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your attacks temporarily weaken an enemy's physical resilience, reducing their resistance attribute by 5%. Strike at pressure points that momentarily disrupt their ability to withstand damage from all sources.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"spell_disruption": {
+		"title": "Spell Disruption",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "lapis_lazuli"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance_shred",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your attacks momentarily disrupt magical defenses, reducing enemy magic resistance by 8%. Each strike creates arcane interference that weakens their protection against magical damage.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"combat_vulnerability": {
+		"title": "Combat Vulnerability",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance_shred",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Target weak defensive stances, reducing enemy melee resistance by 8%. Your attacks force opponents into vulnerable positions, making them more susceptible to follow-up melee strikes.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"exposure_tactics": {
+		"title": "Exposure Tactics",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance_shred",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Force enemies into exposed positions, reducing their ranged resistance by 8%. Your tactical strikes compromise their ability to defend against incoming projectiles.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"vitality_recovery": {
+		"title": "Enhanced Vitality",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "glistering_melon_slice"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your body's natural healing processes become more efficient, increasing natural health regeneration by 15%. Recover from injuries faster as your enhanced metabolism repairs damage at an accelerated rate.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"shadow_movement": {
+		"title": "Shadow Movement",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "black_dye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master the art of silent movement, decreasing enemy detection range by 15%. Move like a shadow through hostile territory as your stealthy approach makes you harder to detect.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"vampiric_strikes": {
+		"title": "Vampiric Strikes",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Your attacks drain life essence from enemies, restoring 3% of damage dealt as health. Channel vital energy through your weapons to sustain yourself in prolonged combat.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"fall_technique": {
+		"title": "Controlled Descent",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Master falling techniques that reduce fall damage by 2 blocks. Roll with impacts and distribute force throughout your body to minimize harm from moderate heights.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"bow_velocity": {
+		"title": "Powerful Draw",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Perfect your bowstring technique to increase arrow velocity by 10%. Your arrows fly faster and straighter, making them harder to dodge and extending their effective range.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"crossbow_velocity": {
+		"title": "Optimized Crossbow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Fine-tune your crossbow mechanisms to increase bolt velocity by 10%. Your projectiles travel with devastating speed, maintaining deadly accuracy over greater distances.",
+		"metadata": {
+			"icon": ""
+		}
+	}
 }

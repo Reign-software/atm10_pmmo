@@ -149,7 +149,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "artifacts:generic.spriting_step_height",
+					"attribute": "minecraft:generic.step_height",
 					"value": 0.5,
 					"operation": "addition"
 				}
@@ -505,29 +505,6 @@
 			"icon": ""
 		}
 	},
-	"flying_speed": {
-		"title": "Empyrean Velocity",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "elytra"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:generic.flying_speed",
-					"value": 0.1,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"description": "The air itself seems eager to carry you aloft, increasing flying speed by 10%. Move through the skies with greater velocity when using creative flight abilities.",
-		"metadata": {
-			"icon": ""
-		}
-	},
 	"hover_flight": {
 		"title": "Arcane Levitation Mastery",
 		"icon": {
@@ -743,5 +720,52 @@
         "metadata": {
             "icon": ""
         }
-    }
+    },
+	"stamina_boost": {
+		"title": "Runner's Endurance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_carrot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Through rigorous training, your body processes nutrients more efficiently, increasing your stamina by 0.5 points. Food and saturation last longer, allowing sustained activity without frequent breaks for meals.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"shadow_movement": {
+		"title": "Shadow Movement",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "black_dye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master the art of silent movement, decreasing enemy detection range by 15%. Move like a shadow through hostile territory as your stealthy approach makes you harder to detect.",
+		"metadata": {
+			"icon": ""
+		}
+	}
 }

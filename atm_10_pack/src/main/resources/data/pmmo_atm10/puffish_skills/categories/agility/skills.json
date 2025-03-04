@@ -454,5 +454,29 @@
 		"x": -384,
 		"y": 0,
 		"root": false
+	},
+	"1jojknq36clzi2uf": {
+		"definition": "shadow_movement",
+		"x": 332.55375505322445,
+		"y": 256,
+		"root": false
+	},
+	"nvage9nwfbbp1hvv": {
+		"definition": "shadow_movement",
+		"x": 387.9793808954285,
+		"y": 160,
+		"root": false
+	},
+	"y5v7ldohr053ft75": {
+		"definition": "shadow_movement",
+		"x": 387.9793808954285,
+		"y": 288,
+		"root": false
+	},
+	"r3qwfujy9cfxqmdb": {
+		"definition": "shadow_movement",
+		"x": 443.40500673763256,
+		"y": 192,
+		"root": false
 	}
 }

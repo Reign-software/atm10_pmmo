@@ -302,7 +302,7 @@
 	"7kfl6z53tpv7fyt9": {
 		"definition": "major_knockback_res",
 		"x": -288,
-		"y": 32,
+		"y": 64,
 		"root": false
 	},
 	"du41sl5p85nf1hfl": {
@@ -315,6 +315,78 @@
 		"definition": "medium_toughness",
 		"x": 96,
 		"y": 448,
+		"root": false
+	},
+	"11b1lnnfmhdkkl8y": {
+		"definition": "vitality_recovery",
+		"x": -64,
+		"y": 480,
+		"root": false
+	},
+	"lnlsa69a46qkuuv1": {
+		"definition": "vitality_recovery",
+		"x": 64,
+		"y": 480,
+		"root": false
+	},
+	"svf53571qklqsqx8": {
+		"definition": "vitality_recovery",
+		"x": 0,
+		"y": 480,
+		"root": false
+	},
+	"ig96psqywc4qldel": {
+		"definition": "exposure_tactics",
+		"x": 128,
+		"y": 480,
+		"root": false
+	},
+	"p0b9ocee5hvynalp": {
+		"definition": "exposure_tactics",
+		"x": -128,
+		"y": 480,
+		"root": false
+	},
+	"js415xfrbdq19kyp": {
+		"definition": "projectile_avoidance",
+		"x": -320,
+		"y": 0,
+		"root": false
+	},
+	"9592racgpo0b746e": {
+		"definition": "projectile_avoidance",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"0yvwaxqc3vfquk0w": {
+		"definition": "combat_training",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"2fv9e0ohfq4zlm2f": {
+		"definition": "combat_training",
+		"x": -256,
+		"y": -64,
+		"root": false
+	},
+	"bh7zi12rrdiabry6": {
+		"definition": "projectile_avoidance",
+		"x": -320,
+		"y": -128,
+		"root": false
+	},
+	"qfmu4ur0ueiac6dy": {
+		"definition": "max_absorption",
+		"x": -256,
+		"y": -128,
+		"root": false
+	},
+	"7fuvk7t8rmmwtih7": {
+		"definition": "resilience_training",
+		"x": -288,
+		"y": -192,
 		"root": false
 	}
 }

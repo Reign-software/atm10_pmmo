@@ -215,29 +215,6 @@
 			
 		}
 	},
-	"spectral_sight+5": {
-		"title": "Veil Piercing Perception",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "spectral_arrow"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "allthearchanistgear:allthearchanistgear.spectral_sight",
-					"value": 5,
-					"operation": "addition"
-				}
-			}
-		],
-		"description": "Develop the ability to perceive beyond mortal limitations, gaining 5 points of spectral sight. Glimpse entities through walls and see into the ethereal planes that overlay our reality.",
-		"metadata": {
-			"icon": "80ak5ffbcob7p2w4"
-		}
-	},
 	"ghost_health+5": {
 		"title": "Ethereal Protection",
 		"icon": {
@@ -1952,7 +1929,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:enchanted_golden_sword"
+				"item": "minecraft:golden_sword"
 			}
 		},
 		"rewards": [

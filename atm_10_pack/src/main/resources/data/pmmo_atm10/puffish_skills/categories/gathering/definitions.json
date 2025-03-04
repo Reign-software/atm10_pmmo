@@ -428,5 +428,124 @@
 		"metadata": {
 			"icon": ""
 		}
+	},
+
+	"fortune_finder": {
+		"title": "Prospector's Eye",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Develop an uncanny sense for valuable resources, gaining +1 Fortune when mining. Even without enchanted tools, you instinctively strike deposits at their richest points to yield additional materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "efficient_mining": {
+		"title": "Efficient Excavator",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Perfect your mining techniques to increase overall mining speed by 10%. Each swing becomes more productive as you instinctively target structural weaknesses in all materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"pickaxe_mastery": {
+		"title": "Pickaxe Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Specialize in pickaxe techniques, increasing mining speed with pickaxes by 12%. Your expert knowledge of stone and ore formations allows for more efficient extraction of hard materials.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"axe_mastery": {
+		"title": "Axe Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Refine your woodcutting techniques, increasing axe mining speed by 12%. Your precise strokes target the natural grain of wood and other axe-appropriate materials for faster harvesting.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"shovel_mastery": {
+		"title": "Shovel Mastery",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.12,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Master the art of digging to increase shovel mining speed by 12%. Your efficient scooping techniques make short work of dirt, sand, gravel, and other loose materials.",
+		"metadata": {
+			"icon": ""
+		}
 	}
 }

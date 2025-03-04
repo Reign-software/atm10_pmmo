@@ -1211,39 +1211,27 @@
 		"y": -64,
 		"root": false
 	},
-	"94e0kkv1y4l16xi4": {
-		"definition": "spectral_sight+5",
-		"x": -73.9008344562721,
-		"y": -320,
-		"root": false
-	},
-	"0gvvhxd1vdb8yh3n": {
-		"definition": "spectral_sight+5",
-		"x": -147.8016689125442,
-		"y": -320,
-		"root": false
-	},
 	"qb4r6nial0wom5kt": {
 		"definition": "ghost_health+5",
-		"x": -203.22729475474827,
+		"x": -92.37604307034013,
 		"y": -288,
 		"root": false
 	},
 	"102oob4ionbrsmhm": {
 		"definition": "ghost_health+5",
-		"x": -203.22729475474824,
+		"x": -92.3760430703401,
 		"y": -352,
 		"root": false
 	},
 	"je37ll7edooa2oho": {
 		"definition": "ghost_health+5",
-		"x": -258.6529205969523,
+		"x": -147.80166891254416,
 		"y": -320,
 		"root": false
 	},
 	"hiohzqx5o6ej8p7y": {
 		"definition": "ghost_health+5",
-		"x": -332.55375505322445,
+		"x": -221.70250336881625,
 		"y": -320,
 		"root": false
 	},
