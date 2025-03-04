@@ -397,5 +397,36 @@
         "metadata": {
             "icon": ""
         }
-    }
+    },
+	"treasure_hunter": {
+		"title": "Fortune's Favored",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "gold_nugget"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.collection_range",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Lady Luck smiles upon your adventures, granting +1 luck and 2 blocks extended item collection range. Find more valuable treasures and gather them with supernatural ease as fortune itself bends slightly in your favor.",
+		"metadata": {
+			"icon": ""
+		}
+	}
 }

@@ -1,0 +1,458 @@
+{
+	"yaitt27ddzxcyw41": {
+		"definition": "movement_speed+5%",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"ed1o707nfknaypye": {
+		"definition": "minor_movement_speed",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"ifdu587bpxn7xzca": {
+		"definition": "minor_movement_speed",
+		"x": -64,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"tujayks24lq8r2as": {
+		"definition": "minor_movement_speed",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"fsk318e1fm3v5uxk": {
+		"definition": "minor_movement_speed",
+		"x": 0,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"fjcqutk0tyoskco5": {
+		"definition": "minor_movement_speed",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"2f8rqju78fcp8qy5": {
+		"definition": "minor_movement_speed",
+		"x": 64,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"41y6z4i11q7f8282": {
+		"definition": "jump_strength",
+		"x": 0,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"mlak8sp4bharn7za": {
+		"definition": "jump_strength",
+		"x": 0,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"jr7dwkvhey70zn37": {
+		"definition": "jump_strength",
+		"x": 0,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"xd58r1j4aobl1u0u": {
+		"definition": "step_height",
+		"x": 128,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"ngsb86stfrkfbzz2": {
+		"definition": "step_height",
+		"x": 192,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"ueh3bdni59h0wwlo": {
+		"definition": "sprinting_speed",
+		"x": -128,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"ddew1pglo40c5prb": {
+		"definition": "sprinting_speed",
+		"x": -192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"2qkbwgwlo4urv458": {
+		"definition": "sprinting_speed",
+		"x": -256,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"r7cldezg07wpsiai": {
+		"definition": "slip_resistance",
+		"x": -128,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"d72y8qcf1e5rzde1": {
+		"definition": "slip_resistance",
+		"x": -192,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"8l9rygq7cu3sxlqj": {
+		"definition": "slip_resistance",
+		"x": -256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"mz38dcwf1i48nd5u": {
+		"definition": "movement_speed_on_snow",
+		"x": -320,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"ym72hhptesy0q3rg": {
+		"definition": "movement_speed_on_snow",
+		"x": -256,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"8e56e4tyz30ujaea": {
+		"definition": "water_movement_efficiency",
+		"x": 0,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"iwpso7bz7iqd52wc": {
+		"definition": "water_movement_efficiency",
+		"x": 0,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"415gocxlilrhz1s8": {
+		"definition": "water_movement_efficiency",
+		"x": 0,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"uhnlg8odwqhkz4kq": {
+		"definition": "water_movement_efficiency",
+		"x": 0,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"9z4lyzy8s8myrrq4": {
+		"definition": "swim_speed",
+		"x": 64,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"6l8hecm8dknjcdx3": {
+		"definition": "swim_speed",
+		"x": 128,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"rhkkb1mg3ewk6e12": {
+		"definition": "water_visibility",
+		"x": -64,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"3c51qgdbq46bus8x": {
+		"definition": "water_visibility",
+		"x": -128,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"6df60m7ujcmj2vc3": {
+		"definition": "water_visibility",
+		"x": -192,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"65q5s8r71zj2pd0d": {
+		"definition": "water_visibility",
+		"x": -128,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"jy9bew4wamybusut": {
+		"definition": "swim_speed",
+		"x": 128,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"9e23pe03sx8wq4fu": {
+		"definition": "swim_speed",
+		"x": 192,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"5vuhhujhl59whmx9": {
+		"definition": "oxygen_bonus",
+		"x": 64,
+		"y": -221.70250336881625,
+		"root": false
+	},
+	"gl0jn0h1xf24hi46": {
+		"definition": "oxygen_bonus",
+		"x": 128,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"fgodv4fajkg6oabc": {
+		"definition": "oxygen_bonus",
+		"x": -64,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"hikbeiwe76evjmpx": {
+		"definition": "oxygen_bonus",
+		"x": -128,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"8lr0klmkhvuhnl0b": {
+		"definition": "nametag_distance",
+		"x": -256,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"9j0yrjw1p37lzl0l": {
+		"definition": "nametag_distance",
+		"x": -320,
+		"y": 258.6529205969523,
+		"root": false
+	},
+	"ewm75qfjjx9i4oj5": {
+		"definition": "mob_detection_range",
+		"x": -192,
+		"y": 258.6529205969523,
+		"root": false
+	},
+	"6cx3gb1yi74eu2gz": {
+		"definition": "mob_detection_range",
+		"x": -256,
+		"y": 332.55375505322445,
+		"root": false
+	},
+	"bcqtgbfazg6agzzq": {
+		"definition": "entity_interaction_range",
+		"x": 128,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"1hdmmai7o1pffefg": {
+		"definition": "entity_interaction_range",
+		"x": 192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"nmgqt95jq1w0n4db": {
+		"definition": "entity_interaction_range",
+		"x": 256,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"dwelfuwpsoueaqcn": {
+		"definition": "safe_fall_distance",
+		"x": 0,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"6li11im90lbcr7fh": {
+		"definition": "safe_fall_distance",
+		"x": -64,
+		"y": 406.4545895094965,
+		"root": false
+	},
+	"d4a819p6df5vy0pz": {
+		"definition": "safe_fall_distance",
+		"x": -128,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"1vj45pzv6tqnqlgh": {
+		"definition": "safe_fall_distance",
+		"x": -64,
+		"y": 332.55375505322445,
+		"root": false
+	},
+	"uj8y07kd7o4fqu12": {
+		"definition": "block_interaction_range",
+		"x": 320,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"wbtvbwiy89mg70sy": {
+		"definition": "elytra_flight",
+		"x": 64,
+		"y": 332.55375505322445,
+		"root": false
+	},
+	"wuegxkkrjx883sk9": {
+		"definition": "elytra_flight",
+		"x": 128,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"7a3ne0zq5jk6inus": {
+		"definition": "elytra_flight",
+		"x": 64,
+		"y": 406.4545895094965,
+		"root": false
+	},
+	"4jphl5rs0jj4q0tl": {
+		"definition": "fall_flying",
+		"x": 0,
+		"y": 443.40500673763256,
+		"root": false
+	},
+	"vbb4yvqcma84uj07": {
+		"definition": "fall_flying",
+		"x": 0,
+		"y": 517.3058411939046,
+		"root": false
+	},
+	"1k1vrdfxhujs3ivb": {
+		"definition": "fall_flying",
+		"x": 64,
+		"y": 480.35542396576864,
+		"root": false
+	},
+	"h5axxo79h5wdkv4s": {
+		"definition": "fall_flying",
+		"x": -64,
+		"y": 480.3554239657685,
+		"root": false
+	},
+	"w67cx65ioj9lmfcr": {
+		"definition": "gravity",
+		"x": -64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"za5bqpkbn4ef1hnt": {
+		"definition": "gravity",
+		"x": 64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"plojp9t2vfcu1f1q": {
+		"definition": "agile_explorer",
+		"x": 384,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"eeyr40urcs6ybxx9": {
+		"definition": "aquanaut",
+		"x": 0,
+		"y": -443.40500673763256,
+		"root": false
+	},
+	"6mka2sz8sticrxlg": {
+		"definition": "aerial_expert",
+		"x": 0,
+		"y": 591.2066756501767,
+		"root": false
+	},
+	"gnsuye70f63tflg2": {
+		"definition": "minor_movement_speed",
+		"x": 384,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"4663w58zz4lhsugw": {
+		"definition": "minor_movement_speed",
+		"x": 320,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"rhtxhq8n6ur2nbbx": {
+		"definition": "minor_movement_speed",
+		"x": 320,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"zzafl631lv6v4q7b": {
+		"definition": "minor_movement_speed",
+		"x": 384,
+		"y": 0,
+		"root": false
+	},
+	"zn3nm80kfq7v58k0": {
+		"definition": "movement_speed+5%",
+		"x": 448,
+		"y": 36.95041722813602,
+		"root": false
+	},
+	"pfzciasdejyh100y": {
+		"definition": "movement_speed+5%",
+		"x": 384,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"ws2uu61j6z06s9l8": {
+		"definition": "movement_speed_on_snow",
+		"x": -320,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"rplxf85a6g5uqywg": {
+		"definition": "movement_speed_on_snow",
+		"x": -384,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"p96y19rd5iujd75v": {
+		"definition": "movement_speed_on_snow",
+		"x": -320,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"9l0v35id6y4rr3e5": {
+		"definition": "slip_resistance",
+		"x": -384,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"5icc1ajy9692nqa6": {
+		"definition": "minor_movement_speed",
+		"x": 256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"gjpbwxayp8mv5lbx": {
+		"definition": "minor_movement_speed",
+		"x": 320,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"66yf45o9pcq50bp7": {
+		"definition": "sprinting_step_height",
+		"x": -320,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"eapx4nx0uk3bodkn": {
+		"definition": "sprinting_step_height",
+		"x": -384,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"4r9dbpaj5fbmrzb3": {
+		"definition": "sprinting_step_height",
+		"x": -320,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"bnt3ace6pigf5ir5": {
+		"definition": "sprinting_step_height",
+		"x": -384,
+		"y": 0,
+		"root": false
+	}
+}
