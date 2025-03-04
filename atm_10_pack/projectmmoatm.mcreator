@@ -6,8 +6,12 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "pmmo.jade.break_requirements": "Break Level Requirement",
+      "pmmo.jade.interact_requirements": "Interact Level Requirement",
       "pmmo.technology": "Technology",
-      "pmmo.enchanting": "Enchanting"
+      "pmmo.enchanting": "Enchanting",
+      "pmmo.jade.requirements": "Level Requirements",
+      "pmmo.jade.break_xp": "Break XP Gain"
     }
   },
   "foldersRoot": {

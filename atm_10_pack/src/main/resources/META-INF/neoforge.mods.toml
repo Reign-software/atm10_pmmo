@@ -27,29 +27,8 @@ authors="James Burlison, Cory Burlison"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.projectmmoatm]]
-    modId = "puffish_skills"
-    type="required"
-    versionRange = "[0.15.1,)"
-    ordering="AFTER"
 
-[[dependencies.projectmmoatm]]
-    modId = "pmmo"
-    type="required"
-    versionRange = "[1.21.1,)"
-    ordering="AFTER"
 
-[[dependencies.projectmmoatm]]
-    modId = "puffish_attributes"
-    type="required"
-    versionRange = "[0.7.2,)"
-    ordering="AFTER"
-
-[[dependencies.projectmmoatm]]
-    modId = "pufferfish_unofficial_additions"
-    type="required"
-    versionRange = "[2.2.4,)"
-    ordering="AFTER"
 
 # Start of user code block dependencies configuration
 # End of user code block dependencies configuration

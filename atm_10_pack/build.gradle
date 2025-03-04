@@ -46,12 +46,16 @@ repositories {
       includeGroup "curse.maven"
     }
   }
+	maven {
+		url = uri("https://maven.puffish.net")
+	}
 }
 
 dependencies {
     implementation 'org.apache.commons:commons-compress:1.21'
     implementation "curse.maven:jade-324717:6198776"
     implementation "curse.maven:projectmmo-353935:6234464"
+	implementation "net.puffish:skillsmod:0.15.1+1.21:neoforge"
 }
 
 tasks.withType(JavaCompile).configureEach {

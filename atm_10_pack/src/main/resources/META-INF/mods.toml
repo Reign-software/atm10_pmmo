@@ -7,4 +7,9 @@
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.pmmo_atm10]]
+modId = "puffish_skills"
+mandatory = true
+versionRange = "[0.15.1,)"
+
 # ...existing code...
