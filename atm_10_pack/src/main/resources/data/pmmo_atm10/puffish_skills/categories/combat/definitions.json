@@ -30,6 +30,13 @@
 				"effect": "health_boost"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -157,7 +164,7 @@
 		],
 		"description": "Basic combat training increases your attack damage by 1%. Every strike becomes slightly more effective.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"minor_attack_speed_1": {
@@ -180,7 +187,7 @@
 		],
 		"description": "Learn basic combat timing that increases attack speed by 1%. Strike just a bit faster than before.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"minor_crit_chance_1": {
@@ -203,7 +210,7 @@
 		],
 		"description": "Develop fundamental targeting skills, gaining a 1% increased chance to land critical hits.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"minor_life_steal_1": {
@@ -227,7 +234,7 @@
 		],
 		"description": "Learn to draw a small amount of life force from your attacks, stealing 1% of damage dealt as health.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"attack_damage+5%": {
@@ -445,6 +452,13 @@
 				"item": "shield"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -476,6 +490,13 @@
 				"item": "netherite_axe"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -553,6 +574,13 @@
 				"effect": "health_boost"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -622,6 +650,13 @@
 				"item": "diamond_chestplate"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -783,6 +818,13 @@
 				"item": "elytra"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -852,6 +894,13 @@
 				"item": "diamond_sword"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1094,7 +1143,7 @@
 		],
 		"description": "Master the secret arts of bypassing defenses, ignoring 5% of your target's armor. Your attacks find the joints and weaknesses in any protection, striking as if facing a less armored foe.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"armor_shred": {
@@ -1117,7 +1166,7 @@
 		],
 		"description": "Your strikes weaken the very structure of armor, temporarily reducing target's protection by 3%. Each hit degrades their defenses, making subsequent attacks increasingly deadly as the battle continues.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 		"current_hp_damage": {
@@ -1140,7 +1189,7 @@
 		],
 		"description": "Channel your own vitality into devastating attacks, dealing additional damage equal to 2% of your current health. The more health you have, the more powerful your strikes become, encouraging you to maintain peak condition for maximum offensive power.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 		"major_current_hp_damage": {
@@ -1151,6 +1200,13 @@
 				"item": "netherite_axe"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1163,7 +1219,7 @@
 		],
 		"description": "Channel your own vitality into devastating attacks, dealing additional damage equal to 20% of your current health. The more health you have, the more powerful your strikes become, encouraging you to maintain peak condition for maximum offensive power.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"attack_knockback": {
@@ -1186,7 +1242,7 @@
 		],
 		"description": "Your strikes carry tremendous force, increasing knockback by 0.5. Enemies are sent flying farther when struck, creating tactical distance and preventing them from retaliating immediately.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"critical_bonus_damage": {
@@ -1209,7 +1265,7 @@
 		],
 		"description": "Master the art of exploiting weaknesses, increasing critical hit bonus damage by 5%. When your strikes find vital points, they deal devastating additional damage, often ending fights in a single, perfect blow.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"sweeping_damage_ratio": {
@@ -1232,7 +1288,7 @@
 		],
 		"description": "Your sword techniques evolve into deadly arcs, increasing sweeping damage by 10%. Cut through multiple foes with devastating efficiency as your blade dances from one target to the next in elegant, deadly patterns.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"explosion_knockback_resistance": {
@@ -1255,7 +1311,7 @@
 		],
 		"description": "Your stance widens instinctively when explosions occur, granting 10% resistance to explosion knockback. While others are sent flying, you maintain your footing against devastating blasts.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"overheal": {
@@ -1278,7 +1334,7 @@
 		],
 		"description": "Your body can temporarily sustain more life energy than normal, allowing healing to exceed your maximum health by 5%. This excess vitality gradually fades over time but provides crucial protection in dangerous situations.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"healing_received": {
@@ -1301,7 +1357,7 @@
 		],
 		"description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "prot_pierce": {
@@ -1324,7 +1380,7 @@
         ],
         "description": "You've studied the arcane weaknesses of magical protection, allowing your attacks to bypass 2 points of enchantment protection. Your weapon strikes slice through magical barriers as if they were mere illusions.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "prot_shred": {
@@ -1347,7 +1403,7 @@
         ],
         "description": "Your attacks erode magical defenses, temporarily reducing enchantment protection by 3%. Each strike weakens the arcane shields surrounding your enemy, rendering them increasingly vulnerable to subsequent blows.",
         "metadata": {
-            "icon": ""
+            
         }
     }
 }

@@ -19,7 +19,7 @@
         ],
         "description": "Channel the ancient mining wisdom of the mountain dwarves, increasing mining speed by 10%. Your strikes become more precise, allowing you to tear through stone and ore with supernatural efficiency.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "advanced_mining_speed": {
@@ -42,7 +42,7 @@
         ],
         "description": "Your understanding of rock formations and structural weaknesses reaches masterful levels, increasing mining speed by 20%. Each strike exploits natural fault lines, dramatically accelerating your excavation of even the hardest materials.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "block_break_speed": {
@@ -65,7 +65,7 @@
         ],
         "description": "Your strikes resonate with earth-shattering force, granting 5% faster block breaking with all tools. Stone crumbles before your might, and even the hardest materials yield more quickly to your determined efforts.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "major_block_break_speed": {
@@ -88,7 +88,7 @@
         ],
         "description": "Your gathering prowess becomes legendary, increasing block break speed by 15% with all tools. Forests fall before your axe, earth parts for your shovel, and mountains crumble against your pickaxe with unprecedented speed.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "collection_range": {
@@ -111,7 +111,7 @@
         ],
         "description": "Items seem mysteriously drawn to you, extending your pickup range by 1 block. This magnetic aura pulls dropped resources into your possession from greater distances, making collection effortless.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "greater_collection_range": {
@@ -120,6 +120,12 @@
             "type": "item",
             "data": {
                 "item": "lodestone"
+            }
+        },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
             }
         },
         "rewards": [
@@ -134,7 +140,7 @@
         ],
         "description": "A powerful magnetic field surrounds you, extending item pickup range by 3 blocks. Resources fly to your inventory as if eager to be collected, vastly improving gathering efficiency during intensive harvesting.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "experience_boost": {
@@ -143,6 +149,12 @@
             "type": "item",
             "data": {
                 "item": "experience_bottle"
+            }
+        },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "rewards": [
@@ -157,7 +169,7 @@
         ],
         "description": "Your mind becomes a perfect vessel for knowledge, gaining 5% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "gathering_experience": {
@@ -166,6 +178,12 @@
             "type": "item",
             "data": {
                 "item": "book"
+            }
+        },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "rewards": [
@@ -180,7 +198,7 @@
         ],
         "description": "Your analytical mind carefully studies each resource as you harvest it, gaining 10% more experience from gathering activities. Each ore, log, and earthen block reveals its secrets to your discerning eye.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "luck_boost": {
@@ -203,7 +221,7 @@
         ],
         "description": "The fickle goddess of fortune smiles upon you, granting +2 Luck. Your hands seem to find valuable treasures more often, chests yield better loot, and chance-based events mysteriously shift in your favor.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "prospector_luck": {
@@ -212,6 +230,12 @@
             "type": "item",
             "data": {
                 "item": "gold_ore"
+            }
+        },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "rewards": [
@@ -226,7 +250,7 @@
         ],
         "description": "You develop an uncanny sense for valuable materials, gaining +3 Luck when gathering. Rare gems and precious metals reveal themselves more frequently to your expert eye, increasing drop rates of valuable resources.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "submerged_mining_speed": {
@@ -249,7 +273,7 @@
         ],
         "description": "You've adapted mining techniques for underwater work, increasing submerged mining speed by 20%. While others struggle against aquatic resistance, your tools slice through water and stone with equal ease.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "deep_diver": {
@@ -280,7 +304,7 @@
         ],
         "description": "Develop specialized underwater mining techniques, increasing submerged mining speed by 40% and adding 60 ticks to your breath meter. Harvest oceanic resources for vastly longer periods without surfacing for air.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "bonus_rare_loot_rolls": {
@@ -303,7 +327,7 @@
         ],
         "description": "The gods of fortune smile upon you, granting 1 additional roll for rare resources. Your gathering techniques preserve integrity of rare materials, occasionally yielding precious finds others would destroy in extraction.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "bonus_loot_count_rolls": {
@@ -312,6 +336,12 @@
             "type": "item",
             "data": {
                 "item": "chest"
+            }
+        },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "rewards": [
@@ -326,7 +356,7 @@
         ],
         "description": "Your careful gathering techniques occasionally yield additional resources, gaining 1 extra roll for bonus materials. Extract more usable material from the same source through expert handling and refined methods.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "entity_interaction_range": {
@@ -349,7 +379,7 @@
         ],
         "description": "Your influence extends beyond normal boundaries, increasing interaction range with entities by 1 block. Manage resources and interact with the world from a greater distance, improving efficiency and safety.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "block_interaction_range": {
@@ -358,6 +388,12 @@
             "type": "item",
             "data": {
                 "item": "stone_bricks"
+            }
+        },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
             }
         },
         "rewards": [
@@ -372,7 +408,7 @@
         ],
         "description": "Your control over the physical world extends further, increasing block interaction range by 1 block. Harvest resources from greater distances, accessing veins and deposits that would be precarious for others to reach.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "mining_efficiency": {
@@ -395,7 +431,7 @@
         ],
         "description": "Your technique with mining tools approaches perfection, increasing efficiency by 5%. Each strike connects with precision, maximizing the effectiveness of your tools and minimizing wasted energy.",
         "metadata": {
-            "icon": ""
+            
         }
     },
 	"treasure_hunter": {
@@ -406,6 +442,12 @@
 				"item": "gold_nugget"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -426,7 +468,7 @@
 		],
 		"description": "Lady Luck smiles upon your adventures, granting +1 luck and 2 blocks extended item collection range. Find more valuable treasures and gather them with supernatural ease as fortune itself bends slightly in your favor.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -438,6 +480,12 @@
 				"item": "diamond"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -450,7 +498,7 @@
 		],
 		"description": "Develop an uncanny sense for valuable resources, gaining +1 Fortune when mining. Even without enchanted tools, you instinctively strike deposits at their richest points to yield additional materials.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "efficient_mining": {
@@ -473,7 +521,7 @@
 		],
 		"description": "Perfect your mining techniques to increase overall mining speed by 10%. Each swing becomes more productive as you instinctively target structural weaknesses in all materials.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -497,7 +545,7 @@
 		],
 		"description": "Specialize in pickaxe techniques, increasing mining speed with pickaxes by 12%. Your expert knowledge of stone and ore formations allows for more efficient extraction of hard materials.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -521,7 +569,7 @@
 		],
 		"description": "Refine your woodcutting techniques, increasing axe mining speed by 12%. Your precise strokes target the natural grain of wood and other axe-appropriate materials for faster harvesting.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -545,7 +593,7 @@
 		],
 		"description": "Master the art of digging to increase shovel mining speed by 12%. Your efficient scooping techniques make short work of dirt, sand, gravel, and other loose materials.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	}
 }

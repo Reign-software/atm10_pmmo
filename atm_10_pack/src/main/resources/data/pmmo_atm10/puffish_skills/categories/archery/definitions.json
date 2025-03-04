@@ -7,6 +7,13 @@
 				"item": "bow"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -257,7 +264,7 @@
         ],
         "description": "Begin your archery training, increasing arrow damage by 1%. A small but important first step toward mastery of the bow.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "minor_arrow_velocity_1": {
@@ -280,7 +287,7 @@
         ],
         "description": "Learn proper drawing technique, increasing arrow velocity by 1%. Your arrows fly slightly faster and straighter.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "minor_draw_speed_1": {
@@ -303,7 +310,7 @@
         ],
         "description": "Develop basic dexterity, increasing bow draw speed by 1%. The first skill every archer must learn is how to quickly ready their weapon.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "minor_crit_chance_1": {
@@ -326,7 +333,7 @@
         ],
         "description": "Train your eye to spot weaknesses, gaining a 1% chance to land critical hits. Even a novice archer occasionally finds the perfect shot.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "minor_crit_damage_1": {
@@ -349,7 +356,7 @@
         ],
         "description": "Learn basic anatomy, increasing critical hit damage by 1%. Understanding where to aim makes your critical hits slightly more effective.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "entity_interaction_range+1": {
@@ -383,6 +390,13 @@
                 "item": "bow"
             }
         },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -414,6 +428,13 @@
                 "item": "crossbow"
             }
         },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -445,6 +466,13 @@
                 "item": "feather"
             }
         },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -522,6 +550,13 @@
                 "item": "tipped_arrow"
             }
         },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -775,6 +810,13 @@
                 "item": "fletching_table"
             }
         },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -806,17 +848,24 @@
                 "item": "bow"
             }
         },
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:projectile_damage",
-                    "value": 8,
+                    "value": 25,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Achieve legendary status with all projectile weapons, increasing damage by 8%. Your mastery extends to bows, crossbows, tridents, and any other thrown or launched weapon.",
+        "description": "Achieve legendary status with all projectile weapons, increasing damage by 25%. Your mastery extends to bows, crossbows, tridents, and any other thrown or launched weapon.",
         "metadata": {
             "icon": "wag18djz49lirlh4"
         }
@@ -944,6 +993,13 @@
 				"item": "elytra"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1025,7 +1081,7 @@
         ],
         "description": "Master the art of projectile warfare, increasing all projectile damage by 5%. Your arrows, tridents, and thrown weapons cut through the air with deadly precision, striking with enhanced force.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "critical_bonus_damage": {
@@ -1048,7 +1104,7 @@
         ],
         "description": "Master the art of exploiting weaknesses, increasing critical hit bonus damage by 5%. When your strikes find vital points, they deal devastating additional damage, often ending fights in a single, perfect blow.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "armor_pierce": {
@@ -1071,7 +1127,7 @@
         ],
         "description": "Master the secret arts of bypassing defenses, ignoring 5% of your target's armor. Your attacks find the joints and weaknesses in any protection, striking as if facing a less armored foe.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "attack_knockback": {
@@ -1094,7 +1150,7 @@
         ],
         "description": "Your strikes carry tremendous force, increasing knockback by 0.5. Enemies are sent flying farther when struck, creating tactical distance and preventing them from retaliating immediately.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "prot_pierce": {
@@ -1117,7 +1173,7 @@
         ],
         "description": "You've studied the arcane weaknesses of magical protection, allowing your attacks to bypass 2 points of enchantment protection. Your weapon strikes slice through magical barriers as if they were mere illusions.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "prot_shred": {
@@ -1140,7 +1196,7 @@
         ],
         "description": "Your attacks erode magical defenses, temporarily reducing enchantment protection by 3%. Each strike weakens the arcane shields surrounding your enemy, rendering them increasingly vulnerable to subsequent blows.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "invincibility_ticks": {
@@ -1163,7 +1219,7 @@
         ],
         "description": "After taking damage, you briefly phase partially out of normal time, extending your invulnerability period by 5 ticks. This temporal displacement provides crucial moments to recover and reposition during intense combat.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "bow_velocity": {
@@ -1186,7 +1242,7 @@
 		],
 		"description": "Perfect your bowstring technique to increase arrow velocity by 10%. Your arrows fly faster and straighter, making them harder to dodge and extending their effective range.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -1210,7 +1266,7 @@
 		],
 		"description": "Fine-tune your crossbow mechanisms to increase bolt velocity by 10%. Your projectiles travel with devastating speed, maintaining deadly accuracy over greater distances.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "exposure_tactics": {
@@ -1233,7 +1289,7 @@
 		],
 		"description": "Force enemies into exposed positions, reducing their ranged resistance by 8%. Your tactical strikes compromise their ability to defend against incoming projectiles.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "resilience_disruption": {
@@ -1256,7 +1312,7 @@
 		],
 		"description": "Your attacks temporarily weaken an enemy's physical resilience, reducing their resistance attribute by 5%. Strike at pressure points that momentarily disrupt their ability to withstand damage from all sources.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "armor_penetration": {
@@ -1279,7 +1335,7 @@
 		],
 		"description": "Learn to target weak points in armor, reducing enemy armor points by 2 when you attack. Your precision strikes find gaps in protective gear, bypassing a portion of their defensive value.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -1303,7 +1359,7 @@
 		],
 		"description": "Identify and exploit structural weaknesses in enemy armor, reducing armor toughness by 2 when you attack. Your blows target points where material strength is compromised, diminishing the armor's ability to absorb heavy impacts.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "projectile_avoidance": {
@@ -1326,7 +1382,7 @@
 		],
 		"description": "Train your reflexes to subconsciously avoid projectiles, reducing ranged damage by 8%. Your body instinctively shifts to minimize exposure to incoming arrows and other missiles.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	}
 }

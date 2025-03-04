@@ -7,6 +7,13 @@
 				"effect": "speed"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -65,7 +72,7 @@
 		],
 		"description": "Develop powerful leg muscles and climbing techniques that allow you to step up 0.5 blocks higher without jumping. Traverse uneven terrain with ease as you climb obstacles that would impede others.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"jump_strength": {
@@ -88,7 +95,7 @@
 		],
 		"description": "Strengthen your legs to jump 20% higher than normal. Reach ledges and platforms that others cannot, opening new pathways through the world as you soar to greater heights.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"safe_fall_distance": {
@@ -111,7 +118,7 @@
 		],
 		"description": "Master the art of falling safely, increasing your safe fall distance by 3 blocks. Your expert landing techniques allow you to drop from greater heights without injury.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"sprinting_speed": {
@@ -134,7 +141,7 @@
 		],
 		"description": "You've perfected the art of the sprint, moving 10% faster when running. Your strides lengthen and your feet barely touch the ground as you dash across the landscape with supernatural speed and grace.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"sprinting_step_height": {
@@ -157,7 +164,7 @@
 		],
 		"description": "While sprinting, your momentum carries you effortlessly over small obstacles, increasing step height by 0.5 blocks. Hurdle low barriers without breaking stride, maintaining your velocity across uneven terrain.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"slip_resistance": {
@@ -180,7 +187,7 @@
 		],
 		"description": "Your exceptional balance and coordinated movements grant 25% resistance to slippery surfaces. Ice and honey blocks provide more traction beneath your feet, allowing precise control where others slide helplessly.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"movement_speed_on_snow": {
@@ -203,7 +210,7 @@
 		],
 		"description": "You've mastered the art of traversing frozen landscapes, gaining 15% increased movement speed on snow. While others flounder in drifts, you glide across the surface with the confident grace of a winter wolf.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"water_movement_efficiency": {
@@ -226,7 +233,7 @@
 		],
 		"description": "Perfect your swimming technique to move 20% more efficiently through water. Your body cuts through liquid with minimal resistance, allowing faster travel in aquatic environments.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"swim_speed": {
@@ -249,7 +256,7 @@
 		],
 		"description": "Move through water with the grace of a born swimmer, increasing swim speed by 15%. Your powerful strokes and perfect form allow you to navigate underwater environments with impressive speed.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"water_visibility": {
@@ -272,7 +279,7 @@
 		],
 		"description": "Your eyes adapt to the distortion and darkness of water, increasing underwater visibility by 30%. Peer through murky depths to spot treasures, dangers, and secrets that others would swim blindly past.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"oxygen_bonus": {
@@ -295,7 +302,7 @@
 		],
 		"description": "Develop extraordinary lung capacity, gaining 30 extra ticks of breath underwater. Hold your breath for extended periods, allowing deeper dives and longer exploration of submerged ruins and caves.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"nametag_distance": {
@@ -387,7 +394,7 @@
 		],
 		"description": "Your precise control and coordination allow you to interact with blocks from 1 block further away. Reach higher, farther, and across gaps where others would need to reposition.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"collection_range": {
@@ -410,7 +417,7 @@
 		],
 		"description": "Items seem drawn to you as if by an invisible force, extending your collection range by 3 blocks. Gather dropped resources from a safer distance without exposing yourself to hazardous terrain.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"experience_gained": {
@@ -433,7 +440,7 @@
 		],
 		"description": "Your mind becomes a perfect vessel for knowledge, gaining 5% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"entity_experience": {
@@ -479,7 +486,7 @@
 		],
 		"description": "Your instinctive understanding of aerodynamics improves elytra control by 15%. Navigate with greater precision, perform tighter turns, and maintain stable flight even in turbulent conditions.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"elytra_flight": {
@@ -490,6 +497,13 @@
 				"item": "elytra"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -502,7 +516,7 @@
 		],
 		"description": "Develop advanced flying techniques that improve elytra speed by 10%. Your body instinctively finds optimal angles and air currents, allowing faster travel while gliding through the skies.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"hover_flight": {
@@ -525,7 +539,7 @@
 		],
 		"description": "Gravity's hold on you weakens as you master arcane forces, granting a 30% chance of hover flight capability. Focus your will to temporarily suspend yourself in mid-air, defying the natural order with magical suspension.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"creative_flight": {
@@ -571,7 +585,7 @@
 		],
 		"description": "Your body becomes strangely buoyant, reducing gravitational effects by 10%. Fall more slowly, jump slightly higher, and move with an uncanny lightness that defies the normal pull of the earth.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"agile_explorer": {
@@ -602,7 +616,7 @@
 		],
 		"description": "Your body adapts perfectly to any terrain, granting 3% increased movement speed and 0.3 blocks of step height. Navigate the most challenging landscapes with ease, effortlessly flowing across the world like water over stones.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"aquanaut": {
@@ -633,7 +647,7 @@
 		],
 		"description": "The waters welcome you as one of their own, granting 10% swim speed and 20 ticks of additional breath. Explore underwater realms with the natural confidence of a creature born to the depths.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"aerial_expert": {
@@ -664,7 +678,7 @@
 		],
 		"description": "The sky becomes your second home, granting 10% better elytra control and 15% reduced fall damage. Soar with confidence knowing that even failed flights end with minimal harm as your body instinctively shifts to safe landing positions.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"treasure_hunter": {
@@ -695,7 +709,7 @@
 		],
 		"description": "Lady Luck smiles upon your adventures, granting +1 luck and 2 blocks extended item collection range. Find more valuable treasures and gather them with supernatural ease as fortune itself bends slightly in your favor.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "bonus_loot_count_rolls": {
@@ -718,7 +732,7 @@
         ],
         "description": "You've developed a knack for thoroughly searching fallen foes, gaining 1 additional roll for extra loot items. Your meticulous attention to detail often reveals hidden treasures that would otherwise be overlooked.",
         "metadata": {
-            "icon": ""
+            
         }
     },
 	"stamina_boost": {
@@ -741,7 +755,7 @@
 		],
 		"description": "Through rigorous training, your body processes nutrients more efficiently, increasing your stamina by 0.5 points. Food and saturation last longer, allowing sustained activity without frequent breaks for meals.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -765,7 +779,7 @@
 		],
 		"description": "Master the art of silent movement, decreasing enemy detection range by 15%. Move like a shadow through hostile territory as your stealthy approach makes you harder to detect.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	}
 }

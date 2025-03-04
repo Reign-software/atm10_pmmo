@@ -30,6 +30,13 @@
 				"effect": "health_boost"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -53,6 +60,12 @@
 				"effect": "health_boost"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -65,7 +78,7 @@
 		],
 		"description": "Manifest legendary toughness, increasing your maximum health by 4 hearts. Your life force grows to heroic proportions, allowing you to survive blows that would fell ordinary mortals.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"minor_armor": {
@@ -237,6 +250,13 @@
 				"item": "obsidian"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -249,7 +269,7 @@
 		],
 		"description": "Your stability becomes legendary with 15% knockback resistance. Even the mightiest blows barely move you from your chosen position, allowing perfect tactical control in combat.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"explosion_knockback_resistance": {
@@ -272,7 +292,7 @@
 		],
 		"description": "Your stance widens instinctively when explosions occur, granting 10% resistance to explosion knockback. While others are sent flying, you maintain your footing against devastating blasts.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"major_explosion_resistance": {
@@ -283,6 +303,13 @@
 				"item": "tnt_minecart"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -295,7 +322,7 @@
 		],
 		"description": "Your body instinctively braces against explosive force, granting 25% explosion knockback resistance. Stand firm in the face of detonations that would send others tumbling through the air.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"healing_received": {
@@ -318,7 +345,7 @@
 		],
 		"description": "Your body resonates with life-giving energies, increasing healing received by 10%. Potions, regeneration effects, and other healing sources restore significantly more health, making recovery far more efficient.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"major_healing": {
@@ -341,7 +368,7 @@
 		],
 		"description": "Your cells respond extraordinarily to healing magic, increasing healing received by 20%. Recovery happens at astonishing rates as your body maximizes the effect of every healing potion and regenerative spell.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"ghost_health+5": {
@@ -387,7 +414,7 @@
 		],
 		"description": "Your connection to spectral energies strengthens dramatically, creating a powerful ethereal barrier of 10 ghost health points. This supernatural shield absorbs significant damage before your physical form takes any harm.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"minor_dodge": {
@@ -421,6 +448,13 @@
 				"item": "enchanted_golden_apple"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -444,6 +478,12 @@
 				"item": "dragon_egg"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -456,7 +496,7 @@
 		],
 		"description": "Your body develops powerful counter-resonance to magical energies, granting 10 points of magic protection. Hostile spells fizzle and weaken as they approach you, drastically reducing arcane damage of all types.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "eldritch_spell_power": {
@@ -479,7 +519,7 @@
         ],
         "description": "Your mind has glimpsed beyond the veil of reality, increasing eldritch spell power by 5%. Channel cosmic forces with greater potency as your understanding of impossible geometries grows deeper.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "ender_magic_resist": {
@@ -502,7 +542,7 @@
         ],
         "description": "Your physical form resists spatial manipulation, granting 5% resistance to ender magic. Your position in reality becomes more fixed, making you less vulnerable to teleportation effects and void energies.",
         "metadata": {
-            "icon": ""
+            
         }
     },
 	"blood_magic_resist": {
@@ -525,7 +565,7 @@
 		],
 		"description": "Your life essence resists external manipulation, gaining 5% resistance to blood magic. Crimson spells struggle to affect your well-protected vital force, significantly reducing their harmful effects.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"fire_magic_resist": {
@@ -548,7 +588,7 @@
 		],
 		"description": "Your essence gains properties of the infernal planes, providing 5% resistance to fire magic. Magical flames diminish as they approach your naturally heat-resistant form.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"ice_magic_resist": {
@@ -571,7 +611,7 @@
 		],
 		"description": "Your inner fire cannot be extinguished by winter's grasp, providing 5% resistance to ice magic. Freezing spells struggle to slow your movements or chill your core as your body maintains its vital heat.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"lightning_magic_resist": {
@@ -594,7 +634,7 @@
 		],
 		"description": "Electrical energies flow harmlessly through your adapted nervous system, granting 5% resistance to lightning magic. Your body has learned to channel and disperse magical electricity rather than succumbing to its shocking power.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"spell_resist+10%": {
@@ -640,7 +680,7 @@
 		],
 		"description": "Your body develops a mystical resistance to interdimensional forces, gaining 10% ether resistance. Void energies and planar distortions have less effect on you, reducing damage from these otherworldly sources.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 	"max_absorption": {
@@ -651,6 +691,13 @@
 				"effect": "absorption"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -663,7 +710,7 @@
 		],
 		"description": "Your body can sustain more powerful absorption effects, increasing maximum absorption by 2 hearts. Golden apples and similar items provide significantly more protective shielding when consumed.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
     "evocation_magic_resist": {
@@ -686,7 +733,7 @@
         ],
         "description": "Your aura naturally disrupts conjuration energies, providing 5% resistance to evocation magic. Summoned creatures find it harder to maintain their form in your presence, and binding spells slip away like water.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "holy_magic_resist": {
@@ -709,7 +756,7 @@
         ],
         "description": "Your spirit exists in a moral gray area that confounds divine energies, granting 5% resistance to holy magic. Sacred light struggles to judge what it cannot clearly perceive, reducing its impact on your complex soul.",
         "metadata": {
-            "icon": ""
+            
         }
     },
     "nature_magic_resist": {
@@ -732,7 +779,7 @@
         ],
         "description": "Your spiritual connection with the natural world provides 5% resistance to nature magic. Primal forces recognize you as part of their domain rather than an intruder to be expelled or consumed.",
         "metadata": {
-            "icon": ""
+            
         }
     },
 
@@ -756,7 +803,7 @@
 		],
 		"description": "Your body's natural healing processes become more efficient, increasing natural health regeneration by 15%. Recover from injuries faster as your enhanced metabolism repairs damage at an accelerated rate.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -768,6 +815,13 @@
 				"item": "crossbow"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -780,7 +834,7 @@
 		],
 		"description": "Force enemies into exposed positions, reducing their ranged resistance by 8%. Your tactical strikes compromise their ability to defend against incoming projectiles.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -792,6 +846,12 @@
 				"item": "arrow"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -804,7 +864,7 @@
 		],
 		"description": "Train your reflexes to subconsciously avoid projectiles, reducing ranged damage by 8%. Your body instinctively shifts to minimize exposure to incoming arrows and other missiles.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -828,7 +888,7 @@
 		],
 		"description": "Master defensive combat techniques to reduce melee damage taken by 2%. Your practiced movements deflect and absorb impacts, turning potentially lethal blows into glancing hits.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	},
 
@@ -840,6 +900,12 @@
 				"item": "shield"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -852,7 +918,7 @@
 		],
 		"description": "Toughen your body through rigorous training, reducing all incoming damage by 5%. Your hardened physique withstands impacts that would severely injure others.",
 		"metadata": {
-			"icon": ""
+			
 		}
 	}
 }

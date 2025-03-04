@@ -123,6 +123,13 @@
 				"item": "netherite_block"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -538,6 +545,13 @@
 				"item": "enchanted_book"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -754,6 +768,13 @@
 				"item": "diamond"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1354,6 +1375,13 @@
 				"item": "blaze_powder"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1400,6 +1428,13 @@
 				"item": "blue_ice"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1446,6 +1481,13 @@
 				"item": "nether_star"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1492,6 +1534,13 @@
 				"item": "beacon"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1538,6 +1587,13 @@
 				"item": "end_crystal"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1584,6 +1640,13 @@
 				"item": "nether_wart_block"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1630,6 +1693,13 @@
 				"item": "wither_skeleton_skull"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1676,6 +1746,13 @@
 				"item": "flowering_azalea"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1722,6 +1799,13 @@
 				"item": "sculk_shrieker"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1776,6 +1860,13 @@
 				"item": "nether_star"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "size": 1.25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1807,6 +1898,13 @@
 				"item": "minecraft:magma_block"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1846,6 +1944,13 @@
 				"item": "minecraft:blue_ice"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1885,6 +1990,13 @@
 				"item": "minecraft:nether_star"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1932,6 +2044,13 @@
 				"item": "minecraft:golden_sword"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1979,6 +2098,13 @@
 				"item": "minecraft:totem_of_undying"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2034,6 +2160,13 @@
 				"item": "minecraft:end_crystal"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2073,6 +2206,13 @@
 				"item": "minecraft:beacon"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2128,6 +2268,13 @@
 				"item": "minecraft:enchanted_golden_apple"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2175,6 +2322,13 @@
 				"item": "minecraft:beacon"
 			}
 		},
+        "frame":{
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
+		"size": 1.5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
