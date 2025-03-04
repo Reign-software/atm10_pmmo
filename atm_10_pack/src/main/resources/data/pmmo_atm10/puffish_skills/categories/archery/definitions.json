@@ -1165,5 +1165,168 @@
         "metadata": {
             "icon": ""
         }
-    }
+    },
+    "bow_velocity": {
+		"title": "Powerful Draw",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Perfect your bowstring technique to increase arrow velocity by 10%. Your arrows fly faster and straighter, making them harder to dodge and extending their effective range.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"crossbow_velocity": {
+		"title": "Optimized Crossbow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Fine-tune your crossbow mechanisms to increase bolt velocity by 10%. Your projectiles travel with devastating speed, maintaining deadly accuracy over greater distances.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "exposure_tactics": {
+		"title": "Exposure Tactics",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "crossbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance_shred",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Force enemies into exposed positions, reducing their ranged resistance by 8%. Your tactical strikes compromise their ability to defend against incoming projectiles.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "resilience_disruption": {
+		"title": "Resilience Disruption",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "grindstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance_shred",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Your attacks temporarily weaken an enemy's physical resilience, reducing their resistance attribute by 5%. Strike at pressure points that momentarily disrupt their ability to withstand damage from all sources.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "armor_penetration": {
+		"title": "Armor Penetration",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Learn to target weak points in armor, reducing enemy armor points by 2 when you attack. Your precision strikes find gaps in protective gear, bypassing a portion of their defensive value.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+
+	"toughness_penetration": {
+		"title": "Structural Weakness Exploitation",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "trident"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:toughness_shred",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"description": "Identify and exploit structural weaknesses in enemy armor, reducing armor toughness by 2 when you attack. Your blows target points where material strength is compromised, diminishing the armor's ability to absorb heavy impacts.",
+		"metadata": {
+			"icon": ""
+		}
+	},
+    "projectile_avoidance": {
+		"title": "Projectile Awareness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"description": "Train your reflexes to subconsciously avoid projectiles, reducing ranged damage by 8%. Your body instinctively shifts to minimize exposure to incoming arrows and other missiles.",
+		"metadata": {
+			"icon": ""
+		}
+	}
 }

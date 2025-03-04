@@ -808,5 +808,101 @@
 		"x": -480,
 		"y": -424.9297981235645,
 		"root": false
+	},
+	"nrjjqzqvaceap738": {
+		"definition": "bow_velocity",
+		"x": -64,
+		"y": 369.5041722813604,
+		"root": false
+	},
+	"gdp5tpe5it3opr9z": {
+		"definition": "bow_velocity",
+		"x": -128,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"a8os7dhj86nsx870": {
+		"definition": "crossbow_velocity",
+		"x": 64,
+		"y": 369.5041722813605,
+		"root": false
+	},
+	"edyi5moat48sifze": {
+		"definition": "crossbow_velocity",
+		"x": 128,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"rmux1fbfgeu84zjm": {
+		"definition": "exposure_tactics",
+		"x": -64,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"u2s7mb4n8cbbz7pi": {
+		"definition": "exposure_tactics",
+		"x": -128,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"7uq3hdv8i5hhc3p1": {
+		"definition": "resilience_disruption",
+		"x": -192,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"b5ma0pzx7t5rxqzw": {
+		"definition": "armor_penetration",
+		"x": -256,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"29gztw2idd8n3d4l": {
+		"definition": "toughness_penetration",
+		"x": -256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"ill8zvlqz0wg93q6": {
+		"definition": "toughness_penetration",
+		"x": -192,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"qfh6t33vhn85kpsn": {
+		"definition": "projectile_avoidance",
+		"x": -256,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"zehz7wvwcwtteb2c": {
+		"definition": "projectile_avoidance",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"m0h9y7rwpcmh61l0": {
+		"definition": "projectile_avoidance",
+		"x": -192,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"3iyqq1umn9ngdmdq": {
+		"definition": "projectile_avoidance",
+		"x": 512,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"4qjpn6d2j99pl50o": {
+		"definition": "projectile_avoidance",
+		"x": 512,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"5j88jmm0vquttp93": {
+		"definition": "projectile_avoidance",
+		"x": 576,
+		"y": 258.65292059695236,
+		"root": false
 	}
 }
