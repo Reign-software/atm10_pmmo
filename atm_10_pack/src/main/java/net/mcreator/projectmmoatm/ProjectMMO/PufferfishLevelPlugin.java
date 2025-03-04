@@ -1,6 +1,7 @@
 package net.mcreator.projectmmoatm.ProjectMMO;
 
 import java.util.Optional;
+
 import harmonised.pmmo.api.events.XpEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -12,12 +13,15 @@ import net.puffish.skillsmod.SkillsMod;
 
 @Mod("projectmmoatm")
 public class PufferfishLevelPlugin {
+    private static ResourceLocation _source;
+
 	public PufferfishLevelPlugin(IEventBus modEventBus) {
         modEventBus.addListener(this::setup);
 	}
     
     private void setup(final FMLCommonSetupEvent event) {
         // Register our event handler
+        _source = ResourceLocation.parse("pmmo_atm10:pufferfishlevelplugin");
         Register();
     }
     
@@ -60,7 +64,6 @@ public class PufferfishLevelPlugin {
     }
 
     private static void GainSkill(ServerPlayer player, String skillName){
-        ResourceLocation source = ResourceLocation.parse("pmmo_atm10:PufferfishLevelPlugin");
         ResourceLocation id = ResourceLocation.parse(skillName);
 
         SkillsMod skillsMod = SkillsMod.getInstance();
@@ -69,6 +72,6 @@ public class PufferfishLevelPlugin {
         if (!totalPoints.isPresent() || totalPoints.get() >= 50)
             return;
 
-        skillsMod.addPoints(player, id, source, 1, false);
+        skillsMod.addPoints(player, id, _source, 1, false);
     }
 }
