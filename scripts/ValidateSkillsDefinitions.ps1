@@ -1,6 +1,6 @@
 param (
-    [string]$SkillsPath = "../atm_10_pack/data/pmmo_atm10/puffish_skills/categories/combat/skills.json",
-    [string]$DefinitionsPath = "../atm_10_pack/data/pmmo_atm10/puffish_skills/categories/combat/definitions.json",
+    [string]$SkillsPath = "../atm_10_pack/data/atm10_pmmo/puffish_skills/categories/combat/skills.json",
+    [string]$DefinitionsPath = "../atm_10_pack/data/atm10_pmmo/puffish_skills/categories/combat/definitions.json",
     [string]$OutputFile = "validation_report.json"
 )
 

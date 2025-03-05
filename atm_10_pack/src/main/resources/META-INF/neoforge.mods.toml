@@ -3,31 +3,53 @@ loaderVersion="[4,)"
 license="Not specified"
 
 [[mods]]
-modId="projectmmoatm"
-version="1.0.0"
-displayName="ProjectMMO-ATM10"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="James Burlison, Cory Burlison"
+modId="atm10_pmmo"
+version="0.0.1"
+displayName="ATM:10 Project MMO Support"
+displayURL="https://github.com/JBurlison/atm10_pmmo"
+credits="Adds project mmo support for all the mods 10"
+authors="Pandaros, Golbezz"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.projectmmoatm]]
+[[dependencies.atm10_pmmo]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.65,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.projectmmoatm]]
+[[dependencies.atm10_pmmo]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.atm10_pmmo]]
+    modId = "puffish_skills"
+    type="required"
+    versionRange = "[0.15.1,)"
+    ordering="AFTER"
 
+[[dependencies.atm10_pmmo]]
+    modId = "pmmo"
+    type="required"
+    versionRange = "[1.21.1,)"
+    ordering="AFTER"
+
+[[dependencies.atm10_pmmo]]
+    modId = "puffish_attributes"
+    type="required"
+    versionRange = "[0.7.2,)"
+    ordering="AFTER"
+
+[[dependencies.atm10_pmmo]]
+    modId = "pufferfish_unofficial_additions"
+    type="required"
+    versionRange = "[2.2.4,)"
+    ordering="AFTER"
 
 
 # Start of user code block dependencies configuration

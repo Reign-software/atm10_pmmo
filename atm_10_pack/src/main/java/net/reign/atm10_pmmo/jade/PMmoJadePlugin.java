@@ -1,10 +1,10 @@
-package net.mcreator.projectmmoatm.jade;
+package net.reign.atm10_pmmo.jade;
 
 import harmonised.pmmo.api.APIUtils;
 import harmonised.pmmo.api.enums.EventType;
 import harmonised.pmmo.api.enums.ReqType;
 import harmonised.pmmo.config.Config;
-import net.mcreator.projectmmoatm.ProjectmmoatmMod;
+import net.reign.atm10_pmmo.RPGMod;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -31,7 +31,7 @@ import java.util.Map;
 @WailaPlugin
 public class PMmoJadePlugin implements IWailaPlugin {
     // Simple unique identifier for our component
-    public static final ResourceLocation PMMO_ID = ResourceLocation.bySeparator(ProjectmmoatmMod.MODID,':');
+    public static final ResourceLocation PMMO_ID = ResourceLocation.bySeparator(RPGMod.MODID,':');
     private static final DecimalFormat XP_FORMAT = new DecimalFormat("#,##0.0");
 
     @Override
@@ -171,7 +171,7 @@ public class PMmoJadePlugin implements IWailaPlugin {
             }
             catch (Exception e) {
                 tooltip.add(Component.literal("Error loading PMMO data").withStyle(ChatFormatting.RED));
-                ProjectmmoatmMod.LOGGER.error("Error in PMMO Jade integration: " + e.getMessage(), e);
+                RPGMod.LOGGER.error("Error in PMMO Jade integration: " + e.getMessage(), e);
             }
         }
         

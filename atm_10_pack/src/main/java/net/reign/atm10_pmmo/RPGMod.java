@@ -1,4 +1,4 @@
-package net.mcreator.projectmmoatm;
+package net.reign.atm10_pmmo;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -26,12 +26,12 @@ import java.util.HashMap;
 import java.util.Collection;
 import java.util.ArrayList;
 
-@Mod("projectmmoatm")
-public class ProjectmmoatmMod {
-	public static final Logger LOGGER = LogManager.getLogger(ProjectmmoatmMod.class);
-	public static final String MODID = "projectmmoatm";
+@Mod("atm10_pmmo")
+public class RPGMod {
+	public static final Logger LOGGER = LogManager.getLogger(RPGMod.class);
+	public static final String MODID = "atm10_pmmo";
 
-	public ProjectmmoatmMod(IEventBus modEventBus) {
+	public RPGMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
 		LOGGER.info("Initializing Project MMO ATM10 Integration");
 		// Note: Config is now managed by Jade itself

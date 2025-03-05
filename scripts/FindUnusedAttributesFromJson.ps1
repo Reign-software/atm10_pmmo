@@ -1,6 +1,6 @@
 param (
     [string]$AttributesJsonPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\scripts/attributes.json",
-    [string]$DefinitionsPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo/atm_10_pack/src/main/resources/data/pmmo_atm10/puffish_skills/categories/combat/definitions.json",
+    [string]$DefinitionsPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo/atm_10_pack/src/main/resources/data/atm10_pmmo/puffish_skills/categories/combat/definitions.json",
     [string]$OutputFile = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\scripts/unused_attributes_report.json",
     [switch]$IncludeUsed = $false,
     [switch]$GroupByNamespace = $true

@@ -19,20 +19,20 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "projectmmoatm",
-    "modName": "ProjectMMO-ATM10",
-    "version": "1.0.0",
-    "author": "James Burlison, Cory Burlison",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "modid": "atm10_pmmo",
+    "modName": "ATM:10 Project MMO Support",
+    "version": "0.0.1",
+    "author": "Pandaros, Golbezz",
+    "websiteURL": "https://github.com/JBurlison/atm10_pmmo",
+    "license": "MIT",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.projectmmoatm"
+    "credits": "Adds project mmo support for all the mods 10",
+    "modElementsPackage": "net.reign.atm10_pmmo"
   },
   "mcreatorVersion": 202400452410
 }

@@ -1,4 +1,4 @@
-package net.mcreator.projectmmoatm.ProjectMMO;
+package net.reign.atm10_pmmo.skills;
 
 import java.util.Optional;
 
@@ -11,7 +11,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.puffish.skillsmod.SkillsMod;
 
-@Mod("projectmmoatm")
+@Mod("atm10_pmmo")
 public class PufferfishLevelPlugin {
     private static ResourceLocation _source;
 
@@ -21,7 +21,7 @@ public class PufferfishLevelPlugin {
     
     private void setup(final FMLCommonSetupEvent event) {
         // Register our event handler
-        _source = ResourceLocation.parse("pmmo_atm10:pufferfishlevelplugin");
+        _source = ResourceLocation.parse("atm10_pmmo:pufferfishlevelplugin");
         Register();
     }
     
@@ -41,24 +41,24 @@ public class PufferfishLevelPlugin {
         switch (event.skill)
         {
             case "combat":
-                GainSkill(player, "pmmo_atm10:combat");
+                GainSkill(player, "atm10_pmmo:combat");
                 break;
             case "archery":
-                GainSkill(player, "pmmo_atm10:archery");
+                GainSkill(player, "atm10_pmmo:archery");
                 break;
             case "magic":
-                GainSkill(player, "pmmo_atm10:magic");
+                GainSkill(player, "atm10_pmmo:magic");
                 break;
             case "agility":
-                GainSkill(player, "pmmo_atm10:agility");
+                GainSkill(player, "atm10_pmmo:agility");
                 break;
             case "endurance":
-                GainSkill(player, "pmmo_atm10:endurance");
+                GainSkill(player, "atm10_pmmo:endurance");
                 break;
             case "mining":
             case "excavation":
             case "woodcutting":
-                GainSkill(player, "pmmo_atm10:gathering");
+                GainSkill(player, "atm10_pmmo:gathering");
                 break;
         }
     }

@@ -1,13 +1,13 @@
 # ...existing code...
 
-[[dependencies.projectmmoatm]]
+[[dependencies.atm10_pmmo]]
     modId="jade"
     mandatory=false
     versionRange="[11.0.0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.pmmo_atm10]]
+[[dependencies.atm10_pmmo]]
 modId = "puffish_skills"
 mandatory = true
 versionRange = "[0.15.1,)"

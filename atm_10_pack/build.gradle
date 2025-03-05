@@ -3,8 +3,8 @@ plugins {
     id 'net.neoforged.moddev' version '1.0.21'
 }
 
-version = '1.0'
-base.archivesName = "pmmo_atm10"
+version = '0.0.1'
+base.archivesName = "atm10_pmmo"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
@@ -46,9 +46,9 @@ repositories {
       includeGroup "curse.maven"
     }
   }
-	maven {
-		url = uri("https://maven.puffish.net")
-	}
+    maven {
+        url = uri("https://maven.puffish.net")
+    }
 }
 
 dependencies {

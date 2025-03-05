@@ -1,6 +1,6 @@
 param (
     [string]$AttributesFilePath = "../scripts/Attributes.cs",
-    [string]$DefinitionsFilePath = "../atm_10_pack/data/pmmo_atm10/puffish_skills/categories/combat/definitions.json",
+    [string]$DefinitionsFilePath = "../atm_10_pack/data/atm10_pmmo/puffish_skills/categories/combat/definitions.json",
     [string]$OutputFile = "unused_attributes_report.json",
     [switch]$IncludeUsed = $false
 )
