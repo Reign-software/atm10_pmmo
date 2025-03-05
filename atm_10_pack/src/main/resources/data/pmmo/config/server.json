@@ -110,7 +110,7 @@
     "blacklist": [
       "silentgear:saw"
     ],
-    "enabled": false,
+    "enabled": true,
     "require_settings": true
   },
   "general": {
