@@ -28,30 +28,18 @@ public class PufferfishLevelPlugin {
 
         switch (event.skill)
         {
-            case "combat":
-                GainSkill(player, "atm10_pmmo:combat", event.endLevel(), skillsMod);
-                break;
-            case "archery":
-                GainSkill(player, "atm10_pmmo:archery", event.endLevel(), skillsMod);
-                break;
-            case "magic":
-                GainSkill(player, "atm10_pmmo:magic", event.endLevel(), skillsMod);
-                break;
-            case "agility":
-                GainSkill(player, "atm10_pmmo:agility", event.endLevel(), skillsMod);
-                break;
-            case "endurance":
-                GainSkill(player, "atm10_pmmo:endurance", event.endLevel(), skillsMod);
-                break;
-            case "mining":
-            case "excavation":
-            case "woodcutting":
+            case "combat" -> GainSkill(player, "atm10_pmmo:combat", event.endLevel(), skillsMod);
+            case "archery" -> GainSkill(player, "atm10_pmmo:archery", event.endLevel(), skillsMod);
+            case "magic" -> GainSkill(player, "atm10_pmmo:magic", event.endLevel(), skillsMod);
+            case "agility" -> GainSkill(player, "atm10_pmmo:agility", event.endLevel(), skillsMod);
+            case "endurance" -> GainSkill(player, "atm10_pmmo:endurance", event.endLevel(), skillsMod);
+            case "mining", "excavation", "woodcutting" -> {
                 long totalLevel = APIUtils.getLevel("mining", player);
                 totalLevel += APIUtils.getLevel("excavation", player);
                 totalLevel += APIUtils.getLevel("woodcutting", player);
                 
                 GainSkill(player, "atm10_pmmo:gathering", totalLevel, skillsMod);
-                break;
+            }
         }
     }
 

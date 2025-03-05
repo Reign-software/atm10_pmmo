@@ -264,6 +264,21 @@
       "noAfkPenalty": false,
       "displayGroupName": false,
       "showInList": true
+    },
+    "gathering": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/stone.png",
+      "iconSize": 18,
+      "useTotalLevels": false,
+      "groupFor": {
+        "mining": 0.34,
+        "excavation": 0.33,
+        "woodcutting": 0.33
+      },
+      "color": 16777215,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
     }
   },
   "type": "SKILLS"

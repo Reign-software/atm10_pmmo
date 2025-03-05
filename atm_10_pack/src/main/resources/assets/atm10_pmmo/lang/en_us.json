@@ -1,11 +1,11 @@
 {
   "pmmo.jade.break_requirements": "Break Level Requirement",
+  "atm10_pmmo.skill_point_gained": "%s Skill Point gained in %s! (%s Available)",
   "pmmo.jade.interact_requirements": "Interact Level Requirement",
+  "atm10_pmmo.skill_points_gained": "%s Skill Points gained in %s! (%s Available)",
   "pmmo.technology": "Technology",
   "pmmo.enchanting": "Enchanting",
   "pmmo.jade.requirements": "Level Requirements",
   "pmmo.jade.break_xp": "Break XP Gain",
-  "atm10_pmmo.skills_button.tooltip": "Open Skills Menu",
-  "atm10_pmmo.skill_point_gained": "%s Skill Point gained in %s! (%s Available)",
-  "atm10_pmmo.skill_points_gained": "%s Skill Points gained in %s! (%s Available)"
+  "atm10_pmmo.skills_button.tooltip": "Open Skills Menu"
 }
