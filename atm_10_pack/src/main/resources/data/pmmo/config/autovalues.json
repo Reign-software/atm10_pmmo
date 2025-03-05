@@ -55,13 +55,13 @@
     },
     "block_xp": {
       "GROW": {
-        "farming": 1
+        "farming": 10
       },
       "BLOCK_PLACE": {
-        "building": 1
+        "building": 10
       },
       "BLOCK_BREAK": {
-        "mining": 1
+        "mining": 10
       }
     }
   },
@@ -78,7 +78,7 @@
       "minecraft:slowness": 1
     },
     "block_default": {
-      "mining": 1
+      "mining": 10
     },
     "items": {
       "WEAR": {

@@ -16,7 +16,7 @@
   "xp_values": {
     "BLOCK_BREAK": {
       "farming": 20,
-      "woodcutting": 40
+      "woodcutting": 10.0
     },
     "GROW": {
       "farming": 12

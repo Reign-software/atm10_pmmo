@@ -9,7 +9,6 @@ import org.apache.logging.log4j.LogManager;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.reign.atm10_pmmo.client.ClientGuiEvents;
 import net.reign.atm10_pmmo.client.FTBUltimine;
-import net.reign.atm10_pmmo.PufferfishLevelPlugin;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
