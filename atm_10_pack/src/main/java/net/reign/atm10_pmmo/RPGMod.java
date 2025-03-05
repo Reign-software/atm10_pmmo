@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.reign.atm10_pmmo.client.ClientGuiEvents;
+import net.reign.atm10_pmmo.PufferfishLevelPlugin;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
@@ -64,7 +65,9 @@ public class RPGMod {
 		}
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
+		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::XpGainedEvent);
 		modEventBus.addListener(this::registerNetworking);
+		
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
