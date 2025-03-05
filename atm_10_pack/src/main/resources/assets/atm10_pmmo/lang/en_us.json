@@ -4,5 +4,8 @@
   "pmmo.technology": "Technology",
   "pmmo.enchanting": "Enchanting",
   "pmmo.jade.requirements": "Level Requirements",
-  "pmmo.jade.break_xp": "Break XP Gain"
+  "pmmo.jade.break_xp": "Break XP Gain",
+  "atm10_pmmo.skills_button.tooltip": "Open Skills Menu",
+  "atm10_pmmo.skill_point_gained": "Skill Point gained in %s! (%s Available)",
+  "atm10_pmmo.skill_points_gained": "%s Skill Points gained in %s! (%s Available)"
 }

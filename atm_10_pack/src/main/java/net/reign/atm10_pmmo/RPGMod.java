@@ -4,6 +4,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
+import net.reign.atm10_pmmo.client.ClientGuiEvents;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
@@ -13,6 +14,8 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModList;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.loading.FMLEnvironment;
 
 import net.minecraft.util.Tuple;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
@@ -34,21 +37,30 @@ public class RPGMod {
 	public RPGMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
 		LOGGER.info("Initializing Project MMO ATM10 Integration");
+		
 		// Note: Config is now managed by Jade itself
 		// Check if Jade is loaded
 		if (ModList.get().isLoaded("jade")) {
 			LOGGER.info("Jade is loaded, registering PMMO integration");
 		}
+
 		// Check if PMMO is loaded
 		if (ModList.get().isLoaded("pmmo")) {
 			LOGGER.info("PMMO is loaded, integration available");
 		} else {
 			LOGGER.warn("PMMO is not loaded! Integration will not function.");
 		}
+
 		if (ModList.get().isLoaded("puffish_skills")) {
 			LOGGER.info("Pufferfish Skills is loaded, integration available");
 		} else {
 			LOGGER.warn("Pufferfish Skills is not loaded! Integration will not function.");
+		}
+		
+		// Register client events if we're on the client side
+		if (FMLEnvironment.dist == Dist.CLIENT) {
+			LOGGER.info("Registering client GUI events");
+			NeoForge.EVENT_BUS.register(new ClientGuiEvents());
 		}
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
