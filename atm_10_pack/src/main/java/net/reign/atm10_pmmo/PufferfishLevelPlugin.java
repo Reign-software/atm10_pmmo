@@ -55,13 +55,13 @@ public class PufferfishLevelPlugin {
         }
     }
 
-    private static void GainSkill(ServerPlayer player, String skillName, long endLevel, SkillsMod skillsMod) {
-        ResourceLocation id = ResourceLocation.parse(skillName);
+    private static void GainSkill(ServerPlayer player, String skillTree, long endLevel, SkillsMod skillsMod) {
+        ResourceLocation id = ResourceLocation.parse(skillTree);
         
         int levelDiv = 10;
 
         // We treat these as the same skill.
-        if (skillName == "mining" || skillName == "excavation" || skillName == "woodcutting")
+        if (skillTree == "atm10_pmmo:gathering")
             levelDiv = 30;
 
         Optional<Integer> totalPoints = skillsMod.getPointsTotal(player, id);
