@@ -45,6 +45,11 @@ public class RPGMod {
 		} else {
 			LOGGER.warn("PMMO is not loaded! Integration will not function.");
 		}
+		if (ModList.get().isLoaded("puffish_skills")) {
+			LOGGER.info("Pufferfish Skills is loaded, integration available");
+		} else {
+			LOGGER.warn("Pufferfish Skills is not loaded! Integration will not function.");
+		}
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
