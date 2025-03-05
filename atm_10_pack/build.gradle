@@ -56,6 +56,7 @@ dependencies {
     implementation "curse.maven:jade-324717:6198776"
     implementation "curse.maven:projectmmo-353935:6234464"
 	implementation "net.puffish:skillsmod:0.15.1+1.21:neoforge"
+    implementation "curse.maven:tb-ultimine-forge-386134:5671703"
 }
 
 tasks.withType(JavaCompile).configureEach {

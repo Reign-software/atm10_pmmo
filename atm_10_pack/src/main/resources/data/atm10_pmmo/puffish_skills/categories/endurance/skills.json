@@ -388,5 +388,71 @@
 		"x": -288,
 		"y": -192,
 		"root": false
+	},
+	"621dre2hxtyfd0ft": {
+		"definition": "health+8",
+		"x": -288,
+		"y": -256,
+		"root": false
+	},
+	"09gchw6txr32ywmb": {
+		"definition": "knockback_resistance+10%",
+		"x": 0,
+		"y": 544,
+		"root": false
+	},
+	"4la354ob92i5yr69": {
+		"definition": "health+2",
+		"x": 0,
+		"y": 608,
+		"root": false
+	},
+	"duhu4ho0djixm12k": {
+		"definition": "health+2",
+		"x": 0,
+		"y": 672,
+		"root": false
+	},
+	"myajixy8ggweadlr": {
+		"definition": "health+2",
+		"x": 0,
+		"y": 736,
+		"root": false
+	},
+	"ezge300x3n17hl1q": {
+		"definition": "health+2",
+		"x": 0,
+		"y": 800,
+		"root": false
+	},
+	"4xzw0e8nudmtxy67": {
+		"definition": "spell_resist+10%",
+		"x": 0,
+		"y": 864,
+		"root": false
+	},
+	"6bb37xox7v0n6ha5": {
+		"definition": "health+2",
+		"x": -192,
+		"y": 480,
+		"root": false
+	},
+	"4j9jao3nezpiokye": {
+		"definition": "health+2",
+		"x": -256,
+		"y": 480,
+		"root": false
+	},
+	"24ohqnwpxw30t3v4": {
+		"definition": "health+2",
+		"x": 192,
+		"y": 480,
+		"root": false
+	},
+	"c1tugpc58nljvhnx": {
+		"definition": "health+2",
+		"x": 256,
+		"y": 480,
+		"root": false
 	}
 }

@@ -1,10 +1,14 @@
 package net.reign.atm10_pmmo;
 
 import org.apache.logging.log4j.Logger;
+
+import dev.ftb.mods.ftbultimine.integration.FTBUltiminePlugin;
+
 import org.apache.logging.log4j.LogManager;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.reign.atm10_pmmo.client.ClientGuiEvents;
+import net.reign.atm10_pmmo.client.FTBUltimine;
 import net.reign.atm10_pmmo.PufferfishLevelPlugin;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
@@ -67,6 +71,8 @@ public class RPGMod {
 		NeoForge.EVENT_BUS.register(this);
 		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::XpGainedEvent);
 		modEventBus.addListener(this::registerNetworking);
+		
+		FTBUltiminePlugin.register(new FTBUltimine());
 		
 		// Start of user code block mod init
 		// End of user code block mod init
