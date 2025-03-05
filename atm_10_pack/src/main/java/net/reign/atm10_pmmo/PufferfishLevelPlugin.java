@@ -57,11 +57,15 @@ public class PufferfishLevelPlugin {
 
     private static void GainSkill(ServerPlayer player, String skillName, long endLevel, SkillsMod skillsMod) {
         ResourceLocation id = ResourceLocation.parse(skillName);
+        
+        int levelDiv = 10;
+
+        // We treat these as the same skill.
+        if (skillName == "mining" || skillName == "excavation" || skillName == "woodcutting")
+            levelDiv = 30;
 
         Optional<Integer> totalPoints = skillsMod.getPointsTotal(player, id);
-        int pointsToAward = (int)(endLevel / 10) - totalPoints.orElse(0);
-
-        LOGGER.info("Player " + player.getName() + " has " + totalPoints.orElse(0) + " points in " + id);
+        int pointsToAward = (int)(endLevel / levelDiv) - totalPoints.orElse(0);
         
         // Get max points from cache or compute if not present
         int maxPoints = getMaxSkillPoints(id, skillsMod);
@@ -104,8 +108,8 @@ public class PufferfishLevelPlugin {
         
         // Create and send the notification message
         Component message = Component.translatable(notification, 
-                Component.literal(skillName), 
                 Component.literal(String.valueOf(pointsAwarded)),
+                Component.literal(skillName), 
                 Component.literal(pointsText));
         
         player.sendSystemMessage(Component.literal("§a✦ ").append(message));
@@ -140,7 +144,6 @@ public class PufferfishLevelPlugin {
             return MAX_POINTS_CACHE.get(treeId);
         }
 
-        LOGGER.info("Getting max points for " + treeId);
         // If not in cache, compute and store it
         var skills = skillsMod.getSkills(treeId);
 
