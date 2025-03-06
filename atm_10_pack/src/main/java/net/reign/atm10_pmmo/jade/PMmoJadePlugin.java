@@ -38,6 +38,7 @@ public class PMmoJadePlugin implements IWailaPlugin {
     public void registerClient(IWailaClientRegistration registration) {
         // Register our component provider for all blocks
         registration.registerBlockComponent(BlockRequirementsProvider.INSTANCE, Block.class);
+		harmonised.pmmo.config.Config.SKILLUP_UNLOCKS.set(false);
     }
 
     public static class BlockRequirementsProvider implements IBlockComponentProvider {

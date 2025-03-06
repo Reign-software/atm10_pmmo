@@ -12,6 +12,7 @@ import net.reign.atm10_pmmo.client.FTBUltimine;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
+import net.neoforged.neoforge.common.ModConfigSpec;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.fml.util.thread.SidedThreadGroups;
 import net.neoforged.fml.common.Mod;
@@ -72,7 +73,6 @@ public class RPGMod {
 		modEventBus.addListener(this::registerNetworking);
 		
 		FTBUltiminePlugin.register(new FTBUltimine());
-		
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
