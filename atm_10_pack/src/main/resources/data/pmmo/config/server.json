@@ -86,7 +86,7 @@
   },
   "mob_scaling": {
     "use_exponential_formula": false,
-    "per_level": 1.001,
+    "per_level": 1.01,
     "power_base": 1.01,
     "ratios": {
       "minecraft:generic.movement_speed": {
@@ -111,7 +111,7 @@
       "silentgear:saw"
     ],
     "enabled": true,
-    "require_settings": true
+    "require_settings": false
   },
   "general": {
     "creative_reach": 50.0,
