@@ -87,7 +87,8 @@ public class PufferfishLevelPlugin {
         
         // Get current available points after the addition
         Optional<Integer> availablePoints = skillsMod.getPointsLeft(player, skillId);
-        String pointsText = availablePoints.isPresent() ? availablePoints.get().toString() : String.valueOf(pointsAwarded);
+        int pointsAvailable = availablePoints.orElse(pointsAwarded);
+        String pointsText = String.valueOf(pointsAvailable);
         
         // Create pluralized text for the notification
         String notification = pointsAwarded == 1 
