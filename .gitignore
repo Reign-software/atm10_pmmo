@@ -1,7 +1,7 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+/.vscode
 /.vs
 /atm_10_pack/.eclipse
 /atm_10_pack/.gradle
