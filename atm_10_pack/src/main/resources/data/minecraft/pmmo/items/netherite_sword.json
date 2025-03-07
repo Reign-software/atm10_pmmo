@@ -21,10 +21,6 @@
       }
     }
   },
-  "vein_data": {
-    "chargeCap": 45,
-    "chargeRate": 0.01
-  },
   "nbt_xp_values": {
     "TOOL_BREAKING": [],
     "DEAL_DAMAGE": [],
