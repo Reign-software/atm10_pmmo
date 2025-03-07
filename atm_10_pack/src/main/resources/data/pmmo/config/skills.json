@@ -269,7 +269,7 @@
       "maxLevel": 2147483647,
       "icon": "minecraft:textures/item/stone.png",
       "iconSize": 18,
-      "useTotalLevels": false,
+      "useTotalLevels": true,
       "groupFor": {
         "mining": 0.34,
         "excavation": 0.33,
