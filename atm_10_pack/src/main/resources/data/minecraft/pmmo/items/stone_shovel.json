@@ -15,12 +15,10 @@
       "baseChance": 0.8,
       "maxChance": 1.0,
       "chancePerLevel": {
-        "crafting": 0.005,
         "smithing": 0.005
       },
       "levelReq": {},
       "xpPerItem": {
-        "crafting": 15,
         "smithing": 15
       }
     },
@@ -29,12 +27,10 @@
       "baseChance": 0.8,
       "maxChance": 1.0,
       "chancePerLevel": {
-        "crafting": 0.005,
         "smithing": 0.005
       },
       "levelReq": {},
       "xpPerItem": {
-        "crafting": 10,
         "smithing": 100
       }
     }
@@ -88,7 +84,6 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "crafting": 1500,
       "smithing": 200
     },
     "ACTIVATE_ITEM": {},
@@ -96,9 +91,7 @@
     "ANVIL_REPAIR": {
       "smithing": 320
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

@@ -3,15 +3,11 @@
     "reuse_penalty": 0.0,
     "perks_plus_config": false,
     "player_actions": {
-      "SUBMERGED": {
-        "swimming": 1.0
-      },
+      "SUBMERGED": {},
       "CROUCH_JUMP": {
         "agility": 2.5
       },
-      "SWIM_SPRINTING": {
-        "swimming": 1.0
-      },
+      "SWIM_SPRINTING": {},
       "SPRINT_JUMP": {
         "agility": 2.5
       },
@@ -24,18 +20,11 @@
       "HEALTH_INCREASE": {
         "endurance": 1.0
       },
-      "SWIMMING": {
-        "swimming": 1.0
-      },
-      "DIVING": {
-        "swimming": 1.0
-      },
+      "DIVING": {},
       "HEALTH_DECREASE": {
         "endurance": 1.0
       },
-      "SURFACING": {
-        "swimming": 1.0
-      },
+      "SURFACING": {},
       "BREATH_CHANGE": {
         "endurance": 1.0
       }
@@ -72,7 +61,7 @@
           "magic": 15
         },
         "#pmmo:gun": {
-          "gunslinging": 10
+          "archery": 10
         }
       }
     }

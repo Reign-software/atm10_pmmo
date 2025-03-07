@@ -52,11 +52,8 @@
     "ENCHANT": {
       "enchanting": 50
     },
-    "CONSUME": {
-      "cooking": 6400
-    },
+    "CONSUME": {},
     "CRAFT": {
-      "crafting": 10,
       "technology": 4000
     },
     "ACTIVATE_ITEM": {},
@@ -64,9 +61,7 @@
     "ANVIL_REPAIR": {
       "smithing": 7
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

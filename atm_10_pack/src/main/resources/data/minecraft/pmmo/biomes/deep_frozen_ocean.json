@@ -1,6 +1,5 @@
 {
   "travel_req": {
-    "swimming": 35,
     "endurance": 25
   },
   "global_mob_modifier": [],
@@ -13,10 +12,7 @@
   "override": true,
   "isTagFor": [],
   "bonus": {
-    "BIOME": {
-      "fishing": 1.5,
-      "swimming": 2.0
-    }
+    "BIOME": {}
   },
   "positive_effect": {}
 }

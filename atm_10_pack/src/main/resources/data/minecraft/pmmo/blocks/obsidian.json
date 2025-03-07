@@ -23,9 +23,7 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {
-      "building": 32
-    }
+    "BLOCK_PLACE": {}
   },
   "override": true,
   "isTagFor": [],

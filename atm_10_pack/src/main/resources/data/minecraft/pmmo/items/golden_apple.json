@@ -54,21 +54,15 @@
     "CONSUME": {
       "endurance": 600
     },
-    "CRAFT": {
-      "cooking": 600
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
-    "FISH": {
-      "fishing": 1200
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
-    "SMELT": {
-      "cooking": 600
-    }
+    "SMELT": {}
   },
   "override": true,
   "isTagFor": [],

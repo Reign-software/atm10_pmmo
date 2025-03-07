@@ -56,7 +56,6 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "crafting": 10,
       "archery": 500
     },
     "ACTIVATE_ITEM": {},
@@ -64,9 +63,7 @@
     "ANVIL_REPAIR": {
       "smithing": 960
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

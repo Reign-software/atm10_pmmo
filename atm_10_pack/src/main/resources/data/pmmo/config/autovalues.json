@@ -10,39 +10,22 @@
       "excavation": 10
     },
     "entity_xp": {
-      "ENTITY": {
-        "charisma": 20
-      },
+      "ENTITY": {},
       "SHIELD_BLOCK": {
         "combat": 1
       },
-      "RIDING": {
-        "taming": 1
-      },
+      "RIDING": {},
       "DEATH": {
         "endurance": 50
       },
-      "TAMING": {
-        "taming": 100
-      },
-      "BREED": {
-        "taming": 30
-      }
+      "BREED": {}
     },
     "rarities_multiplier": 10.0,
     "item_xp": {
-      "BLOCK_PLACE": {
-        "building": 10
-      },
-      "FISH": {
-        "fishing": 10
-      },
-      "CONSUME": {
-        "cooking": 10
-      },
-      "CRAFT": {
-        "crafting": 10
-      },
+      "BLOCK_PLACE": {},
+      "FISH": {},
+      "CONSUME": {},
+      "CRAFT": {},
       "ENCHANT": {
         "enchanting": 50
       },
@@ -57,9 +40,7 @@
       "GROW": {
         "farming": 10
       },
-      "BLOCK_PLACE": {
-        "building": 10
-      },
+      "BLOCK_PLACE": {},
       "BLOCK_BREAK": {
         "mining": 10
       }
@@ -222,7 +203,6 @@
     "CONSUME": true,
     "CRAFT": true,
     "JUMP": true,
-    "SWIMMING": true,
     "RIDING": true,
     "ENCHANT": true,
     "CROUCH": true,
@@ -232,7 +212,6 @@
     "SWIM_SPRINTING": true,
     "SHIELD_BLOCK": true,
     "HEALTH_DECREASE": true,
-    "TAMING": true,
     "BREED": true,
     "BLOCK_BREAK": true,
     "SMELT": true

@@ -8,7 +8,6 @@
   "override": true,
   "bonus": {
     "DIMENSION": {
-      "building": 1.25,
       "excavation": 1.25,
       "farming": 1.25,
       "mining": 1.25,

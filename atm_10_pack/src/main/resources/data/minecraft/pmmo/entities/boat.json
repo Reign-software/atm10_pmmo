@@ -1,12 +1,10 @@
 {
   "nbt_xp_values": {
     "BREED": [],
-    "TAMING": [],
     "RECEIVE_DAMAGE": [],
     "DEAL_DAMAGE": [],
     "SURFACING": [],
     "CROUCH": [],
-    "SWIMMING": [],
     "SUBMERGED": [],
     "ENTITY": [],
     "JUMP": [],
@@ -38,20 +36,16 @@
   },
   "xp_values": {
     "BREED": {},
-    "TAMING": {},
     "RECEIVE_DAMAGE": {},
     "DEAL_DAMAGE": {},
     "SURFACING": {},
     "CROUCH": {},
-    "SWIMMING": {},
     "SUBMERGED": {},
     "ENTITY": {},
     "JUMP": {},
     "BREATH_CHANGE": {},
     "SPRINT_JUMP": {},
-    "RIDING": {
-      "sailing": 20
-    },
+    "RIDING": {},
     "CROUCH_JUMP": {},
     "DIVING": {},
     "SWIM_SPRINTING": {},

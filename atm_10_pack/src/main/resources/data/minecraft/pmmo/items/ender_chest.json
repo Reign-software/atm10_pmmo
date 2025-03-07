@@ -53,20 +53,14 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "crafting": 10
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "building": 14
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,

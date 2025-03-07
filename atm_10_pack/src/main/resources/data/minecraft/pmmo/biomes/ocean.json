@@ -7,10 +7,7 @@
   "override": true,
   "isTagFor": [],
   "bonus": {
-    "BIOME": {
-      "fishing": 1.1,
-      "swimming": 1.25
-    }
+    "BIOME": {}
   },
   "positive_effect": {}
 }

@@ -19,7 +19,6 @@
                 "value": {
                   "agility": 1.025,
                   "farming": 1.025,
-                  "fishing": 1.025,
                   "woodcutting": 1.025
                 }
               }
@@ -41,7 +40,6 @@
                 "value": {
                   "agility": 1.025,
                   "farming": 1.025,
-                  "fishing": 1.025,
                   "woodcutting": 1.025
                 }
               }
@@ -90,9 +88,7 @@
                 "comparators": [
                   "3949738"
                 ],
-                "value": {
-                  "fishing": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
@@ -127,45 +123,35 @@
                 "comparators": [
                   "16351261"
                 ],
-                "value": {
-                  "crafting": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
                 "comparators": [
                   "13061821"
                 ],
-                "value": {
-                  "taming": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
                 "comparators": [
                   "3847130"
                 ],
-                "value": {
-                  "building": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
                 "comparators": [
                   "15961002"
                 ],
-                "value": {
-                  "cooking": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
                 "comparators": [
                   "4673362"
                 ],
-                "value": {
-                  "alchemy": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
@@ -181,9 +167,7 @@
                 "comparators": [
                   "1481884"
                 ],
-                "value": {
-                  "swimming": 1.25
-                }
+                "value": {}
               },
               {
                 "operator": "EQUALS",
@@ -244,17 +228,13 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "crafting": 10
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
       "smithing": 200
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

@@ -1,7 +1,5 @@
 {
-  "travel_req": {
-    "swimming": 15
-  },
+  "travel_req": {},
   "global_mob_modifier": [],
   "mob_modifier": {},
   "negative_effect": {
@@ -11,10 +9,7 @@
   "override": true,
   "isTagFor": [],
   "bonus": {
-    "BIOME": {
-      "fishing": 1.2,
-      "swimming": 1.5
-    }
+    "BIOME": {}
   },
   "positive_effect": {}
 }

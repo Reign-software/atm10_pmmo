@@ -49,20 +49,14 @@
     "ENCHANT": {
       "enchanting": 50
     },
-    "CONSUME": {
-      "cooking": 10
-    },
-    "CRAFT": {
-      "crafting": 10
-    },
+    "CONSUME": {},
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
       "smithing": 680
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

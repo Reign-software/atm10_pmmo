@@ -61,9 +61,7 @@
     "ANVIL_REPAIR": {
       "smithing": 147
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

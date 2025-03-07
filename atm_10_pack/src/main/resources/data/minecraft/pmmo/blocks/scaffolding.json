@@ -28,9 +28,7 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {
-      "building": 10
-    },
+    "PLACE": {},
     "BREAK": {},
     "INTERACT": {}
   }

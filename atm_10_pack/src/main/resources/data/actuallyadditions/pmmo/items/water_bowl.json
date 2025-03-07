@@ -56,16 +56,13 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "crafting": 10,
       "technology": 400,
       "archery": 500
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},

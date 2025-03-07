@@ -1,12 +1,10 @@
 {
   "nbt_xp_values": {
     "BREED": [],
-    "TAMING": [],
     "RECEIVE_DAMAGE": [],
     "DEAL_DAMAGE": [],
     "SURFACING": [],
     "CROUCH": [],
-    "SWIMMING": [],
     "SUBMERGED": [],
     "ENTITY": [],
     "JUMP": [],
@@ -38,24 +36,16 @@
   },
   "xp_values": {
     "BREED": {},
-    "TAMING": {
-      "taming": 26
-    },
     "RECEIVE_DAMAGE": {},
     "DEAL_DAMAGE": {},
     "SURFACING": {},
     "CROUCH": {},
-    "SWIMMING": {},
     "SUBMERGED": {},
-    "ENTITY": {
-      "charisma": 26
-    },
+    "ENTITY": {},
     "JUMP": {},
     "BREATH_CHANGE": {},
     "SPRINT_JUMP": {},
-    "RIDING": {
-      "taming": 26
-    },
+    "RIDING": {},
     "CROUCH_JUMP": {},
     "DIVING": {},
     "SWIM_SPRINTING": {},

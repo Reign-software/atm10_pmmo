@@ -24,11 +24,8 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {
-      "building": 1
-    },
+    "BLOCK_PLACE": {},
     "CRAFT": {
-      "crafting": 10,
       "technology": 10
     }
   },

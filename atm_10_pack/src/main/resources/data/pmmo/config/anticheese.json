@@ -40,16 +40,6 @@
       "min_time_to_apply": 200,
       "retention_duration": 0,
       "tolerance_flat": 0
-    },
-    "SWIMMING": {
-      "reduction": 0.1,
-      "cooloff_amount": 1,
-      "tolerance_percent": 0.0,
-      "strict_tolerance": true,
-      "source": [],
-      "min_time_to_apply": 200,
-      "retention_duration": 0,
-      "tolerance_flat": 0
     }
   },
   "diminishing_xp": {

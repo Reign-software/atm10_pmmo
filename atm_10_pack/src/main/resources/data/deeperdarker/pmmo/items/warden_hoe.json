@@ -53,17 +53,13 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "crafting": 856
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
       "smithing": 6297
     },
-    "FISH": {
-      "fishing": 10
-    },
+    "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
