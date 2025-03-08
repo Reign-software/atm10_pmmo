@@ -109,14 +109,11 @@
     "brewing_tracked": true
   },
   "levels": {
-    "xp_min": 100,
+    "xp_min": 200,
     "xp_base": 1.025,
     "per_level": 1.2,
     "global_modifier": 1.0,
     "skill_modifiers": {
-      "mining": 1.5,
-      "farming": 1.5,
-      "woodcutting": 1.5
     },
     "max_level": 1523,
     "static_levels": [

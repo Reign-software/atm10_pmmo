@@ -49,7 +49,6 @@
       "woodcutting": 5
     },
     "hoe_override": {
-      "farming": 50
     },
     "penalties": {
       "minecraft:weakness": 1,
