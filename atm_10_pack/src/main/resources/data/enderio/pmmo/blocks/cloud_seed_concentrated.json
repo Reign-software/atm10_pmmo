@@ -18,13 +18,17 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "mining": 65
+      "mining": 65,
+      "farming": 4.0
     },
-    "GROW": {},
+    "GROW": {
+      "farming": 20
+    },
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {}
+    "BLOCK_PLACE": {},
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],

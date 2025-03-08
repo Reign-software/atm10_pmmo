@@ -68,7 +68,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "smithing": 300
+      "smithing": 300,
+      "farming": 20
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

@@ -18,7 +18,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "farming": 1
+      "farming": 4.0
     },
     "GROW": {
       "farming": 1
@@ -30,7 +30,8 @@
       "farming": 1
     },
     "CRAFT": {
-      "technology": 900.0
+      "technology": 900.0,
+      "farming": 20
     }
   },
   "override": true,

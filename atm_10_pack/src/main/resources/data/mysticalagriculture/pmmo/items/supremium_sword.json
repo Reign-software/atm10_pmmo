@@ -49,7 +49,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "farming": 2520
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -69,8 +71,12 @@
       "combat": 235,
       "smithing": 50
     },
-    "PLACE": {},
-    "BREAK": {},
+    "PLACE": {
+      "farming": 500
+    },
+    "BREAK": {
+      "farming": 500
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "combat": 235
@@ -78,7 +84,8 @@
     "INTERACT": {},
     "USE": {
       "smithing": 50,
-      "combat": 50
+      "combat": 50,
+      "farming": 500
     }
   }
 }

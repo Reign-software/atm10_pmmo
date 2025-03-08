@@ -50,7 +50,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 6400
+      "technology": 6400,
+      "farming": 1020
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -71,9 +72,12 @@
       "technology": 200
     },
     "PLACE": {
-      "technology": 250
+      "technology": 250,
+      "farming": 200
     },
-    "BREAK": {},
+    "BREAK": {
+      "farming": 200
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "technology": 200
@@ -82,7 +86,8 @@
       "technology": 200
     },
     "USE": {
-      "technology": 200
+      "technology": 200,
+      "farming": 200
     }
   }
 }

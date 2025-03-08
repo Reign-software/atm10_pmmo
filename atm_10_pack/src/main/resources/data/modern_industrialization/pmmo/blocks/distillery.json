@@ -18,7 +18,8 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "mining": 2
+      "mining": 2,
+      "farming": 4.0
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -27,7 +28,8 @@
     "BLOCK_PLACE": {},
     "CRAFT": {
       "technology": 1400.0,
-      "alchemy": 1400
+      "alchemy": 1400,
+      "farming": 20
     }
   },
   "override": true,

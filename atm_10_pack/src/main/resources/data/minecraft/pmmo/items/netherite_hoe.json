@@ -75,14 +75,17 @@
     "minecraft:weakness": 2
   },
   "xp_values": {
-    "TOOL_BREAKING": {},
+    "TOOL_BREAKING": {
+      "farming": 152.0
+    },
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 250
     },
     "CONSUME": {},
     "CRAFT": {
-      "smithing": 1000
+      "smithing": 1000,
+      "farming": 1520
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -99,19 +102,23 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 225,
-      "smithing": 200
+      "smithing": 200,
+      "farming": 300
     },
-    "PLACE": {},
-    "BREAK": {},
+    "PLACE": {
+      "farming": 300
+    },
+    "BREAK": {
+      "farming": 300
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "farming": 225
     },
     "INTERACT": {},
     "USE": {
-      "farming": 200,
-      "smithing": 200
+      "smithing": 200,
+      "farming": 300
     }
   }
 }

@@ -18,7 +18,8 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "excavation": 10
+      "excavation": 10,
+      "farming": 104.0
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -26,13 +27,18 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "excavation": 10
-    }
+    },
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
-    "BREAK": {},
+    "PLACE": {
+      "farming": 100
+    },
+    "BREAK": {
+      "farming": 100
+    },
     "INTERACT": {}
   }
 }

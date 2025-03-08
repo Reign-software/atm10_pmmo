@@ -15,7 +15,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "farming": 100
+      "farming": 4.0
     },
     "GROW": {
       "farming": 0
@@ -25,7 +25,8 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "farming": 1
-    }
+    },
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],

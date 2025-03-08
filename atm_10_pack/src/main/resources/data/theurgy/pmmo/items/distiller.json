@@ -50,7 +50,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "alchemy": 1400
+      "alchemy": 1400,
+      "farming": 20
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

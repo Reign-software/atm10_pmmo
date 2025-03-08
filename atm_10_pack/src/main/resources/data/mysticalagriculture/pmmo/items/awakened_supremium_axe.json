@@ -53,7 +53,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "farming": 2520
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -70,8 +72,12 @@
       "smithing": 450,
       "woodcutting": 450
     },
-    "PLACE": {},
-    "BREAK": {},
+    "PLACE": {
+      "farming": 500
+    },
+    "BREAK": {
+      "farming": 500
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "woodcutting": 260
@@ -79,7 +85,8 @@
     "INTERACT": {},
     "USE": {
       "smithing": 450,
-      "woodcutting": 450
+      "woodcutting": 450,
+      "farming": 500
     }
   }
 }

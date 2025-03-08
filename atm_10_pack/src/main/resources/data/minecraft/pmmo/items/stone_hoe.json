@@ -77,14 +77,17 @@
     "minecraft:weakness": 2
   },
   "xp_values": {
-    "TOOL_BREAKING": {},
+    "TOOL_BREAKING": {
+      "farming": 2.0
+    },
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 30
     },
     "CONSUME": {},
     "CRAFT": {
-      "smithing": 200
+      "smithing": 200,
+      "farming": 20
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

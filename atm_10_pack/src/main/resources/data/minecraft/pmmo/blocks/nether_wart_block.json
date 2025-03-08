@@ -18,7 +18,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "farming": 10
+      "farming": 204.0
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -27,15 +27,20 @@
     "BLOCK_PLACE": {
       "farming": 10
     },
-    "CRAFT": {}
+    "CRAFT": {
+      "farming": 1020
+    }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "alchemy": 100
+      "alchemy": 100,
+      "farming": 200
     },
-    "BREAK": {},
+    "BREAK": {
+      "farming": 200
+    },
     "INTERACT": {
       "alchemy": 100
     }

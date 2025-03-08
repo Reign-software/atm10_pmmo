@@ -82,7 +82,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "smithing": 1000
+      "smithing": 1000,
+      "farming": 2020
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -100,8 +101,12 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {},
-    "BREAK": {},
+    "PLACE": {
+      "farming": 400
+    },
+    "BREAK": {
+      "farming": 400
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "endurance": 200,
@@ -110,7 +115,8 @@
     "INTERACT": {},
     "USE": {
       "endurance": 200,
-      "smithing": 200
+      "smithing": 200,
+      "farming": 400
     }
   }
 }
