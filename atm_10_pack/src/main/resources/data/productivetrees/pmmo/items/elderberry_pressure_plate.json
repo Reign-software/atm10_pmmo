@@ -59,7 +59,8 @@
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {
-      "woodcutting": 10
+      "woodcutting": 10,
+      "farming": 10
     },
     "SMELT": {}
   },
@@ -68,17 +69,11 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 100
-    },
-    "BREAK": {
-      "farming": 100
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 100
-    }
+    "USE": {}
   }
 }

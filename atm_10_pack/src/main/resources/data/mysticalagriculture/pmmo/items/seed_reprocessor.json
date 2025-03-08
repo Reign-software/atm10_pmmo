@@ -60,7 +60,9 @@
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {},
+    "BLOCK_PLACE": {
+      "farming": 10
+    },
     "SMELT": {}
   },
   "override": true,

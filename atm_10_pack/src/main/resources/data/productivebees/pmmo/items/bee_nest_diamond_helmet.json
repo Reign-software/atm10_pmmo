@@ -68,12 +68,9 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 300.0,
-      "farming": 300
+      "technology": 300.0
     },
-    "BREAK": {
-      "farming": 300
-    },
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "endurance": 150,
@@ -83,8 +80,7 @@
     "USE": {
       "endurance": 150,
       "smithing": 150,
-      "technology": 300.0,
-      "farming": 300
+      "technology": 300.0
     }
   }
 }

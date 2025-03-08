@@ -68,17 +68,11 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 100
-    },
-    "BREAK": {
-      "farming": 100
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 100
-    }
+    "USE": {}
   }
 }

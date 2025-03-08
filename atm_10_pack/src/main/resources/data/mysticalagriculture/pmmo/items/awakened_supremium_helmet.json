@@ -68,12 +68,8 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 500
-    },
-    "BREAK": {
-      "farming": 500
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "endurance": 450,
@@ -82,8 +78,7 @@
     "INTERACT": {},
     "USE": {
       "endurance": 450,
-      "smithing": 450,
-      "farming": 500
+      "smithing": 450
     }
   }
 }

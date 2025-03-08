@@ -68,18 +68,14 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 110.0,
-      "farming": 300
+      "technology": 110.0
     },
-    "BREAK": {
-      "farming": 300
-    },
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "technology": 110.0,
-      "farming": 300
+      "technology": 110.0
     }
   }
 }
