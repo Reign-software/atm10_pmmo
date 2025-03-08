@@ -25,13 +25,18 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "farming": 1
-    }
+    },
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
+    "PLACE": {
+      "alchemy": 100
+    },
     "BREAK": {},
-    "INTERACT": {}
+    "INTERACT": {
+      "alchemy": 100
+    }
   }
 }

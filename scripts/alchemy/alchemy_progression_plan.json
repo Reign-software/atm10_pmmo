@@ -1,0 +1,4728 @@
+{
+  "modPlans": {
+    "amendments": {
+      "items": {},
+      "stats": {
+        "totalItems": 1,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 2,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 26,
+        "alchemyBlocks": 2,
+        "alchemyItems": 0
+      },
+      "blocks": {
+        "liquid_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dye_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "the_bumblezone": {
+      "items": {
+        "potion_candle": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 145,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 2,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 92,
+        "alchemyBlocks": 1,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "potion_candle_base": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "apotheosis": {
+      "items": {
+        "potion_charm": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 20,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 6,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "undergarden": {
+      "items": {
+        "catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 209,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 2,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 121,
+        "alchemyBlocks": 1,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "virulent_mix_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "mahoutsukai": {
+      "items": {},
+      "stats": {
+        "totalItems": 86,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 2,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 62,
+        "alchemyBlocks": 2,
+        "alchemyItems": 0
+      },
+      "blocks": {
+        "mahoujin_alchemical_exchange": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "mahoujin_catalyst_exchange": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      }
+    },
+    "minecraft": {
+      "items": {
+        "sculk_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "blaze_rod": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "lingering_potion": {
+          "tier": 2,
+          "matchedKeywords": [
+            "lingering"
+          ],
+          "alchemyLevel": 200
+        },
+        "golden_carrot": {
+          "tier": 1,
+          "matchedKeywords": [
+            "golden_carrot"
+          ],
+          "alchemyLevel": 100
+        },
+        "pufferfish": {
+          "tier": 1,
+          "matchedKeywords": [
+            "pufferfish"
+          ],
+          "alchemyLevel": 100
+        },
+        "spider_eye": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "splash_potion": {
+          "tier": 1,
+          "matchedKeywords": [
+            "splash"
+          ],
+          "alchemyLevel": 100
+        },
+        "brewer_pottery_sherd": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "blaze_powder": {
+          "tier": 1,
+          "matchedKeywords": [
+            "blaze_powder"
+          ],
+          "alchemyLevel": 100
+        },
+        "phantom_membrane": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cauldron": {
+          "tier": 0,
+          "matchedKeywords": [
+            "cauldron"
+          ],
+          "alchemyLevel": 0
+        },
+        "potion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "blaze_spawn_egg": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "nether_wart": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "fermented_spider_eye": {
+          "tier": 1,
+          "matchedKeywords": [
+            "fermented"
+          ],
+          "alchemyLevel": 100
+        },
+        "magma_cream": {
+          "tier": 1,
+          "matchedKeywords": [
+            "magma_cream"
+          ],
+          "alchemyLevel": 100
+        },
+        "rabbit_foot": {
+          "tier": 1,
+          "matchedKeywords": [
+            "rabbit_foot"
+          ],
+          "alchemyLevel": 100
+        },
+        "ghast_tear": {
+          "tier": 2,
+          "matchedKeywords": [
+            "ghast_tear"
+          ],
+          "alchemyLevel": 200
+        },
+        "glistering_melon_slice": {
+          "tier": 1,
+          "matchedKeywords": [
+            "glistering_melon"
+          ],
+          "alchemyLevel": 100
+        },
+        "brewing_stand": {
+          "tier": 0,
+          "matchedKeywords": [
+            "brewing_stand"
+          ],
+          "alchemyLevel": 0
+        },
+        "nether_wart_block": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "pufferfish_spawn_egg": {
+          "tier": 1,
+          "matchedKeywords": [
+            "pufferfish"
+          ],
+          "alchemyLevel": 100
+        },
+        "pufferfish_bucket": {
+          "tier": 1,
+          "matchedKeywords": [
+            "pufferfish"
+          ],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 1029,
+        "tierDistribution": {
+          "tier0": 7,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 22,
+          "tier2": 2,
+          "tier4": 0
+        },
+        "totalBlocks": 698,
+        "alchemyBlocks": 8,
+        "alchemyItems": 23
+      },
+      "blocks": {
+        "cauldron": {
+          "tier": 0,
+          "matchedKeywords": [
+            "cauldron"
+          ],
+          "alchemyLevel": 0
+        },
+        "brewing_stand": {
+          "tier": 0,
+          "matchedKeywords": [
+            "brewing_stand"
+          ],
+          "alchemyLevel": 0
+        },
+        "powder_snow_cauldron": {
+          "tier": 0,
+          "matchedKeywords": [
+            "cauldron"
+          ],
+          "alchemyLevel": 0
+        },
+        "water_cauldron": {
+          "tier": 0,
+          "matchedKeywords": [
+            "cauldron"
+          ],
+          "alchemyLevel": 0
+        },
+        "lava_cauldron": {
+          "tier": 0,
+          "matchedKeywords": [
+            "cauldron"
+          ],
+          "alchemyLevel": 0
+        },
+        "nether_wart": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "sculk_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "nether_wart_block": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "pylons": {
+      "items": {
+        "player_filter": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "lifeless_filter": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "harvester_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_filter": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "mob_filter": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "infusion_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "expulsion_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "interdiction_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      },
+      "stats": {
+        "totalItems": 8,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 12,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 4,
+        "alchemyBlocks": 4,
+        "alchemyItems": 8
+      },
+      "blocks": {
+        "interdiction_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "expulsion_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "infusion_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "harvester_pylon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      }
+    },
+    "apothic_enchanting": {
+      "items": {
+        "extraction_tome": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      },
+      "stats": {
+        "totalItems": 43,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 1,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 27,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "immersiveengineering": {
+      "items": {
+        "conveyor_extract": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "herbicide_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bullet_potion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 493,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 6,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 238,
+        "alchemyBlocks": 2,
+        "alchemyItems": 4
+      },
+      "blocks": {
+        "conveyor_extract": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "herbicide_fluid_block": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "mysticalagriculture": {
+      "items": {
+        "soul_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        }
+      },
+      "stats": {
+        "totalItems": 592,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 2,
+          "tier4": 0
+        },
+        "totalBlocks": 211,
+        "alchemyBlocks": 1,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "soul_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        }
+      }
+    },
+    "irons_spellbooks": {
+      "items": {
+        "oakskin_elixir": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemist_cauldron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "netherward_tincture": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "greater_oakskin_elixir": {
+          "tier": 2,
+          "matchedKeywords": [
+            "greater"
+          ],
+          "alchemyLevel": 200
+        },
+        "evasion_elixir": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "greater_evasion_elixir": {
+          "tier": 2,
+          "matchedKeywords": [
+            "greater"
+          ],
+          "alchemyLevel": 200
+        },
+        "blood_vial": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "invisibility_elixir": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "greater_invisibility_elixir": {
+          "tier": 2,
+          "matchedKeywords": [
+            "greater"
+          ],
+          "alchemyLevel": 200
+        },
+        "greater_healing_potion": {
+          "tier": 2,
+          "matchedKeywords": [
+            "greater"
+          ],
+          "alchemyLevel": 200
+        }
+      },
+      "stats": {
+        "totalItems": 179,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 12,
+          "tier4": 0
+        },
+        "totalBlocks": 11,
+        "alchemyBlocks": 2,
+        "alchemyItems": 10
+      },
+      "blocks": {
+        "alchemist_cauldron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "blood_cauldron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        }
+      }
+    },
+    "reliquary": {
+      "items": {
+        "apothecary_cauldron": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "empty_potion_vial": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "splash_potion": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "angelheart_vial": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_essence": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "lingering_potion": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "fertile_potion": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "aphrodite_potion": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "destruction_catalyst": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      },
+      "stats": {
+        "totalItems": 71,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 11,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 5,
+        "alchemyBlocks": 1,
+        "alchemyItems": 10
+      },
+      "blocks": {
+        "apothecary_cauldron": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      }
+    },
+    "mcwholidays": {
+      "items": {
+        "three_potions": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "single_potion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "pair_of_potions": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "witch_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 272,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 8,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 271,
+        "alchemyBlocks": 4,
+        "alchemyItems": 4
+      },
+      "blocks": {
+        "three_potions": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "single_potion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "pair_of_potions": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "witch_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "moderndynamics": {
+      "items": {
+        "extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 14,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 8,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "ars_nouveau": {
+      "items": {
+        "potion_melder": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "lingering_flask_cannon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_flask_extend_time": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "alchemical_sourcelink": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "splash_flask_cannon": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_diffuser": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_jar": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_flask_amplify": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "wixie_cauldron": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "glyph_extract": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_flask": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      },
+      "stats": {
+        "totalItems": 354,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 16,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 115,
+        "alchemyBlocks": 5,
+        "alchemyItems": 11
+      },
+      "blocks": {
+        "potion_melder": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_jar": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "wixie_cauldron": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "alchemical_sourcelink": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "potion_diffuser": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      }
+    },
+    "forbidden_arcanus": {
+      "items": {
+        "soul_extractor": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        },
+        "ferrognetic_mixture": {
+          "tier": 3,
+          "matchedKeywords": [],
+          "alchemyLevel": 300
+        }
+      },
+      "stats": {
+        "totalItems": 188,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 2,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 85,
+        "alchemyBlocks": 0,
+        "alchemyItems": 2
+      },
+      "blocks": {}
+    },
+    "mekanism": {
+      "items": {
+        "antiprotonic_nucleosynthesizer": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "pigment_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chemical_dissolution_chamber": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 381,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 6,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 200,
+        "alchemyBlocks": 3,
+        "alchemyItems": 3
+      },
+      "blocks": {
+        "antiprotonic_nucleosynthesizer": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "pigment_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chemical_dissolution_chamber": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "ae2": {
+      "items": {
+        "spatial_pylon": {
+          "tier": 3,
+          "matchedKeywords": [
+            "category:pylon"
+          ],
+          "alchemyLevel": 300
+        }
+      },
+      "stats": {
+        "totalItems": 329,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 2,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 67,
+        "alchemyBlocks": 1,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "spatial_pylon": {
+          "tier": 3,
+          "matchedKeywords": [
+            "category:pylon"
+          ],
+          "alchemyLevel": 300
+        }
+      }
+    },
+    "stevescarts": {
+      "items": {
+        "module_ore_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 191,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 30,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "relics": {
+      "items": {
+        "blazing_flask": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 32,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 2,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "enderio": {
+      "items": {
+        "extraction_speed_upgrade_1": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "filled_soul_vial": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "nutrient_distillation_bucket": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        },
+        "extraction_speed_upgrade_3": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "empty_soul_vial": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "extraction_speed_upgrade_2": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "extraction_speed_upgrade_4": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 946,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 6,
+          "tier2": 2,
+          "tier4": 0
+        },
+        "totalBlocks": 814,
+        "alchemyBlocks": 1,
+        "alchemyItems": 7
+      },
+      "blocks": {
+        "nutrient_distillation": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        }
+      }
+    },
+    "allthetweaks": {
+      "items": {
+        "allthecatalystium": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "philosophers_fuel": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 21,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 2,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 8,
+        "alchemyBlocks": 0,
+        "alchemyItems": 2
+      },
+      "blocks": {}
+    },
+    "minecolonies": {
+      "items": {
+        "magicpotion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 220,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 80,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "naturesaura": {
+      "items": {
+        "crushing_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_generator": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "conversion_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 133,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 6,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 68,
+        "alchemyBlocks": 3,
+        "alchemyItems": 3
+      },
+      "blocks": {
+        "crushing_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_generator": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "conversion_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "allthemodium": {
+      "items": {
+        "demonic_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "ancient_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "soul_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 133,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 6,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 52,
+        "alchemyBlocks": 3,
+        "alchemyItems": 3
+      },
+      "blocks": {
+        "demonic_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "ancient_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "soul_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "modern_industrialization": {
+      "items": {
+        "purified_platinum_sulfuric_solution_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "distillation_tower": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        },
+        "manganese_sulfuric_solution_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chromium_hydrochloric_solution_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "sugar_solution_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "distillery": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        },
+        "platinum_sulfuric_solution_bucket": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 843,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 10,
+          "tier2": 4,
+          "tier4": 0
+        },
+        "totalBlocks": 305,
+        "alchemyBlocks": 7,
+        "alchemyItems": 7
+      },
+      "blocks": {
+        "sugar_solution": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "distillation_tower": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        },
+        "purified_platinum_sulfuric_solution": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "platinum_sulfuric_solution": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "distillery": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        },
+        "chromium_hydrochloric_solution": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "manganese_sulfuric_solution": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "pneumaticcraft": {
+      "items": {
+        "thaumcraft_upgrade": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "spawner_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 264,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 3,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 117,
+        "alchemyBlocks": 1,
+        "alchemyItems": 2
+      },
+      "blocks": {
+        "spawner_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "chipped": {
+      "items": {
+        "alchemy_book": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "alchemy_bench": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 4311,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 3,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 4305,
+        "alchemyBlocks": 1,
+        "alchemyItems": 2
+      },
+      "blocks": {
+        "alchemy_bench": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "generatorgalore": {
+      "items": {
+        "potion_generator": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_generator_8x": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "culinary_to_potion_upgrade": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_generator_64x": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 53,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 7,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 39,
+        "alchemyBlocks": 3,
+        "alchemyItems": 4
+      },
+      "blocks": {
+        "potion_generator": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_generator_8x": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_generator_64x": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "twilightforest": {
+      "items": {
+        "greater_potion_flask": {
+          "tier": 2,
+          "matchedKeywords": [
+            "greater"
+          ],
+          "alchemyLevel": 200
+        },
+        "brittle_potion_flask": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 447,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 1,
+          "tier4": 0
+        },
+        "totalBlocks": 319,
+        "alchemyBlocks": 0,
+        "alchemyItems": 2
+      },
+      "blocks": {}
+    },
+    "securitycraft": {
+      "items": {
+        "reinforced_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 416,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 5,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 380,
+        "alchemyBlocks": 4,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "reinforced_lava_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "reinforced_powder_snow_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "reinforced_water_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "reinforced_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "industrialforegoing": {
+      "items": {
+        "mycelial_potion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "conveyor_extraction_upgrade": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_brewer": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "enchantment_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dissolution_chamber": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "fluid_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 141,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 11,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 79,
+        "alchemyBlocks": 5,
+        "alchemyItems": 6
+      },
+      "blocks": {
+        "enchantment_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dissolution_chamber": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "fluid_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_brewer": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mycelial_potion": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "evilcraft": {
+      "items": {
+        "blood_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "biome_extract": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        }
+      },
+      "stats": {
+        "totalItems": 124,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 0,
+          "tier2": 2,
+          "tier4": 0
+        },
+        "totalBlocks": 39,
+        "alchemyBlocks": 0,
+        "alchemyItems": 2
+      },
+      "blocks": {}
+    },
+    "theurgy": {
+      "items": {
+        "alchemical_sulfur_trumpet": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_niter": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mahogany": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_glimmering_livingwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_tea_leaves": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_quartz": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_bauxite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_earthen_matters_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "distiller": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_apricot": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cauliflower": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_wolfberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_salt_mineral": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_eggplant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_desh": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crystallized_lava": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crimson_nylium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_antimony": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_normal": {
+          "tier": 1,
+          "matchedKeywords": [
+            "normal"
+          ],
+          "alchemyLevel": 100
+        },
+        "alchemical_sulfur_podzol": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_gems_precious": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cobbled_deepslate": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mutton": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_onion": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_metals_rare": {
+          "tier": 2,
+          "matchedKeywords": [
+            "rare"
+          ],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_gravel": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_string": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_allthemodium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_other_minerals_rare": {
+          "tier": 2,
+          "matchedKeywords": [
+            "rare"
+          ],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_skyroot": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crystallized": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cranberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_prismarine_shard": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cinnabar": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_clay_ball": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dirt": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_transwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_slime_ball": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_redwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_heart_of_the_sea": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ashen": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_artichoke": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_raspberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_netherite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_tungsten": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_beetroot": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_netherrack": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_peach": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_granite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_turnip": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_tin": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_animals_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dragonfruit": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_grapefruit": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_animals_rare": {
+          "tier": 2,
+          "matchedKeywords": [
+            "rare"
+          ],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_elderberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_pecan": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_amethyst": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_magic": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_shulker_shell": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_corn": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "mercury_catalyst": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_coconut": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_tropical_fish": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crimson_stem": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_white_wool": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_coals": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_muddy_mangrove_roots": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_unobtainium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_archwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dusk": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lapis": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_glow_ink_sac": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_animals_common": {
+          "tier": 0,
+          "matchedKeywords": [
+            "common"
+          ],
+          "alchemyLevel": 0
+        },
+        "alchemical_sulfur_snowball": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_armadillo_scute": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_glowstone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cashew": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mossy": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_aurum": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_sortingwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_vibranium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lettuce": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_bellpepper": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_magma_cream": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_echo": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_livingwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_glacian": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dark": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_barley": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_calorite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_soul_soil": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dragon_egg": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_red_sandstone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_currant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_deepslate": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mustard": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_hellbark": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_aluminum": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lemon": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_pineapple": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rabbit_foot": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_silver": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_metals_precious": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_gems_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_persimmon": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_diorite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_salmon": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_radish": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_uraninite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_grongle": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rowan": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rubberwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_iron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_basalt": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_illwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mud": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crimson_iron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_obsidian": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_mobs_precious": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_frostbright": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_walnut": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_other_minerals_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_metals_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cherry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_egg": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_tomato": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_asparagus": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_otherworld": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_platinum": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_spider_eye": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rabbit": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_stone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_apple": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_vanilla": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crops_fig": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_potato": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_turmeric": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lignite_coal": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_logs_fig": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_date": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_infested": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_blackberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_olive": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_willow": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ghast_tear": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_bluebright": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_iridium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mandarin": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_sulfur": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_titanium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_phantom_membrane": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rabbit_hide": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_terracotta": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_infested_stone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_salt_creature": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ice": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_iesnium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_avocado": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_garlic": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_feather": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_azure_silver": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_warped_stem": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_flax": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_sandstone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_strawberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_copper": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_beef": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_nutmeg": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_peanut": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_palm": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_greenonion": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_darkwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_crops_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mango": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_purpur_block": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_prismarine": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_chimerite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_colorless": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_demonite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_other_minerals_precious": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_peridot": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_fluorite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_hops": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_skeleton_skull": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lime": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rutabaga": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_nether_wart": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_mobs_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_zucchini": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lead": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_comet": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_tomatillo": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_turtle_scute": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_elytra": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_pufferfish": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_jacaranda": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_squash": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_gunpowder": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_spinach": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_blackstone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_sapphire": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_blaze_rod": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_orange": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_diamond": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_osmium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rooted_dirt": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rotten_flesh": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ginger": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_netherwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ruby": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_bone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dead": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_dreamwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_porkchop": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_warped_nylium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_kale": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_timewood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_twilight_oak": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cabbage": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_magma_block": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_red": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cocoa_beans": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crystallized_water": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "liquefaction_cauldron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_chicken": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_minewood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ender_pearl": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cucumber": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_fir": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_banana": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_lunar": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_andesite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_earthen_matters_common": {
+          "tier": 0,
+          "matchedKeywords": [
+            "common"
+          ],
+          "alchemyLevel": 0
+        },
+        "alchemical_sulfur_basil": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_kumquat": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_oat": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_blueberry": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cod": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_azalea": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_salt_strata": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_arrow": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_nectarine": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_menril": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_canopy_tree": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_undead": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_plum": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_gold": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_emerald": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_certus_quartz": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_salt_plant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_greenbean": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_chile_pepper": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_leather": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_broccoli": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_sal_ammoniac": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_umbran": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_zinc": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_blackbean": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_wheat": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_saguaro": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_apatite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_moss_block": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_grass_block": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_pepper": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_golden_oak": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_starlit": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_gems_common": {
+          "tier": 0,
+          "matchedKeywords": [
+            "common"
+          ],
+          "alchemyLevel": 0
+        },
+        "alchemical_sulfur_honeydew": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_pear": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_logs_abundant": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_kiwi": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_celery": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rice": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_maple": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_carrot": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_metals_common": {
+          "tier": 0,
+          "matchedKeywords": [
+            "common"
+          ],
+          "alchemyLevel": 0
+        },
+        "alchemical_sulfur_juniper": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_other_minerals_common": {
+          "tier": 0,
+          "matchedKeywords": [
+            "common"
+          ],
+          "alchemyLevel": 0
+        },
+        "alchemical_sulfur_sweetpotato": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_grape": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ostrum": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_redstone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_mycelium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "logistics_item_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cinnamon": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_almond": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_smogstem": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_yam": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_monazite": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_fluix": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_cantaloupe": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_ink_sac": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_wither_skeleton_skull": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_nether_star": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_end_stone": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_mobs_commond": {
+          "tier": 0,
+          "matchedKeywords": [
+            "common"
+          ],
+          "alchemyLevel": 0
+        },
+        "alchemical_niter_mobs_rare": {
+          "tier": 2,
+          "matchedKeywords": [
+            "rare"
+          ],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_coarse_dirt": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_niter_gems_rare": {
+          "tier": 2,
+          "matchedKeywords": [
+            "rare"
+          ],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_crying_obsidian": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_coffee_beans": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_glimmering_dreamwood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_soybean": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "logistics_fluid_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_wigglewood": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_nickel": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_rhubarb": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_uranium": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_soul_sand": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "alchemical_sulfur_leek": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        }
+      },
+      "stats": {
+        "totalItems": 375,
+        "tierDistribution": {
+          "tier0": 6,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 309,
+          "tier4": 0
+        },
+        "totalBlocks": 25,
+        "alchemyBlocks": 5,
+        "alchemyItems": 311
+      },
+      "blocks": {
+        "liquefaction_cauldron": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "distiller": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "logistics_item_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "mercury_catalyst": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        },
+        "logistics_fluid_extractor": {
+          "tier": 2,
+          "matchedKeywords": [],
+          "alchemyLevel": 200
+        }
+      }
+    },
+    "extended_industrialization": {
+      "items": {
+        "electric_brewery": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "steel_brewery": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "steel_honey_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "electric_honey_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "distilled_water_bucket": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        }
+      },
+      "stats": {
+        "totalItems": 91,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 8,
+          "tier2": 2,
+          "tier4": 0
+        },
+        "totalBlocks": 58,
+        "alchemyBlocks": 5,
+        "alchemyItems": 5
+      },
+      "blocks": {
+        "electric_brewery": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "steel_brewery": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "distilled_water": {
+          "tier": 2,
+          "matchedKeywords": [
+            "category:distill"
+          ],
+          "alchemyLevel": 200
+        },
+        "electric_honey_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "steel_honey_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "ars_additions": {
+      "items": {
+        "enchanting_wixie_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 44,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 2,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 13,
+        "alchemyBlocks": 1,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "enchanting_wixie_cauldron": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "herbsandharvest": {
+      "items": {
+        "rosemary_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "lemongrass_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mustard_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "sage_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chive_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mint_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "peppercorn_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "parsley_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "parsley_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "sage_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "lemongrass_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "thyme_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "peppercorn_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "basil_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "oregano_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "thyme_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cilantro_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "oregano_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mustard_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cilantro_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dill_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dill_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bay_leaf_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mint_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "rosemary_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bay_leaf_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "basil_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chive_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 225,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 56,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 153,
+        "alchemyBlocks": 28,
+        "alchemyItems": 28
+      },
+      "blocks": {
+        "rosemary_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "lemongrass_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mustard_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "sage_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chive_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mint_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "peppercorn_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "parsley_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "parsley_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "sage_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "lemongrass_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "thyme_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "peppercorn_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "basil_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "oregano_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "thyme_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cilantro_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "oregano_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mustard_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cilantro_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dill_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dill_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bay_leaf_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mint_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "rosemary_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bay_leaf_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "basil_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "chive_placeable_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "eternal_starlight": {
+      "items": {
+        "twilvewyrm_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 519,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 2,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 372,
+        "alchemyBlocks": 1,
+        "alchemyItems": 1
+      },
+      "blocks": {
+        "twilvewyrm_herb": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "xycraft_machines": {
+      "items": {
+        "hover_pylon": {
+          "tier": 3,
+          "matchedKeywords": [
+            "category:pylon"
+          ],
+          "alchemyLevel": 300
+        },
+        "nitrogen_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 93,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 2,
+          "tier5": 0,
+          "tier1": 4,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 35,
+        "alchemyBlocks": 3,
+        "alchemyItems": 3
+      },
+      "blocks": {
+        "hover_pylon": {
+          "tier": 3,
+          "matchedKeywords": [
+            "category:pylon"
+          ],
+          "alchemyLevel": 300
+        },
+        "nitrogen_extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "extractor": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "merrymaking": {
+      "items": {
+        "peppermint_extract": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 209,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 1,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 121,
+        "alchemyBlocks": 0,
+        "alchemyItems": 1
+      },
+      "blocks": {}
+    },
+    "bibliocraft": {
+      "items": {
+        "oak_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_baobab_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_time_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_joshua_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "forbidden_arcanus_fungyss_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "birch_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_aspen_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_cika_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_twilight_oak_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_spirit_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "silentgear_netherwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_sorting_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_redwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "undergarden_smogstem_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_mauve_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "allthemodium_ancient_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_maple_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_blackwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_green_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "allthemodium_soul_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_mining_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "deeperdarker_echo_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_ironwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "undergarden_grongle_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "forbidden_arcanus_edelwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_palm_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_redwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_sakura_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_magnolia_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "jungle_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "warped_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_ebony_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_willow_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_cobalt_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_socotra_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_cypress_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_mahogany_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_alpha_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_pine_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_skyris_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_cypress_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_holly_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "crimson_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_mangrove_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_maple_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_brimwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_zelkova_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "ars_nouveau_archwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_dead_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dark_oak_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_white_mangrove_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_dark_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_palm_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "allthemodium_demonic_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "spruce_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_pink_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "undergarden_wigglewood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mangrove_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_canopy_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "acacia_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "occultism_otherplanks_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cherry_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_yellow_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "deeperdarker_bloom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_witch_hazel_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_blue_enchanted_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_florus_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_green_enchanted_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_eucalyptus_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "forbidden_arcanus_aurum_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_larch_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_baobab_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_willow_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_rainbow_eucalyptus_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_transformation_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_kapok_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_blue_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_pine_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "integrateddynamics_menril_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_fir_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bamboo_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_jacaranda_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 10019,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 164,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 4764,
+        "alchemyBlocks": 82,
+        "alchemyItems": 82
+      },
+      "blocks": {
+        "oak_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_baobab_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_time_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_joshua_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "forbidden_arcanus_fungyss_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "birch_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_aspen_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_cika_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_twilight_oak_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_spirit_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "silentgear_netherwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_sorting_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_redwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "undergarden_smogstem_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_mauve_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "allthemodium_ancient_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_maple_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_blackwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_green_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "allthemodium_soul_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_mining_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "deeperdarker_echo_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_ironwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "undergarden_grongle_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "forbidden_arcanus_edelwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_palm_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_redwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_sakura_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_magnolia_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "jungle_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "warped_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_ebony_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_willow_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_cobalt_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_socotra_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_cypress_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_mahogany_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_alpha_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_pine_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_skyris_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_cypress_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_holly_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "crimson_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_mangrove_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_maple_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_brimwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_zelkova_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "ars_nouveau_archwood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_dead_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "dark_oak_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_white_mangrove_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_dark_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_palm_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "allthemodium_demonic_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "spruce_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_pink_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "undergarden_wigglewood_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "mangrove_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_canopy_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "acacia_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "occultism_otherplanks_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "cherry_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_yellow_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "deeperdarker_bloom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_witch_hazel_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_blue_enchanted_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_florus_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_green_enchanted_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_eucalyptus_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "forbidden_arcanus_aurum_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_larch_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_baobab_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_willow_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_rainbow_eucalyptus_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "twilightforest_transformation_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_kapok_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_blue_bioshroom_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "regions_unexplored_pine_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "integrateddynamics_menril_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_fir_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "bamboo_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "biomeswevegone_jacaranda_potion_shelf": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      }
+    },
+    "pamhc2foodextended": {
+      "items": {
+        "herbbutterparsnipsitem": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "herbcheeseballitem": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "tomatoherbchickenitem": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 871,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 3,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 0,
+        "alchemyBlocks": 0,
+        "alchemyItems": 3
+      },
+      "blocks": {}
+    },
+    "justdirethings": {
+      "items": {
+        "polymorphic_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "potion_canister": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "portal_fluid_catalyst": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        },
+        "upgrade_potionarrow": {
+          "tier": 1,
+          "matchedKeywords": [],
+          "alchemyLevel": 100
+        }
+      },
+      "stats": {
+        "totalItems": 186,
+        "tierDistribution": {
+          "tier0": 0,
+          "tier3": 0,
+          "tier5": 0,
+          "tier1": 4,
+          "tier2": 0,
+          "tier4": 0
+        },
+        "totalBlocks": 68,
+        "alchemyBlocks": 0,
+        "alchemyItems": 4
+      },
+      "blocks": {}
+    }
+  },
+  "generated": "2025-03-08 10:05:21",
+  "stats": {
+    "alchemyBlocksFound": 190,
+    "itemsAnalyzed": 40229,
+    "blocksAnalyzed": 26319,
+    "alchemyItemsFound": 565,
+    "modsProcessed": 43
+  }
+}

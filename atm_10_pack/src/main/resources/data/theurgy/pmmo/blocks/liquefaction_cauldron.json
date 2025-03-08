@@ -24,13 +24,18 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {}
+    "BLOCK_PLACE": {},
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
+    "PLACE": {
+      "alchemy": 200
+    },
     "BREAK": {},
-    "INTERACT": {}
+    "INTERACT": {
+      "alchemy": 200
+    }
   }
 }

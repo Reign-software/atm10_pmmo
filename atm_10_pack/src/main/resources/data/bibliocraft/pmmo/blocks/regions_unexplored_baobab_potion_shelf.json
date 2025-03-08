@@ -27,15 +27,20 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "woodcutting": 10
-    }
+    },
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
+    "PLACE": {
+      "alchemy": 100
+    },
     "BREAK": {
       "mining": 50
     },
-    "INTERACT": {}
+    "INTERACT": {
+      "alchemy": 100
+    }
   }
 }

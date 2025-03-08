@@ -49,7 +49,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "alchemy": 1400
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -65,13 +67,20 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {},
+    "PLACE": {
+      "alchemy": 200
+    },
     "BREAK": {
-      "mining": 100
+      "mining": 100,
+      "alchemy": 200
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
-    "INTERACT": {},
-    "USE": {}
+    "INTERACT": {
+      "alchemy": 200
+    },
+    "USE": {
+      "alchemy": 200
+    }
   }
 }

@@ -50,7 +50,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 500.0
+      "technology": 500.0,
+      "alchemy": 900
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -71,18 +72,23 @@
       "technology": 360
     },
     "PLACE": {
-      "technology": 20.0
+      "technology": 20.0,
+      "alchemy": 100
     },
-    "BREAK": {},
+    "BREAK": {
+      "alchemy": 100
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "technology": 360
     },
     "INTERACT": {
-      "technology": 360
+      "technology": 360,
+      "alchemy": 100
     },
     "USE": {
-      "technology": 20.0
+      "technology": 20.0,
+      "alchemy": 100
     }
   }
 }
