@@ -610,5 +610,41 @@
 		"x": 0,
 		"y": 896,
 		"root": false
+	},
+	"wxl4u52o6hnbb66s": {
+		"definition": "vein_charge_rate",
+		"x": -64,
+		"y": -64,
+		"root": false
+	},
+	"yatwobc9najst4st": {
+		"definition": "vein_charge_rate",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"fk49bu7svw3xeq2k": {
+		"definition": "vein_charge_rate",
+		"x": -128,
+		"y": -64,
+		"root": false
+	},
+	"unchlwdg1ztrb6ib": {
+		"definition": "vein_charge_rate",
+		"x": 128,
+		"y": 192,
+		"root": false
+	},
+	"s80v006c0sk9ylvy": {
+		"definition": "vein_charge_rate",
+		"x": 192,
+		"y": 64,
+		"root": false
+	},
+	"op4886h69pxpzxou": {
+		"definition": "vein_charge_rate",
+		"x": -128,
+		"y": -128,
+		"root": false
 	}
 }
