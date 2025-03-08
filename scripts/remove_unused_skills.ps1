@@ -1,8 +1,6 @@
 # List of skills to remove
 $skillsToRemove = @(
-    "slayer", "fishing", "alchemy", "engineering", "building", 
-    "swimming", "gunslinging", "crafting", "charisma", "flying", 
-    "cooking", "sailing", "hunter", "taming"
+    "excavation"
 )
 
 # Define the root data directory

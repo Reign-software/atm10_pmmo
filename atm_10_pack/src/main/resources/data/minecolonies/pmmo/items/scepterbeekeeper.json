@@ -66,8 +66,7 @@
   "requirements": {
     "TOOL": {
       "woodcutting": 0,
-      "mining": 0,
-      "excavation": 0
+      "mining": 0
     },
     "WEAPON": {},
     "PLACE": {},

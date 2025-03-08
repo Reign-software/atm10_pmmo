@@ -24,7 +24,6 @@
   "isTagFor": [],
   "bonus": {
     "BIOME": {
-      "excavation": 1.1,
       "farming": 0.85
     }
   },

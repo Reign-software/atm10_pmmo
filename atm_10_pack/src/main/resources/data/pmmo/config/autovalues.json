@@ -6,9 +6,7 @@
     "hoe_breakable_override": {
       "farming": 10
     },
-    "shovel_breakable_override": {
-      "excavation": 10
-    },
+    "shovel_breakable_override": {},
     "entity_xp": {
       "ENTITY": {},
       "SHIELD_BLOCK": {
@@ -75,9 +73,7 @@
         "magic": 1
       }
     },
-    "shovel_override": {
-      "excavation": 1
-    },
+    "shovel_override": {},
     "sword_override": {
       "farming": 1
     }

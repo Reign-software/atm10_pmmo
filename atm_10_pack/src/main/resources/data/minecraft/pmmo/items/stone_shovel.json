@@ -1,9 +1,7 @@
 {
   "bonuses": {
     "WORN": {},
-    "HELD": {
-      "excavation": 1.05
-    }
+    "HELD": {}
   },
   "nbt_bonuses": {
     "WORN": [],
@@ -101,15 +99,11 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "excavation": 10
-    },
+    "TOOL": {},
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "excavation": 10
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {}
   }

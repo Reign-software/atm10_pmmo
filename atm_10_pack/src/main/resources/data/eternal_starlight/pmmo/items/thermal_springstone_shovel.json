@@ -69,15 +69,11 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "excavation": 34
-    },
+    "TOOL": {},
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "excavation": 34
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {}
   }

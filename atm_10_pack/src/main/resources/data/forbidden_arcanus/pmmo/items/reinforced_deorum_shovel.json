@@ -70,20 +70,16 @@
   "requirements": {
     "TOOL": {
       "magic": 250,
-      "smithing": 250,
-      "excavation": 250
+      "smithing": 250
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "excavation": 71
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {
       "magic": 250,
-      "smithing": 250,
-      "excavation": 250
+      "smithing": 250
     }
   }
 }

@@ -18,7 +18,6 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "excavation": 10,
       "mining": 10,
       "farming": 4.0
     },
@@ -26,9 +25,7 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {
-      "excavation": 10
-    },
+    "BLOCK_PLACE": {},
     "CRAFT": {}
   },
   "override": true,

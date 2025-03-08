@@ -72,7 +72,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "excavation": 300,
       "smithing": 300,
       "technology": 100.0
     },
@@ -83,12 +82,9 @@
       "mining": 400
     },
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "excavation": 300
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "excavation": 300,
       "smithing": 300,
       "technology": 100.0
     },

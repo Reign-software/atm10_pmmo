@@ -71,8 +71,7 @@
   "requirements": {
     "TOOL": {
       "mining": 10,
-      "woodcutting": 10,
-      "excavation": 10
+      "woodcutting": 10
     },
     "WEAPON": {
       "combat": 10
@@ -82,8 +81,7 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "mining": 10,
-      "woodcutting": 10,
-      "excavation": 10
+      "woodcutting": 10
     },
     "INTERACT": {},
     "USE": {}

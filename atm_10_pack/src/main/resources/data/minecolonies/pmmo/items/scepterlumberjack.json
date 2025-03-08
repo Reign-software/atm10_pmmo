@@ -64,7 +64,6 @@
   "requirements": {
     "TOOL": {
       "mining": 0,
-      "excavation": 0,
       "smithing": 50,
       "woodcutting": 50
     },

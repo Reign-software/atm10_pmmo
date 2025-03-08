@@ -73,7 +73,6 @@
     "TOOL": {
       "mining": 500,
       "woodcutting": 500,
-      "excavation": 500,
       "smithing": 50,
       "technology": 100.0
     },
@@ -87,12 +86,10 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "mining": 500,
-      "woodcutting": 500,
-      "excavation": 500
+      "woodcutting": 500
     },
     "INTERACT": {},
     "USE": {
-      "excavation": 50,
       "smithing": 50,
       "woodcutting": 50,
       "mining": 50,

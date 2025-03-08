@@ -20,7 +20,7 @@ import net.minecraft.client.gui.components.WidgetSprites;
 public class ClientGuiEvents {
     
     // Position of your button
-    private static final int BUTTON_X_POS = 75; // Adjust as needed
+    private static final int BUTTON_X_POS = 275; // Adjust as needed
     private static final int BUTTON_Y_POS = 5;   // Adjust as needed
 
     /*

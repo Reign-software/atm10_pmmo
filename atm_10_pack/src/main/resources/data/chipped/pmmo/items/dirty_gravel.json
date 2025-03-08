@@ -56,9 +56,7 @@
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "excavation": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {},
     "BLOCK_BREAK": {}
   },

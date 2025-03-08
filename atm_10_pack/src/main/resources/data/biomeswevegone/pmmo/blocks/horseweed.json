@@ -24,9 +24,7 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {
-      "excavation": 10
-    },
+    "BLOCK_PLACE": {},
     "CRAFT": {}
   },
   "override": true,

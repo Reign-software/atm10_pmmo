@@ -14,9 +14,7 @@
     "INTERACT": []
   },
   "xp_values": {
-    "BLOCK_BREAK": {
-      "excavation": 37.0
-    },
+    "BLOCK_BREAK": {},
     "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
@@ -27,9 +25,7 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {},
-    "BREAK": {
-      "excavation": 0
-    },
+    "BREAK": {},
     "INTERACT": {}
   }
 }

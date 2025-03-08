@@ -75,16 +75,6 @@
       "displayGroupName": false,
       "showInList": true
     },
-    "excavation": {
-      "maxLevel": 2147483647,
-      "icon": "minecraft:textures/item/iron_shovel.png",
-      "iconSize": 16,
-      "useTotalLevels": false,
-      "color": 15112448,
-      "noAfkPenalty": false,
-      "displayGroupName": false,
-      "showInList": true
-    },
     "farming": {
       "maxLevel": 2147483647,
       "icon": "minecraft:textures/item/wheat.png",
@@ -142,7 +132,6 @@
       "useTotalLevels": true,
       "groupFor": {
         "mining": 0.34,
-        "excavation": 0.33,
         "woodcutting": 0.33
       },
       "color": 16777215,

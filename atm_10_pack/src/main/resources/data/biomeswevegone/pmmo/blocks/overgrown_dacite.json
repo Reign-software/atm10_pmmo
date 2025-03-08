@@ -15,7 +15,6 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "excavation": 37.0,
       "farming": 4.0
     },
     "GROW": {},
@@ -29,9 +28,7 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {},
-    "BREAK": {
-      "excavation": 0
-    },
+    "BREAK": {},
     "INTERACT": {}
   }
 }

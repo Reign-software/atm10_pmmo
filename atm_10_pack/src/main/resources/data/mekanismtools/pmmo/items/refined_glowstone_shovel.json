@@ -71,19 +71,15 @@
   "requirements": {
     "TOOL": {
       "smithing": 250,
-      "excavation": 250,
       "technology": 250
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "excavation": 34
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {
       "smithing": 250,
-      "excavation": 250,
       "technology": 250
     }
   }

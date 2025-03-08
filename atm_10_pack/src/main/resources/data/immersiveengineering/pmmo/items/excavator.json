@@ -70,8 +70,7 @@
   "requirements": {
     "TOOL": {
       "technology": 120,
-      "smithing": 50,
-      "excavation": 50
+      "smithing": 50
     },
     "WEAPON": {
       "technology": 120
@@ -89,7 +88,6 @@
     },
     "USE": {
       "smithing": 50,
-      "excavation": 50,
       "technology": 200.0
     }
   }

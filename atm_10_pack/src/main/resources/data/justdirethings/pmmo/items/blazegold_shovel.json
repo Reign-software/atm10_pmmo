@@ -69,18 +69,14 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "excavation": 100,
       "smithing": 100
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "excavation": 54
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "excavation": 100,
       "smithing": 100
     }
   }
