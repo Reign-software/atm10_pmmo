@@ -44,8 +44,6 @@
       "technology": 300.0,
       "farming": 300
     },
-    "INTERACT": {
-      "technology": 200.0
-    }
+    "INTERACT": {}
   }
 }

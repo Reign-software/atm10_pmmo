@@ -38,8 +38,6 @@
     "BREAK": {
       "technology": 500.0
     },
-    "INTERACT": {
-      "technology": 400.0
-    }
+    "INTERACT": {}
   }
 }

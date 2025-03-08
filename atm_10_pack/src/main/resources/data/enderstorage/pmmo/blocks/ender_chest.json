@@ -39,8 +39,6 @@
       "mining": 10,
       "technology": 150.0
     },
-    "INTERACT": {
-      "technology": 50.0
-    }
+    "INTERACT": {}
   }
 }
