@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 64000
+      "technology": 2900.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -85,7 +85,7 @@
       "technology": 200
     },
     "USE": {
-      "technology": 200
+      "technology": 500.0
     }
   }
 }

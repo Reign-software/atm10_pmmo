@@ -5,7 +5,7 @@ $directoryPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\s
 $jsonFiles = Get-ChildItem -Path $directoryPath -Filter "*.json" -Recurse
 
 # Base configuration values
-$baseCraftExp = 100  # Base craft XP value
+$baseCraftExp = 400  # Base craft XP value
 $craftExpPerLevel = 300  # Additional craft XP per level
 $basePlaceLevel = 300
 $baseInteractLevel = 0

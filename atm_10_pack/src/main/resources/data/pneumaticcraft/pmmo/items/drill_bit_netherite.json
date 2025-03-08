@@ -54,7 +54,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 400
+      "technology": 2150.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -68,15 +68,19 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 350.0
+    },
     "WEAPON": {},
     "PLACE": {
-      "technology": 100
+      "technology": 350.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "technology": 350.0
+    }
   }
 }

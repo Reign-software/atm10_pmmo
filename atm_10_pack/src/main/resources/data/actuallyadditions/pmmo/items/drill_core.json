@@ -54,7 +54,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 4000
+      "technology": 900.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -70,13 +70,13 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "technology": 120
+      "technology": 100.0
     },
     "WEAPON": {
       "technology": 120
     },
     "PLACE": {
-      "technology": 170
+      "technology": 100.0
     },
     "BREAK": {
       "mining": 50
@@ -89,7 +89,7 @@
       "technology": 120
     },
     "USE": {
-      "technology": 120
+      "technology": 100.0
     }
   }
 }

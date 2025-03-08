@@ -30,14 +30,20 @@
       "technology": 10
     },
     "CRAFT": {
-      "technology": 10
+      "technology": 1900.0
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
-    "BREAK": {},
-    "INTERACT": {}
+    "PLACE": {
+      "technology": 300.0
+    },
+    "BREAK": {
+      "technology": 300.0
+    },
+    "INTERACT": {
+      "technology": 200.0
+    }
   }
 }

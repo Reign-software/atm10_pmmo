@@ -54,7 +54,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 5200
+      "technology": 1100.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -71,12 +71,12 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "technology": 160,
       "farming": 50,
-      "smithing": 50
+      "smithing": 50,
+      "technology": 140.0
     },
     "PLACE": {
-      "technology": 160
+      "technology": 140.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
@@ -88,9 +88,10 @@
       "technology": 160
     },
     "USE": {
-      "technology": 160,
       "farming": 50,
-      "smithing": 50
-    }
+      "smithing": 50,
+      "technology": 140.0
+    },
+    "WEAPON": {}
   }
 }

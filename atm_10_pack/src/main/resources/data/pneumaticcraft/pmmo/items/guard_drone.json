@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 6400
+      "technology": 1150.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -71,7 +71,7 @@
       "technology": 200
     },
     "PLACE": {
-      "technology": 300
+      "technology": 150.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
@@ -82,7 +82,7 @@
       "technology": 200
     },
     "USE": {
-      "technology": 200
+      "technology": 150.0
     }
   }
 }

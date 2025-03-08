@@ -26,19 +26,22 @@
     },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {}
+    "BLOCK_PLACE": {},
+    "CRAFT": {
+      "technology": 1900.0
+    }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "technology": 75
+      "technology": 300.0
     },
     "BREAK": {
-      "technology": 75
+      "technology": 300.0
     },
     "INTERACT": {
-      "technology": 75
+      "technology": 200.0
     }
   }
 }

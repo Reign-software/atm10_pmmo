@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 5200
+      "technology": 1150.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -72,7 +72,7 @@
       "technology": 160
     },
     "PLACE": {
-      "technology": 260
+      "technology": 150.0
     },
     "BREAK": {
       "mining": 50
@@ -85,7 +85,7 @@
       "technology": 160
     },
     "USE": {
-      "technology": 160
+      "technology": 150.0
     }
   }
 }

@@ -26,7 +26,7 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {},
     "CRAFT": {
-      "technology": 1000
+      "technology": 2900.0
     }
   },
   "override": true,
@@ -39,7 +39,7 @@
       "technology": 500
     },
     "INTERACT": {
-      "technology": 500
+      "technology": 400.0
     }
   }
 }

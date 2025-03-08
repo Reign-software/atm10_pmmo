@@ -53,7 +53,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "technology": 2000.0
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -66,13 +68,19 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 320.0
+    },
     "WEAPON": {},
-    "PLACE": {},
+    "PLACE": {
+      "technology": 320.0
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "technology": 320.0
+    }
   }
 }

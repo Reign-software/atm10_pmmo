@@ -53,7 +53,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "technology": 1900.0
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -70,17 +72,21 @@
   "requirements": {
     "TOOL": {
       "farming": 50,
-      "smithing": 50
+      "smithing": 50,
+      "technology": 300.0
     },
     "WEAPON": {},
-    "PLACE": {},
+    "PLACE": {
+      "technology": 300.0
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
       "farming": 50,
-      "smithing": 50
+      "smithing": 50,
+      "technology": 300.0
     }
   }
 }

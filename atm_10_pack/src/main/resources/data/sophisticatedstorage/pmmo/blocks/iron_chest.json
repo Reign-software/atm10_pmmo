@@ -26,13 +26,22 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "woodcutting": 10
+    },
+    "CRAFT": {
+      "technology": 1100.0
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
-    "BREAK": {},
-    "INTERACT": {}
+    "PLACE": {
+      "technology": 140.0
+    },
+    "BREAK": {
+      "technology": 140.0
+    },
+    "INTERACT": {
+      "technology": 40.0
+    }
   }
 }

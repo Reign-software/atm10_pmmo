@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 4000
+      "technology": 1500.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -73,7 +73,7 @@
       "technology": 120
     },
     "PLACE": {
-      "technology": 120
+      "technology": 220.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
@@ -86,9 +86,9 @@
       "technology": 120
     },
     "USE": {
-      "technology": 120,
       "endurance": 150,
-      "smithing": 150
+      "smithing": 150,
+      "technology": 220.0
     }
   }
 }

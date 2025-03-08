@@ -53,7 +53,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "technology": 650.0
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -69,10 +71,13 @@
     "TOOL": {
       "magic": 50,
       "smithing": 50,
-      "woodcutting": 50
+      "woodcutting": 50,
+      "technology": 50.0
     },
     "WEAPON": {},
-    "PLACE": {},
+    "PLACE": {
+      "technology": 50.0
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
@@ -80,7 +85,8 @@
     "USE": {
       "magic": 50,
       "smithing": 50,
-      "woodcutting": 50
+      "woodcutting": 50,
+      "technology": 50.0
     }
   }
 }

@@ -26,13 +26,20 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
       "farming": 10
+    },
+    "CRAFT": {
+      "technology": 650.0
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
-    "BREAK": {},
+    "PLACE": {
+      "technology": 50.0
+    },
+    "BREAK": {
+      "technology": 50.0
+    },
     "INTERACT": {}
   }
 }

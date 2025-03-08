@@ -54,7 +54,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 400
+      "technology": 1400.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -68,14 +68,16 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 200.0
+    },
     "WEAPON": {
       "combat": 50,
       "smithing": 50,
       "technology": 50
     },
     "PLACE": {
-      "technology": 50
+      "technology": 200.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
@@ -84,7 +86,7 @@
     "USE": {
       "combat": 50,
       "smithing": 50,
-      "technology": 50
+      "technology": 200.0
     }
   }
 }

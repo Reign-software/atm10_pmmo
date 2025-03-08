@@ -53,7 +53,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "technology": 2600.0
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
@@ -72,13 +74,15 @@
       "mining": 225,
       "woodcutting": 225,
       "excavation": 225,
-      "technology": 200,
-      "smithing": 200
+      "smithing": 200,
+      "technology": 440.0
     },
     "WEAPON": {
       "combat": 225
     },
-    "PLACE": {},
+    "PLACE": {
+      "technology": 440.0
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
@@ -88,11 +92,11 @@
     },
     "INTERACT": {},
     "USE": {
-      "technology": 200,
       "excavation": 200,
       "smithing": 200,
       "woodcutting": 200,
-      "mining": 200
+      "mining": 200,
+      "technology": 440.0
     }
   }
 }

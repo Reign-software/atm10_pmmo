@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 400
+      "technology": 2300.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -65,10 +65,12 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 380.0
+    },
     "WEAPON": {},
     "PLACE": {
-      "technology": 150
+      "technology": 380.0
     },
     "BREAK": {
       "mining": 200
@@ -76,6 +78,8 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "technology": 380.0
+    }
   }
 }

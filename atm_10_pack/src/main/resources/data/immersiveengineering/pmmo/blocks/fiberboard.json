@@ -21,17 +21,24 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {}
+    "BLOCK_PLACE": {},
+    "CRAFT": {
+      "technology": 1400.0
+    }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "woodcutting": 0
+      "woodcutting": 0,
+      "technology": 200.0
     },
     "BREAK": {
-      "woodcutting": 0
+      "woodcutting": 0,
+      "technology": 200.0
     },
-    "INTERACT": {}
+    "INTERACT": {
+      "technology": 100.0
+    }
   }
 }

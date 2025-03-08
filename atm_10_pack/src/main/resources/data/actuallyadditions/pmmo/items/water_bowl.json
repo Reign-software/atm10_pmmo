@@ -52,8 +52,8 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 400,
-      "archery": 500
+      "archery": 500,
+      "technology": 900.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -70,10 +70,11 @@
     "TOOL": {},
     "WEAPON": {
       "smithing": 50,
-      "archery": 50
+      "archery": 50,
+      "technology": 100.0
     },
     "PLACE": {
-      "technology": 50
+      "technology": 100.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
@@ -81,7 +82,8 @@
     "INTERACT": {},
     "USE": {
       "smithing": 50,
-      "archery": 50
+      "archery": 50,
+      "technology": 100.0
     }
   }
 }

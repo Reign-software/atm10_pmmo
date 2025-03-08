@@ -1,0 +1,1168 @@
+{
+  "mid-tech": {
+    "ironjetpacks": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 100
+    },
+    "charginggadgets": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "rangedpumps": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "moderndynamics": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "actuallyadditions": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "laserio": {
+      "hasPmmoFiles": true,
+      "techMax": 150,
+      "techMin": 100
+    },
+    "sophisticatedstorageinmotion": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "mob_grinding_utils": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "hyperbox": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "generatorgalore": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "mininggadgets": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "elevatorid": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "storagedelight": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "morered": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "allthemodium": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "dimstorage": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "functionalstorage": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "sophisticatedstorage": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "ironfurnaces": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "pocketstorage": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "railcraft": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "sophisticatedcore": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    },
+    "waystones": {
+      "hasPmmoFiles": true,
+      "techMax": 300,
+      "techMin": 100
+    }
+  },
+  "none": {
+    "comforts": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "fireproofboats": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "wstweaks": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "occultism": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "trophymanager": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "justdirethings": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "modular_machinery_reborn": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "pamhc2trees": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "arseng": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "additional_lights": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "everythingcopper": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mysticalagriculture": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "regions_unexplored": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwfences": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "kubejs": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "cloudglass": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "easy_villagers": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "undergarden": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "zerocore": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "farmingforblockheads": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "allthewizardgear": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwlights": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "toomanyglyphs": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "entangled": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "moonlight": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "trashcans": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "crystalix": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "bhc": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "merrymaking": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "arsomega": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mahoutsukai": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "restrictions": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "measurements": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "allthetweaks": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "aquaculture": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "constructionstick": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "variantsandventures": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "framedblocks": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwholidays": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "artifacts": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "allthecompressed": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "herbsandharvest": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "potionsmaster": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "twilightforest": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "ars_elemental": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "deeperdarker": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mysticalagradditions": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "livingthings": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "treetap": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "ars_nouveau": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwbridges": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "guideme": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mifa": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "pylons": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "luminax": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "shrink": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "irons_jewelry": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "apothic_enchanting": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "cataclysm": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "glassential": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwroofs": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "forbidden_arcanus": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "lootr": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "structurize": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "creeperoverhaul": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "minecolonies": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "amendments": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "xtonesreworked": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "patchouli": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "explorerscompass": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "relics": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "disenchanting_table": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "connectedglass": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "ars_additions": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "dyenamics": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "solcarrot": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "irons_spellbooks": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwpaths": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "utilitarian": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "theurgy": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "tombstone": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "pmmo": {
+      "hasPmmoFiles": false,
+      "techMax": 0,
+      "techMin": 0
+    },"silentgear": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "torchmaster": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "the_bumblezone": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "apotheosis": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "ars_scalaes": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "akashictome": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwstairs": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "rootsclassic": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwtrpdoors": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "gmut": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "domum_ornamentum": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwwindows": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "pamhc2crops": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "dummmmmmy": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "rarcompat": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "allthearcanistgear": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "alltheores": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "eternal_starlight": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "modonomicon": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "not_enough_glyphs": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "biomeswevegone": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "tiab": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "modular_machinery_reborn_ars": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "mcwdoors": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "reliquary": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "dungeons_arise": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "atm10_pmmo": {
+      "hasPmmoFiles": false,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "apothic_spawners": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "nullscape": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "apothic_attributes": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "gateways": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    }
+  },
+  "low-mid-tech": {
+    "multipiston": {
+      "hasPmmoFiles": true,
+      "techMax": 50,
+      "techMin": 50
+    },
+    "handcrafted": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "itemcollectors": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "chisel": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "pamhc2foodextended": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "pamhc2foodcore": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "crafting_on_a_stick": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "sophisticatedbackpacks": {
+      "hasPmmoFiles": true,
+      "techMax": 175,
+      "techMin": 75
+    },
+    "sushigocrafting": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "cookingforblockheads": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "chipped": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "buildinggadgets2": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "toolbelt": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "refurbished_furniture": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "evilcraft": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "mcwfurnitures": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "rechiseled": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "supplementaries": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "integratedcrafting": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "integratedterminals": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "integratedtunnels": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "integratedscripting": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "integrateddynamics": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "farmersdelight": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "bibliocraft": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    },
+    "securitycraft": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 50
+    }
+  },
+  "stats": {
+    "categoryCounts": {
+      "mid-tech": 12,
+      "none": 7,
+      "low-mid-tech": 20,
+      "low-tech": 4,
+      "unknown": 140,
+      "high-tech": 29,
+      "mid-high-tech": 15
+    },
+    "generatedOn": "2025-03-08 06:36:08",
+    "totalModsAnalyzed": 227,
+    "modsWithTech": 80,
+    "modsUnknown": 140
+  },
+  "low-tech": {
+    "sawmill": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "stevescarts": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "simplylight": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "naturescompass": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "cobblegengalore": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "redstonepen": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "simplemagnets": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "naturesaura": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    },
+    "minecraft": {
+      "hasPmmoFiles": true,
+      "techMax": 100,
+      "techMin": 0
+    }
+  },
+  "high-tech": {
+    "sfm": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 200
+    },
+    "modularrouters": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 200
+    },
+    "aeinfinitybooster": {
+      "hasPmmoFiles": true,
+      "techMax": 350,
+      "techMin": 350
+    },
+    "merequester": {
+      "hasPmmoFiles": true,
+      "techMax": 200,
+      "techMin": 200
+    },
+    "megacells": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 300
+    },
+    "mininggadgets": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 200
+    },
+    "appmek": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "laserbridges": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "quarryplus": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "hostilenetworks": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "wirelesschargers": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "rftoolsbase": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "mekanism": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ftbfiltersystem": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ae2netanalyser": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "extendedae": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ftblibrary": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "computercraft": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "rftoolsbuilder": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "mekanismgenerators": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "powah": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ae2": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 300
+    },
+    "modular_machinery_reborn_mekanism": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "xycraft_core": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "immersiveengineering": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "immeng": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ae2wtlib": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "bigreactors": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "appflux": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ftbquests": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "xycraft_world": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "xycraft_override": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "modern_industrialization": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "industrialforegoingsouls": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "rftoolspower": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "industrialforegoing": {
+      "hasPmmoFiles": true,
+      "techMax": 450,
+      "techMin": 20
+    },
+    "xycraft_machines": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "fluxnetworks": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "mekanismtools": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "extended_industrialization": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "mekanismcovers": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    },
+    "ae2importexportcard": {
+      "hasPmmoFiles": true,
+      "techMax": 500,
+      "techMin": 200
+    }
+  },
+  "mid-high-tech": {
+    "productivelib": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "mffs": {
+      "hasPmmoFiles": true,
+      "techMax": 0,
+      "techMin": 0
+    },
+    "pneumaticcraft": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "compactmachines": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "factory_blocks": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "productivemetalworks": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "productivebees": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "enderstorage": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "xnet": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "terrablender": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "endermanoverhaul": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "enderio": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "productivetrees": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "pipez": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    },
+    "advanced_ae": {
+      "hasPmmoFiles": true,
+      "techMax": 400,
+      "techMin": 150
+    }
+  }
+}
