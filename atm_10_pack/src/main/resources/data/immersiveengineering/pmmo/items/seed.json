@@ -74,7 +74,6 @@
     },
     "WEAPON": {},
     "PLACE": {
-      "technology": 50,
       "farming": 200
     },
     "BREAK": {
