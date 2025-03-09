@@ -17,7 +17,7 @@
     "BLOCK_BREAK": {
       "woodcutting": 10,
       "mining": 10,
-      "farming": 4.0
+      "farming": 40.0
     },
     "GROW": {
       "farming": 20

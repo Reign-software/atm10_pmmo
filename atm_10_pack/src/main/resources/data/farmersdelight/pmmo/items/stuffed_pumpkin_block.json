@@ -50,7 +50,6 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 800.0,
       "farming": 20
     },
     "ACTIVATE_ITEM": {},
@@ -70,15 +69,11 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "technology": 80.0
-    },
+    "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "technology": 80.0
-    }
+    "USE": {}
   }
 }

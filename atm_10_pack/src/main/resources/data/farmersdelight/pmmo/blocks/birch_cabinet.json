@@ -27,19 +27,13 @@
     "BLOCK_PLACE": {
       "woodcutting": 10
     },
-    "CRAFT": {
-      "technology": 650.0
-    }
+    "CRAFT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {
-      "technology": 50.0
-    },
-    "BREAK": {
-      "technology": 50.0
-    },
+    "PLACE": {},
+    "BREAK": {},
     "INTERACT": {}
   }
 }

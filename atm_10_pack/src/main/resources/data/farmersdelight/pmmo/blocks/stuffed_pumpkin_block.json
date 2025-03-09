@@ -20,7 +20,7 @@
     "BLOCK_BREAK": {
       "woodcutting": 10,
       "mining": 10,
-      "farming": 4.0
+      "farming": 40.0
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -30,19 +30,14 @@
       "woodcutting": 10
     },
     "CRAFT": {
-      "technology": 800.0,
       "farming": 20
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {
-      "technology": 80.0
-    },
-    "BREAK": {
-      "technology": 80.0
-    },
+    "PLACE": {},
+    "BREAK": {},
     "INTERACT": {}
   }
 }
