@@ -47,12 +47,6 @@
 		"y": 147.8016689125442,
 		"root": false
 	},
-	"mlak8sp4bharn7za": {
-		"definition": "jump_strength",
-		"x": 0,
-		"y": 221.70250336881628,
-		"root": false
-	},
 	"jr7dwkvhey70zn37": {
 		"definition": "jump_strength",
 		"x": 0,
@@ -477,6 +471,12 @@
 		"definition": "shadow_movement",
 		"x": 443.40500673763256,
 		"y": 192,
+		"root": false
+	},
+	"rrwcm58dh1iwvz7y": {
+		"definition": "safe_fall_distance",
+		"x": 0,
+		"y": 224,
 		"root": false
 	}
 }
