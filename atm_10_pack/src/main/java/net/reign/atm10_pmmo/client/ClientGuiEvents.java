@@ -14,6 +14,7 @@ import net.puffish.skillsmod.client.SkillsClientMod;
 import net.reign.atm10_pmmo.RPGMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.gui.components.ImageButton;
+import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.components.WidgetSprites;
 
 
@@ -51,6 +52,7 @@ public class ClientGuiEvents {
              })
              .pos(inv.getGuiLeft() + 150, inv.height / 2 - 22)
              .size(BUTTON_WIDTH, BUTTON_HEIGHT)
+             .tooltip(Tooltip.create(Component.translatable("atm10_pmmo.skills_button.tooltip")))
              .build();
 
             event.addListener(button);
