@@ -10,21 +10,6 @@
       "displayGroupName": false,
       "showInList": true
     },
-    "fightgroup": {
-      "maxLevel": 2147483647,
-      "icon": "pmmo:textures/skills/missing_icon.png",
-      "iconSize": 18,
-      "useTotalLevels": false,
-      "groupFor": {
-        "archery": 0.2,
-        "combat": 0.5,
-        "endurance": 0.3
-      },
-      "color": 16777215,
-      "noAfkPenalty": false,
-      "displayGroupName": false,
-      "showInList": true
-    },
     "combat": {
       "maxLevel": 2147483647,
       "icon": "minecraft:textures/mob_effect/strength.png",
@@ -121,20 +106,6 @@
       "iconSize": 16,
       "useTotalLevels": false,
       "color": 2303436,
-      "noAfkPenalty": false,
-      "displayGroupName": false,
-      "showInList": true
-    },
-    "gathering": {
-      "maxLevel": 2147483647,
-      "icon": "minecraft:textures/item/stone.png",
-      "iconSize": 18,
-      "useTotalLevels": true,
-      "groupFor": {
-        "mining": 0.34,
-        "woodcutting": 0.33
-      },
-      "color": 16777215,
       "noAfkPenalty": false,
       "displayGroupName": false,
       "showInList": true
