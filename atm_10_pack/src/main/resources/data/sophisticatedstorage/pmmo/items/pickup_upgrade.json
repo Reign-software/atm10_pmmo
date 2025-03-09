@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 900.0
+      "technology": 50
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -65,9 +65,9 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "technology": 80,
       "mining": 50,
-      "smithing": 50
+      "smithing": 50,
+      "technology": 0
     },
     "WEAPON": {
       "technology": 80
@@ -80,13 +80,11 @@
     "WEAR": {
       "technology": 80
     },
-    "INTERACT": {
-      "technology": 80
-    },
+    "INTERACT": {},
     "USE": {
       "mining": 50,
       "smithing": 50,
-      "technology": 100.0
+      "technology": 0
     }
   }
 }

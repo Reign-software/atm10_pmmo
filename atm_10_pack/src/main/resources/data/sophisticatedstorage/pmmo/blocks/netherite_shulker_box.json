@@ -18,25 +18,28 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "mining": 1
+      "mining": 1,
+      "technology": 47.5
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {},
+    "BLOCK_PLACE": {
+      "technology": 47.5
+    },
     "CRAFT": {
-      "technology": 1700.0
+      "technology": 1850
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "technology": 260.0
+      "technology": 150
     },
     "BREAK": {
-      "technology": 260.0
+      "technology": 150
     },
     "INTERACT": {}
   }

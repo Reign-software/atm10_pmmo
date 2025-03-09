@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 1300.0
+      "technology": 650
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -67,7 +67,7 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "technology": 80
+      "technology": 50
     },
     "WEAPON": {
       "technology": 80
@@ -80,11 +80,9 @@
     "WEAR": {
       "technology": 80
     },
-    "INTERACT": {
-      "technology": 80
-    },
+    "INTERACT": {},
     "USE": {
-      "technology": 180.0
+      "technology": 50
     }
   }
 }
