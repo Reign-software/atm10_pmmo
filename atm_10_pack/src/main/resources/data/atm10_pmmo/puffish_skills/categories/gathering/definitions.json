@@ -675,7 +675,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "pmmo:vein_charge_rate",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
