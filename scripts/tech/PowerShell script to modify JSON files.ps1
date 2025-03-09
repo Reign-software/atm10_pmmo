@@ -305,6 +305,22 @@ foreach ($file in $jsonFiles) {
                 }
             }
         }
+
+        # Check if xp_values exists
+        if (-not $jsonContent.PSObject.Properties["xp_values"]) {
+            $jsonContent | Add-Member -NotePropertyName "xp_values" -NotePropertyValue @{} -Force
+            $modified = $true
+        }
+
+        # Check if xp_values.CRAFT exists
+        if (-not $jsonContent.xp_values.PSObject.Properties["CRAFT"]) {
+            $jsonContent.xp_values | Add-Member -NotePropertyName "CRAFT" -NotePropertyValue @{} -Force
+            $modified = $true
+        }
+
+        # Update technology XP for crafting - this is the key fix
+        $jsonContent.xp_values.CRAFT = @{ "technology" = $craftExp }
+        $modified = $true
         
         # Save changes if any modifications were made
         if ($modified) {

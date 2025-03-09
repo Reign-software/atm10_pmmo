@@ -27,7 +27,9 @@
     },
     "ACTIVATE_BLOCK": {},
     "BREAK_SPEED": {},
-    "CRAFT": {}
+    "CRAFT": {
+      "technology": 450.0
+    }
   },
   "override": true,
   "isTagFor": [],
@@ -38,7 +40,9 @@
     "BREAK": {},
     "INTERACT": {},
     "USE": {},
-    "TOOL": {},
+    "TOOL": {
+      "technology": 40
+    },
     "WEAPON": {},
     "WEAR": {}
   }

@@ -25,7 +25,9 @@
     },
     "ACTIVATE_BLOCK": {},
     "BREAK_SPEED": {},
-    "CRAFT": {}
+    "CRAFT": {
+      "technology": 1300.0
+    }
   },
   "override": true,
   "isTagFor": [],
