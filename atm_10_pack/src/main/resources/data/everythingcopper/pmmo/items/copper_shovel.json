@@ -53,7 +53,9 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "smithing": 100
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
