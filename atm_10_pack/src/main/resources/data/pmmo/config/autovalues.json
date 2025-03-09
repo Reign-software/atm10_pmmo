@@ -16,13 +16,19 @@
       "DEATH": {
         "endurance": 50
       },
-      "BREED": {}
+      "BREED": {
+        "farming": 20
+      }
     },
     "rarities_multiplier": 10.0,
     "item_xp": {
       "BLOCK_PLACE": {},
-      "FISH": {},
-      "CONSUME": {},
+      "FISH": {
+        "farming": 10
+      },
+      "CONSUME": {
+        "endurance": 10
+      },
       "CRAFT": {},
       "ENCHANT": {
         "enchanting": 50
