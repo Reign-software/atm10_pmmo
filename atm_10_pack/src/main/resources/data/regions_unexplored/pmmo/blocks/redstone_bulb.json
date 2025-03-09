@@ -31,7 +31,10 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {},
-    "BREAK": {},
+    "BREAK": {
+      "mining": 20,
+      "farming": 20
+    },
     "INTERACT": {}
   }
 }

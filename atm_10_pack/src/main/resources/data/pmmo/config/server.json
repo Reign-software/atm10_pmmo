@@ -109,9 +109,9 @@
     "brewing_tracked": true
   },
   "levels": {
-    "xp_min": 200,
-    "xp_base": 1.025,
-    "per_level": 1.2,
+    "xp_min": 300,
+    "xp_base": 1.075,
+    "per_level": 0.4,
     "global_modifier": 1.0,
     "skill_modifiers": {
     },
