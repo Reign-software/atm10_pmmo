@@ -21,8 +21,12 @@
       "mining": 1,
       "farming": 40.0
     },
-    "GROW": {},
-    "ACTIVATE_BLOCK": {},
+    "GROW": {
+      "farming": 200
+    },
+    "ACTIVATE_BLOCK": {
+      "farming": 40.0
+    },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {},

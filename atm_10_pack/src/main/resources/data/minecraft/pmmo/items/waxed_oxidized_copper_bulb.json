@@ -68,7 +68,7 @@
   "requirements": {
     "TOOL": {
       "smithing": 50,
-      "woodcutting": 50
+      "farming": 50
     },
     "WEAPON": {},
     "PLACE": {},
@@ -78,7 +78,7 @@
     "INTERACT": {},
     "USE": {
       "smithing": 50,
-      "woodcutting": 50
+      "farming": 50
     }
   }
 }

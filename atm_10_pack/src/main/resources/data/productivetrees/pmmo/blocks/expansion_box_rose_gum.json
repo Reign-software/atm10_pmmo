@@ -18,14 +18,14 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "woodcutting": 10
+      "farming": 40
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
-      "woodcutting": 10
+      "farming": 10
     },
     "CRAFT": {
       "technology": 1150.0

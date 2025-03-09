@@ -15,7 +15,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "woodcutting": 20.0
+      "farming": 40
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -28,7 +28,7 @@
   "requirements": {
     "PLACE": {},
     "BREAK": {
-      "woodcutting": 0
+      "farming": 0
     },
     "INTERACT": {}
   }

@@ -15,17 +15,18 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "woodcutting": 10,
-      "farming": 104.0
+      "farming": 40
     },
     "GROW": {
       "farming": 520
     },
-    "ACTIVATE_BLOCK": {},
+    "ACTIVATE_BLOCK": {
+      "farming": 40
+    },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
-      "woodcutting": 10
+      "farming": 10
     },
     "CRAFT": {}
   },
@@ -33,8 +34,7 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "woodcutting": 10,
-      "farming": 100
+      "farming": 10
     },
     "BREAK": {
       "farming": 100

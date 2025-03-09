@@ -20,8 +20,12 @@
     "BLOCK_BREAK": {
       "farming": 10
     },
-    "GROW": {},
-    "ACTIVATE_BLOCK": {},
+    "GROW": {
+      "farming": 50
+    },
+    "ACTIVATE_BLOCK": {
+      "farming": 10
+    },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {

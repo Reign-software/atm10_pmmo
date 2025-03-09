@@ -71,8 +71,8 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "woodcutting": 70,
-      "smithing": 50
+      "smithing": 50,
+      "farming": 70
     },
     "PLACE": {
       "farming": 100
@@ -82,13 +82,12 @@
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "woodcutting": 70
+      "farming": 70
     },
     "INTERACT": {},
     "USE": {
       "smithing": 50,
-      "woodcutting": 50,
-      "farming": 100
+      "farming": 50
     }
   }
 }

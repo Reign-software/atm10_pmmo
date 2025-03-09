@@ -21,7 +21,9 @@
     "GROW": {
       "farming": 2020
     },
-    "ACTIVATE_BLOCK": {},
+    "ACTIVATE_BLOCK": {
+      "farming": 404.0
+    },
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {
