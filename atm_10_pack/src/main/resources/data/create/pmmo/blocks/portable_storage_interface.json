@@ -1,0 +1,47 @@
+{
+  "vein_data": {
+    "chargeCap": 0,
+    "chargeRate": 0.0
+  },
+  "nbt_xp_values": {
+    "BLOCK_PLACE": [],
+    "HIT_BLOCK": [],
+    "GROW": [],
+    "BLOCK_BREAK": [],
+    "ACTIVATE_BLOCK": [],
+    "BREAK_SPEED": []
+  },
+  "nbt_requirements": {
+    "PLACE": [],
+    "BREAK": [],
+    "INTERACT": []
+  },
+  "xp_values": {
+    "BLOCK_PLACE": {
+      "woodcutting": 10
+    },
+    "HIT_BLOCK": {},
+    "GROW": {},
+    "BLOCK_BREAK": {
+      "woodcutting": 10
+    },
+    "ACTIVATE_BLOCK": {},
+    "BREAK_SPEED": {},
+    "CRAFT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "PLACE": {
+      "technology": 80
+    },
+    "BREAK": {},
+    "INTERACT": {
+      "technology": 80
+    },
+    "USE": {},
+    "TOOL": {},
+    "WEAPON": {},
+    "WEAR": {}
+  }
+}
