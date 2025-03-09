@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 1100.0
+      "technology": 175
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -58,23 +58,27 @@
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {},
+    "BLOCK_PLACE": {
+      "technology": 12.5
+    },
     "SMELT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 25
+    },
     "WEAPON": {},
     "PLACE": {
-      "technology": 140.0
+      "technology": 25
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "technology": 140.0
+      "technology": 25
     }
   }
 }

@@ -49,26 +49,36 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {},
+    "CRAFT": {
+      "technology": 550
+    },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {},
+    "BLOCK_PLACE": {
+      "technology": 50.0
+    },
     "SMELT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "technology": 100
+    },
     "WEAPON": {},
-    "PLACE": {},
+    "PLACE": {
+      "technology": 100
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {}
+    "USE": {
+      "technology": 100
+    }
   }
 }
