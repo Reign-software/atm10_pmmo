@@ -69,7 +69,7 @@
     "WEAPON": {},
     "PLACE": {},
     "BREAK": {
-      "mining": 50
+      "mining": 150
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
