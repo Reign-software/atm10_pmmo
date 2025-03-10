@@ -33,11 +33,11 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "technology": 300.0
+      "technology": 200.0
     },
     "BREAK": {
-      "mining": 200,
-      "technology": 300.0
+      "mining": 150,
+      "technology": 200.0
     },
     "INTERACT": {
       "technology": 200.0
