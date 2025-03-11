@@ -76,16 +76,22 @@
   "mob_scaling": {
     "use_exponential_formula": false,
     "per_level": 1.10,
-    "power_base": 1.01,
+    "power_base": 1.104088404342588,
     "ratios": {
       "minecraft:generic.movement_speed": {
         "agility": 0.0001
       },
+      "minecraft:generic.armor": {
+        "combat": 0.001
+      },
       "minecraft:generic.max_health": {
-        "combat": 0.05
+        "combat": 0.10
       },
       "minecraft:generic.attack_damage": {
         "endurance": 0.10
+      },
+      "apothic_attributes:arrow_damage": {
+        "endurance": 0.05
       }
     },
     "enabled": true,
