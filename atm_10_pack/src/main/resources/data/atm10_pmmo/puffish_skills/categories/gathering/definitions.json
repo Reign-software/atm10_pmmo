@@ -615,12 +615,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "pmmo:vein_amount",
-					"value": 2,
+					"value": 1,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Your connection to the earth deepens, allowing you to sense the hidden connections between mineral deposits. With practiced movements of your pickaxe, you can extract an additional 2 blocks when vein mining, as if the ore itself yearns to be freed by your skilled hands.",
+		"description": "Your connection to the earth deepens, allowing you to sense the hidden connections between mineral deposits. With practiced movements of your pickaxe, you can extract an additional 1 block when vein mining, as if the ore itself yearns to be freed by your skilled hands.",
 		"metadata": {
 			"icon": ""
 		}
@@ -645,12 +645,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "pmmo:vein_capacity",
-					"value": 5,
+					"value": 2,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Your legendary mining prowess allows you to trace even the most elusive ore veins through solid stone. With disciplined focus and strengthened arms, you can mine 5 additional blocks before exhaustion takes hold. The dwarven ancestors themselves would nod in respect at your ability to follow a rich seam to its conclusion.",
+		"description": "Your legendary mining prowess allows you to trace even the most elusive ore veins through solid stone. With disciplined focus and strengthened arms, you can mine 2 additional blocks before exhaustion takes hold. The dwarven ancestors themselves would nod in respect at your ability to follow a rich seam to its conclusion.",
 		"metadata": {
 			"icon": ""
 		}
@@ -675,12 +675,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "pmmo:vein_charge_rate",
-					"value": 1,
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "By striking with precisely calculated rhythm, you create harmonious vibrations that flow through your tools and into the earth. Your vein miner charges 1 additional block/seconds faster as these resonant energies build within your pickaxe. Where novices exhaust themselves with wild swings, you harness the ancient miners' secret—the earth itself lends you its strength when approached with respect.",
+		"description": "By striking with precisely calculated rhythm, you create harmonious vibrations that flow through your tools and into the earth. Your vein miner charges 0.5 additional block/second faster as these resonant energies build within your pickaxe. Where novices exhaust themselves with wild swings, you harness the ancient miners' secret—the earth itself lends you its strength when approached with respect.",
 		"metadata": {
 			"icon": ""
 		}

@@ -75,23 +75,23 @@
   },
   "mob_scaling": {
     "use_exponential_formula": false,
-    "per_level": 1.01,
+    "per_level": 1.10,
     "power_base": 1.01,
     "ratios": {
       "minecraft:generic.movement_speed": {
         "agility": 0.0001
       },
       "minecraft:generic.max_health": {
-        "combat": 0.01
+        "combat": 0.05
       },
       "minecraft:generic.attack_damage": {
-        "endurance": 0.01
+        "endurance": 0.10
       }
     },
     "enabled": true,
     "scaling_aoe": 150,
     "base_level": 0,
-    "boss_scaling": 2.0
+    "boss_scaling": 3.0
   },
   "vein_miner": {
     "default_consume": 1,
