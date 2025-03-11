@@ -516,97 +516,97 @@
 		"root": false
 	},
 	"ctxhr1rdkgrj4n4j": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": -768,
 		"y": 0,
 		"root": false
 	},
 	"16vy82ogu8gn0knh": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": -832,
 		"y": 0,
 		"root": false
 	},
 	"w67ibnj5dvg9rxbp": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 0,
 		"y": -768,
 		"root": false
 	},
 	"085obxogxtgr8mdr": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 0,
 		"y": -832,
 		"root": false
 	},
 	"x6bwta01dijj6f3g": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 768,
 		"y": 128,
 		"root": false
 	},
 	"31o7vdrrptha51vt": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 832,
 		"y": 128,
 		"root": false
 	},
 	"d8aoxrcc5d8h20ty": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 64,
 		"y": 960,
 		"root": false
 	},
 	"u3pgs7uurejz3cqm": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 64,
 		"y": 1024,
 		"root": false
 	},
 	"fs4c8jtl83wmz3c1": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": -64,
 		"y": -704,
 		"root": false
 	},
 	"pisi4ahsswqwvajl": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 64,
 		"y": -704,
 		"root": false
 	},
 	"9zlifz0a2c79j0pe": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": -704,
 		"y": -64,
 		"root": false
 	},
 	"tdxnjxkaj70tlgey": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": -704,
 		"y": 64,
 		"root": false
 	},
 	"dmqiqw0le2aj3eds": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 704,
 		"y": 192,
 		"root": false
 	},
 	"4ydtp0gqtrjh0oy7": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 704,
 		"y": 64,
 		"root": false
 	},
 	"jgq1v597au89dllx": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 128,
 		"y": 896,
 		"root": false
 	},
 	"333cd03c7dtsxqyj": {
-		"definition": "vein_amount",
+		"definition": "vein_capacity",
 		"x": 0,
 		"y": 896,
 		"root": false
