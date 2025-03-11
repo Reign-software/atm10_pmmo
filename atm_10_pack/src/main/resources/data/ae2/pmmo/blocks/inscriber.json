@@ -35,10 +35,10 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "technology": 300.0
+      "technology": 200.0
     },
     "BREAK": {
-      "technology": 300.0
+      "technology": 200.0
     },
     "INTERACT": {
       "technology": 200.0
