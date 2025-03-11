@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 2300.0
+      "technology": 800
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -76,7 +76,7 @@
       "technology": 380.0
     },
     "PLACE": {
-      "technology": 380.0
+      "technology": 200
     },
     "BREAK": {
       "mining": 200
@@ -85,11 +85,13 @@
     "WEAR": {
       "combat": 31
     },
-    "INTERACT": {},
+    "INTERACT": {
+      "technology": 200
+    },
     "USE": {
       "smithing": 150,
       "combat": 150,
-      "technology": 380.0
+      "technology": 200
     }
   }
 }

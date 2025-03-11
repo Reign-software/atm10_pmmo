@@ -24,15 +24,24 @@
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {}
+    "BLOCK_PLACE": {},
+    "CRAFT": {
+      "technology": 800
+    }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {},
-    "BREAK": {
-      "mining": 100
+    "PLACE": {
+      "technology": 200
     },
-    "INTERACT": {}
+    "BREAK": {
+      "mining": 100,
+      "technology": 200
+    },
+    "INTERACT": {
+      "technology": 200
+    },
+    "USE": {}
   }
 }

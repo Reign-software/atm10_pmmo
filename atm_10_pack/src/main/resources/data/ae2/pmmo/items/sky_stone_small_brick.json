@@ -50,7 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 400
+      "technology": 800
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -68,12 +68,16 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 150
+      "technology": 200
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
-    "INTERACT": {},
-    "USE": {}
+    "INTERACT": {
+      "technology": 200
+    },
+    "USE": {
+      "technology": 200
+    }
   }
 }

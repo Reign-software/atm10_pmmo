@@ -54,7 +54,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 2300.0
+      "technology": 800
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -77,7 +77,7 @@
       "technology": 380.0
     },
     "PLACE": {
-      "technology": 380.0
+      "technology": 200
     },
     "BREAK": {
       "mining": 200
@@ -86,11 +86,13 @@
     "WEAR": {
       "woodcutting": 32
     },
-    "INTERACT": {},
+    "INTERACT": {
+      "technology": 200
+    },
     "USE": {
       "smithing": 150,
       "woodcutting": 150,
-      "technology": 380.0
+      "technology": 200
     },
     "WEAPON": {}
   }
