@@ -430,7 +430,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:dodge_chance",
-					"value": 1,
+					"value": 0.01,
 					"operation": "addition"
 				}
 			}
