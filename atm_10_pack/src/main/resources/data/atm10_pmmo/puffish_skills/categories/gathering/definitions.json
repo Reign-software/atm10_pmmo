@@ -162,12 +162,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:experience_gained",
-                    "value": 5,
+                    "value": 0.2,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Your mind becomes a perfect vessel for knowledge, gaining 5% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
+        "description": "Your mind becomes a perfect vessel for knowledge, gaining 20% more experience from all sources. Every lesson learned, enemy defeated, and ore mined yields greater wisdom than before.",
         "metadata": {
             
         }
@@ -191,12 +191,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:experience_gained",
-                    "value": 10,
+                    "value": 0.50,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Your analytical mind carefully studies each resource as you harvest it, gaining 10% more experience from gathering activities. Each ore, log, and earthen block reveals its secrets to your discerning eye.",
+        "description": "Your analytical mind carefully studies each resource as you harvest it, gaining 50% more experience from gathering activities. Each ore, log, and earthen block reveals its secrets to your discerning eye.",
         "metadata": {
             
         }

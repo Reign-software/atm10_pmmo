@@ -82,13 +82,13 @@
         "agility": 0.0001
       },
       "minecraft:generic.armor": {
-        "combat": 0.001
+        "combat": 0.01
       },
       "minecraft:generic.max_health": {
         "combat": 0.10
       },
       "minecraft:generic.attack_damage": {
-        "endurance": 0.10
+        "endurance": 0.07
       },
       "apothic_attributes:arrow_damage": {
         "endurance": 0.05
@@ -117,7 +117,7 @@
   "levels": {
     "xp_min": 300,
     "xp_base": 1.075,
-    "per_level": 0.4,
+    "per_level": 0.3,
     "global_modifier": 1.0,
     "skill_modifiers": {
     },
@@ -130,7 +130,7 @@
   },
   "requirements": {
     "requirement_enabled": {
-      "RIDE": true,
+      "RIDE": false,
       "PLACE": true,
       "INTERACT": true,
       "ENTITY_INTERACT": true,
@@ -141,8 +141,8 @@
       "TRAVEL": true,
       "KILL": true,
       "BREAK": true,
-      "TAME": true,
-      "BREED": true,
+      "TAME": false,
+      "BREED": false,
       "USE_ENCHANTMENT": true
     }
   },

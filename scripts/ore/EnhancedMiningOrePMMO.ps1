@@ -1,5 +1,4 @@
-# Enhanced PowerShell script to modify mining ore JSON files for PMMO
-$rootPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data"
+
 
 # Define mod folders to check - expanded list based on UnknownOreSuggestions
 $modFolders = @(
@@ -57,6 +56,234 @@ $modFolders = @(
     "justdirethings",
     "cataclysm"
 )
+
+
+# Define keyword-to-tier mapping for ores with 11 tiers (0-10)
+$oreTiers = @{
+    # Tier 0 - Stone and Common Materials (Level 0, 10 XP)
+    "stone" = 0
+    "granite" = 0
+    "diorite" = 0
+    "andesite" = 0
+    "deepslate" = 0
+    "tuff" = 0
+    "gravel" = 0
+    "dirt" = 0
+    "sand" = 0
+    "sandstone" = 0
+    "netherrack" = 0
+    
+    # Tier 1 - Basic Ores (Level 50, 15 XP)
+    "coal_ore" = 1
+    "iron_ore" = 1
+    "copper_ore" = 1
+    "tin_ore" = 1
+    "clay" = 1
+    
+    # Tier 2 - Intermediate Ores (Level 100, 20 XP)
+    "gold_ore" = 2
+    "redstone_ore" = 2
+    "lead_ore" = 2
+    "zinc_ore" = 2
+    "bauxite" = 2         # Aluminum ore variant
+    "crystalized_menril" = 2         # IntegratedDynamics crystal block
+    "crystalized_chorus" = 2         # IntegratedDynamics crystal block
+    "crystal_quartz" = 2             # SecurityCraft materials
+    "reinforced_crystal_quartz" = 2  # SecurityCraft materials
+    "chiseled_crystal_quartz" = 2    # SecurityCraft materials
+    "smooth_crystal_quartz" = 2      # SecurityCraft materials
+    "fluorite_ore" = 2               # Mekanism ore
+    "deepslate_fluorite_ore" = 2     # Mekanism ore
+    "sal_ammoniac_ore" = 2           # Theurgy ore
+    "deepslate_sal_ammoniac_ore" = 2 # Theurgy ore
+    "bort_ore" = 2                   # SilentGear ore
+    "deepslate_bort_ore" = 2         # SilentGear ore
+    
+    # Tier 3 - Advanced Overworld Ores (Level 150, 30 XP)
+    "lapis_ore" = 3
+    "aluminum_ore" = 3
+    "silver_ore" = 3
+    "nickel_ore" = 3
+    "quartz_ore" = 3
+    "apatite_ore" = 3
+    "sulfur_ore" = 3
+    "niter_ore" = 3
+    "antimony_ore" = 3               # Modern Industrialization ore
+    "deepslate_antimony_ore" = 3     # Modern Industrialization ore
+    "bauxite_ore" = 3                # Modern Industrialization ore
+    "deepslate_bauxite_ore" = 3      # Modern Industrialization ore
+    "monazite_ore" = 3               # Modern Industrialization ore
+    "deepslate_monazite_ore" = 3     # Modern Industrialization ore
+    "salt_ore" = 3                   # Modern Industrialization ore
+    "deepslate_salt_ore" = 3         # Modern Industrialization ore
+    "dark_ore" = 3                   # EvilCraft ore
+    "dark_ore_deepslate" = 3         # EvilCraft ore
+    "deepslate_sulfur_ore" = 3       # Railcraft ore
+    
+    # Tier 4 - Nether Resources (Level 200, 40 XP)
+    "nether_gold_ore" = 4
+    "nether_quartz_ore" = 4
+    "glowstone" = 4
+    "cinnabar_ore" = 4
+    "bitumen" = 4
+    "certus_quartz" = 4      # Applied Energistics
+    "charged_certus" = 4     # Applied Energistics
+    "iesnium_ore" = 4                # Occultism ore
+    "iesnium_ore_natural" = 4        # Occultism ore
+    "deepslate_nickel_ore" = 4       # Multiple mods
+    "deepslate_zinc_ore" = 4         # Railcraft ore
+    
+    # Tier 5 - Precious Materials (Level 250, 60 XP)
+    "diamond_ore" = 5
+    "emerald_ore" = 5
+    "sapphire_ore" = 5
+    "ruby_ore" = 5
+    "amethyst" = 5
+    "tungsten_ore" = 5               # Modern Industrialization ore
+    "deepslate_tungsten_ore" = 5     # Modern Industrialization ore
+    "titanium_ore" = 5               # Modern Industrialization ore
+    "arcane_crystal_ore" = 5         # Forbidden Arcanus ore
+    "deepslate_arcane_crystal_ore" = 5 # Forbidden Arcanus ore
+    "uraninite_ore" = 5              # Powah ore
+    "uraninite_ore_poor" = 5         # Powah ore
+    "uraninite_ore_dense" = 5        # Powah ore variant
+    "deepslate_uraninite_ore" = 5    # Powah ore 
+    "deepslate_uraninite_ore_poor" = 5 # Powah ore
+    "deepslate_uraninite_ore_dense" = 5 # Powah ore variant
+    
+    # Tier 6 - Industrial Resources (Level 300, 80 XP)
+    "uranium_ore" = 6
+    "platinum_ore" = 6
+    "osmium_ore" = 6
+    "iridium_ore" = 6
+    "fluix" = 6             # Applied Energistics
+    "saltpeter_ore" = 6              # Railcraft ore
+    "inferium_ore" = 6               # Mystical Agriculture progression ore
+    "deepslate_inferium_ore" = 6     # Mystical Agriculture progression ore
+    "prosperity_ore" = 6             # Mystical Agriculture progression ore
+    "deepslate_prosperity_ore" = 6   # Mystical Agriculture progression ore
+    
+    # Tier 7 - Exotic Materials (Level 350, 100 XP)
+    "ancient_debris" = 7
+    "crimson_iron" = 7       # Silent Gear
+    "azure_silver" = 7       # Silent Gear
+    "cobalt_ore" = 7
+    "resource_" = 7          # Mekanism prefix
+    "nether_inferium_ore" = 7        # Mystical Agradditions nether ore
+    "nether_prosperity_ore" = 7      # Mystical Agradditions nether ore
+    "mithril_ore" = 7                # Iron's Spellbooks rare ore
+    "deepslate_mithril_ore" = 7      # Iron's Spellbooks rare ore
+    
+    # Tier 8 - End and Dimensional Resources (Level 400, 120 XP)
+    "end_stone" = 8
+    "draconium_ore" = 8
+    "allthemodium_ore" = 8
+    "allthemodium" = 8
+    "yellorite_ore" = 8
+    "anglesite_ore" = 8              # BigReactors rare ore
+    "benitoite_ore" = 8              # BigReactors rare ore
+    "end_inferium_ore" = 8           # Mystical Agradditions end ore
+    "end_prosperity_ore" = 8         # Mystical Agradditions end ore
+    "haze_ice_atalphaite_ore" = 8    # Eternal Starlight dimensional ore
+    "eternal_ice_atalphaite_ore" = 8 # Eternal Starlight dimensional ore
+    "haze_ice_saltpeter_ore" = 8     # Eternal Starlight dimensional ore
+    "eternal_ice_saltpeter_ore" = 8  # Eternal Starlight dimensional ore
+    
+    # Tier 9 - Rare Dimensional Materials (Level 450, 150 XP)
+    "vibranium_ore" = 9
+    "vibranium" = 9
+    "resonant_end_stone" = 9 # Thermal
+    "benitoite" = 9         # Extreme Reactors
+    "adamantite_ore" = 9
+    "aluminum_ore_kivi" = 9          # Xycraft World rare dimensional ore
+    "xychorium_ore_deepslate_blue" = 9 # Xycraft World rare ore
+    "xychorium_ore_deepslate_green" = 9 # Xycraft World rare ore
+    "xychorium_ore_deepslate_light" = 9 # Xycraft World rare ore
+    "xychorium_ore_deepslate_red" = 9 # Xycraft World rare ore
+    "xychorium_ore_deepslate_dark" = 9 # Xycraft World rare ore
+    "xychorium_ore_kivi_blue" = 9    # Xycraft World rare ore
+    "xychorium_ore_kivi_dark" = 9    # Xycraft World rare ore
+    "xychorium_ore_kivi_green" = 9   # Xycraft World rare ore
+    "xychorium_ore_kivi_light" = 9   # Xycraft World rare ore
+    "xychorium_ore_kivi_red" = 9     # Xycraft World rare ore
+    "soulium_ore" = 9                # Mystical Agriculture rare ore
+    
+    # Tier 10 - Mythical Materials (Level 500, 200 XP)
+    "unobtainium_ore" = 10
+    "unobtainium" = 10
+    "infinity_ore" = 10
+    "nether_star_ore" = 10
+    "awakened_draconium_ore" = 10
+    "chaotic_ore" = 10
+    "creative" = 10           # Creative tier items
+    "netherstar" = 10
+    "dragon_egg" = 10
+    "time_crystal" = 10              # Just Dire Things mythical crystals
+    "time_crystal_block" = 10        # Just Dire Things mythical crystals
+    "time_crystal_budding_block" = 10 # Just Dire Things mythical crystals
+    "time_crystal_cluster" = 10      # Just Dire Things mythical crystals
+    "celestigem_block" = 10          # Just Dire Things mythical gems
+    "raw_celestigem_ore" = 10        # Just Dire Things mythical ore
+    "raw_eclipsealloy_ore" = 10      # Just Dire Things mythical ore
+    "void_crystal" = 10              # Cataclysm mythical crystal
+    "ancient_metal_block" = 10       # Cataclysm endgame material
+    "nitro_crystal_crux" = 10        # Mystical Agradditions endgame material
+    
+    # Quality variants
+    "poor_" = -1              # Lower-quality ore variants (reduce tier by 1)
+    "normal_" = 0             # Normal quality variants (no change)
+    "dense_" = 1              # Higher density variants (increase tier by 1)
+    "rich_" = 2               # Rich ore variants (increase tier by 2)
+}
+
+# Add support for variants with these prefixes/suffixes - now they directly adjust tiers
+$prefixModifiers = @{
+    "deepslate_" = 1       # Deepslate variants are one tier higher
+    "raw_" = 0             # No change for raw variants
+    "nether_" = 1          # Higher tier for nether variants
+    "end_" = 2             # Even higher for end variants
+}
+
+$suffixModifiers = @{
+    "_cluster" = 1         # Clusters one tier higher than normal ore
+    "_deposit" = 0         # Deposits same as normal ore
+    "_shard" = -1          # Shards one tier lower than normal ore
+    "_dust" = -2           # Dusts two tiers lower than ore
+}
+
+
+# Special case handling for specific crystal blocks
+$crystalBlocks = @{
+    # Crystal growth/variants in different tiers
+    "spirited_crystal_block" = 8     # Powah
+    "niotic_crystal_block" = 7       # Powah
+    "blazing_crystal_block" = 6      # Powah
+    "nitro_crystal_block" = 9        # Powah
+    
+    # Starlight crystals from Eternal Starlight
+    "blue_starlight_crystal_cluster" = 7
+    "red_starlight_crystal_cluster" = 7
+    "blooming_blue_starlight_crystal_cluster" = 8
+    "blooming_red_starlight_crystal_cluster" = 8
+    "blue_starlight_crystal_block" = 7
+    "red_starlight_crystal_block" = 7
+    
+    # Honey crystals from The Bumblezone
+    "honey_crystal" = 5
+    "glistering_honey_crystal" = 6
+    "crystalline_flower" = 5
+}
+
+# Enhanced PowerShell script with exponential XP scaling for PMMO mining
+$rootPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data"
+
+# Configure mod folders as in your original script
+$modFolders = @(
+    # All your mod folders from the original script...
+    "minecraft", "mekanism", "thermal", "create", "immersiveengineering", "alltheores", "allthemodium"
+    # Add the rest of your mod folders here
+)
+
 # Auto-discover all mod folders (same as your original script)
 try {
     $availableMods = Get-ChildItem -Path $rootPath -Directory | Select-Object -ExpandProperty Name
@@ -141,34 +368,6 @@ for ($i = 0; $i -lt $tierLevels.Count; $i++) {
     Write-Host "Tier $i (Level $($tierLevels[$i])): $($tierXPValues[$i]) XP" -ForegroundColor Yellow
 }
 
-# Define your keyword-to-tier mapping and other parts of the script as before
-$oreTiers = @{
-    # Tier 0 - Stone and Common Materials (Level 0)
-    "stone" = 0
-    "granite" = 0
-    "diorite" = 0
-    # Add the rest of your tier definitions here just as in the original script
-}
-
-# Add your prefix/suffix modifiers as in the original script
-$prefixModifiers = @{
-    "deepslate_" = 1
-    "raw_" = 0
-    "nether_" = 1
-    "end_" = 2
-}
-
-$suffixModifiers = @{
-    "_cluster" = 1
-    "_deposit" = 0
-    "_shard" = -1
-    "_dust" = -2
-}
-
-# Special case handling as in the original script
-$crystalBlocks = @{
-    # Your crystal block definitions here
-}
 
 # Counter for tracking processed files
 $processedCount = 0

@@ -23,9 +23,7 @@ public class ClientGuiEvents {
     private static final int BUTTON_WIDTH = 20;
     private static final int BUTTON_HEIGHT = 18;
     
-    //private static final ResourceLocation SKILLS_BUTTON_TEXTURE = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button.png");
-    //private static final ResourceLocation SKILLS_BUTTON_TEXTURE_PRESSED = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button_pressed.png");
-    // private static final ResourceLocation SKILLS_BUTTON_TEXTURE_DISABLED = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button_disabled.png");
+  
 
     @OnlyIn(Dist.CLIENT)
     @SubscribeEvent
@@ -64,5 +62,18 @@ public class ClientGuiEvents {
         var client = SkillsClientMod .getInstance();
 
         client.openScreen(Optional.empty());
+    }
+
+    static class SkillsButton extends ImageButton {
+        private static final ResourceLocation SKILLS_BUTTON_TEXTURE = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button.png");
+        private static final ResourceLocation SKILLS_BUTTON_TEXTURE_PRESSED = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button_pressed.png");
+        //private static final ResourceLocation SKILLS_BUTTON_TEXTURE_DISABLED = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button_disabled.png");
+        private static final WidgetSprites SPRITES = new WidgetSprites(SKILLS_BUTTON_TEXTURE, SKILLS_BUTTON_TEXTURE_PRESSED);
+
+        public SkillsButton(int x, int y, int width, int height, OnPress onPress, Component message) {
+            super(x, y, width, height, SPRITES, (b) -> {
+                SkillsClientMod .getInstance().openScreen(Optional.empty());
+             });
+        }
     }
 }
