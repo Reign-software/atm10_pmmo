@@ -50,12 +50,15 @@
     },
     "CONSUME": {},
     "CRAFT": {
+      "alchemy": 900
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
-    "BREW": {},
+    "BREW": {
+      "alchemy": 900
+    },
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
     "SMELT": {}
@@ -66,14 +69,18 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
+      "alchemy": 100
     },
     "BREAK": {
+      "alchemy": 100
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {
+      "alchemy": 100
     },
     "USE": {
+      "alchemy": 100
     }
   }
 }

@@ -1,6 +1,6 @@
 # Script to analyze mods for alchemy-related content with improved tier assignment
-$dataPath = "d:\src\atm10_pmmo\atm_10_pack\src\main\resources\data\"
-$outputPlanPath = "d:\src\atm10_pmmo\scripts\alchemy\alchemy_progression_plan.json"
+$dataPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\"
+$outputPlanPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\scripts\alchemy\alchemy_progression_plan.json"
 
 # Create progression plan structure
 $alchemyPlan = @{
@@ -157,7 +157,7 @@ $alchemyCategoryIndicators = @{
     
     
     # Completed items (generally higher tier)
-    "potion" = @{minTier = 1; maxTier = 3}
+    "potion" = @{minTier = 0; maxTier = 3}
     "elixir" = @{minTier = 2; maxTier = 4}
     "tonic" = @{minTier = 1; maxTier = 3}
     

@@ -59,7 +59,9 @@
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
-    "BREW": {},
+    "BREW": {
+      "alchemy": 1900
+    },
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
     "SMELT": {}
@@ -72,20 +74,20 @@
     },
     "WEAPON": {},
     "PLACE": {
-      "alchemy": 300,
+      "alchemy": 40,
       "farming": 200
     },
     "BREAK": {
-      "alchemy": 300,
+      "alchemy": 40,
       "farming": 200
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {
-      "alchemy": 300
+      "farming": 200
     },
     "USE": {
-      "alchemy": 300,
+      "alchemy": 20,
       "farming": 200
     }
   }

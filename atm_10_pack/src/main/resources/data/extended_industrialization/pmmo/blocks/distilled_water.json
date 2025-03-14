@@ -30,6 +30,9 @@
       "technology": 1400.0,
       "alchemy": 1400,
       "farming": 20
+    },
+    "BREW": {
+      "alchemy": 1400
     }
   },
   "override": true,

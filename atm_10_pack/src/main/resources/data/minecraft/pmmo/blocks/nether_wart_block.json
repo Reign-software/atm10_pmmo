@@ -28,7 +28,11 @@
       "farming": 10
     },
     "CRAFT": {
-      "farming": 1020
+      "farming": 1020,
+      "alchemy": 900
+    },
+    "BREW": {
+      "alchemy": 900
     }
   },
   "override": true,

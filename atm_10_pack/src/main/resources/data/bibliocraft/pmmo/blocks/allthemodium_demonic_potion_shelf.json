@@ -28,7 +28,12 @@
     "BLOCK_PLACE": {
       "woodcutting": 10
     },
-    "CRAFT": {}
+    "CRAFT": {
+      "alchemy": 900
+    },
+    "BREW": {
+      "alchemy": 900
+    }
   },
   "override": true,
   "isTagFor": [],

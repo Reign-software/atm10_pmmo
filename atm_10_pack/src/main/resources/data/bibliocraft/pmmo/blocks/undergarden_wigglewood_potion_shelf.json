@@ -33,7 +33,11 @@
       "woodcutting": 10
     },
     "CRAFT": {
-      "farming": 20
+      "farming": 20,
+      "alchemy": 900
+    },
+    "BREW": {
+      "alchemy": 900
     }
   },
   "override": true,

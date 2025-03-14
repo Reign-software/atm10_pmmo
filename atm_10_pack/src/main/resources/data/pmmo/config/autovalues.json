@@ -38,6 +38,9 @@
       },
       "SMELT": {
         "smithing": 100
+      },
+      "BREW": {
+        "alchemy": 900
       }
     },
     "block_xp": {
@@ -75,7 +78,7 @@
         "combat": 1
       },
       "USE_ENCHANTMENT": {
-        "magic": 1
+        "magic": 10
       }
     },
     "shovel_override": {},

@@ -31,7 +31,11 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {},
     "CRAFT": {
-      "farming": 1020
+      "farming": 1020,
+      "alchemy": 1400
+    },
+    "BREW": {
+      "alchemy": 1400
     }
   },
   "override": true,

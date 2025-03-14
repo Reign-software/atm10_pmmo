@@ -1,7 +1,7 @@
 # Script to apply alchemy requirements to PMMO JSON files
-$alchemyPlanPath = "d:\src\atm10_pmmo\scripts\alchemy\alchemy_progression_plan.json"
-$dataPath = "d:\src\atm10_pmmo\atm_10_pack\src\main\resources\data\"
-$logPath = "d:\src\atm10_pmmo\scripts\alchemy\alchemy_implementation_log.txt"
+$alchemyPlanPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\scripts\alchemy\alchemy_progression_plan.json"
+$dataPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data\"
+$logPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\scripts\alchemy\alchemy_implementation_log.txt"
 
 # Load alchemy plan
 $alchemyPlan = Get-Content -Path $alchemyPlanPath -Raw | ConvertFrom-Json
@@ -101,11 +101,23 @@ foreach ($modName in $alchemyPlan.modPlans.PSObject.Properties.Name) {
                 $blockJson.xp_values | Add-Member -NotePropertyName "CRAFT" -NotePropertyValue @{} -Force
                 $modified = $true
             }
+
+            if (-not $blockJson.xp_values.PSObject.Properties["BREW"]) {
+                $blockJson.xp_values | Add-Member -NotePropertyName "BREW" -NotePropertyValue @{} -Force
+                $modified = $true
+            }
             
             # Add/update alchemy XP
             if (-not $blockJson.xp_values.CRAFT.PSObject.Properties["alchemy"] -or 
                 $blockJson.xp_values.CRAFT.alchemy -ne $alchemyXp) {
                 $blockJson.xp_values.CRAFT | Add-Member -NotePropertyName "alchemy" -NotePropertyValue $alchemyXp -Force
+                $modified = $true
+            }
+
+            # Add/update alchemy XP
+            if (-not $blockJson.xp_values.BREW.PSObject.Properties["alchemy"] -or 
+                $blockJson.xp_values.BREW.alchemy -ne $alchemyXp) {
+                $blockJson.xp_values.BREW | Add-Member -NotePropertyName "alchemy" -NotePropertyValue $alchemyXp -Force
                 $modified = $true
             }
             
@@ -187,10 +199,28 @@ foreach ($modName in $alchemyPlan.modPlans.PSObject.Properties.Name) {
             }
             
             
+           # Ensure CRAFT section exists
+           if (-not $itemJson.xp_values.PSObject.Properties["CRAFT"]) {
+                $itemJson.xp_values | Add-Member -NotePropertyName "CRAFT" -NotePropertyValue @{} -Force
+                $modified = $true
+            }
+
+            if (-not $itemJson.xp_values.PSObject.Properties["BREW"]) {
+                $itemJson.xp_values | Add-Member -NotePropertyName "BREW" -NotePropertyValue @{} -Force
+                $modified = $true
+            }
+            
             # Add/update alchemy XP
             if (-not $itemJson.xp_values.CRAFT.PSObject.Properties["alchemy"] -or 
                 $itemJson.xp_values.CRAFT.alchemy -ne $alchemyXp) {
                 $itemJson.xp_values.CRAFT | Add-Member -NotePropertyName "alchemy" -NotePropertyValue $alchemyXp -Force
+                $modified = $true
+            }
+
+            # Add/update alchemy XP
+            if (-not $itemJson.xp_values.BREW.PSObject.Properties["alchemy"] -or 
+                $itemJson.xp_values.BREW.alchemy -ne $alchemyXp) {
+                $itemJson.xp_values.BREW | Add-Member -NotePropertyName "alchemy" -NotePropertyValue $alchemyXp -Force
                 $modified = $true
             }
             

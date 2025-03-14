@@ -28,6 +28,9 @@
     "CRAFT": {
       "technology": 1150.0,
       "alchemy": 900
+    },
+    "BREW": {
+      "alchemy": 900
     }
   },
   "override": true,

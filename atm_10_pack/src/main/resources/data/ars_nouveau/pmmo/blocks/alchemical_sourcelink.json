@@ -25,7 +25,12 @@
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {},
-    "CRAFT": {}
+    "CRAFT": {
+      "alchemy": 1900
+    },
+    "BREW": {
+      "alchemy": 1900
+    }
   },
   "override": true,
   "isTagFor": [],

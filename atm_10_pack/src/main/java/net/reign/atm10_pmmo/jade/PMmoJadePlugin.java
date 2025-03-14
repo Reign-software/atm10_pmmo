@@ -74,12 +74,10 @@ public class PMmoJadePlugin implements IWailaPlugin {
                     tooltip.add(Component.empty());
                     tooltip.add(Component.translatable("pmmo.jade.requirements").withStyle(ChatFormatting.GOLD, ChatFormatting.BOLD));
                 }
+                boolean reqAdded = false;
 
                 // Display break requirements with player's current levels
                 if (!breakReqs.isEmpty() && breakhasNonZeroRequirements) {
-
-                    tooltip.add(Component.translatable("pmmo.jade.break_requirements").withStyle(ChatFormatting.YELLOW));
-                    
                     for (Map.Entry<String, Long> entry : breakReqs.entrySet()) {
                         String skillName = entry.getKey();
                         long reqLevel = entry.getValue();
@@ -89,15 +87,31 @@ public class PMmoJadePlugin implements IWailaPlugin {
                         
                         long playerLevel = APIUtils.getLevel(skillName, player);
                         var skillConfig = Config.skills().get(skillName);
+
+                        // TODO: Make configurable
+                        if (playerLevel >= reqLevel) {
+                            break;
+                        }
+
                         ChatFormatting color = playerLevel >= reqLevel ? ChatFormatting.GREEN : ChatFormatting.RED;
 
                         if (skillConfig != null && skillConfig.getIcon() != null) {
+                            if (!reqAdded) {
+                                tooltip.add(Component.translatable("pmmo.jade.break_requirements").withStyle(ChatFormatting.YELLOW));
+                                reqAdded = true;
+                            }
+
                             Component skillComponent = Component.translatable("pmmo." + skillName).withColor(skillConfig.getColor());
                             tooltip.add(Component.literal("  ")
                                             .append(skillComponent).withStyle(color)
                                             .append(Component.literal(": " + playerLevel + "/" + reqLevel).withStyle(color)));
                         }
                         else {
+                            if (!reqAdded) {
+                                tooltip.add(Component.translatable("pmmo.jade.break_requirements").withStyle(ChatFormatting.YELLOW));
+                                reqAdded = true;
+                            }
+
                             Component skillComponent = Component.translatable("pmmo." + skillName);
                             tooltip.add(Component.literal("  ")
                                             .append(skillComponent).withStyle(color)

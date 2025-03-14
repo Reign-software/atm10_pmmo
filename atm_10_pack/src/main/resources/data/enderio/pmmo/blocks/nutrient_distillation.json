@@ -28,21 +28,27 @@
     "BLOCK_PLACE": {},
     "CRAFT": {
       "technology": 1150.0,
-      "farming": 20
+      "farming": 20,
+      "alchemy": 1400
+    },
+    "BREW": {
+      "alchemy": 1400
     }
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "technology": 150.0
+      "technology": 150.0,
+      "alchemy": 200
     },
     "BREAK": {
       "mining": 62,
       "technology": 150.0
     },
     "INTERACT": {
-      "technology": 50.0
+      "technology": 50.0,
+      "alchemy": 200
     }
   }
 }

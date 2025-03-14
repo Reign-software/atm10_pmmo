@@ -50,13 +50,16 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 2000
+      "technology": 2000,
+      "alchemy": 1900
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
-    "BREW": {},
+    "BREW": {
+      "alchemy": 1900
+    },
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
     "SMELT": {}
@@ -71,18 +74,23 @@
       "technology": 200
     },
     "PLACE": {
-      "technology": 400
+      "technology": 400,
+      "alchemy": 300
     },
-    "BREAK": {},
+    "BREAK": {
+      "alchemy": 300
+    },
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "technology": 200
     },
     "INTERACT": {
-      "technology": 400
+      "technology": 400,
+      "alchemy": 300
     },
     "USE": {
-      "technology": 400
+      "technology": 400,
+      "alchemy": 300
     }
   }
 }

@@ -58,7 +58,9 @@
       "smithing": 20
     },
     "FISH": {},
-    "BREW": {},
+    "BREW": {
+      "alchemy": 1900
+    },
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
     "SMELT": {}

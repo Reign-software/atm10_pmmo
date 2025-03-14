@@ -30,7 +30,7 @@
                   "minecraft:strong_harming"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -39,7 +39,7 @@
                   "minecraft:strong_leaping"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -48,7 +48,7 @@
                   "minecraft:healing"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -57,7 +57,7 @@
                   "minecraft:strong_strength"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -66,7 +66,7 @@
                   "minecraft:fire_resistance"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -75,7 +75,7 @@
                   "minecraft:long_water_breathing"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -84,7 +84,7 @@
                   "minecraft:weakness"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -93,7 +93,7 @@
                   "minecraft:long_slowness"
                 ],
                 "value": {
-                  "magic": 4800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -102,7 +102,7 @@
                   "minecraft:long_slow_falling"
                 ],
                 "value": {
-                  "magic": 4800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -111,7 +111,7 @@
                   "minecraft:awkward"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -120,7 +120,7 @@
                   "minecraft:infested"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -129,7 +129,7 @@
                   "minecraft:long_leaping"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -138,7 +138,7 @@
                   "minecraft:wind_charged"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -147,7 +147,7 @@
                   "minecraft:strength"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -156,7 +156,7 @@
                   "minecraft:night_vision"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -165,7 +165,7 @@
                   "minecraft:mundane"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -174,7 +174,7 @@
                   "minecraft:harming"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -183,7 +183,7 @@
                   "minecraft:strong_swiftness"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -192,7 +192,7 @@
                   "minecraft:leaping"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -201,7 +201,7 @@
                   "minecraft:long_strength"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -210,7 +210,7 @@
                   "minecraft:water"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -219,7 +219,7 @@
                   "minecraft:strong_regeneration"
                 ],
                 "value": {
-                  "magic": 450.0
+                  "alchemy":450.0
                 }
               },
               {
@@ -228,7 +228,7 @@
                   "minecraft:slow_falling"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -237,7 +237,7 @@
                   "minecraft:thick"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -246,7 +246,7 @@
                   "minecraft:oozing"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -255,7 +255,7 @@
                   "minecraft:long_fire_resistance"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -264,7 +264,7 @@
                   "minecraft:regeneration"
                 ],
                 "value": {
-                  "magic": 900.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -273,7 +273,7 @@
                   "minecraft:swiftness"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -282,7 +282,7 @@
                   "minecraft:slowness"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -291,7 +291,7 @@
                   "minecraft:long_turtle_master"
                 ],
                 "value": {
-                  "magic": 800.0
+                  "alchemy":800.0
                 }
               },
               {
@@ -300,7 +300,7 @@
                   "minecraft:strong_healing"
                 ],
                 "value": {
-                  "magic": 1.0
+                  "alchemy": 100.0
                 }
               },
               {
@@ -309,7 +309,7 @@
                   "minecraft:turtle_master"
                 ],
                 "value": {
-                  "magic": 400.0
+                  "alchemy":400.0
                 }
               },
               {
@@ -318,7 +318,7 @@
                   "minecraft:water_breathing"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -327,7 +327,7 @@
                   "minecraft:luck"
                 ],
                 "value": {
-                  "magic": 6000.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -336,7 +336,7 @@
                   "minecraft:invisibility"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -345,7 +345,7 @@
                   "minecraft:strong_slowness"
                 ],
                 "value": {
-                  "magic": 400.0
+                  "alchemy":400.0
                 }
               },
               {
@@ -354,7 +354,7 @@
                   "minecraft:long_swiftness"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -363,7 +363,7 @@
                   "minecraft:long_regeneration"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -372,7 +372,7 @@
                   "minecraft:strong_turtle_master"
                 ],
                 "value": {
-                  "magic": 400.0
+                  "alchemy":400.0
                 }
               },
               {
@@ -381,7 +381,7 @@
                   "minecraft:poison"
                 ],
                 "value": {
-                  "magic": 900.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -390,7 +390,7 @@
                   "minecraft:long_poison"
                 ],
                 "value": {
-                  "magic": 1800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -399,7 +399,7 @@
                   "minecraft:long_weakness"
                 ],
                 "value": {
-                  "magic": 4800.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -408,7 +408,7 @@
                   "minecraft:long_invisibility"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -417,7 +417,7 @@
                   "minecraft:long_night_vision"
                 ],
                 "value": {
-                  "magic": 9600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -426,7 +426,7 @@
                   "minecraft:weaving"
                 ],
                 "value": {
-                  "magic": 3600.0
+                  "alchemy":900.0
                 }
               },
               {
@@ -435,7 +435,7 @@
                   "minecraft:strong_poison"
                 ],
                 "value": {
-                  "magic": 432.0
+                  "alchemy":432.0
                 }
               }
             ]
@@ -484,7 +484,9 @@
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
-    "BREW": {},
+    "BREW": {
+      "alchemy": 1400
+    },
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {},
     "SMELT": {}
