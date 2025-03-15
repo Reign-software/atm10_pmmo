@@ -12,7 +12,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:mining_speed",
-                    "value": 10,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
@@ -35,7 +35,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:mining_speed",
-                    "value": 20,
+                    "value": 0.20,
                     "operation": "addition"
                 }
             }
