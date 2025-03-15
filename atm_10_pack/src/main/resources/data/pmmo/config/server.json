@@ -88,10 +88,10 @@
         "combat": 0.10
       },
       "minecraft:generic.attack_damage": {
-        "endurance": 0.07
+        "endurance": 0.09
       },
       "apothic_attributes:arrow_damage": {
-        "endurance": 0.05
+        "endurance": 0.09
       }
     },
     "enabled": true,
@@ -101,7 +101,7 @@
   },
   "vein_miner": {
     "default_consume": 1,
-    "charge_modifier": 1.0,
+    "charge_modifier": 1.2,
     "blacklist": [
       "silentgear:saw"
     ],
