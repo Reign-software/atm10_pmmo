@@ -1,24 +1,74 @@
 package net.reign.atm10_pmmo;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.logging.Logger;
 
+import harmonised.pmmo.api.enums.EventType;
 import harmonised.pmmo.api.APIUtils;
 import harmonised.pmmo.api.events.XpEvent;
+import harmonised.pmmo.core.Core;
+import harmonised.pmmo.util.TagUtils;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.puffish.skillsmod.SkillsMod;
+
+import java.util.List;
 
 public class PufferfishLevelPlugin {
     private static ResourceLocation _source = ResourceLocation.parse("atm10_pmmo:pufferfishlevelplugin");
     // Cache for storing the max skill points for each tree
     private static final Map<ResourceLocation, Integer> MAX_POINTS_CACHE = new HashMap<>();
     private static final Logger LOGGER = Logger.getLogger("atm10_pmmo");
+
+    public static void CraftEventHandler(PlayerEvent.ItemCraftedEvent event) {
+        if (!event.getEntity().isFakePlayer())
+            return;
+    
+        Core core = Core.get(event.getEntity().level());
+        CompoundTag eventHookOutput = new CompoundTag();
+        boolean serverSide = !event.getEntity().level().isClientSide; 
+        
+        if (serverSide) {
+            eventHookOutput = core.getEventTriggerRegistry().executeEventListeners(EventType.CRAFT, event, new CompoundTag());
+            
+            // Try to get more accurate position from container if possible
+            ServerPlayer fakePlayer = (ServerPlayer) event.getEntity();
+
+            // Process perks
+            CompoundTag perkOutput = TagUtils.mergeTags(eventHookOutput, core.getPerkRegistry().executePerk(EventType.CRAFT, event.getEntity(), eventHookOutput));
+            Map<String, Long> xpAward = core.getExperienceAwards(EventType.CRAFT, event.getCrafting(), event.getEntity(), perkOutput);
+            
+            // Get all players on the server
+            List<ServerPlayer> allPlayers = getAllServerPlayers(fakePlayer);
+            
+            core.awardXP(allPlayers, xpAward);
+        }
+    }
+
+    /**
+     * Get all players currently on the server
+     * 
+     * @param player Reference player (needed for server access)
+     * @return List of all ServerPlayer objects currently online
+     */
+    public static List<ServerPlayer> getAllServerPlayers(ServerPlayer player) {
+        List<ServerPlayer> allPlayers = new ArrayList<>();
+        
+        if (player.getServer() != null) {
+            // Get all players from the server
+            allPlayers.addAll(player.getServer().getPlayerList().getPlayers());
+        }
+        
+        return allPlayers;
+    }
     
     public static void XpGainedEvent(XpEvent event) {
         if (!(event.getEntity() instanceof ServerPlayer player) || !event.isLevelUp())

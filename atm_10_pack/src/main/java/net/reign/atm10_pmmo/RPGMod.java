@@ -69,6 +69,7 @@ public class RPGMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::XpGainedEvent);
+		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::CraftEventHandler);
 		modEventBus.addListener(this::registerNetworking);
 		
 		FTBUltiminePlugin.register(new FTBUltimine());
