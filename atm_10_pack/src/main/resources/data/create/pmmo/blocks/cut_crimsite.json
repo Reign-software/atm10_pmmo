@@ -21,7 +21,7 @@
     "HIT_BLOCK": {},
     "GROW": {},
     "BLOCK_BREAK": {
-      "mining": 8
+      "mining": 30
     },
     "ACTIVATE_BLOCK": {},
     "BREAK_SPEED": {},

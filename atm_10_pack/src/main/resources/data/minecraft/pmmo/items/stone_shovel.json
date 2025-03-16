@@ -99,7 +99,9 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {},
+    "TOOL": {
+      "mining": 10
+    },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
