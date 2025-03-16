@@ -10,7 +10,7 @@
   "salvage": {},
   "vein_data": {
     "chargeCap": 18,
-    "chargeRate": 0.08
+    "chargeRate": 0.8
   },
   "nbt_xp_values": {
     "TOOL_BREAKING": [],
@@ -58,7 +58,6 @@
     "CRAFT": {
       "farming": 520,
       "smithing": 700
-    
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

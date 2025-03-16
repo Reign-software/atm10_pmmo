@@ -71,5 +71,9 @@
     "WEAR": {},
     "INTERACT": {},
     "USE": {}
+  },
+  "vein_data": {
+    "chargeCap": 25,
+    "chargeRate": 1.0
   }
 }

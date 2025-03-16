@@ -10,7 +10,7 @@
   "salvage": {},
   "vein_data": {
     "chargeCap": 20,
-    "chargeRate": 0.085
+    "chargeRate": 1.0
   },
   "nbt_xp_values": {
     "TOOL_BREAKING": [],

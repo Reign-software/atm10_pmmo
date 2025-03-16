@@ -88,10 +88,10 @@
         "combat": 0.10
       },
       "minecraft:generic.attack_damage": {
-        "endurance": 0.09
+        "endurance": 0.07
       },
       "apothic_attributes:arrow_damage": {
-        "endurance": 0.09
+        "endurance": 0.07
       }
     },
     "enabled": true,

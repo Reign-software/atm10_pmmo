@@ -82,5 +82,9 @@
       "mining": 50,
       "technology": 200.0
     }
+  },
+  "vein_data": {
+    "chargeCap": 25,
+    "chargeRate": 1.0
   }
 }

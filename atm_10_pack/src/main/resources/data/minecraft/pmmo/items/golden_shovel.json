@@ -34,8 +34,8 @@
     }
   },
   "vein_data": {
-    "chargeCap": 30,
-    "chargeRate": 0.1
+    "chargeCap": 20,
+    "chargeRate": 1.2
   },
   "nbt_xp_values": {
     "TOOL_BREAKING": [],

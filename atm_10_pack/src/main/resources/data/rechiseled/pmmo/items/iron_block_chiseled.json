@@ -76,5 +76,9 @@
     "USE": {
       "technology": 80.0
     }
+  },
+  "vein_data": {
+    "chargeCap": 20,
+    "chargeRate": 1.0
   }
 }

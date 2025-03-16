@@ -1,7 +1,7 @@
 # Script to add vein_data configuration to all gathering tools
 
 # Define root path for data
-$rootPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data"
+$rootPath = "D:\src\atm10_pmmo\atm10_pmmo\atm_10_pack\src\main\resources\data"
 
 # Define tool patterns to identify gathering tools
 $gatheringToolPatterns = @(
@@ -16,31 +16,31 @@ $gatheringToolPatterns = @(
 # Define tool tier patterns and their corresponding vein_data values
 $toolTiers = @{
     # Vanilla tiers
-    "wooden_|wood_|_wood|_wooden" = @{ chargeCap = 10; chargeRate = 0.05 }
-    "stone_|_stone" = @{ chargeCap = 15; chargeRate = 0.075 }
-    "iron_|_iron" = @{ chargeCap = 20; chargeRate = 0.085 }
-    "gold_|_gold|golden_|_golden" = @{ chargeCap = 15; chargeRate = 0.1 }
-    "diamond_|_diamond" = @{ chargeCap = 30; chargeRate = 0.1 }
-    "netherite_|_netherite" = @{ chargeCap = 40; chargeRate = 0.125 }
+    "wooden_|wood_|_wood|_wooden" = @{ chargeCap = 10; chargeRate = 0.5 }
+    "stone_|_stone" = @{ chargeCap = 15; chargeRate = 0.7 }
+    "iron_|_iron" = @{ chargeCap = 20; chargeRate = 1.0 }
+    "gold_|_gold|golden_|_golden" = @{ chargeCap = 20; chargeRate = 1.2 }
+    "diamond_|_diamond" = @{ chargeCap = 25; chargeRate = 1.5 }
+    "netherite_|_netherite" = @{ chargeCap = 30; chargeRate = 2.0 }
     
     # Common modded low tiers
     "copper_|_copper|tin_|_tin|bronze_|_bronze|silver_|_silver|aluminum_|_aluminum|lead_|_lead|nickel_|_nickel|zinc_|_zinc" = 
-        @{ chargeCap = 18; chargeRate = 0.08 }
+        @{ chargeCap = 18; chargeRate = 0.8 }
     
     # Common modded mid tiers
     "steel_|_steel|invar_|_invar|electrum_|_electrum|constantan_|_constantan|lumium_|_lumium|signalum_|_signalum|brass_|_brass" = 
-        @{ chargeCap = 25; chargeRate = 0.09 }
+        @{ chargeCap = 27; chargeRate = 1.1 }
     
     # Common modded high tiers
     "mithril_|_mithril|titanium_|_titanium|platinum_|_platinum|osmium_|_osmium|cobalt_|_cobalt|adamantite_|_adamantite|manyullyn_|_manyullyn|enderium_|_enderium|vibranium_|_vibranium" = 
-        @{ chargeCap = 35; chargeRate = 0.11 }
+        @{ chargeCap = 35; chargeRate = 2.5 }
     
     # End-game modded tiers
     "dragon_|_dragon|wyvern_|_wyvern|awakened_|_awakened|chaotic_|_chaotic|ultimate_|_ultimate|infinity_|_infinity|creative_|_creative" = 
-        @{ chargeCap = 40; chargeRate = 0.15 }
+        @{ chargeCap = 40; chargeRate = 3.0 }
     
     # Default values for unrecognized tiers
-    "default" = @{ chargeCap = 20; chargeRate = 0.08 }
+    "default" = @{ chargeCap = 25; chargeRate = 1.00 }
 }
 
 # Stats counters

@@ -83,5 +83,9 @@
       "smithing": 50,
       "technology": 150.0
     }
+  },
+  "vein_data": {
+    "chargeCap": 25,
+    "chargeRate": 1.0
   }
 }
