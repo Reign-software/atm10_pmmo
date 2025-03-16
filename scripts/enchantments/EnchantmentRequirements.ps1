@@ -15,252 +15,587 @@ $skillLevels = @{
     13 = 500
 }
 
-$skills = @(
-    "magic", "fishing", "combat", "alchemy", "mining", "endurance",
-    "building", "smithing", "swimming", "woodcutting", "crafting",
-    "excavation", "farming", "cooking", "agility", "archery"
-)
-
-$enchantSkillMap = @{
-    "sanctified" = 2
-    "respiration" = 8
-    "wind_burst" = 0
-    "purification" = 0
-    "aqua_affinity" = 8
-    "magic_siphon" = 0
-    "curse_of_bones" = 5
-    "chromatic" = 12
-    "mana_regen" = 0
-    "binding_curse" = -1
-    "flame" = 15
-    "incurable_wounds" = 15
-    "mana_boost" = 0
-    "mirror_shield" = 2
-    "channeling" = 0
-    "sculk_smite" = 2
-    "lure" = 1
-    "soul_speed" = 14
-    "silk_touch" = -1
-    "infusion" = -1
-    "chainsaw" = 9
-    "catalysis" = -1
-    "blast_protection" = -1
-    "power" = -1
-    "depth_strider" = -1
-    "piercing" = -1
-    "soulbound" = -1
-    "fire_react" = -1
-    "chill_aura" = -1
-    "fire_protection" = -1
-    "thorns" = -1
-    "quick_charge" = -1
-    "berserkers_fury" = -1
-    "soul_looting" = -1
-    "neurotoxins" = -1
-    "punch" = -1
-    "poisoning" = -1
-    "spectral_bite" = -1
-    "infinity" = -1
-    "fearless" = -1
-    "feather_falling" = -1
-    "poison_tip" = -1
-    "projectile_protection" = -1
-    "impaling" = -1
-    "luck_of_the_sea" = -1
-    "protection" = -1
-    "vengeance" = -1
-    "quarry_pickaxe" = -1
-    "severing" = -1
-    "crescendo_of_bolts" = 15
-    "knowledge_of_the_ages" = -1
-    "unusing" = -1
-    "smite" = -1
-    "comb_cutter" = -1
-    "ruthless_strike" = -1
-    "frost_walker" = -1
-    "voltaic_shot" = -1
-    "life_mending" = -1
-    "riptide" = -1
-    "raider_damage_enchant" = -1
-    "breach" = -1
-    "backstabbing" = -1
-    "decrepitude" = -1
-    "bane_of_arthropods" = -1
-    "sharpness" = 2
-    "density" = -1
-    "mending" = -1
-    "soul_siphoner" = -1
-    "implosion" = -1
-    "growth_serum" = -1
-    "ensnaring" = -1
-    "smack" = -1
-    "icy_thorns" = -1
-    "wrecking" = -1
-    "efficiency" = -1
-    "natures_blessing" = -1
-    "reactive" = -1
-    "life_stealing" = -1
-    "capturing" = -1
-    "endless_quiver" = -1
-    "ricochet" = -1
-    "blessing" = -1
-    "scavenger" = -1
-    "shield_bash" = -1
-    "lolths_curse" = -1
-    "frostbite" = -1
-    "boon_of_the_earth" = 4
-    "soul_snatcher" = -1
-    "reflective_defenses" = -1
-    "self_sling" = -1
-    "mystical_enlightenment" = -1
-    "spectral_conjurer" = -1
-    "miners_fervor" = -1
-    "rebounding" = -1
-    "multishot" = -1
-    "worker_exploitation" = -1
-    "tempting" = -1
-    "swift_sneak" = -1
-    "fire_aspect" = -1
-    "unbreaking" = 7
-    "fortune" = 0
-    "longevity" = -1
-    "renewal" = -1
-    "plague_bringer" = -1
-    "destruction" = -1
-    "stasis" = -1
-    "breaking" = -1
-    "sweeping_edge" = -1
-    "vanishing_curse" = -1
-    "loyalty" = -1
-    "stable_footing" = -1
-    "potent_poison" = -1
-    "looting" = -1
-    "knockback" = -1
-    "discharge" = -1
-}
-
-$enchantTierMap = @{
-    "sanctified" = 12
-    "respiration" = 7
-    "wind_burst" = 8
-    "purification" = 4
-    "aqua_affinity" = 1
-    "magic_siphon" = 13
-    "curse_of_bones" = 13
-    "chromatic" = 1
-    "mana_regen" = 7
-    "binding_curse" = 1
-    "flame" = 1
-    "incurable_wounds" = 13
-    "mana_boost" = 7
-    "mirror_shield" = 7
-    "channeling" = 1
-    "sculk_smite" = 10
-    "lure" = 8
-    "soul_speed" = 7
-    "silk_touch" = 1
-    "infusion" = 1
-    "chainsaw" = 1
-    "catalysis" = 1
-    "blast_protection" = 1
-    "power" = 1
-    "depth_strider" = 1
-    "piercing" = 1
-    "soulbound" = 1
-    "fire_react" = 1
-    "chill_aura" = 1
-    "fire_protection" = 1
-    "thorns" = 1
-    "quick_charge" = 1
-    "berserkers_fury" = 2
-    "soul_looting" = 1
-    "neurotoxins" = 1
-    "punch" = 1
-    "poisoning" = 1
-    "spectral_bite" = 1
-    "infinity" = 1
-    "fearless" = 1
-    "feather_falling" = 1
-    "poison_tip" = 1
-    "projectile_protection" = 1
-    "impaling" = 1
-    "luck_of_the_sea" = 1
-    "protection" = 1
-    "vengeance" = 1
-    "quarry_pickaxe" = 1
-    "severing" = 1
-    "crescendo_of_bolts" = 5
-    "knowledge_of_the_ages" = 1
-    "unusing" = 1
-    "smite" = 1
-    "comb_cutter" = 1
-    "ruthless_strike" = 1
-    "frost_walker" = 1
-    "voltaic_shot" = 1
-    "life_mending" = 1
-    "riptide" = 1
-    "raider_damage_enchant" = 1
-    "breach" = 1
-    "backstabbing" = 1
-    "decrepitude" = 1
-    "bane_of_arthropods" = 1
-    "sharpness" = 9
-    "density" = 1
-    "mending" = 1
-    "soul_siphoner" = 1
-    "implosion" = 1
-    "growth_serum" = 1
-    "ensnaring" = 1
-    "smack" = 1
-    "icy_thorns" = 1
-    "wrecking" = 1
-    "efficiency" = 1
-    "natures_blessing" = 1
-    "reactive" = 1
-    "life_stealing" = 1
-    "capturing" = 1
-    "endless_quiver" = 1
-    "ricochet" = 1
-    "blessing" = 1
-    "scavenger" = 1
-    "shield_bash" = 1
-    "lolths_curse" = 1
-    "frostbite" = 1
-    "boon_of_the_earth" = 4
-    "soul_snatcher" = 1
-    "reflective_defenses" = 1
-    "self_sling" = 1
-    "mystical_enlightenment" = 1
-    "spectral_conjurer" = 1
-    "miners_fervor" = 1
-    "rebounding" = 1
-    "multishot" = 1
-    "worker_exploitation" = 1
-    "tempting" = 1
-    "swift_sneak" = 1
-    "fire_aspect" = 1
-    "unbreaking" =8
-    "fortune" = 8
-    "longevity" = 1
-    "renewal" = 1
-    "plague_bringer" = 1
-    "destruction" = 1
-    "stasis" = 1
-    "breaking" = 1
-    "sweeping_edge" = 1
-    "vanishing_curse" = 1
-    "loyalty" = 1
-    "stable_footing" = 1
-    "potent_poison" = 1
-    "looting" = 1
-    "knockback" = 1
-    "discharge" = 1
+$enchantMap = @{
+    "sanctified" = @{
+        MaxLevel = 12
+        Skill ="combat"
+        StartingLevel = 0
+    }
+    "respiration" = @{
+        MaxLevel = 7
+        Skill ="swimming"
+        StartingLevel = 0
+    }
+    "wind_burst" = @{
+        MaxLevel = 8
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "chill_aura" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "aqua_affinity" = @{
+        MaxLevel = 1
+        Skill ="swimming"
+        StartingLevel = 0
+    }
+    "magic_siphon" = @{
+        MaxLevel = 13
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "curse_of_bones" = @{
+        MaxLevel = 13
+        Skill ="endurance"
+        StartingLevel = 0
+    }
+    "renewal" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "mana_regen" = @{
+        MaxLevel = 7
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "binding_curse" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "flame" = @{
+        MaxLevel = 1
+        Skill ="archery"
+        StartingLevel = 0
+    }
+    "incurable_wounds" = @{
+        MaxLevel = 13
+        Skill ="archery"
+        StartingLevel = 0
+    }
+    "mana_boost" = @{
+        MaxLevel = 7
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "rebounding" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "mirror_shield" = @{
+        MaxLevel = 7
+        Skill ="combat"
+        StartingLevel = 0
+    }
+    "worker_exploitation" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "luck_of_the_sea" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "soul_speed" = @{
+        MaxLevel = 7
+        Skill ="agility"
+        StartingLevel = 0
+    }
+    "silk_touch" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "power" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "catalysis" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "blast_protection" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "depth_strider" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "density" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "piercing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "soulbound" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "purification" = @{
+        MaxLevel = 4
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "fire_protection" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "thorns" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "quick_charge" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "berserkers_fury" = @{
+        MaxLevel = 2
+        Skill = ""
+        StartingLevel = 0
+    }
+    "soul_looting" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "neurotoxins" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "punch" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "miners_fervor" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "poisoning" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "spectral_bite" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "infinity" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "fearless" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "ensnaring" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "feather_falling" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "poison_tip" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "projectile_protection" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "impaling" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "ruthless_strike" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "protection" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "vengeance" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "implosion" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "chainsaw" = @{
+        MaxLevel = 1
+        Skill ="woodcutting"
+        StartingLevel = 0
+    }
+    "lure" = @{
+        MaxLevel = 8
+        Skill ="fishing"
+        StartingLevel = 0
+    }
+    "knowledge_of_the_ages" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "unusing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "smite" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "comb_cutter" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "sculk_smite" = @{
+        MaxLevel = 10
+        Skill ="combat"
+        StartingLevel = 0
+    }
+    "frost_walker" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "voltaic_shot" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "life_mending" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "riptide" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "raider_damage_enchant" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "breach" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "backstabbing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "bane_of_arthropods" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "sharpness" = @{
+        MaxLevel = 9
+        Skill ="combat"
+        StartingLevel = 0
+    }
+    "swift_sneak" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "quarry_pickaxe" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "channeling" = @{
+        MaxLevel = 1
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "soul_siphoner" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "crescendo_of_bolts" = @{
+        MaxLevel = 5
+        Skill ="archery"
+        StartingLevel = 0
+    }
+    "growth_serum" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "infusion" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "smack" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "icy_thorns" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "severing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "efficiency" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "wrecking" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "natures_blessing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "reactive" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "life_stealing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "capturing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "endless_quiver" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "mending" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "ricochet" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "chromatic" = @{
+        MaxLevel = 1
+        Skill ="farming"
+        StartingLevel = 0
+    }
+    "blessing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "scavenger" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "shield_bash" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "lolths_curse" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "frostbite" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "boon_of_the_earth" = @{
+        MaxLevel = 4
+        Skill ="mining"
+        StartingLevel = 0
+    }
+    "soul_snatcher" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "reflective_defenses" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "self_sling" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "decrepitude" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "spectral_conjurer" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "destruction" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "fire_react" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "multishot" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "tempting" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "fire_aspect" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "unbreaking" = @{
+        MaxLevel = 8
+        Skill ="smithing"
+        StartingLevel = 0
+    }
+    "fortune" = @{
+        MaxLevel = 8
+        Skill ="magic"
+        StartingLevel = 0
+    }
+    "longevity" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "plague_bringer" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "stasis" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "breaking" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "sweeping_edge" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "vanishing_curse" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "loyalty" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "stable_footing" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "potent_poison" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "mystical_enlightenment" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "looting" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "knockback" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
+    "discharge" = @{
+        MaxLevel = 1
+        Skill = ""
+        StartingLevel = 0
+    }
 }
 
 $basePath = "E:\Projects\Minecraft\atm10_pmmo\atm_10_pack\src\main\resources\data"
 
 Get-ChildItem -Path $basePath -Directory | ForEach-Object {
-    $modName = $_.Name
     $enchantmentsPath = Join-Path -Path $_.FullName -ChildPath "pmmo\enchantments"
 
     if (Test-Path -Path $enchantmentsPath) {
@@ -269,21 +604,20 @@ Get-ChildItem -Path $basePath -Directory | ForEach-Object {
             $enchantmentName = $_.BaseName
 
             # Determine the tier for the enchantment
-            $tier = $enchantTierMap[$enchantmentName]
+            $enchant = $enchantMap[$enchantmentName]
 
             # Generate the levels array
             $levels = @()
-            for ($i = 0; $i -le $tier; $i++) {
-                if ($i -eq 0) {
+            for ($i = $enchant.MaxLevel; $i -le $enchant.MaxLevel; $i++) {
+                if ($i -eq 0 -and $enchant.StartingLevel -eq 0) {
                     $levels += @{}
                 } else {
-                    $mappedSkill = $enchantSkillMap[$enchantmentName]
+                    $cost = $skillLevels[$enchant.StartingLevel + $i]
 
-                    if ($mappedSkill == -1) {
-                        $levels += @{ "enchanting" = $skillLevels[$i] }
+                    if ($enchant.Skill -eq "") {
+                        $levels += @{ "enchanting" = $cost }
                     } else {
-                        $skill = $skills[$mappedSkill]
-                        $levels += @{ "enchanting" = $skillLevels[$i]; $skill = $skillLevels[$i] }
+                        $levels += @{ "enchanting" = $cost; $enchant.Skill = $cost }
                     }
                 }
             }
