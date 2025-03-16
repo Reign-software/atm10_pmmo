@@ -35,10 +35,10 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "farming": 500
+      "farming": 10
     },
     "BREAK": {
-      "farming": 500
+      "farming": 10
     },
     "INTERACT": {}
   }
