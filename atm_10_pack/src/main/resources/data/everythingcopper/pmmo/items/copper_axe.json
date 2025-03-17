@@ -71,8 +71,8 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "smithing": 50,
-      "woodcutting": 50
+      "smithing": 30,
+      "woodcutting": 30
     },
     "PLACE": {},
     "BREAK": {},
@@ -82,8 +82,8 @@
     },
     "INTERACT": {},
     "USE": {
-      "smithing": 50,
-      "woodcutting": 50
+      "smithing": 30,
+      "woodcutting": 30
     }
   }
 }

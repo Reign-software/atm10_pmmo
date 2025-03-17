@@ -71,8 +71,8 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "mining": 50,
-      "smithing": 50
+      "mining": 30,
+      "smithing": 30
     },
     "PLACE": {},
     "BREAK": {},
@@ -82,8 +82,8 @@
     },
     "INTERACT": {},
     "USE": {
-      "mining": 50,
-      "smithing": 50
+      "mining": 30,
+      "smithing": 30
     }
   }
 }

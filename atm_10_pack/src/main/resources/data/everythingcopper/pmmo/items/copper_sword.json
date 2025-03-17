@@ -70,19 +70,19 @@
       "farming": 44
     },
     "WEAPON": {
-      "smithing": 50,
-      "combat": 50
+      "smithing": 30,
+      "combat": 30
     },
     "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "combat": 28
+      "combat": 30
     },
     "INTERACT": {},
     "USE": {
-      "smithing": 50,
-      "combat": 50
+      "smithing": 30,
+      "combat": 30
     }
   }
 }

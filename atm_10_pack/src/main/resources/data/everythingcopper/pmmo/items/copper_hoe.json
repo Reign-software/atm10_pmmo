@@ -74,14 +74,14 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "smithing": 50,
-      "farming": 100
+      "smithing": 30,
+      "farming": 30
     },
     "PLACE": {
-      "farming": 100
+      "farming": 30
     },
     "BREAK": {
-      "farming": 100
+      "farming": 30
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {
@@ -89,8 +89,8 @@
     },
     "INTERACT": {},
     "USE": {
-      "smithing": 50,
-      "farming": 100
+      "smithing": 30,
+      "farming": 30
     }
   }
 }

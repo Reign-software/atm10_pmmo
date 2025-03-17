@@ -71,7 +71,7 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "smithing": 50
+      "smithing": 30
     },
     "PLACE": {},
     "BREAK": {},
@@ -79,7 +79,7 @@
     "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "smithing": 50
+      "smithing": 30
     }
   }
 }
