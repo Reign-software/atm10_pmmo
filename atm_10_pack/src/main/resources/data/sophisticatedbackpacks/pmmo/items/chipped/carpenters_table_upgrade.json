@@ -74,19 +74,11 @@
     "WEAPON": {
       "technology": 80
     },
-    "PLACE": {
-      "technology": 80
-    },
+    "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "technology": 80
-    },
-    "INTERACT": {
-      "technology": 80
-    },
-    "USE": {
-      "technology": 80
-    }
+    "WEAR": {},
+    "INTERACT": {},
+    "USE": {}
   }
 }

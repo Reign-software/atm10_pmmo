@@ -73,18 +73,18 @@
       "technology": 80
     },
     "PLACE": {
-      "technology": 75.0
+      "technology": 5
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "technology": 80
+      "technology": 5
     },
     "INTERACT": {},
     "USE": {
       "mining": 50,
       "smithing": 50,
-      "technology": 0
+      "technology": 5
     }
   }
 }

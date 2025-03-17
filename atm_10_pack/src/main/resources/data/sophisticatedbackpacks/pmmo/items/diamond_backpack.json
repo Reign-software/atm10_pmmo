@@ -71,16 +71,16 @@
       "technology": 120
     },
     "PLACE": {
-      "technology": 135.0
+      "technology": 10
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "technology": 120
+      "technology": 10
     },
     "INTERACT": {},
     "USE": {
-      "technology": 75
+      "technology": 10
     }
   }
 }

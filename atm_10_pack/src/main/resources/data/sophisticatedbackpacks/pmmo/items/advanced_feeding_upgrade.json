@@ -72,7 +72,7 @@
       "technology": 120
     },
     "PLACE": {
-      "technology": 135.0,
+      "technology": 8,
       "farming": 300
     },
     "BREAK": {
@@ -80,12 +80,12 @@
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "technology": 120
+      "technology": 8
     },
     "INTERACT": {},
     "USE": {
       "farming": 300,
-      "technology": 125
+      "technology": 8
     }
   }
 }

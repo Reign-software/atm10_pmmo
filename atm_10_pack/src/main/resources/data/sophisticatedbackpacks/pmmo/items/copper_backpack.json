@@ -70,17 +70,11 @@
     "WEAPON": {
       "technology": 40
     },
-    "PLACE": {
-      "technology": 75.0
-    },
+    "PLACE": {},
     "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "technology": 40
-    },
+    "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "technology": 0
-    }
+    "USE": {}
   }
 }

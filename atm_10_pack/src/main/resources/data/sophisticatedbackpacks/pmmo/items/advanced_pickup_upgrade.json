@@ -73,18 +73,18 @@
       "technology": 120
     },
     "PLACE": {
-      "technology": 135.0
+      "technology": 8
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
-      "technology": 120
+      "technology": 8
     },
     "INTERACT": {},
     "USE": {
       "mining": 50,
       "smithing": 50,
-      "technology": 125
+      "technology": 8
     }
   },
   "vein_data": {
