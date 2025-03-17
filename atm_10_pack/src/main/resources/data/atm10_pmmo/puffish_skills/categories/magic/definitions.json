@@ -74,12 +74,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Discover the fundamentals of spell weaving efficiency, reducing spell cooldowns by 1%. This small improvement allows you to cast your favorite spells marginally more often.",
+		"description": "Discover the fundamentals of spell weaving efficiency, reducing spell cooldowns by 3%. This small improvement allows you to cast your favorite spells marginally more often. (Irons Spellbooks only)",
 		"metadata": {
 			
 		}
@@ -97,7 +97,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			},
@@ -105,12 +105,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Channel magical energy with slightly improved focus, increasing spell power by 1%. Your spells now have just a bit more punch behind them.",
+		"description": "Channel magical energy with slightly improved focus, increasing spell power by 3%. Your spells now have just a bit more punch behind them.",
 		"metadata": {
 			
 		}
@@ -204,7 +204,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:summon_damage",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			},
@@ -212,12 +212,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Begin learning the art of empowering your summoned creatures, increasing their damage by 1%. Your minions strike with slightly more force than before.",
+		"description": "Begin learning the art of empowering your summoned creatures, increasing their damage by 3%. Your minions strike with slightly more force than before.",
 		"metadata": {
 			
 		}
@@ -509,7 +509,7 @@
 				}
 			}
 		],
-		"description": "Bend time to your will, reducing spell cooldowns by 5% to cast powerful spells more frequently.",
+		"description": "Bend time to your will, reducing spell cooldowns by 5% to cast powerful spells more frequently. (Irons Spellbooks only)",
 		"metadata": {
 			"icon": "oh3a24zgz5q0vk53"
 		}
@@ -873,12 +873,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 2,
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Learn to weave spells more efficiently, reducing cooldowns by 2% to cast more frequently.",
+		"description": "Learn to weave spells more efficiently, reducing cooldowns by 2% to cast more frequently. (Irons Spellbooks only)",
 		"metadata": {
 			"icon": "efm7l1ufikciimmb"
 		}
@@ -896,12 +896,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 4,
+					"value": 0.04,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Master spell recovery techniques to reduce cooldowns by 4%, allowing significantly faster reuse of powerful spells.",
+		"description": "Master spell recovery techniques to reduce cooldowns by 4%, allowing significantly faster reuse of powerful spells. (Irons Spellbooks only)",
 		"metadata": {
 			"icon": "8y6pu9nkro2bqjut"
 		}
@@ -919,7 +919,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 2,
+					"value": 0.02,
 					"operation": "addition"
 				}
 			},
@@ -927,7 +927,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-					"value": 2,
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -950,7 +950,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 4,
+					"value": 0.04,
 					"operation": "addition"
 				}
 			},
@@ -958,7 +958,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
-					"value": 4,
+					"value": 0.04,
 					"operation": "addition"
 				}
 			}
@@ -981,12 +981,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 3,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Perfect your spellcasting technique to reduce casting time by 3%, allowing faster spell execution.",
+		"description": "Perfect your spellcasting technique to reduce casting time by 3%, allowing faster spell execution. (Irons Spellbooks only)",
 		"metadata": {
 			"icon": "1iqhmt7dr0xglubf"
 		}
@@ -1004,7 +1004,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1027,7 +1027,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1050,7 +1050,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1073,7 +1073,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1096,7 +1096,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1119,7 +1119,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1142,7 +1142,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1165,7 +1165,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1188,12 +1188,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "not_enough_glyphs:not_enough_glyphs.perk.mana_discount",
-					"value": 2,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Master magical efficiency to reduce Ars Nouveau spell mana cost by 2%, allowing more spells with the same mana.",
+		"description": "Master magical efficiency to reduce Ars Nouveau spell mana cost by 5%, allowing more spells with the same mana.",
 		"metadata": {
 			"icon": "t05x9k0u2f16u2fa"
 		}
@@ -1303,7 +1303,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:eldritch_spell_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1326,7 +1326,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:summon_damage",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			},
@@ -1334,7 +1334,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1357,12 +1357,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Begin channeling heat energy into your spellcasting, increasing fire spell power by 1%. The first step toward pyromancy mastery.",
+		"description": "Begin channeling heat energy into your spellcasting, increasing fire spell power by 3%. The first step toward pyromancy mastery.",
 		"metadata": {
 			
 		}
@@ -1387,7 +1387,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1410,12 +1410,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Learn to channel the slightest chill into your magic, increasing ice spell power by 1%. Feel the first whispers of winter at your fingertips.",
+		"description": "Learn to channel the slightest chill into your magic, increasing ice spell power by 3%. Feel the first whispers of winter at your fingertips.",
 		"metadata": {
 			
 		}
@@ -1440,7 +1440,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1463,12 +1463,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Channel the tiniest sparks of electrical energy, increasing lightning spell power by 1%. The first crackle of power courses through your spells.",
+		"description": "Channel the tiniest sparks of electrical energy, increasing lightning spell power by 3%. The first crackle of power courses through your spells.",
 		"metadata": {
 			
 		}
@@ -1493,7 +1493,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:lightning_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1516,12 +1516,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Receive the faintest blessing of divine power, increasing holy spell power by 1%. Your first tentative connection to sacred energies has been established.",
+		"description": "Receive the faintest blessing of divine power, increasing holy spell power by 3%. Your first tentative connection to sacred energies has been established.",
 		"metadata": {
 			
 		}
@@ -1546,7 +1546,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1569,7 +1569,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
@@ -1599,7 +1599,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1622,12 +1622,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Learn the most basic techniques of hemomancy, increasing blood spell power by 1%. You begin to understand how life essence can fuel your magic.",
+		"description": "Learn the most basic techniques of hemomancy, increasing blood spell power by 3%. You begin to understand how life essence can fuel your magic.",
 		"metadata": {
 			
 		}
@@ -1652,7 +1652,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:blood_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1675,12 +1675,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Learn to issue the simplest commands to summoned entities, increasing evocation spell power by 1%. Your first steps into the art of conjuration.",
+		"description": "Learn to issue the simplest commands to summoned entities, increasing evocation spell power by 3%. Your first steps into the art of conjuration.",
 		"metadata": {
 			
 		}
@@ -1705,7 +1705,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1728,12 +1728,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Form a tentative bond with natural energies, increasing nature spell power by 1%. Plants respond slightly to your magical presence.",
+		"description": "Form a tentative bond with natural energies, increasing nature spell power by 3%. Plants respond slightly to your magical presence.",
 		"metadata": {
 			
 		}
@@ -1758,7 +1758,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:nature_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1781,12 +1781,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:eldritch_spell_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Your mind catches the briefest glimpse of otherworldly knowledge, increasing eldritch spell power by 1%. The fabric of reality seems slightly more pliable to your touch.",
+		"description": "Your mind catches the briefest glimpse of otherworldly knowledge, increasing eldritch spell power by 3%. The fabric of reality seems slightly more pliable to your touch.",
 		"metadata": {
 			
 		}
@@ -1811,7 +1811,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:eldritch_spell_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1834,7 +1834,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:summon_damage",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			},
@@ -1842,12 +1842,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-					"value": 1,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Establish a basic connection with your summoned creatures, increasing their damage by 1%. Your minions respond better to your magical guidance.",
+		"description": "Establish a basic connection with your summoned creatures, increasing their damage by 3%. Your minions respond better to your magical guidance.",
 		"metadata": {
 			
 		}
@@ -1872,7 +1872,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:summon_damage",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			},
@@ -1880,7 +1880,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-					"value": 7,
+					"value": 0.07,
 					"operation": "addition"
 				}
 			}
@@ -1910,7 +1910,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
@@ -1926,7 +1926,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:fire_damage",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
@@ -1956,7 +1956,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
@@ -1972,7 +1972,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:cold_damage",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
@@ -2002,7 +2002,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			},
@@ -2026,7 +2026,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
@@ -2056,7 +2056,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 8,
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
@@ -2110,7 +2110,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:summon_damage",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
@@ -2118,15 +2118,23 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "ars_nouveau:ars_elemental.perk.summon_power",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 10,
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+					"value": 0.05,
 					"operation": "addition"
 				}
 			},
@@ -2147,7 +2155,7 @@
 				}
 			}
 		],
-		"description": "Command an army from beyond the veil, gaining 15% summon damage and power, 10% evocation spell power, and 70 maximum mana. Your summoned creatures manifest with frightening strength and unquestioning loyalty as you open wider gateways to otherworldly realms.",
+		"description": "Command an army from beyond the veil, gaining 15% summon damage and power, 5% spell power, and 70 maximum mana. Your summoned creatures manifest with frightening strength and unquestioning loyalty as you open wider gateways to otherworldly realms.",
 		"metadata": {
 			
 		}
@@ -2172,7 +2180,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:ender_spell_power",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
@@ -2180,7 +2188,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:eldritch_spell_power",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
@@ -2334,7 +2342,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:holy_spell_power",
-					"value": 20,
+					"value": 0.20,
 					"operation": "addition"
 				}
 			},

@@ -673,12 +673,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "pmmo:vein_charge_rate",
-					"value": 0.5,
+					"value": 0.3,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "By striking with precisely calculated rhythm, you create harmonious vibrations that flow through your tools and into the earth. Your vein miner charges 0.5 additional block/second faster as these resonant energies build within your pickaxe. Where novices exhaust themselves with wild swings, you harness the ancient miners' secret—the earth itself lends you its strength when approached with respect.",
+		"description": "By striking with precisely calculated rhythm, you create harmonious vibrations that flow through your tools and into the earth. Your vein miner charges 0.3 additional block/second faster as these resonant energies build within your pickaxe. Where novices exhaust themselves with wild swings, you harness the ancient miners' secret—the earth itself lends you its strength when approached with respect.",
 		"metadata": {
 		}
 	}

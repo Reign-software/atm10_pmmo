@@ -19,7 +19,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:arrow_damage",
-					"value": 15,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			},
@@ -27,7 +27,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:arrow_velocity",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
@@ -50,7 +50,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 5,
+                    "value": 0.5,
                     "operation": "addition"
                 }
             }
@@ -73,7 +73,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 10,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
@@ -96,7 +96,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_velocity",
-                    "value": 10,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
@@ -119,7 +119,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 15,
+                    "value": 0.15,
                     "operation": "addition"
                 }
             }
@@ -142,7 +142,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 30,
+                    "value": 0.30,
                     "operation": "addition"
                 }
             }
@@ -257,12 +257,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 1,
+                    "value": 0.03,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Begin your archery training, increasing arrow damage by 1%. A small but important first step toward mastery of the bow.",
+        "description": "Begin your archery training, increasing arrow damage by 3%. A small but important first step toward mastery of the bow.",
         "metadata": {
             
         }
@@ -280,12 +280,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_velocity",
-                    "value": 1,
+                    "value": 0.03,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Learn proper drawing technique, increasing arrow velocity by 1%. Your arrows fly slightly faster and straighter.",
+        "description": "Learn proper drawing technique, increasing arrow velocity by 3%. Your arrows fly slightly faster and straighter.",
         "metadata": {
             
         }
@@ -303,12 +303,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 1,
+                    "value": 0.03,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Develop basic dexterity, increasing bow draw speed by 1%. The first skill every archer must learn is how to quickly ready their weapon.",
+        "description": "Develop basic dexterity, increasing bow draw speed by 3%. The first skill every archer must learn is how to quickly ready their weapon.",
         "metadata": {
             
         }
@@ -402,7 +402,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 7,
+                    "value": 0.1,
                     "operation": "addition"
                 }
             },
@@ -410,12 +410,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:crit_chance",
-                    "value": 0.02,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Become a legendary hunter with 7% increased arrow damage and 2% higher critical chance. Your reputation strikes fear into creatures both common and mythical.",
+        "description": "Become a legendary hunter with 10% increased arrow damage and 5% higher critical chance. Your reputation strikes fear into creatures both common and mythical.",
         "metadata": {
             "icon": "rkj92gdvbw06kfz9"
         }
@@ -486,12 +486,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.movement_speed",
-                    "value": 0.05,
+                    "value": 0.20,
                     "operation": "multiply_total"
                 }
             }
         ],
-        "description": "Embrace the agile combat style of forest skirmishers with 30% faster draw speed and 5% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
+        "description": "Embrace the agile combat style of forest skirmishers with 30% faster draw speed and 20% increased movement speed. Dart between positions, loosing arrows with fluid grace.",
         "metadata": {
             "icon": "n6q3t8rqxx32vf6j"
         }
@@ -509,12 +509,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 2,
+                    "value": 0.02,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Improve your archery fundamentals, increasing arrow damage by 2%. Your arrows strike with slightly greater impact.",
+        "description": "Improve your archery fundamentals, increasing arrow damage by 0.02%. Your arrows strike with slightly greater impact.",
         "metadata": {
             "icon": "infois1v9eh522dj"
         }
@@ -532,7 +532,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 4,
+                    "value": 0.04,
                     "operation": "addition"
                 }
             }
@@ -562,12 +562,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 7,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Achieve masterful accuracy with ranged weapons, increasing arrow damage by 7%. Every shot is released with calculated precision.",
+        "description": "Achieve masterful accuracy with ranged weapons, increasing arrow damage by 10%. Every shot is released with calculated precision.",
         "metadata": {
             "icon": "7f0fdngezcy8kcwa"
         }
@@ -585,7 +585,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_velocity",
-                    "value": 5,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }
@@ -608,7 +608,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_velocity",
-                    "value": 10,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
@@ -631,7 +631,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 10,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
@@ -654,7 +654,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 7,
+                    "value": 0.07,
                     "operation": "addition"
                 }
             }
@@ -822,7 +822,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:draw_speed",
-                    "value": 25,
+                    "value": 0.25,
                     "operation": "addition"
                 }
             },
@@ -830,12 +830,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:arrow_damage",
-                    "value": 3,
+                    "value": 0.10,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Master the art of rapid fire with 25% increased draw speed and 3% more arrow damage. Release a relentless barrage of arrows that overwhelms your enemies with volume and power.",
+        "description": "Master the art of rapid fire with 25% increased draw speed and 10% more arrow damage. Release a relentless barrage of arrows that overwhelms your enemies with volume and power.",
         "metadata": {
             "icon": "6o7ge7hdgj0ui68d"
         }
@@ -860,7 +860,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:projectile_damage",
-                    "value": 25,
+                    "value": 0.25,
                     "operation": "addition"
                 }
             }
@@ -1074,7 +1074,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:projectile_damage",
-                    "value": 5,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }
@@ -1097,7 +1097,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "additionalentityattributes:player.critical_bonus_damage",
-                    "value": 5,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }

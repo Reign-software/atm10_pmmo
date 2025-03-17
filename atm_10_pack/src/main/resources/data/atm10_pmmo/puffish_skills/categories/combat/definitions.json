@@ -157,12 +157,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_damage",
-					"value": 0.01,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"description": "Basic combat training increases your attack damage by 1%. Every strike becomes slightly more effective.",
+		"description": "Basic combat training increases your attack damage by 3%. Every strike becomes slightly more effective.",
 		"metadata": {
 			
 		}
@@ -180,12 +180,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_speed",
-					"value": 0.01,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"description": "Learn basic combat timing that increases attack speed by 1%. Strike just a bit faster than before.",
+		"description": "Learn basic combat timing that increases attack speed by 3%. Strike just a bit faster than before.",
 		"metadata": {
 			
 		}
@@ -227,12 +227,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:life_steal",
-					"value": 0.01,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Learn to draw a small amount of life force from your attacks, stealing 1% of damage dealt as health.",
+		"description": "Learn to draw a small amount of life force from your attacks, stealing 3% of damage dealt as health.",
 		"metadata": {
 			
 		}
@@ -388,12 +388,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:life_steal",
-					"value": 0.02,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Infuse your strikes with vampiric energy, stealing 2% of damage dealt as health to sustain yourself in prolonged battles.",
+		"description": "Infuse your strikes with vampiric energy, stealing 3% of damage dealt as health to sustain yourself in prolonged battles.",
 		"metadata": {
 			"icon": "ltwti8k36lpx83tc"
 		}
@@ -853,12 +853,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_damage",
-					"value": 0.02,
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"description": "Sharpen your combat techniques to increase attack damage by 2%, making each strike more effective.",
+		"description": "Sharpen your combat techniques to increase attack damage by 3%, making each strike more effective.",
 		"metadata": {
 			"icon": "uy3syxygs31xezc8"
 		}
@@ -876,12 +876,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_damage",
-					"value": 0.03,
+					"value": 0.04,
 					"operation": "multiply_total"
 				}
 			}
 		],
-		"description": "Enhance your striking power to increase attack damage by 3%, delivering more decisive blows.",
+		"description": "Enhance your striking power to increase attack damage by 4%, delivering more decisive blows.",
 		"metadata": {
 			"icon": "i72qizh2uo3ofe1n"
 		}
@@ -1067,12 +1067,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:life_steal",
-					"value": 0.01,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Infuse your attacks with vampiric energy, stealing 1% of damage dealt as health to sustain yourself.",
+		"description": "Infuse your attacks with vampiric energy, stealing 3% of damage dealt as health to sustain yourself.",
 		"metadata": {
 			"icon": "b4jwqi073vavn2aj"
 		}
@@ -1182,12 +1182,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:current_hp_damage",
-					"value": 2,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Channel your own vitality into devastating attacks, dealing additional damage equal to 2% of your current health. The more health you have, the more powerful your strikes become, encouraging you to maintain peak condition for maximum offensive power.",
+		"description": "Channel your own vitality into devastating attacks, dealing additional damage equal to 10% of your current health. The more health you have, the more powerful your strikes become, encouraging you to maintain peak condition for maximum offensive power.",
 		"metadata": {
 			
 		}
@@ -1212,7 +1212,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:current_hp_damage",
-					"value": 20,
+					"value": 0.20,
 					"operation": "addition"
 				}
 			}
@@ -1258,7 +1258,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "additionalentityattributes:player.critical_bonus_damage",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
