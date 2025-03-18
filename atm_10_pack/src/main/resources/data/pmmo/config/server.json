@@ -5,40 +5,40 @@
     "player_actions": {
       "SUBMERGED": {},
       "CROUCH_JUMP": {
-        "agility": 2.5
+        "agility": 10
       },
       "SWIM_SPRINTING": {},
       "SPRINT_JUMP": {
-        "agility": 2.5
+        "agility": 10
       },
       "SPRINTING": {
-        "agility": 2.0
+        "agility": 5
       },
       "JUMP": {
-        "agility": 2.5
+        "agility": 10
       },
       "HEALTH_INCREASE": {
-        "endurance": 1.0
+        "endurance": 5.0
       },
       "DIVING": {},
       "HEALTH_DECREASE": {
-        "endurance": 1.0
+        "endurance": 5.0
       },
       "SURFACING": {},
       "BREATH_CHANGE": {
-        "endurance": 1.0
+        "endurance": 5.0
       }
     },
     "damage": {
       "RECEIVE_DAMAGE": {
         "minecraft:generic_kill": {
-          "endurance": 10
+          "endurance": 20
         },
         "#pmmo:impact": {
           "endurance": 15
         },
         "#minecraft:is_projectile": {
-          "endurance": 15
+          "endurance": 25
         },
         "#pmmo:environment": {
           "endurance": 10
@@ -49,19 +49,21 @@
       },
       "DEAL_DAMAGE": {
         "minecraft:generic_kill": {
-          "combat": 20
+          "combat": 20,
+          "archery": 20
         },
         "minecraft:player_attack": {
-          "combat": 10
+          "combat": 15,
+          "endurance": 5
         },
         "#minecraft:is_projectile": {
-          "archery": 10
+          "archery": 20
         },
         "#pmmo:magic": {
-          "magic": 15
+          "magic": 20
         },
         "#pmmo:gun": {
-          "archery": 10
+          "archery": 20
         }
       }
     }
@@ -82,10 +84,13 @@
         "agility": 0.0001
       },
       "minecraft:generic.armor": {
-        "combat": 0.01
+        "combat": 0.01,
+        "archery": 0.01
       },
       "minecraft:generic.max_health": {
-        "combat": 0.10
+        "combat": 0.10,
+        "archery": 0.10,
+        "magic": 0.05
       },
       "minecraft:generic.attack_damage": {
         "endurance": 0.07

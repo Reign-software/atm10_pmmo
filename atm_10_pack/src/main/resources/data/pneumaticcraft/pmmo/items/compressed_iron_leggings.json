@@ -69,7 +69,6 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 200.0
     },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
@@ -80,8 +79,7 @@
     "INTERACT": {},
     "USE": {
       "endurance": 50,
-      "smithing": 50,
-      "technology": 200.0
+      "smithing": 50
     }
   }
 }
