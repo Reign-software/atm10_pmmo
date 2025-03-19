@@ -90,7 +90,7 @@ public class PMmoJadePlugin implements IWailaPlugin {
 
                         // TODO: Make configurable
                         if (playerLevel >= reqLevel) {
-                            break;
+                            continue;
                         }
 
                         ChatFormatting color = playerLevel >= reqLevel ? ChatFormatting.GREEN : ChatFormatting.RED;

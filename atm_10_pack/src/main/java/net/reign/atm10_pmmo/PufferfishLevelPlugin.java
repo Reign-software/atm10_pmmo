@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.logging.Logger;
 
+import com.hollingsworth.arsnouveau.api.event.SpellCastEvent;
 import harmonised.pmmo.api.enums.EventType;
 import harmonised.pmmo.api.APIUtils;
 import harmonised.pmmo.api.events.XpEvent;
@@ -53,6 +54,14 @@ public class PufferfishLevelPlugin {
         }
     }
 
+    public static void ArsSpellCastExp(SpellCastEvent event)
+    {
+        if (!(event.getEntity() instanceof ServerPlayer player))
+            return;
+        
+        APIUtils.addXp("magic", player, 20);
+    }
+
     /**
      * Get all players currently on the server
      * 
@@ -62,7 +71,7 @@ public class PufferfishLevelPlugin {
     public static List<ServerPlayer> getAllServerPlayers(ServerPlayer player) {
         List<ServerPlayer> allPlayers = new ArrayList<>();
         
-        if (player.getServer() != null) {
+        if (player != null && player.getServer() != null) {
             // Get all players from the server
             allPlayers.addAll(player.getServer().getPlayerList().getPlayers());
         }

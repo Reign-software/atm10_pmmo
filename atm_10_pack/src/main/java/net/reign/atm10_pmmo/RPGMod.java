@@ -70,6 +70,7 @@ public class RPGMod {
 		NeoForge.EVENT_BUS.register(this);
 		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::XpGainedEvent);
 		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::CraftEventHandler);
+		NeoForge.EVENT_BUS.addListener(PufferfishLevelPlugin::ArsSpellCastExp);
 		modEventBus.addListener(this::registerNetworking);
 		
 		FTBUltiminePlugin.register(new FTBUltimine());

@@ -64,7 +64,9 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {},
+    "PLACE": {
+      "building": 0
+    },
     "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
