@@ -73,7 +73,7 @@
       "farming": 100
     },
     "BREAK": {
-      "mining": 300,
+      "mining": 150,
       "farming": 100
     },
     "USE_ENCHANTMENT": {},

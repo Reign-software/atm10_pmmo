@@ -1,6 +1,6 @@
 {
   "travel_req": {
-    "combat": 30
+    "endurance": 50
   },
   "global_mob_modifier": [
     {
