@@ -109,6 +109,36 @@
       "noAfkPenalty": false,
       "displayGroupName": false,
       "showInList": true
+    },
+    "alchemy": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/potion.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 16711935,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "building": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/block/bricks.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 10066329,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
+    },
+    "excavation": {
+      "maxLevel": 2147483647,
+      "icon": "minecraft:textures/item/iron_shovel.png",
+      "iconSize": 16,
+      "useTotalLevels": false,
+      "color": 12618112,
+      "noAfkPenalty": false,
+      "displayGroupName": false,
+      "showInList": true
     }
   },
   "type": "SKILLS"

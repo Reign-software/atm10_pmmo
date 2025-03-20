@@ -88,7 +88,8 @@ public class PMmoJadePlugin implements IWailaPlugin {
                         long playerLevel = APIUtils.getLevel(skillName, player);
                         var skillConfig = Config.skills().get(skillName);
 
-                        // TODO: Make configurable
+                        // Skip if player level is greater than or equal to requirement
+                        // This is to prevent showing the requirement if the player has already met it
                         if (playerLevel >= reqLevel) {
                             continue;
                         }

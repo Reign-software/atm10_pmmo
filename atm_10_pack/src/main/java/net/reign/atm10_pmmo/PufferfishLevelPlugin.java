@@ -71,9 +71,13 @@ public class PufferfishLevelPlugin {
     public static List<ServerPlayer> getAllServerPlayers(ServerPlayer player) {
         List<ServerPlayer> allPlayers = new ArrayList<>();
         
-        if (player != null && player.getServer() != null) {
-            // Get all players from the server
-            allPlayers.addAll(player.getServer().getPlayerList().getPlayers());
+        if (player != null) {
+            
+            var server = player.getServer();
+
+            if (server != null) {
+                allPlayers.addAll(server.getPlayerList().getPlayers());
+            }
         }
         
         return allPlayers;
