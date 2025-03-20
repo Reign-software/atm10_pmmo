@@ -48,7 +48,7 @@
     "ENCHANT": {},
     "CONSUME": {},
     "CRAFT": {
-      "technology": 800
+      "technology": 3200
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

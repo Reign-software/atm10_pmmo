@@ -125,6 +125,7 @@
     "per_level": 0.3,
     "global_modifier": 1.0,
     "skill_modifiers": {
+      "farming": 0.5
     },
     "max_level": 1523,
     "static_levels": [

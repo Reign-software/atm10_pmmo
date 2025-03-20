@@ -52,7 +52,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 900.0,
+      "technology": 3600.0,
       "farming": 1520
     },
     "ACTIVATE_ITEM": {},

@@ -53,7 +53,7 @@
     "CONSUME": {},
     "CRAFT": {
       "archery": 500,
-      "technology": 1400.0
+      "technology": 4000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

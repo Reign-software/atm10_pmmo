@@ -1,11 +1,12 @@
 # Script to multiply technology XP values for crafting by 20x
 
 # Root directory containing mod data
-$rootPath = "C:\Users\JBurl\source\repos\JBurlison\atm10_pmmo\atm_10_pack\src\main\resources\data"
+$rootPath = ".\atm_10_pack\src\main\resources\data"
 
 # Multiplier to apply to technology XP values
-$multiplier = 40
+$multiplier = 4
 $minValue = 400
+$maxValue = 4000
 
 # Stats tracking
 $processedFiles = 0
@@ -20,6 +21,7 @@ Write-Host "Starting technology XP multiplier script (${multiplier}x)..." -Foreg
 $modDirs = Get-ChildItem -Path $rootPath -Directory
 
 foreach ($mod in $modDirs) {
+    write-host "Processing mod: $mod"
     $modName = $mod.Name
     $itemsPath = Join-Path -Path $mod.FullName -ChildPath "pmmo\items"
     $modXpBefore = 0
@@ -63,6 +65,11 @@ foreach ($mod in $modDirs) {
                     if ($newValue -lt $minValue)
                     {
                         $newValue = $minValue
+                    }
+
+                    if ($newValue -gt $maxValue)
+                    {
+                        $newValue = $maxValue
                     }
 
                     # Update the value in the JSON
