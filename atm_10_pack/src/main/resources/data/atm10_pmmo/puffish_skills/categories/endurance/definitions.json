@@ -430,12 +430,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:dodge_chance",
-					"value": 0.01,
+					"value": 3,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Develop basic evasive maneuvers, gaining a 1% chance to completely avoid incoming attacks.",
+		"description": "Develop basic evasive maneuvers, gaining a 3% chance to completely avoid incoming attacks.",
 		"metadata": {
 			"icon": "r3jy9d6o4htc7jtj"
 		}

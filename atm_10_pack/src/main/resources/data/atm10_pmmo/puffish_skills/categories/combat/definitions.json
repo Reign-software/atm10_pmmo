@@ -203,12 +203,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:crit_chance",
-					"value": 0.01,
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Develop fundamental targeting skills, gaining a 1% increased chance to land critical hits.",
+		"description": "Develop fundamental targeting skills, gaining a 2% increased chance to land critical hits.",
 		"metadata": {
 			
 		}
@@ -777,12 +777,12 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:dodge_chance",
-					"value": 0.01,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Develop basic evasive maneuvers, gaining a 1% chance to completely avoid incoming attacks.",
+		"description": "Develop basic evasive maneuvers, gaining a 3% chance to completely avoid incoming attacks.",
 		"metadata": {
 			"icon": "r3jy9d6o4htc7jtj"
 		}

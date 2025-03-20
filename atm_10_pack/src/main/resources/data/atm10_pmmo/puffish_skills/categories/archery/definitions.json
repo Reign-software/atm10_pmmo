@@ -326,12 +326,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:crit_chance",
-                    "value": 0.01,
+                    "value": 0.02,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Train your eye to spot weaknesses, gaining a 1% chance to land critical hits. Even a novice archer occasionally finds the perfect shot.",
+        "description": "Train your eye to spot weaknesses, gaining a 2% chance to land critical hits. Even a novice archer occasionally finds the perfect shot.",
         "metadata": {
             
         }
@@ -349,12 +349,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:crit_damage",
-                    "value": 0.01,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Learn basic anatomy, increasing critical hit damage by 1%. Understanding where to aim makes your critical hits slightly more effective.",
+        "description": "Learn basic anatomy, increasing critical hit damage by 5%. Understanding where to aim makes your critical hits slightly more effective.",
         "metadata": {
             
         }
@@ -677,12 +677,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:crit_chance",
-                    "value": 0.01,
+                    "value": 0.02,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Sharpen your perception to spot vital targets, gaining 1% increased critical hit chance with ranged attacks.",
+        "description": "Sharpen your perception to spot vital targets, gaining 2% increased critical hit chance with ranged attacks.",
         "metadata": {
             "icon": "abhybcdy6ltp8py0"
         }
@@ -792,12 +792,12 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "apothic_attributes:dodge_chance",
-                    "value": 0.01,
+                    "value": 0.02,
                     "operation": "addition"
                 }
             }
         ],
-        "description": "Develop faster reflexes, gaining a 1% chance to completely avoid incoming attacks. Your instincts help you evade danger.",
+        "description": "Develop faster reflexes, gaining a 2% chance to completely avoid incoming attacks. Your instincts help you evade danger.",
         "metadata": {
             "icon": "uwtq7my4l31qit1k"
         }
