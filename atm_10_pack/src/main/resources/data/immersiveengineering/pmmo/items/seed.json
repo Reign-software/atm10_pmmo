@@ -43,17 +43,14 @@
   },
   "negative_effect": {},
   "xp_values": {
-    "TOOL_BREAKING": {
-      "farming": 102.0
-    },
+    "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 50
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 1600,
-      "farming": 1020
+      "technology": 1600
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -61,29 +58,19 @@
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "farming": 200
-    },
+    "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 200
-    },
-    "BREAK": {
-      "farming": 200
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 200
-    }
+    "USE": {}
   }
 }

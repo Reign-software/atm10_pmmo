@@ -98,7 +98,6 @@ public class PufferfishLevelPlugin {
             case "endurance" -> GainSkill(player, "atm10_pmmo:endurance", event.endLevel(), skillsMod);
             case "mining", "farming", "woodcutting" -> {
                 long totalLevel = APIUtils.getLevel("mining", player);
-                totalLevel += APIUtils.getLevel("farming", player);
                 totalLevel += APIUtils.getLevel("woodcutting", player);
                 
                 GainSkill(player, "atm10_pmmo:gathering", totalLevel, skillsMod);
@@ -113,7 +112,7 @@ public class PufferfishLevelPlugin {
 
         // We treat these as the same skill.
         if (skillTree == "atm10_pmmo:gathering")
-            levelDiv = 30;
+            levelDiv = 20;
 
         Optional<Integer> totalPoints = skillsMod.getPointsTotal(player, id);
         int pointsToAward = (int)(endLevel / levelDiv) - totalPoints.orElse(0);

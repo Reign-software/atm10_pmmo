@@ -53,9 +53,7 @@
     "ANVIL_REPAIR": {
       "smithing": 150
     },
-    "FISH": {
-      "farming": 10
-    },
+    "FISH": {},
     "CRAFT": {
       "technology": 1600.0
     },

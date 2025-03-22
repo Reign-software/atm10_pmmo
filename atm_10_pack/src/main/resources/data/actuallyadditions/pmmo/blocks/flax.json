@@ -17,18 +17,12 @@
     "INTERACT": []
   },
   "xp_values": {
-    "BLOCK_BREAK": {
-      "farming": 10
-    },
-    "GROW": {
-      "farming": 1
-    },
+    "BLOCK_BREAK": {},
+    "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {
-      "farming": 1
-    },
+    "BLOCK_PLACE": {},
     "CRAFT": {
       "technology": 900.0
     }

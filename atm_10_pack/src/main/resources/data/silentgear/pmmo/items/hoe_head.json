@@ -53,9 +53,7 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 20
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
@@ -71,7 +69,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 50,
       "smithing": 50
     },
     "WEAPON": {},
@@ -81,7 +78,6 @@
     "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "farming": 50,
       "smithing": 50
     }
   }

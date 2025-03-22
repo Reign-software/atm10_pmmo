@@ -49,9 +49,7 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 2020
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {

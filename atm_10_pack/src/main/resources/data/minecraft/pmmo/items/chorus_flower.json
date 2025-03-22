@@ -49,18 +49,14 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 1520
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,
@@ -68,17 +64,11 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 300
-    },
-    "BREAK": {
-      "farming": 300
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 300
-    }
+    "USE": {}
   }
 }

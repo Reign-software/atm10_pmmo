@@ -8,7 +8,6 @@
   "override": true,
   "bonus": {
     "DIMENSION": {
-      "farming": 1.25,
       "mining": 1.25,
       "woodcutting": 1.25
     }

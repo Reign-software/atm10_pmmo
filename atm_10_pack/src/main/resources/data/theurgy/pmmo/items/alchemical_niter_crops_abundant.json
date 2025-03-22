@@ -50,8 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "alchemy": 1400,
-      "farming": 20
+      "alchemy": 1400
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -61,9 +60,7 @@
       "alchemy": 1400
     },
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,

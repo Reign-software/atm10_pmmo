@@ -1,9 +1,7 @@
 {
   "bonuses": {
     "WORN": {},
-    "HELD": {
-      "farming": 1.5
-    }
+    "HELD": {}
   },
   "nbt_bonuses": {
     "WORN": [],
@@ -77,17 +75,14 @@
     "minecraft:weakness": 2
   },
   "xp_values": {
-    "TOOL_BREAKING": {
-      "farming": 102.0
-    },
+    "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 30
     },
     "CONSUME": {},
     "CRAFT": {
-      "smithing": 200,
-      "farming": 1020
+      "smithing": 200
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -104,23 +99,15 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "smithing": 100,
-      "farming": 200
+      "smithing": 100
     },
-    "PLACE": {
-      "farming": 200
-    },
-    "BREAK": {
-      "farming": 200
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
-    "WEAR": {
-      "farming": 10
-    },
+    "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "smithing": 100,
-      "farming": 200
+      "smithing": 100
     }
   }
 }

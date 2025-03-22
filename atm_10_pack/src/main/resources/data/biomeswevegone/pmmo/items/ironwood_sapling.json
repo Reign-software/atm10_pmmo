@@ -49,9 +49,7 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 1020
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
@@ -59,8 +57,7 @@
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {
-      "woodcutting": 10,
-      "farming": 10
+      "woodcutting": 10
     },
     "SMELT": {}
   },
@@ -69,17 +66,11 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 200
-    },
-    "BREAK": {
-      "farming": 200
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 200
-    }
+    "USE": {}
   }
 }

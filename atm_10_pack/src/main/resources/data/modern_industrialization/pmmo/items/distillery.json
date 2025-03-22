@@ -51,8 +51,7 @@
     "CONSUME": {},
     "CRAFT": {
       "technology": 4000,
-      "alchemy": 1400,
-      "farming": 20
+      "alchemy": 1400
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -70,7 +69,6 @@
   "requirements": {
     "TOOL": {
       "smithing": 50,
-      "farming": 50,
       "technology": 50
     },
     "WEAPON": {},
@@ -88,7 +86,6 @@
     },
     "USE": {
       "smithing": 50,
-      "farming": 50,
       "technology": 200.0,
       "alchemy": 200
     }

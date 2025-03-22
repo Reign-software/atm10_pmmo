@@ -51,9 +51,7 @@
     "BREW": {},
     "CONSUME": {},
     "ANVIL_REPAIR": {},
-    "FISH": {
-      "farming": 10
-    },
+    "FISH": {},
     "CRAFT": {
       "technology": 2000.0
     },

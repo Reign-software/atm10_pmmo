@@ -17,9 +17,7 @@
     "BLOCK_BREAK": {
       "woodcutting": 10
     },
-    "GROW": {
-      "farming": 300
-    },
+    "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
@@ -31,7 +29,6 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "farming": 5,
       "woodcutting": 10
     },
     "BREAK": {},

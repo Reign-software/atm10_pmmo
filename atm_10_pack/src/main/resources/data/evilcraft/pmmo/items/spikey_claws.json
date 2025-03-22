@@ -66,9 +66,7 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "farming": 61
-    },
+    "TOOL": {},
     "WEAPON": {
       "combat": 31
     },

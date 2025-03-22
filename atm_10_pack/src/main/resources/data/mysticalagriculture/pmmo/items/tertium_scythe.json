@@ -43,17 +43,13 @@
   },
   "negative_effect": {},
   "xp_values": {
-    "TOOL_BREAKING": {
-      "farming": 152.0
-    },
+    "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 1520
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
@@ -69,26 +65,20 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "smithing": 50,
-      "farming": 300
+      "smithing": 50
     },
     "WEAPON": {
       "combat": 154
     },
-    "PLACE": {
-      "farming": 300
-    },
-    "BREAK": {
-      "farming": 300
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "combat": 154
     },
     "INTERACT": {},
     "USE": {
-      "smithing": 50,
-      "farming": 300
+      "smithing": 50
     }
   }
 }

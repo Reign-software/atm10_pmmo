@@ -50,8 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "alchemy": 900,
-      "farming": 1020
+      "alchemy": 900
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -61,9 +60,7 @@
       "alchemy": 900
     },
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,
@@ -72,12 +69,10 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "alchemy": 100,
-      "farming": 200
+      "alchemy": 100
     },
     "BREAK": {
-      "alchemy": 100,
-      "farming": 200
+      "alchemy": 100
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
@@ -85,8 +80,7 @@
       "alchemy": 100
     },
     "USE": {
-      "alchemy": 100,
-      "farming": 200
+      "alchemy": 100
     }
   }
 }

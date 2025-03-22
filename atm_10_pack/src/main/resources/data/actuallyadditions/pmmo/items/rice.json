@@ -50,8 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 3600.0,
-      "farming": 20
+      "technology": 3600.0
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -59,9 +58,7 @@
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 1
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,

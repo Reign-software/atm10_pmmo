@@ -68,7 +68,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 55,
       "technology": 80
     },
     "WEAPON": {

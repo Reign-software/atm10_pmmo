@@ -96,7 +96,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 0,
       "mining": 0,
       "woodcutting": 0
     },
@@ -105,7 +104,6 @@
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "combat": 0,
-      "farming": 0,
       "mining": 0,
       "woodcutting": 0
     },

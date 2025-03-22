@@ -52,8 +52,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "archery": 30000,
-      "farming": 2520
+      "archery": 30000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -72,19 +71,14 @@
       "smithing": 450,
       "archery": 450
     },
-    "PLACE": {
-      "farming": 500
-    },
-    "BREAK": {
-      "farming": 500
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
       "smithing": 450,
-      "archery": 450,
-      "farming": 500
+      "archery": 450
     }
   }
 }

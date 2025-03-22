@@ -52,8 +52,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "archery": 500,
-      "farming": 20
+      "archery": 500
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -62,8 +61,7 @@
     "BREW": {},
     "GIVEN_AS_TRADE": {},
     "BLOCK_PLACE": {
-      "woodcutting": 10,
-      "farming": 10
+      "woodcutting": 10
     },
     "SMELT": {}
   },

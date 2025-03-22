@@ -23,8 +23,7 @@
     "DIMENSION": {
       "archery": 1.25,
       "combat": 1.25,
-      "endurance": 1.25,
-      "farming": 0.75
+      "endurance": 1.25
     }
   }
 }

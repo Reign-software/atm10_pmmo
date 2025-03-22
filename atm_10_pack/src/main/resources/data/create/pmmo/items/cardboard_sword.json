@@ -51,9 +51,7 @@
     "BREW": {},
     "CONSUME": {},
     "ANVIL_REPAIR": {},
-    "FISH": {
-      "farming": 10
-    },
+    "FISH": {},
     "CRAFT": {
       "technology": 1600.0
     },
@@ -76,9 +74,7 @@
     },
     "USE_ENCHANTMENT": {},
     "BREAK": {},
-    "TOOL": {
-      "farming": 44
-    },
+    "TOOL": {},
     "WEAPON": {
       "combat": 14
     },

@@ -51,8 +51,7 @@
     "CONSUME": {},
     "CRAFT": {
       "technology": 4000,
-      "alchemy": 900,
-      "farming": 20
+      "alchemy": 900
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},

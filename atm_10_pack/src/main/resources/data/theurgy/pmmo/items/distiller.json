@@ -50,8 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "alchemy": 1400,
-      "farming": 20
+      "alchemy": 1400
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -68,7 +67,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 50,
       "smithing": 50
     },
     "WEAPON": {},
@@ -84,7 +82,6 @@
       "alchemy": 200
     },
     "USE": {
-      "farming": 50,
       "smithing": 50,
       "alchemy": 200
     }

@@ -49,9 +49,7 @@
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 1020
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {
@@ -66,19 +64,13 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "farming": 112
-    },
+    "TOOL": {},
     "WEAPON": {
       "combat": 102,
       "smithing": 50
     },
-    "PLACE": {
-      "farming": 200
-    },
-    "BREAK": {
-      "farming": 200
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "combat": 102
@@ -86,8 +78,7 @@
     "INTERACT": {},
     "USE": {
       "smithing": 50,
-      "combat": 50,
-      "farming": 200
+      "combat": 50
     }
   }
 }

@@ -43,48 +43,35 @@
   },
   "negative_effect": {},
   "xp_values": {
-    "TOOL_BREAKING": {
-      "farming": 102.0
-    },
+    "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 1020
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {},
     "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "farming": 200
-    },
+    "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 200
-    },
+    "PLACE": {},
     "BREAK": {
-      "mining": 250,
-      "farming": 200
+      "mining": 250
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 200
-    }
+    "USE": {}
   }
 }

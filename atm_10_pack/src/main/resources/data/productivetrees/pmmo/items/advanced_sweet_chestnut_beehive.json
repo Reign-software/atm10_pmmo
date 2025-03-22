@@ -50,8 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 4000,
-      "farming": 1520
+      "technology": 4000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -70,12 +69,9 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 300.0,
-      "farming": 300
+      "technology": 300.0
     },
-    "BREAK": {
-      "farming": 300
-    },
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {
       "endurance": 50,
@@ -85,8 +81,7 @@
     "USE": {
       "endurance": 50,
       "smithing": 50,
-      "technology": 300.0,
-      "farming": 300
+      "technology": 300.0
     }
   }
 }

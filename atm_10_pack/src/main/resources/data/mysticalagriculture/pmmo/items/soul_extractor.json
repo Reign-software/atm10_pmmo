@@ -50,8 +50,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "alchemy": 1400,
-      "farming": 1020
+      "alchemy": 1400
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -70,12 +69,10 @@
     "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "alchemy": 200,
-      "farming": 200
+      "alchemy": 200
     },
     "BREAK": {
-      "alchemy": 200,
-      "farming": 200
+      "alchemy": 200
     },
     "USE_ENCHANTMENT": {},
     "WEAR": {},
@@ -83,8 +80,7 @@
       "alchemy": 200
     },
     "USE": {
-      "alchemy": 200,
-      "farming": 200
+      "alchemy": 200
     }
   }
 }

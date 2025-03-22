@@ -25,9 +25,7 @@
   "override": true,
   "isTagFor": [],
   "bonus": {
-    "BIOME": {
-      "farming": 1.05
-    }
+    "BIOME": {}
   },
   "positive_effect": {
     "minecraft:speed": 0

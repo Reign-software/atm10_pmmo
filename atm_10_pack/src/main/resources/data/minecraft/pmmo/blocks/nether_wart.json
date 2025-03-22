@@ -14,20 +14,13 @@
     "INTERACT": []
   },
   "xp_values": {
-    "BLOCK_BREAK": {
-      "farming": 204.0
-    },
-    "GROW": {
-      "farming": 110
-    },
+    "BLOCK_BREAK": {},
+    "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
-    "BLOCK_PLACE": {
-      "farming": 1
-    },
+    "BLOCK_PLACE": {},
     "CRAFT": {
-      "farming": 1020,
       "alchemy": 900
     },
     "BREW": {
@@ -38,12 +31,9 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "alchemy": 100,
-      "farming": 200
+      "alchemy": 100
     },
-    "BREAK": {
-      "farming": 200
-    },
+    "BREAK": {},
     "INTERACT": {
       "alchemy": 100
     }

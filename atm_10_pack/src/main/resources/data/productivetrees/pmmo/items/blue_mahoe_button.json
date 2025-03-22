@@ -54,8 +54,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 4000,
-      "farming": 20
+      "technology": 4000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -72,7 +71,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 50,
       "smithing": 50,
       "technology": 150.0
     },
@@ -85,7 +83,6 @@
     "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "farming": 50,
       "smithing": 50,
       "technology": 150.0
     }

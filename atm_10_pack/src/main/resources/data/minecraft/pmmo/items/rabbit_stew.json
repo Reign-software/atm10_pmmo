@@ -51,9 +51,7 @@
     "CONSUME": {
       "endurance": 650
     },
-    "CRAFT": {
-      "farming": 20
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},

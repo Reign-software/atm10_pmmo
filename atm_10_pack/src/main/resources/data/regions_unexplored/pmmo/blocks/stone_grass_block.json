@@ -15,8 +15,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "mining": 30,
-      "farming": 37.0
+      "mining": 30
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -28,9 +27,7 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {},
-    "BREAK": {
-      "farming": 0
-    },
+    "BREAK": {},
     "INTERACT": {}
   }
 }

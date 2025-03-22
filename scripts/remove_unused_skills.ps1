@@ -1,10 +1,10 @@
 # List of skills to remove
 $skillsToRemove = @(
-    "excavation"
+    "farming"
 )
 
 # Define the root data directory
-$rootDir = "d:\src\atm10_pmmo\atm_10_pack\src\main\resources\data"
+$rootDir = ".\atm_10_pack\src\main\resources\data"
 
 # Stats counters
 $filesProcessed = 0

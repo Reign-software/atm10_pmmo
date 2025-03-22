@@ -68,8 +68,7 @@
   "requirements": {
     "TOOL": {
       "smithing": 450,
-      "mining": 450,
-      "farming": 450
+      "mining": 450
     },
     "WEAPON": {},
     "PLACE": {},
@@ -79,8 +78,7 @@
     "INTERACT": {},
     "USE": {
       "smithing": 450,
-      "mining": 450,
-      "farming": 450
+      "mining": 450
     }
   }
 }

@@ -69,7 +69,6 @@
   "isTagFor": [],
   "requirements": {
     "TOOL": {
-      "farming": 57,
       "smithing": 50,
       "woodcutting": 50
     },

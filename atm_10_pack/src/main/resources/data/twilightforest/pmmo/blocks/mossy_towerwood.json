@@ -14,9 +14,7 @@
     "INTERACT": []
   },
   "xp_values": {
-    "BLOCK_BREAK": {
-      "farming": 40
-    },
+    "BLOCK_BREAK": {},
     "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
@@ -26,12 +24,8 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "PLACE": {
-      "farming": 0
-    },
-    "BREAK": {
-      "farming": 0
-    },
+    "PLACE": {},
+    "BREAK": {},
     "INTERACT": {}
   }
 }

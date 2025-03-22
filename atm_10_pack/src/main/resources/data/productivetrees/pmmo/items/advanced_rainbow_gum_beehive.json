@@ -53,8 +53,7 @@
     "CONSUME": {},
     "CRAFT": {
       "archery": 500,
-      "technology": 4000,
-      "farming": 1520
+      "technology": 4000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -77,20 +76,16 @@
       "technology": 300.0
     },
     "PLACE": {
-      "technology": 300.0,
-      "farming": 300
+      "technology": 300.0
     },
-    "BREAK": {
-      "farming": 300
-    },
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
       "smithing": 50,
       "archery": 50,
-      "technology": 300.0,
-      "farming": 300
+      "technology": 300.0
     }
   }
 }

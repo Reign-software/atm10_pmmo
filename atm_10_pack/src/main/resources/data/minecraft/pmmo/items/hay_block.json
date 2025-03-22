@@ -45,21 +45,16 @@
   "xp_values": {
     "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
-    "ENCHANT": {
-    },
+    "ENCHANT": {},
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 100
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {}
   },
   "override": true,
@@ -67,16 +62,11 @@
   "requirements": {
     "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 10
-    },
-    "BREAK": {
-      "farming": 10
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-    }
+    "USE": {}
   }
 }

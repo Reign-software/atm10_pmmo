@@ -43,17 +43,14 @@
   },
   "negative_effect": {},
   "xp_values": {
-    "TOOL_BREAKING": {
-      "farming": 52.0
-    },
+    "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 50
     },
     "CONSUME": {},
     "CRAFT": {
-      "technology": 4000,
-      "farming": 520
+      "technology": 4000
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -67,23 +64,17 @@
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "farming": 100
-    },
+    "TOOL": {},
     "WEAPON": {},
     "PLACE": {
-      "technology": 200.0,
-      "farming": 100
+      "technology": 200.0
     },
-    "BREAK": {
-      "farming": 100
-    },
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
-      "technology": 200.0,
-      "farming": 100
+      "technology": 200.0
     }
   }
 }

@@ -20,9 +20,7 @@
     "BLOCK_BREAK": {
       "mining": 45
     },
-    "GROW": {
-      "farming": 1
-    },
+    "GROW": {},
     "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},

@@ -18,8 +18,7 @@
   },
   "xp_values": {
     "BLOCK_BREAK": {
-      "mining": 30,
-      "farming": 204.0
+      "mining": 30
     },
     "GROW": {},
     "ACTIVATE_BLOCK": {},
@@ -27,7 +26,6 @@
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {},
     "CRAFT": {
-      "farming": 1020,
       "alchemy": 1900
     },
     "BREW": {
@@ -38,14 +36,9 @@
   "isTagFor": [],
   "requirements": {
     "PLACE": {
-      "alchemy": 40,
-      "farming": 200
+      "alchemy": 40
     },
-    "BREAK": {
-      "farming": 200
-    },
-    "INTERACT": {
-      "farming": 100
-    }
+    "BREAK": {},
+    "INTERACT": {}
   }
 }

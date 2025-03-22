@@ -7,7 +7,9 @@
       "CROUCH_JUMP": {
         "agility": 10
       },
-      "SWIM_SPRINTING": {},
+      "SWIM_SPRINTING": {
+        "agility": 10
+      },
       "SPRINT_JUMP": {
         "agility": 10
       },
@@ -26,7 +28,8 @@
       },
       "SURFACING": {},
       "BREATH_CHANGE": {
-        "endurance": 5.0
+        "endurance": 5.0,
+        "agility": 10
       }
     },
     "damage": {
@@ -77,7 +80,7 @@
   },
   "mob_scaling": {
     "use_exponential_formula": false,
-    "per_level": 1.10,
+    "per_level": 1.1,
     "power_base": 1.104088404342588,
     "ratios": {
       "minecraft:generic.movement_speed": {
@@ -88,8 +91,8 @@
         "archery": 0.01
       },
       "minecraft:generic.max_health": {
-        "combat": 0.10,
-        "archery": 0.10,
+        "combat": 0.1,
+        "archery": 0.1,
         "magic": 0.05
       },
       "minecraft:generic.attack_damage": {
@@ -125,7 +128,7 @@
     "per_level": 0.3,
     "global_modifier": 1.0,
     "skill_modifiers": {
-      "farming": 0.5
+      "technology": 0.35
     },
     "max_level": 1523,
     "static_levels": [

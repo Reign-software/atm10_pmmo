@@ -14,15 +14,9 @@
     "INTERACT": []
   },
   "xp_values": {
-    "BLOCK_BREAK": {
-      "farming": 100
-    },
-    "GROW": {
-      "farming": 300
-    },
-    "ACTIVATE_BLOCK": {
-      "farming": 100
-    },
+    "BLOCK_BREAK": {},
+    "GROW": {},
+    "ACTIVATE_BLOCK": {},
     "HIT_BLOCK": {},
     "BREAK_SPEED": {},
     "BLOCK_PLACE": {

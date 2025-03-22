@@ -3,9 +3,7 @@
     "axe_breakable_override": {
       "woodcutting": 10
     },
-    "hoe_breakable_override": {
-      "farming": 10
-    },
+    "hoe_breakable_override": {},
     "shovel_breakable_override": {},
     "entity_xp": {
       "ENTITY": {},
@@ -16,16 +14,12 @@
       "DEATH": {
         "endurance": 50
       },
-      "BREED": {
-        "farming": 20
-      }
+      "BREED": {}
     },
     "rarities_multiplier": 10.0,
     "item_xp": {
       "BLOCK_PLACE": {},
-      "FISH": {
-        "farming": 10
-      },
+      "FISH": {},
       "CONSUME": {
         "endurance": 10
       },
@@ -44,9 +38,7 @@
       }
     },
     "block_xp": {
-      "GROW": {
-        "farming": 10
-      },
+      "GROW": {},
       "BLOCK_PLACE": {},
       "BLOCK_BREAK": {
         "mining": 10
@@ -57,8 +49,7 @@
     "axe_override": {
       "woodcutting": 5
     },
-    "hoe_override": {
-    },
+    "hoe_override": {},
     "penalties": {
       "minecraft:weakness": 1,
       "minecraft:mining_fatigue": 1,
@@ -82,9 +73,7 @@
       }
     },
     "shovel_override": {},
-    "sword_override": {
-      "farming": 1
-    }
+    "sword_override": {}
   },
   "tweaks": {
     "hardness_modifier": 0.65,

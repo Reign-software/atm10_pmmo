@@ -23,9 +23,7 @@
   "override": true,
   "isTagFor": [],
   "bonus": {
-    "BIOME": {
-      "farming": 0.85
-    }
+    "BIOME": {}
   },
   "positive_effect": {}
 }

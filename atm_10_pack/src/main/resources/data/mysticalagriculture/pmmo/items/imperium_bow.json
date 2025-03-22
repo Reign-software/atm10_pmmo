@@ -52,8 +52,7 @@
     },
     "CONSUME": {},
     "CRAFT": {
-      "archery": 500,
-      "farming": 2020
+      "archery": 500
     },
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
@@ -74,19 +73,14 @@
       "smithing": 50,
       "archery": 50
     },
-    "PLACE": {
-      "farming": 400
-    },
-    "BREAK": {
-      "farming": 400
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
     "USE": {
       "smithing": 50,
-      "archery": 50,
-      "farming": 400
+      "archery": 50
     }
   }
 }

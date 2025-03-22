@@ -43,47 +43,33 @@
   },
   "negative_effect": {},
   "xp_values": {
-    "TOOL_BREAKING": {
-      "farming": 202.0
-    },
+    "TOOL_BREAKING": {},
     "DEAL_DAMAGE": {},
     "ENCHANT": {
       "enchanting": 50
     },
     "CONSUME": {},
-    "CRAFT": {
-      "farming": 2020
-    },
+    "CRAFT": {},
     "ACTIVATE_ITEM": {},
     "RECEIVED_AS_TRADE": {},
     "ANVIL_REPAIR": {},
     "FISH": {},
     "BREW": {},
     "GIVEN_AS_TRADE": {},
-    "BLOCK_PLACE": {
-      "farming": 10
-    },
+    "BLOCK_PLACE": {},
     "SMELT": {},
     "BLOCK_BREAK": {}
   },
   "override": true,
   "isTagFor": [],
   "requirements": {
-    "TOOL": {
-      "farming": 400
-    },
+    "TOOL": {},
     "WEAPON": {},
-    "PLACE": {
-      "farming": 400
-    },
-    "BREAK": {
-      "farming": 400
-    },
+    "PLACE": {},
+    "BREAK": {},
     "USE_ENCHANTMENT": {},
     "WEAR": {},
     "INTERACT": {},
-    "USE": {
-      "farming": 400
-    }
+    "USE": {}
   }
 }
