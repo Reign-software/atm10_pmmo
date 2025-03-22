@@ -96,7 +96,7 @@ public class PufferfishLevelPlugin {
             case "magic" -> GainSkill(player, "atm10_pmmo:magic", event.endLevel(), skillsMod);
             case "agility" -> GainSkill(player, "atm10_pmmo:agility", event.endLevel(), skillsMod);
             case "endurance" -> GainSkill(player, "atm10_pmmo:endurance", event.endLevel(), skillsMod);
-            case "mining", "farming", "woodcutting" -> {
+            case "mining", "woodcutting" -> {
                 long totalLevel = APIUtils.getLevel("mining", player);
                 totalLevel += APIUtils.getLevel("woodcutting", player);
                 

@@ -8,7 +8,7 @@
     "entity_xp": {
       "ENTITY": {},
       "SHIELD_BLOCK": {
-        "combat": 1
+        "combat": 5
       },
       "RIDING": {},
       "DEATH": {
@@ -38,7 +38,9 @@
       }
     },
     "block_xp": {
-      "GROW": {},
+      "GROW": {
+        "farming": 0
+      },
       "BLOCK_PLACE": {},
       "BLOCK_BREAK": {
         "mining": 10
@@ -183,7 +185,7 @@
     "ANVIL_REPAIR": true,
     "RECEIVE_DAMAGE": true,
     "RECEIVED_AS_TRADE": true,
-    "GROW": true,
+    "GROW": false,
     "SKILL_UP": true,
     "BLOCK_PLACE": true,
     "BREW": true,
