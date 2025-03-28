@@ -1,8 +1,14 @@
 {
-  "travel_req": {},
+  "travel_req": {
+    "mining": 300
+  },
   "global_mob_modifier": [],
   "mob_modifier": {},
-  "vein_blacklist": [],
+  "vein_blacklist": [
+    "minecraft:bedrock"
+  ],
   "override": true,
-  "bonus": {}
+  "bonus": {
+    "mining": 2.5
+  }
 }

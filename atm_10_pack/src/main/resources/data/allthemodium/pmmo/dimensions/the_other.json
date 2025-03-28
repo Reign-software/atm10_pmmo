@@ -1,8 +1,27 @@
 {
-  "travel_req": {},
-  "global_mob_modifier": [],
+  "travel_req": {
+    "endurance": 75
+  },
+  "global_mob_modifier": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": 20.0,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.10,
+      "operation": "add_value"
+    }
+  ],
   "mob_modifier": {},
-  "vein_blacklist": [],
+  "vein_blacklist": [
+    "minecraft:bedrock"
+  ],
   "override": true,
-  "bonus": {}
+  "bonus": {
+    "magic": 2.0,
+    "archery": 2.0,
+    "combat": 2.0
+  }
 }

@@ -338,7 +338,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:healing_received",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}
@@ -361,7 +361,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:healing_received",
-					"value": 20,
+					"value": 0.20,
 					"operation": "addition"
 				}
 			}
@@ -430,7 +430,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:dodge_chance",
-					"value": 3,
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
@@ -650,7 +650,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_resist",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}

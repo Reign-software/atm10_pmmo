@@ -8,7 +8,8 @@
     "entity_xp": {
       "ENTITY": {},
       "SHIELD_BLOCK": {
-        "combat": 5
+        "endurance": 3,
+        "combat": 1
       },
       "RIDING": {},
       "DEATH": {

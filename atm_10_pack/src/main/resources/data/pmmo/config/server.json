@@ -60,13 +60,13 @@
           "endurance": 5
         },
         "#minecraft:is_projectile": {
-          "archery": 20
+          "archery": 40
         },
         "#pmmo:magic": {
-          "magic": 20
+          "magic": 40
         },
         "#pmmo:gun": {
-          "archery": 20
+          "archery": 40
         }
       }
     }

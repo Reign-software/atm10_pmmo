@@ -59,7 +59,7 @@ public class PufferfishLevelPlugin {
         if (!(event.getEntity() instanceof ServerPlayer player))
             return;
         
-        APIUtils.addXp("magic", player, 20);
+        APIUtils.addXp("magic", player, 40);
     }
 
     /**

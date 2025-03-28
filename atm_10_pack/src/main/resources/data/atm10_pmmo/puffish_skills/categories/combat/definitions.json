@@ -1327,7 +1327,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:overheal",
-					"value": 5,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1350,7 +1350,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "apothic_attributes:healing_received",
-					"value": 10,
+					"value": 0.10,
 					"operation": "addition"
 				}
 			}

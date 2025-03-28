@@ -46,7 +46,7 @@ public class ClientGuiEvents {
             */
   
              var button = Button.builder(Component.literal("S"), (b) -> {
-                openPufferfishSkillsScreen();
+                SkillsClientMod .getInstance().openScreen(Optional.empty());
              })
              .pos(inv.getGuiLeft() + 150, inv.height / 2 - 22)
              .size(BUTTON_WIDTH, BUTTON_HEIGHT)
@@ -57,23 +57,17 @@ public class ClientGuiEvents {
         }
     }
 
-    // Button action handler to open Pufferfish Skills screen
-    private void openPufferfishSkillsScreen() {
-        var client = SkillsClientMod .getInstance();
-
-        client.openScreen(Optional.empty());
-    }
-
     static class SkillsButton extends ImageButton {
         private static final ResourceLocation SKILLS_BUTTON_TEXTURE = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button.png");
         private static final ResourceLocation SKILLS_BUTTON_TEXTURE_PRESSED = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button_pressed.png");
         //private static final ResourceLocation SKILLS_BUTTON_TEXTURE_DISABLED = ResourceLocation.parse(RPGMod.MODID + ":textures/gui/skills_button_disabled.png");
         private static final WidgetSprites SPRITES = new WidgetSprites(SKILLS_BUTTON_TEXTURE, SKILLS_BUTTON_TEXTURE_PRESSED);
 
-        public SkillsButton(int x, int y, int width, int height, OnPress onPress, Component message) {
+        public SkillsButton(int x, int y, int width, int height, Tooltip tooltip) {
             super(x, y, width, height, SPRITES, (b) -> {
                 SkillsClientMod .getInstance().openScreen(Optional.empty());
              });
+             this.setTooltip(tooltip);
         }
     }
 }
