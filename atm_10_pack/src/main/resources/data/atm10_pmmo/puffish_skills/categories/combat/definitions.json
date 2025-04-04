@@ -214,27 +214,26 @@
 		}
 	},
 	"minor_life_steal_1": {
-		"title": "Blood Trickle",
+		"title": "Heartbound Fortitude",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "potion",
-				"nbt": "{Potion:\"minecraft:healing\"}"
+				"effect": "health_boost"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "apothic_attributes:life_steal",
-					"value": 0.03,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Learn to draw a small amount of life force from your attacks, stealing 3% of damage dealt as health.",
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
 		"metadata": {
-			
+			"icon": "gjjbgp8eiwr7iv1k"
 		}
 	},
 	"attack_damage+5%": {
@@ -376,26 +375,26 @@
 		}
 	},
 	"life_steal+2%": {
-		"title": "Crimson Life Drinker",
+		"title": "Heartbound Fortitude",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "ghast_tear"
+				"effect": "health_boost"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "apothic_attributes:life_steal",
-					"value": 0.03,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Infuse your strikes with vampiric energy, stealing 3% of damage dealt as health to sustain yourself in prolonged battles.",
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
 		"metadata": {
-			"icon": "ltwti8k36lpx83tc"
+			"icon": "gjjbgp8eiwr7iv1k"
 		}
 	},
 	"movement_speed+5%": {
@@ -1055,49 +1054,49 @@
 		}
 	},
 	"minor_life_steal": {
-		"title": "Blood Siphon",
+		"title": "Heartbound Fortitude",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "redstone"
+				"effect": "health_boost"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "apothic_attributes:life_steal",
-					"value": 0.03,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Infuse your attacks with vampiric energy, stealing 3% of damage dealt as health to sustain yourself.",
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
 		"metadata": {
-			"icon": "b4jwqi073vavn2aj"
+			"icon": "gjjbgp8eiwr7iv1k"
 		}
 	},
 	"medium_life_steal": {
-		"title": "Essence Drain",
+		"title": "Heartbound Fortitude",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "ghast_tear"
+				"effect": "health_boost"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "apothic_attributes:life_steal",
-					"value": 0.02,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
 		],
-		"description": "Enhance your vampiric abilities to steal 2% of damage dealt as health, significantly improving combat sustainability.",
+		"description": "Channel inner strength to permanently increase maximum health by 1 heart, allowing you to endure greater challenges.",
 		"metadata": {
-			"icon": "wc9e6v94t9l8bmnx"
+			"icon": "gjjbgp8eiwr7iv1k"
 		}
 	},
 	"minor_movement_speed": {
